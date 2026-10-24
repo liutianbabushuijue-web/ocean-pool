@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-10-24T15:22:21Z",
-    "lastAttemptAt": "2026-10-24T08:54:10Z",
-    "lastSuccessAt": "2026-10-24T08:54:10Z",
+    "generatedAt": "2026-10-24T15:27:24Z",
+    "lastAttemptAt": "2026-10-24T15:27:19Z",
+    "lastSuccessAt": "2026-10-24T15:27:24Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "feedUrlConfigured": false,
-    "totalItems": 221,
+    "totalItems": 222,
     "successfulSources": 22,
     "automaticSources": 26,
     "sourceStatus": [
@@ -20,7 +20,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4313, column 6"
@@ -34,8 +34,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:20Z",
         "itemCount": 7,
         "error": null
       },
@@ -48,8 +48,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:20Z",
         "itemCount": 10,
         "error": null
       },
@@ -62,8 +62,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:20Z",
         "itemCount": 1,
         "error": null
       },
@@ -76,8 +76,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:20Z",
         "itemCount": 0,
         "error": null
       },
@@ -90,8 +90,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:21Z",
         "itemCount": 2,
         "error": null
       },
@@ -104,8 +104,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:20Z",
         "itemCount": 0,
         "error": null
       },
@@ -118,8 +118,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:20Z",
         "itemCount": 1,
         "error": null
       },
@@ -132,8 +132,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:20Z",
         "itemCount": 19,
         "error": null
       },
@@ -146,8 +146,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:20Z",
         "itemCount": 19,
         "error": null
       },
@@ -160,8 +160,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:21Z",
         "itemCount": 19,
         "error": null
       },
@@ -173,11 +173,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
         "lastSuccessAt": "2026-10-24T08:54:10Z",
         "itemCount": 20,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "json-crossref-ices-jms",
@@ -188,7 +188,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "OSError: HTTP 429"
@@ -202,8 +202,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:21Z",
         "itemCount": 20,
         "error": null
       },
@@ -216,8 +216,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:21Z",
         "itemCount": 20,
         "error": null
       },
@@ -230,8 +230,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:21Z",
         "itemCount": 16,
         "error": null
       },
@@ -243,11 +243,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
         "lastSuccessAt": "2026-10-24T08:54:10Z",
         "itemCount": 9,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "rss-mbari",
@@ -258,8 +258,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:23Z",
         "itemCount": 10,
         "error": null
       },
@@ -272,8 +272,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:22Z",
         "itemCount": 6,
         "error": null
       },
@@ -286,8 +286,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:22Z",
         "itemCount": 20,
         "error": null
       },
@@ -300,8 +300,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:22Z",
         "itemCount": 20,
         "error": null
       },
@@ -313,11 +313,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "error",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": null,
-        "itemCount": 0,
-        "error": "OSError: public source connection failed"
+        "status": "ok",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:22Z",
+        "itemCount": 1,
+        "error": null
       },
       {
         "id": "rss-carbonbrief",
@@ -327,11 +327,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "error",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": null,
+        "status": "ok",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:22Z",
         "itemCount": 0,
-        "error": "OSError: public source connection failed"
+        "error": null
       },
       {
         "id": "rss-physicsworld",
@@ -342,8 +342,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:24Z",
         "itemCount": 1,
         "error": null
       },
@@ -356,8 +356,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:24Z",
         "itemCount": 1,
         "error": null
       },
@@ -370,8 +370,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-24T08:54:10Z",
-        "lastSuccessAt": "2026-10-24T08:54:10Z",
+        "lastAttemptAt": "2026-10-24T15:27:19Z",
+        "lastSuccessAt": "2026-10-24T15:27:23Z",
         "itemCount": 0,
         "error": null
       },
@@ -447,51 +447,47 @@
       }
     ],
     "notice": "Rules match marine keywords; no AI review or quality scoring. Feed-provided excerpts only; full-text redistribution permission is not inferred.",
-    "ruleRebuiltAt": "2026-10-24T15:22:21Z",
-    "archiveRecovery": {
-      "note": "Five known marine articles from the original 230-item snapshot were re-read from four public sources to restore them after a narrow-rule rebuild; no new articles were added. First collection timestamps of these known articles are preserved; this log records the real recovery requests.",
-      "sources": [
-        {
-          "sourceId": "rss-noaa",
-          "attemptedAt": "2026-10-24T14:36:57Z",
-          "fetchedAt": "2026-10-24T14:36:59Z",
-          "restoredKnownItems": 1,
-          "status": "ok"
-        },
-        {
-          "sourceId": "json-crossref-limnology",
-          "attemptedAt": "2026-10-24T14:36:59Z",
-          "fetchedAt": "2026-10-24T14:37:03Z",
-          "restoredKnownItems": 2,
-          "status": "ok"
-        },
-        {
-          "sourceId": "json-crossref-global-biogeochem",
-          "attemptedAt": "2026-10-24T14:37:03Z",
-          "fetchedAt": "2026-10-24T14:37:08Z",
-          "restoredKnownItems": 1,
-          "status": "ok"
-        },
-        {
-          "sourceId": "rss-scripps",
-          "attemptedAt": "2026-10-24T14:37:08Z",
-          "fetchedAt": "2026-10-24T14:37:12Z",
-          "restoredKnownItems": 1,
-          "status": "ok"
-        }
-      ]
-    },
     "editorial": {
       "enabled": true,
       "promptVersion": "chinese-reader-v1",
       "generatedAt": "2026-10-24T15:15:38Z",
       "localizedCount": 221,
-      "pendingCount": 0,
+      "pendingCount": 1,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
   },
   "items": [
+    {
+      "id": "71f1c924ed592c1e02c45c7c",
+      "title": "Nearly all the world’s coral reefs are at risk of collapse within 50 years, IUCN warns",
+      "url": "https://news.mongabay.com/short-article/2026/10/nearly-all-the-worlds-coral-reefs-are-at-risk-of-collapse-within-50-years-iucn-warns/",
+      "sourceId": "rss-mongabay",
+      "sourceName": "Mongabay",
+      "publishedAt": "2026-10-23T16:45:56Z",
+      "publishedDate": "2026-10-23",
+      "publishedDatePrecision": "second",
+      "summary": "Nearly every shallow-water coral reef ecosystem on Earth is at high risk of ecological collapse by 2075, according to the first coral reef assessment of the IUCN Red List of Ecosystems (RLE). The RLE is a scientific framework for assessing",
+      "topics": [
+        "biology"
+      ],
+      "collectedAt": "2026-10-24T15:27:22Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coral",
+        "reef",
+        "reefs"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.66709/news-333739",
+      "sources": [
+        {
+          "id": "rss-mongabay",
+          "name": "Mongabay"
+        }
+      ],
+      "stale": false
+    },
     {
       "id": "ac807ba0f45cf1edf9fe3fa9",
       "title": "New Statewide Lidar Study Identifies Hotspots for California Coastal Cliff Retreat",
@@ -3096,7 +3092,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "变暖的地中海东部，冬季浮游植物如何变化",
       "summaryZh": "研究结合冬季现场调查与20年卫星记录，分析地中海东部浮游植物变化。更暖、层化更强的东部海水中叶绿素较低，蓝细菌贡献更高；长期资料显示，叶绿素损失在原本浓度较高的冬春时期尤为明显，体现了变暖与群落、营养环境的关联。",
       "editorial": {
@@ -4170,7 +4166,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "惯性振荡如何影响示踪物扩散",
       "summaryZh": "文章关注惯性振荡与示踪物扩散之间的联系，涉及海洋中物质输运的动力过程。来源未提供摘要，具体方法与结果需查看原文，不能仅据标题判断扩散增强或减弱。",
       "editorial": {
@@ -4432,7 +4428,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "用SWAN与WRF模型研究沿岸风急流对峡湾波浪的影响",
       "summaryZh": "题名介绍结合SWAN与WRF模型，考察沿岸风急流如何影响峡湾内波浪。来源未提供摘要，具体方法与结果需查看原文，目前无法确认模型设置、验证资料或波浪变化幅度。",
       "editorial": {
@@ -4541,7 +4537,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "不同临界条件下内波在三维海山上的反射",
       "summaryZh": "这条记录聚焦内波遇到三维海山时的反射，以及不同临界条件之间的差异。来源未提供摘要，具体方法与结果需查看原文，尚不能判断采用何种模型或哪些条件决定反射特征。",
       "editorial": {
@@ -4580,7 +4576,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "北太平洋副热带环流区气溶胶微量元素的季节输入",
       "summaryZh": "研究利用夏威夷两年逐周气溶胶采样与铍-7示踪，估算北太平洋副热带环流区微量元素的沉降。春季亚洲沙尘主导全年输入，夏末秋初还有一次增强期，可能包含夏威夷本地来源；这些季节差异或影响表层海洋微生物的营养限制。",
       "editorial": {
@@ -4814,7 +4810,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "3DSeaVizKit：海洋数据时空交互可视化工具包",
       "summaryZh": "文章介绍面向海洋数据的时空交互可视化工具包3DSeaVizKit。来源未提供摘要，具体方法与结果需查看原文，目前无法判断它支持的数据类型、性能表现或实际应用效果。",
       "editorial": {
@@ -4890,7 +4886,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "热带海洋主导全球海洋羰基硫排放的估算",
       "summaryZh": "研究用船测资料与环境数据建立模型，估算海洋羰基硫排放为每年270±28吉克硫，其中约一半源自二硫化碳。热带海域贡献突出，总量仍低于多数大气反推估计，提示预算差异可能与陆地吸收被高估有关，而非必然存在遗漏的海洋来源。",
       "editorial": {
@@ -5075,7 +5071,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "涡分辨地球系统模型改进墨西哥湾海平面季节模拟",
       "summaryZh": "题名报告涡分辨版本的社区地球系统模型用于改进墨西哥湾海平面季节周期模拟。来源未提供摘要，具体方法与结果需查看原文，改进幅度、比较基准和适用范围不能据题名确定。",
       "editorial": {
@@ -5115,7 +5111,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "南大洋海气二氧化碳通量对增排与移除的非对称响应",
       "summaryZh": "模型实验先让大气二氧化碳逐年增加，再对称减少，检验南大洋碳汇能否恢复。移除可在约百年内逆转吸收区域的空间变化，但海洋内部碳储存与热量响应存在滞后，使其在减排后至少50年仍为净碳源；结果属于所设理想化情景。",
       "editorial": {
@@ -5195,7 +5191,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "卡斯卡迪亚沿岸甲烷排放受局地源与短时事件影响",
       "summaryZh": "研究以高分辨率浓度和碳同位素测量区分美国卡斯卡迪亚沿岸的甲烷来源。哥伦比亚河羽状流覆盖不到研究区一成，却贡献约24%的观测期排放；上升流时期的日排放超过平稳时期三倍，显示局地与短时过程的重要性。",
       "editorial": {
@@ -5312,7 +5308,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海底地下水排放对近岸总汞与甲基汞通量的贡献",
       "summaryZh": "研究汇总中国沿岸44组新观测及全球20组既有观测，估算非热液海底地下水排放携带的汞。结果表明，其溶解总汞输入可与河流相当，甲基汞则可能是近岸海洋已知最大的外部来源；估算范围较宽，热液地下水贡献仍是知识缺口。",
       "editorial": {
@@ -5538,7 +5534,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "自主传感器揭示红海离岸珊瑚礁的代谢变化",
       "summaryZh": "研究在红海中部珊瑚礁部署总碱度、pH和溶解氧等自主传感器，连续观测数月。礁后与礁前水化学日变化不同，礁后碳酸盐系统变化约87%与净群落生产有关；2023年的代谢特征与历史红海观测接近，不能简单视为近期才发生的变化。",
       "editorial": {
@@ -5688,7 +5684,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "利用扩散式多智能模型开展ENSO概率预报",
       "summaryZh": "文章提出利用扩散式多智能模型开展ENSO概率预报，关注海气变化的概率预测。来源未提供摘要，具体方法与结果需查看原文，目前无法判断模型构成、预报提前期或准确率。",
       "editorial": {
@@ -5835,7 +5831,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "长江流域降水与东海叶绿素a浓度升高的机制",
       "summaryZh": "这条记录关注长江流域降水与东海叶绿素a浓度升高之间的关联机制。来源未提供摘要，具体方法与结果需查看原文，目前不能判断降水通过哪些过程起作用，也不能量化其贡献。",
       "editorial": {
@@ -5909,7 +5905,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "全球海洋模型中基于EnOI的MLD多尺度同化研究",
       "summaryZh": "文章在全球海洋模型中研究基于EnOI的多尺度同化对MLD的作用。来源未提供摘要，具体方法与结果需查看原文，不能仅从标题判断同化方案的改进幅度或适用海区。",
       "editorial": {
@@ -5949,7 +5945,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "镭同位素示踪南太平洋微量元素的边界输入",
       "summaryZh": "研究沿GEOTRACES GP17-OCE断面测量镭同位素，追踪南太平洋和南大洋的边界交换。结果将广泛的次表层镭信号与坎贝尔高原形成的模态水相联系，并识别出太平洋—南极海岭热液输入，提示现有微量元素模型可能遗漏这些输运过程。",
       "editorial": {
@@ -5986,7 +5982,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "垂向分辨率不足可能制造AMOC虚假多稳态",
       "summaryZh": "这项条目的标题关注海洋模型垂向分辨率不足，及其可能导致的与对流相关的AMOC虚假多稳态。来源未提供摘要，具体模型配置、分辨率试验、诊断依据与结果需查看原文。",
       "editorial": {
@@ -6210,7 +6206,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "台风强迫结构对南海近惯性波生成与演变的影响",
       "summaryZh": "这篇条目研究台风强迫的结构如何影响南海近惯性波的生成和后续演变。来源未提供摘要，所涉及台风、观测或模拟方法、强迫变量及具体结果需查看原文。",
       "editorial": {
@@ -6322,7 +6318,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "利用有限漂流浮标观测学习马尾藻输送动力",
       "summaryZh": "研究主题是从有限的漂流浮标观测中学习有效的马尾藻输送动力，涉及资料有限时的输运描述。来源未提供摘要，具体海域、学习模型、训练与验证方法及预测表现需查看原文。",
       "editorial": {
@@ -6471,7 +6467,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "利用陆地地震噪声预测西西里海峡有效波高",
       "summaryZh": "研究探索利用陆地记录的地震噪声，对西西里海峡有效波高进行空间预报。来源未提供摘要，具体方法与结果需查看原文，目前无法确认所用观测网络、预报范围或误差水平。",
       "editorial": {
@@ -6615,7 +6611,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "图神经网络数据同化：稀疏观测下的空间重建",
       "summaryZh": "这条记录介绍基于图神经网络的数据同化，用于观测稀疏条件下的空间重建。来源未提供摘要，具体方法与结果需查看原文，不能确认重建对象、训练资料或相对传统方法的性能。",
       "editorial": {
@@ -7244,7 +7240,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "适用于陡峭地形的局部Sigma坐标与削切单元新方案",
       "summaryZh": "文章提出结合局部Sigma坐标和削切单元的地形配置方案，面向陡峭地形条件。来源未提供摘要，具体方法与结果需查看原文，目前无法比较数值误差、计算成本或稳定性。",
       "editorial": {
@@ -7282,7 +7278,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "用能量加权机器学习验证与校准中层海流",
       "summaryZh": "这条记录介绍能量加权机器学习在中层海流验证和校准中的应用。来源未提供摘要，具体方法与结果需查看原文，目前不能确定输入观测、校准对象或与其他方法相比的精度变化。",
       "editorial": {
@@ -7321,7 +7317,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "亚马孙河羽状流如何调节热带西大西洋碳酸盐化学",
       "summaryZh": "研究结合盐度、碳酸盐系统和生物地球化学指标的气候态空间差异，估算亚马孙河羽状流影响。湿季受影响海区多项碳化学指标降低约8%—10%；淡水稀释、生物吸碳及海流外输共同调节更大范围的海表二氧化碳状态。",
       "editorial": {
@@ -7432,7 +7428,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "结合人工神经网络与概率圆的长江口风暴潮预报",
       "summaryZh": "该条目提出面向长江口的风暴潮预报系统，标题说明其结合人工神经网络与概率圆方法。来源未提供摘要，具体输入资料、系统构建、预报时效、误差及验证结果需查看原文。",
       "editorial": {
@@ -7774,7 +7770,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海上风电场对北海及丹麦海峡湍流和水文的短期影响",
       "summaryZh": "该研究关注海上风电场对北海与丹麦海峡区域海洋湍流和水文条件的短期影响。来源未提供摘要，风场范围、资料或模型、时间尺度、变化幅度及影响机制需查看原文。",
       "editorial": {
@@ -7810,7 +7806,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "采用五阶WENO混合格式的水平二维Boussinesq波浪模型",
       "summaryZh": "文章提出基于五阶WENO有限体积与有限差分混合格式的水平二维Boussinesq型模型。来源未提供摘要，具体方法与结果需查看原文，目前无法判断模型验证场景或相较已有方案的表现。",
       "editorial": {
@@ -8139,7 +8135,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "强分层河口盐度模拟：垂向网格、滤波与湍流方案的影响",
       "summaryZh": "研究模拟具有主要航道的强分层河口盐度变化，考察垂向网格、Shapiro滤波及湍流实现方式。来源未提供摘要，具体方法与结果需查看原文，尚不能确定哪种配置更接近观测。",
       "editorial": {
@@ -8291,7 +8287,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "用土壤—空气—水热交换改进浅海热力过程表征",
       "summaryZh": "题名讨论通过土壤、空气与水之间的热交换改进浅沿岸水域的热力过程表征。来源未提供摘要，具体方法与结果需查看原文，模型方案、适用条件和改进幅度尚无法确认。",
       "editorial": {
