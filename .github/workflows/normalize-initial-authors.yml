@@ -1,0 +1,49 @@
+name: Normalize initial commit metadata
+
+on:
+  push:
+    paths:
+      - '.github/workflows/normalize-initial-authors.yml'
+
+permissions: {}
+
+jobs:
+  normalize:
+    if: github.repository == 'liutianbabushuijue-web/ocean-pool' && github.ref == 'refs/heads/main' && github.run_number == 1
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Normalize only the verified initial publication commits
+        shell: bash
+        env:
+          FILTER_BRANCH_SQUELCH_WARNING: '1'
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
+          test "$(git rev-parse HEAD^)" = 'ce5203eaa7611c6a596836083d75aa08fe7bd816'
+          test "$(git rev-list --count HEAD)" = '4'
+          previous_tree="$(git rev-parse 'HEAD^{tree}')"
+          git filter-branch --env-filter '
+            case "$GIT_AUTHOR_EMAIL" in
+              *@users.noreply.github.com) ;;
+              *) export GIT_AUTHOR_EMAIL="307004628+liutianbabushuijue-web@users.noreply.github.com" ;;
+            esac
+            case "$GIT_COMMITTER_EMAIL" in
+              *@users.noreply.github.com) ;;
+              *) export GIT_COMMITTER_EMAIL="307004628+liutianbabushuijue-web@users.noreply.github.com" ;;
+            esac
+          ' -- main
+          test "$(git rev-parse 'HEAD^{tree}')" = "$previous_tree"
+          python - <<'PY'
+          import subprocess
+          emails = subprocess.check_output(['git','log','--format=%ae%n%ce','main']).decode().splitlines()
+          assert emails and all(email.endswith('@users.noreply.github.com') for email in emails)
+          print('Verified anonymous email metadata throughout the initial main history.')
+          PY
+          git push --force-with-lease="refs/heads/main:$GITHUB_SHA" origin HEAD:refs/heads/main

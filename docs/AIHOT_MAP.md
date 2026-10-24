@@ -40,7 +40,7 @@
 
 轻量更新器读取 config/sources.json，接收 RSS/Atom 与 Crossref 数据，做链接去重、规则相关性判断及8类的初步分类，再写 site/data.json。采集过程不调用外部模型 API，不计算上面那套精选分数、不做语义事件归组、不生成完整引擎的热点或刊物。
 
-本轮另由聊天中的 AI 助手实际执行 prompts/chinese-reader.md，为已有资料生成中文标题与一段概括，结果保存在 config/chinese-editorial.json。scripts/chinese_editorial.py 核对原题与240字来源短摘要的输入指纹，只将匹配的结果写入阅读数据。当前221条有效资料均有中文结果；论文摘要44条、来源节选66条、仅有标题111条。英文原题和来源摘要继续保留。
+本轮另由聊天中的 AI 助手实际执行 prompts/chinese-reader.md，为已有资料生成中文标题与一段概括，结果保存在 config/chinese-editorial.json。scripts/chinese_editorial.py 核对原题与240字来源短摘要的输入指纹，只将匹配的结果写入阅读数据。当前222条有效资料均有中文结果；论文摘要44条、来源节选67条、仅有标题111条。英文原题和来源摘要继续保留。
 
 这是已经执行过的翻译与概括步骤，不是未来每次抓取都会自动运行的模型服务。新资料或输入变化会进入待整理队列，默认中文页及RSS暂不纳入；已有结果不可套给变更后的内容。流程和提示词见 [中文整理说明](CHINESE_READING.md)。
 

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "promptVersion": "chinese-reader-v1",
-  "generatedAt": "2026-10-24T15:15:38Z",
+  "generatedAt": "2026-10-24T15:35:07Z",
   "executor": "AI assistant in the current chat; no external model API key used",
   "items": [
     {
@@ -2019,6 +2019,15 @@
       "basis": "title_only",
       "evidenceFetchedAt": "2026-10-24T15:02:37Z",
       "evidenceDigest": "d9c6e99b2ab60ac0a1cffe6561ae34df86a745f922e6ca72940211ce170c407e"
+    },
+    {
+      "id": "71f1c924ed592c1e02c45c7c",
+      "inputHash": "91ba92b5bef8ce69b35259e78e6c9b7cf43dd9645ad309fe54ae858b490a5f89",
+      "titleZh": "IUCN评估：几乎所有浅水珊瑚礁到2075年面临高崩溃风险",
+      "summaryZh": "据IUCN生态系统红色名录首次珊瑚礁评估，全球几乎所有浅水珊瑚礁生态系统到2075年都面临较高生态崩溃风险。这是风险评估，并不意味着所有珊瑚礁必然在相同时间崩溃；具体评估范围与方法需查看原文。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:27:22Z",
+      "evidenceDigest": "aba57aa69fc0f003504195d3141d7b5f4ce057b45d39cb13fd6115b6445aa28f"
     }
   ]
 }

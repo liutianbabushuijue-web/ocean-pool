@@ -1,12 +1,12 @@
 # GitHub：保存项目和更新资料
 
-本说明对应仓库里的两个流程文件。只有文件进入实际GitHub仓库，并满足平台权限与设置后，流程才可能运行；本地交付不代表远端已经启用。
+本说明介绍仓库的常规采集与可选发布流程。首轮采集已实际运行成功，后续仍需满足平台权限与设置；本地存在流程文件本身不代表某次远端任务已经运行。
 
 ## 本次仓库
 
 你已提供独立仓库 [liutianbabushuijue-web/ocean-pool](https://github.com/liutianbabushuijue-web/ocean-pool)，并在最新回复中选择“公开就行”。仓库已核对为 **Public**；代码和公开来源资料可以按本次授权上传，真实密钥、本机数据库和个人备份不进入仓库。
 
-完整本机副本已准备好，上传结果仍待远端验收。无需再新建仓库，也无需提供密码或 token。本机文件夹仍名为 ocean-knowledge-hub，远端仓库名为 ocean-pool，两者不必相同。
+完整项目已经上传，首轮 [Refresh ocean sources](https://github.com/liutianbabushuijue-web/ocean-pool/actions/runs/40107030865) 已实际通过离线检查、公开来源采集和资料写回。无需再新建仓库，也无需提供密码或 token。本机文件夹仍名为 ocean-knowledge-hub，远端仓库名为 ocean-pool，两者不必相同。
 
 本次授权是保存到公开代码仓库。阅读入口仍在本机，**ENABLE_PAGES 保持未设置**，不启用 Pages。公开仓库和已发布网站是两个独立状态。
 
@@ -19,7 +19,7 @@
 
 更新器不需要模型密钥或 stepx token。写回使用当前仓库的 GITHUB_TOKEN，不要求额外个人访问令牌。若组织规则禁止写入或分支要求必须走PR，提交会失败；应按仓库规则调整，不能用强制推送绕过。
 
-Actions 只负责采集及应用已有中文结果，不会自动调用 AI 翻译。本轮221条有效资料已有中文整理；以后新增或输入变化的资料进入待整理队列，需要 AI 助手按 [中文整理说明](CHINESE_READING.md) 继续处理。成功抓到资料和完成中文整理是两个独立状态。
+Actions 只负责采集及应用已有中文结果，不会自动调用 AI 翻译。本轮222条有效资料已有中文整理；以后新增或输入变化的资料进入待整理队列，需要 AI 助手按 [中文整理说明](CHINESE_READING.md) 继续处理。成功抓到资料和完成中文整理是两个独立状态。
 
 每次只提交 site/data.json、site/feed.xml 与两个OPML生成文件。提交者固定为官方 github-actions[bot]，不额外接入第三方提交机器人。
 

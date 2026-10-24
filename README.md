@@ -9,7 +9,7 @@
 | 中文阅读站：site/ | 中文标题与整理段落、原文链接、规则分类、搜索和本机收藏；输出中文 RSS 与原始来源 OPML | Python 3.11+；采集更新时需要网络，无模型密钥 |
 | 完整引擎：engine/ | 继承并定制的 AIHOT 完整源码：后台、两次评分、中文写作、事件归组、热点和刊物 | Node >=24.22.1、PostgreSQL 17、模型服务与持续运行环境 |
 
-**本轮已由聊天中的 AI 助手完成中文整理。** 当前221条资料都有中文标题与一段概括：44条依据论文摘要，66条依据来源节选，111条只有标题，已明确标注资料不足。采集器和阅读页不调用外部模型 API；这批中文结果不等于 AIHOT 的两次选稿评分或科学事实核验。新增或内容变化的资料进入待整理队列，不会自动翻译，详见 [中文整理怎么运行](docs/CHINESE_READING.md)。
+**本轮已由聊天中的 AI 助手完成中文整理。** 当前222条资料都有中文标题与一段概括：44条依据论文摘要，67条依据来源节选，111条只有标题，已明确标注资料不足。采集器和阅读页不调用外部模型 API；这批中文结果不等于 AIHOT 的两次选稿评分或科学事实核验。新增或内容变化的资料进入待整理队列，不会自动翻译，详见 [中文整理怎么运行](docs/CHINESE_READING.md)。
 
 ## 先在自己电脑上看
 
@@ -21,7 +21,7 @@
 
 ## 保存到自己的 GitHub
 
-目标仓库为 [liutianbabushuijue-web/ocean-pool](https://github.com/liutianbabushuijue-web/ocean-pool)，已核对为 **Public**，按你最新选择使用公开仓库。当前完整项目已在本机准备好，上传结果仍待远端验收；后续更新见 [GitHub 日常使用](docs/GITHUB_GUIDE.md)。本机文件夹名 ocean-knowledge-hub 可以保留，不影响远端仓库名称。
+目标仓库为 [liutianbabushuijue-web/ocean-pool](https://github.com/liutianbabushuijue-web/ocean-pool)，已核对为 **Public**，按你最新选择使用公开仓库。完整项目已上传，首轮 [GitHub 更新流程](https://github.com/liutianbabushuijue-web/ocean-pool/actions/runs/40107030865) 已实际通过测试、采集及资料写回；后续更新见 [GitHub 日常使用](docs/GITHUB_GUIDE.md)。本机文件夹名 ocean-knowledge-hub 可以保留，不影响远端仓库名称。
 
 - 打开仓库的 **Actions → Refresh ocean sources → Run workflow**，可手动刷新。
 - 首次上传及默认分支上的采集脚本、信源配置、测试或更新流程变更，也会触发一次更新；生成资料的写回不会循环触发。
@@ -31,7 +31,7 @@
 
 GitHub 的定时任务可能排队、延迟或被丢弃；公开仓库60天无活动还可能停用计划任务。它适合定期阅读资料，不承诺实时更新。[官方调度说明](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)
 
-目前交付的是可检查的本地仓库内容。是否已创建 GitHub 仓库、启用 Actions 或发布 Pages，以实际远端记录为准；文件里存在流程，不代表它已经在线运行。
+代码上传和首轮 Actions 更新已经验收；Pages 发布任务按预期跳过，当前没有发布在线阅读网站。阅读仍从本机入口打开，后续定时运行以实际 Actions 记录为准。
 
 ## RSS 在哪里
 

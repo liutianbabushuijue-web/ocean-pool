@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-10-24T15:27:24Z",
+    "generatedAt": "2026-10-24T15:35:07Z",
     "lastAttemptAt": "2026-10-24T15:27:19Z",
     "lastSuccessAt": "2026-10-24T15:27:24Z",
     "ruleVersion": "ocean-keywords-v2",
@@ -447,12 +447,13 @@
       }
     ],
     "notice": "Rules match marine keywords; no AI review or quality scoring. Feed-provided excerpts only; full-text redistribution permission is not inferred.",
+    "ruleRebuiltAt": "2026-10-24T15:35:07Z",
     "editorial": {
       "enabled": true,
       "promptVersion": "chinese-reader-v1",
-      "generatedAt": "2026-10-24T15:15:38Z",
-      "localizedCount": 221,
-      "pendingCount": 1,
+      "generatedAt": "2026-10-24T15:35:07Z",
+      "localizedCount": 222,
+      "pendingCount": 0,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
@@ -486,7 +487,16 @@
           "name": "Mongabay"
         }
       ],
-      "stale": false
+      "stale": false,
+      "titleZh": "IUCN评估：几乎所有浅水珊瑚礁到2075年面临高崩溃风险",
+      "summaryZh": "据IUCN生态系统红色名录首次珊瑚礁评估，全球几乎所有浅水珊瑚礁生态系统到2075年都面临较高生态崩溃风险。这是风险评估，并不意味着所有珊瑚礁必然在相同时间崩溃；具体评估范围与方法需查看原文。",
+      "editorial": {
+        "basis": "source_excerpt",
+        "inputHash": "91ba92b5bef8ce69b35259e78e6c9b7cf43dd9645ad309fe54ae858b490a5f89",
+        "promptVersion": "chinese-reader-v1",
+        "generatedAt": "2026-10-24T15:35:07Z",
+        "method": "ai-translation-summary"
+      }
     },
     {
       "id": "ac807ba0f45cf1edf9fe3fa9",
@@ -519,7 +529,7 @@
         "basis": "source_excerpt",
         "inputHash": "c3edd1a92cbede7169ab1da8b644db8cbd8ca5b7c8b12c4c8431159e1b97ddf9",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -551,7 +561,7 @@
         "basis": "source_excerpt",
         "inputHash": "fc594884b85e2da560611bf8903aa6825acb86052f48a5fa24ff16f53d68230d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -583,7 +593,7 @@
         "basis": "source_excerpt",
         "inputHash": "69a9443310102427bdaeba292ddce69cc1327c639fa711626e5dcc07c48b432a",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -620,7 +630,7 @@
         "basis": "source_excerpt",
         "inputHash": "bee00cf9b585653da892ed6c42b467ba84e485b06efd3b77d54660697d42bb69",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -658,7 +668,7 @@
         "basis": "source_excerpt",
         "inputHash": "6b0df0c6d2766cb17abf5ceeb300526f9f978bd63a625bfe5eec38714db5fd2b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -699,7 +709,7 @@
         "basis": "source_excerpt",
         "inputHash": "6a94702e3e1afda3180539c77f8934e5fa3f3865aa15d21f410e37c6678e5a94",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -733,7 +743,7 @@
         "basis": "source_excerpt",
         "inputHash": "78f84f36d5f048b990749e256ea3d3eda1935b9d4fa64a6057f3cbc503699e63",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -765,7 +775,7 @@
         "basis": "source_excerpt",
         "inputHash": "f2fe1a2c7ec972177f1a3450d10b23275a0ef7a03d2158ce1c8345be91b04aa3",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -799,7 +809,7 @@
         "basis": "source_excerpt",
         "inputHash": "dbad70e1f77464b369062cb3d61409fd2f3ff2b460143abbdb2015557f0711bd",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -837,7 +847,7 @@
         "basis": "source_excerpt",
         "inputHash": "9804c2142a5bb416d6149bda2205676d0d52e5f90216d70ae75a569f10e69a61",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -876,7 +886,7 @@
         "basis": "title_only",
         "inputHash": "6ea008826298ade015d20cbb22a1a17e2e44602bd25bb28bd0efc5a7051e8680",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -916,7 +926,7 @@
         "basis": "source_excerpt",
         "inputHash": "ee0674212b15c2df2bfa7fa81b333e62f4c7fbc01fa4a384a08bf27c604c9ca7",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -954,7 +964,7 @@
         "basis": "source_excerpt",
         "inputHash": "b7d9e656b461aa9e538b853ece4127099cef6345bba57af9e0f280e5aad9684c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -990,7 +1000,7 @@
         "basis": "source_excerpt",
         "inputHash": "a9f3b4b37ff8ed3d32ac41224a9e565fc29fe53b449be16ed148ef0472ce21d2",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1022,7 +1032,7 @@
         "basis": "source_excerpt",
         "inputHash": "41c6057b2850b0d89bba127fbbf638ffaa1859a1c2927a012a6dc24ee239af94",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1054,7 +1064,7 @@
         "basis": "source_excerpt",
         "inputHash": "9e785dfb30a98d529f7bec32f272d3a263fbe66082b25fab7f4d988faa9ad9bd",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1093,7 +1103,7 @@
         "basis": "abstract",
         "inputHash": "562b457906338345d7b5a87c8ec6b21e228f231cb864798a7f1eeb9dc0a2ff5a",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1127,7 +1137,7 @@
         "basis": "source_excerpt",
         "inputHash": "7d394acf8a3d6353736ea258cd5fd1de19f9e7e599fa2d9099d81e5731ecffce",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1162,7 +1172,7 @@
         "basis": "source_excerpt",
         "inputHash": "14c116788639fc251ba888fd0b81b5cf55d0cc37256c740da222c10e9f39f3c3",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1201,7 +1211,7 @@
         "basis": "source_excerpt",
         "inputHash": "83bafef8eb463ea9ae8c99fc03df32b376a5101678ff570ddcf4f92ebf74dbbf",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1233,7 +1243,7 @@
         "basis": "source_excerpt",
         "inputHash": "31acc3c4e42bb78087878e2f7c272ca2121b70a1219037861820c9233f9c7439",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1268,7 +1278,7 @@
         "basis": "source_excerpt",
         "inputHash": "878a9db9e19393cd30a52e7b748665cacda0cb6a8d7e02e586e257f7d9d28052",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1302,7 +1312,7 @@
         "basis": "source_excerpt",
         "inputHash": "ccf4c4d46e2ff56a72e930f06d73544e2d78104757e7e1b4bdf131d94ea8e0ab",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1334,7 +1344,7 @@
         "basis": "source_excerpt",
         "inputHash": "be31d7aab5616a103be73c3fb835ee552a5c05a2f71929d59788fcb158a68b47",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1368,7 +1378,7 @@
         "basis": "source_excerpt",
         "inputHash": "c0addfd354b6f7ba2d20a89a65f246b05ec903f8ad96be7a2e09024c3ec2f1b7",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1400,7 +1410,7 @@
         "basis": "source_excerpt",
         "inputHash": "9f6be9e8394f969632d66ee6b14633034b8c5459b8e174f44a3acf48ab51f591",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1437,7 +1447,7 @@
         "basis": "source_excerpt",
         "inputHash": "6631554718d85575149d55008fea7f2f5a47d978deba77c62f37869c12bfbec0",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1474,7 +1484,7 @@
         "basis": "abstract",
         "inputHash": "3e2cfb17c85de71b440f8384d8a4f5fe873e4c04a94ad160dca7586470b6514d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1511,7 +1521,7 @@
         "basis": "source_excerpt",
         "inputHash": "615a2fe91f1b261a2be1ee0f7dc3294cfc9b34937253353118358a0da5703349",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1545,7 +1555,7 @@
         "basis": "source_excerpt",
         "inputHash": "e58f6cd064e467f900de5514ba58c68b2a9df2b59db7e281fd9aa5159327df1b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1577,7 +1587,7 @@
         "basis": "source_excerpt",
         "inputHash": "389357460388ff628693c180838aa9291fc7fa8a1651aa65f2418fdd582ce1aa",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1616,7 +1626,7 @@
         "basis": "title_only",
         "inputHash": "6185f1431f89dfe3f3192ecb9de880a6c851cbe995c47838ddf63d07d8f7394f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1652,7 +1662,7 @@
         "basis": "source_excerpt",
         "inputHash": "7c7f4b06a3beafefda5d565b3f3d2b9a0a707b2433ee15a6a9a8b7d3118e3806",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1690,7 +1700,7 @@
         "basis": "source_excerpt",
         "inputHash": "c47040ec567074ca0b7a7fde0985a58d7dc943568e47908af0af3c2d0fccb152",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1722,7 +1732,7 @@
         "basis": "source_excerpt",
         "inputHash": "5a59aa51604405252f6c310c82a661c2b2dfca8e04ac0613ff815c71e1ce289d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1758,7 +1768,7 @@
         "basis": "source_excerpt",
         "inputHash": "1fa604fdb065110d4b3a8dab020347d30f3e23102c0e0a15b915b6b952eb69af",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1796,7 +1806,7 @@
         "basis": "abstract",
         "inputHash": "5eeae1482bd51ff9a53126b40a0c8616961f6706f4490f244a2df0d90444a89e",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1832,7 +1842,7 @@
         "basis": "source_excerpt",
         "inputHash": "841e84a24310930247761237145c81779e12f38dd657ef92d56064f234e5375d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1867,7 +1877,7 @@
         "basis": "source_excerpt",
         "inputHash": "f30dd23acafc124afb33ed75a96931f7efe187ed617bfd1137c3625e7bd5b5de",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1901,7 +1911,7 @@
         "basis": "source_excerpt",
         "inputHash": "077f629e6c913912ee0926e510b3f5b16cb92ad4d78c86ea49d75ea9f40f332c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1939,7 +1949,7 @@
         "basis": "title_only",
         "inputHash": "d1a7aab19e9472441048185ca0abd6f0fd3dac9feb72776b6d0f6b4540502345",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -1974,7 +1984,7 @@
         "basis": "source_excerpt",
         "inputHash": "c587a53234983fb76b998f6dac436d826badff28cac42c1a7350bf7d2cb510f2",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2010,7 +2020,7 @@
         "basis": "source_excerpt",
         "inputHash": "d81ae7efe60b85a889643027fc26ec3ee1831ef539962693350824ff97e5bba7",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2047,7 +2057,7 @@
         "basis": "source_excerpt",
         "inputHash": "1dd3e944d8e07447f6f04d065aa2b1811cfc1decb6fffd7c8b7dd80509102b4a",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2084,7 +2094,7 @@
         "basis": "source_excerpt",
         "inputHash": "07c4436b96137096debedcdc31c6a3a53e1b14b12ea3aeca340aaaeb86bd7013",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2123,7 +2133,7 @@
         "basis": "source_excerpt",
         "inputHash": "7a760938a1b3b7599c2034833a5d280980faf8922bc347135f5b6eb94e80d7f6",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2155,7 +2165,7 @@
         "basis": "source_excerpt",
         "inputHash": "50148cd4f556c49013931d307e36683d08489728537a990b945f98758f914d78",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2189,7 +2199,7 @@
         "basis": "source_excerpt",
         "inputHash": "eb8453d520495b879ae6ae3abf92f14664b61830760edb7164e100e3e0656e41",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2227,7 +2237,7 @@
         "basis": "abstract",
         "inputHash": "c8b2a7b68b855eb83c25c4d03e48792948a8722fcb165d0143da151ce35919dd",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2264,7 +2274,7 @@
         "basis": "abstract",
         "inputHash": "9437e665acf26a2316e3c246c83a447cbe31b8b4247835df4fb51fb67c279c9a",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2298,7 +2308,7 @@
         "basis": "source_excerpt",
         "inputHash": "974077a0159b33d698c5334b3401f07074df659db9d3319c942481f48385d26e",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2332,7 +2342,7 @@
         "basis": "source_excerpt",
         "inputHash": "33a512556d3fcef8b3df6d15d9b9ce86e5661564218e7eefaf8c01b13c115994",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2368,7 +2378,7 @@
         "basis": "source_excerpt",
         "inputHash": "1424eeecef85e4f82a3526786ca74510b0d3ff07b54320306af76dc7fef74710",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2405,7 +2415,7 @@
         "basis": "abstract",
         "inputHash": "de860a92ca842dd84f589725a9a881901633c42d2357ed42c7e0ddc746f82d91",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2444,7 +2454,7 @@
         "basis": "source_excerpt",
         "inputHash": "5263428b147fb623f5bb35a22329f1fed40b5f6274c705cadece983c7f1b36f0",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2481,7 +2491,7 @@
         "basis": "source_excerpt",
         "inputHash": "019aece114bf646592db8d8c534c52db25a5aa4de668f19cc973a838c9fdcdfe",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2519,7 +2529,7 @@
         "basis": "abstract",
         "inputHash": "022c96543e45aa059a22e27cad5e9a3c1d44ba34eefd5a16ade71fdb83f95dd7",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2553,7 +2563,7 @@
         "basis": "source_excerpt",
         "inputHash": "4f402cd5567943ad6d252c96ceae8cbb69f47fe7ca14146d615ae699a5bfd1bb",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2592,7 +2602,7 @@
         "basis": "source_excerpt",
         "inputHash": "4f81d0649fba8b8139a8196465a16f74182b43ac7d6513972ff826e2fba075d0",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2628,7 +2638,7 @@
         "basis": "source_excerpt",
         "inputHash": "e6b3be71b04e02222fdfe7c513b7d40742c620dad3b2c7df822bacad2c300cb5",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2662,7 +2672,7 @@
         "basis": "source_excerpt",
         "inputHash": "8b56dd10e6414d0be9aa324f71cd172f7888f7f8ae10e321568699db0a14be17",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2699,7 +2709,7 @@
         "basis": "source_excerpt",
         "inputHash": "f00d3fc770946e481705aefea548df104ad171a9a5712316925b626a7c40bbf5",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2731,7 +2741,7 @@
         "basis": "source_excerpt",
         "inputHash": "86d232ebe9c63e64535c57f58080c4172e2394ce47198eb30101226c0f3c6913",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2766,7 +2776,7 @@
         "basis": "abstract",
         "inputHash": "0635e783c9ceee7f5e719d246f01ac1ce85234717f0ca6efe8b5c2ac74d3378d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2802,7 +2812,7 @@
         "basis": "source_excerpt",
         "inputHash": "7904bb80a042adbed25f461bff091fc4cc4a5d7e5389711bb4764c24eaee9344",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2840,7 +2850,7 @@
         "basis": "abstract",
         "inputHash": "58c4e971653f1d3b536f13a8704d4b9c9f22c78beb9e2675e6627e4bb8e97af1",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2875,7 +2885,7 @@
         "basis": "abstract",
         "inputHash": "3ea83ce955c6c691f1e6114ff700b4080270f5e145ee2aa3260a32702c7bbfcd",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2912,7 +2922,7 @@
         "basis": "source_excerpt",
         "inputHash": "5070d9c9373a1f993f6cb82fc580f2e809a328330c5a368e4b611d67ebff812f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2949,7 +2959,7 @@
         "basis": "abstract",
         "inputHash": "87d2cf8a3cec0d3581f4b6aaa3ede64e4eff6455d627fe5340ec4eef890447f7",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -2986,7 +2996,7 @@
         "basis": "abstract",
         "inputHash": "b727ab9407c54d234e52b487e5551b36f2d290379ba49364c541ab36591caf5e",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3023,7 +3033,7 @@
         "basis": "title_only",
         "inputHash": "f388bb83932299017c92bb9b3a49ffbc13512a8ac00540e1aee3a785ed4fa6c6",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3060,7 +3070,7 @@
         "basis": "source_excerpt",
         "inputHash": "62439bd6e75275eafa84c1559fdb39a055ba527f6ebe77673422c0ad45c9c445",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3099,7 +3109,7 @@
         "basis": "abstract",
         "inputHash": "375d9dc1049ed76b15919f126ade08240d3007316b72de021efddbd84e9f7d57",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3139,7 +3149,7 @@
         "basis": "abstract",
         "inputHash": "9273d06a0f2bee3a2af249c2c12eddfadeb24be20f9377e70ab4f7c49fb33bc1",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3176,7 +3186,7 @@
         "basis": "abstract",
         "inputHash": "ae1046967688a108de0da63b8534941d71e19fef460abc4f3a5df8fa6722bec1",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3216,7 +3226,7 @@
         "basis": "abstract",
         "inputHash": "138ba8ad7ea7a310346f39f88a7ccb2cd3864936433c43ecbe9819964f989d4f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3254,7 +3264,7 @@
         "basis": "abstract",
         "inputHash": "9c079014180022f8048779184e2a588ea946909965165262d9e0601060ba3cfc",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3289,7 +3299,7 @@
         "basis": "source_excerpt",
         "inputHash": "649d6fc9aaee1153bd4e838f4d4e3e45ac3e1fe28126e83a50a1ad0770a5dc0f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3323,7 +3333,7 @@
         "basis": "source_excerpt",
         "inputHash": "916a4ea8f7fac67b08c6df060bcc5a195fbdacce07bd2393315642547aad9cc9",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3361,7 +3371,7 @@
         "basis": "abstract",
         "inputHash": "5173f8ba9787e468ad4408c5b0aac0408ab3ab83d4b84e349818c89df50321a7",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3401,7 +3411,7 @@
         "basis": "abstract",
         "inputHash": "a34a9a2549dcca2b3be6a36dc29d0029f049e926c45b520df34b09601b397702",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3435,7 +3445,7 @@
         "basis": "source_excerpt",
         "inputHash": "1aa04af77379cff1e5d8cd236f139ddbc21f1eba2192bc5be901ca3f7c9d2414",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3467,7 +3477,7 @@
         "basis": "source_excerpt",
         "inputHash": "4e92604c91af5c3d01da7c54e99d26bc3f5348a9a865100a7a4362e670f595b6",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3501,7 +3511,7 @@
         "basis": "source_excerpt",
         "inputHash": "0317b9722cd0afd9311cfe853339f9b41ea12eaa302adf80b0f5d545d61dc958",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3538,7 +3548,7 @@
         "basis": "source_excerpt",
         "inputHash": "7345c0fb2dfd6dd63d1b0d15443dd3d744ce6c648ca2b458179b27918792a40c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3570,7 +3580,7 @@
         "basis": "source_excerpt",
         "inputHash": "de6e5556af8ca440ba025851eb4eec7c01e5c7a95213abcfdc9294fbe3d78f75",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3607,7 +3617,7 @@
         "basis": "source_excerpt",
         "inputHash": "eebb09e12d951ac174900480d188986af40d6c793fc76fbc2b2819809926da4f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3639,7 +3649,7 @@
         "basis": "source_excerpt",
         "inputHash": "5a9eb974509609cd2ebfc6d76d9b6bdc7ad98d9c0ec4931868066f694cabe38b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3674,7 +3684,7 @@
         "basis": "abstract",
         "inputHash": "307a68e305f45cd0a08c174c4aeda9502c973d505f7cc79562852a3bf6fe91d8",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3711,7 +3721,7 @@
         "basis": "abstract",
         "inputHash": "a1c442ee036516849b6ced46dc8ecab2b377905bc7a1863098e543685ef567cb",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3746,7 +3756,7 @@
         "basis": "title_only",
         "inputHash": "2f6be552db06fcc9a9cf4a3687d172fdadfb90a5bb3c1d7ef87ba06637770d19",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3781,7 +3791,7 @@
         "basis": "source_excerpt",
         "inputHash": "188ba0ffe0ddb99cc0762cfd51136ffceddb054b4a39acc84563362087a1aee3",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3816,7 +3826,7 @@
         "basis": "title_only",
         "inputHash": "b93fb00824f7789a2110f6b6d4863c9fd6a15a701c5651b7a6a5dd8211816aa5",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3851,7 +3861,7 @@
         "basis": "title_only",
         "inputHash": "4e34db5acacdc347f0a202e0b3e46f583a732b11003ddd8bff3c5cc607941c5c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3886,7 +3896,7 @@
         "basis": "title_only",
         "inputHash": "d371a1101e3dc8bccc189f7e6eda120bbec5aef4f466802ccc6b88da22d943b3",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3924,7 +3934,7 @@
         "basis": "title_only",
         "inputHash": "f7f67588cf57879dd2e8342cfb2095f48ef30f0c0c34d12126040e384362f57c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3959,7 +3969,7 @@
         "basis": "title_only",
         "inputHash": "a3122c53318070aa1fe233b6c7d3f25625a01469989c87f949187832107c46c2",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -3994,7 +4004,7 @@
         "basis": "title_only",
         "inputHash": "5c1bb41a88ce8025b5a9c9b935ffd114d95edd37b7651c0a3a2288389da73e54",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4029,7 +4039,7 @@
         "basis": "title_only",
         "inputHash": "23ccad488c02465f3672fd651738b8d8b91f7ad05793a4ae809b71eb9dbd3d7b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4064,7 +4074,7 @@
         "basis": "title_only",
         "inputHash": "cfe58cfe3e0543e58bce31dab3a3bb4d437f85e6d97271f0f1d4dec4b2846622",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4099,7 +4109,7 @@
         "basis": "title_only",
         "inputHash": "416297cbcd2d62f2bcccb38369b857dba6ff246845a120f35ecabcf234a2d626",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4137,7 +4147,7 @@
         "basis": "title_only",
         "inputHash": "8097396273ec358edb24a93df68e29a92c4673fc3f53287293d091662fdda3fe",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4173,7 +4183,7 @@
         "basis": "title_only",
         "inputHash": "5764ce8f2622484639c473ec518b388b69ff2c0e9f8c30ee045ed5af71f1c8e8",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4210,7 +4220,7 @@
         "basis": "title_only",
         "inputHash": "aab002255e67a6fe3f518d00f79e65f6f3babab0e4e1ccf0fc1716fe65b87c4b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4245,7 +4255,7 @@
         "basis": "abstract",
         "inputHash": "4b1195cc8dab65893039f80220c8fad4b8aa337eec7efbd07dc232366a91c3fb",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4282,7 +4292,7 @@
         "basis": "title_only",
         "inputHash": "9fc19987e91dc3e0afcccbe2be9b66ffe931097d33b3e63278d248d5b9d23d42",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4323,7 +4333,7 @@
         "basis": "abstract",
         "inputHash": "58670bde6feed2d77d967a7115e12ef47357b38d3606f974da14ed98e6d5d561",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4360,7 +4370,7 @@
         "basis": "title_only",
         "inputHash": "c4b0cede1cd121c315f1a268df0b70df984e8a93d6b07b42bf0f5e7b21395d90",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4397,7 +4407,7 @@
         "basis": "title_only",
         "inputHash": "de3ff4517914d3cb8b265acb07826fd7037c99ff8ea2aa70f107b205f2ec2230",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4435,7 +4445,7 @@
         "basis": "title_only",
         "inputHash": "5e6587dbdad36da17f59ab14a26af48611b62a82867285442622a3d3738f96b3",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4470,7 +4480,7 @@
         "basis": "title_only",
         "inputHash": "8727bb095b159fac9d2f14ce636c03eeaf79a636593aafeb63669161637a4b6e",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4508,7 +4518,7 @@
         "basis": "title_only",
         "inputHash": "93e74307ea5482973d1e2b7b942d2e907abbd28620a24fe48b9905c4afad3065",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4544,7 +4554,7 @@
         "basis": "title_only",
         "inputHash": "9578c9da78f827ab67da37aa9291e506caf9613bd8bc38a69d3517da1f7d345a",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4583,7 +4593,7 @@
         "basis": "abstract",
         "inputHash": "194a0539029d12b9cd86786cd5dbe3401e5eed102dfc187d446fd40e5f592f67",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4621,7 +4631,7 @@
         "basis": "title_only",
         "inputHash": "49422d3c7acbb3cb93e606c4d091ad0ad0aca5c04b4b6f0f4a4c74c51c8ee198",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4659,7 +4669,7 @@
         "basis": "title_only",
         "inputHash": "2f4cdff7e047e4538972319e879a3c5af1a1b5e740983df111ec11c09e6fb5c9",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4700,7 +4710,7 @@
         "basis": "abstract",
         "inputHash": "d21467211005c54806c710441e5194b2dddcfe1902d3f820200f4e117c955022",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4739,7 +4749,7 @@
         "basis": "title_only",
         "inputHash": "ab62b758cd12332cfafcc3ca23dcc0f1da5667d1a71e06e3cf12ad4c35dbf3d6",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4779,7 +4789,7 @@
         "basis": "abstract",
         "inputHash": "937b334f1d32088b2d36e549c8e86f6d051859199230cd92145aafb97ddd7141",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4817,7 +4827,7 @@
         "basis": "title_only",
         "inputHash": "cce14d5506532326dd33971bb4520a20cebaa07e7ce5e69561d8f0fa28aedd38",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4855,7 +4865,7 @@
         "basis": "title_only",
         "inputHash": "982442a5db5bc6e7af9ee02135023e62bf85cebd8207a9eb1fac6eeff49a7fca",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4893,7 +4903,7 @@
         "basis": "abstract",
         "inputHash": "d4eeb65abf43e60c8969153d86205708f2065a4856bc3f13c47d5672ddebed14",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4930,7 +4940,7 @@
         "basis": "title_only",
         "inputHash": "35574227d65ffdcc10d210032e6cf2f1a43515d6196b5ba29132430531a22511",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -4965,7 +4975,7 @@
         "basis": "title_only",
         "inputHash": "7d744239485caa679dfcb4de1d293c0bdaa91e21648dbef854f016c9e02f4e73",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5002,7 +5012,7 @@
         "basis": "title_only",
         "inputHash": "30012bd1a8e0e04defcc1f7779e05b886fefad4d0175ba6fd91ab1aedef39fbf",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5039,7 +5049,7 @@
         "basis": "title_only",
         "inputHash": "71d115c9e08e8964ba427ea1dea742ecce5c04a76474fe64104012852f0d418f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5078,7 +5088,7 @@
         "basis": "title_only",
         "inputHash": "f1242f9b4e2d9338e785fe5adbeea5c2dc7b9b70de93063d34c63a3e39b5189f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5118,7 +5128,7 @@
         "basis": "abstract",
         "inputHash": "87cb1fc28b707f1129cdc781486da269981bdbb16422cbfac863c0c7db1c718d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5159,7 +5169,7 @@
         "basis": "abstract",
         "inputHash": "b425a4971487bebe6cdcda1c20bae68ccb13a44154008c37dbaa0ca1142ab230",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5198,7 +5208,7 @@
         "basis": "abstract",
         "inputHash": "5605cf785f3064dadb718a9049c1a8ad534b845b4cfafc2ba2a7d45c072c3ce8",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5236,7 +5246,7 @@
         "basis": "title_only",
         "inputHash": "6187eb8835780822ac04697cd3eefb55269276c539326e94c2bd947da63a15bd",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5274,7 +5284,7 @@
         "basis": "abstract",
         "inputHash": "d938772eca99d2cfccc2d37f773ee83244e5bb0ba08ea8e16feba5b796f19f16",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5315,7 +5325,7 @@
         "basis": "abstract",
         "inputHash": "f690ac35447ae2fa27dd953edd3dc52b9a38000ab9b1eea69b5d1a74c1640772",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5350,7 +5360,7 @@
         "basis": "title_only",
         "inputHash": "9f59375776206458d5dd2d404341bf771741f5d9e009c834941e54b6090ff18a",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5385,7 +5395,7 @@
         "basis": "title_only",
         "inputHash": "21856ad24bbc38201258910055203c85c5ea22e755063d91b9328d65c566731e",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5425,7 +5435,7 @@
         "basis": "abstract",
         "inputHash": "576ab3e465756bf92937d2d1913495b1c86567004dafa751c0196fcf141e6078",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5460,7 +5470,7 @@
         "basis": "title_only",
         "inputHash": "42186df8888d325dc50bda0618b018903e93f2ceb6db8469889e2596a81a3321",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5498,7 +5508,7 @@
         "basis": "title_only",
         "inputHash": "827062d83ae2a697ff8d4871f96f64ce3e723030cb191377ffdad67a32788525",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5541,7 +5551,7 @@
         "basis": "abstract",
         "inputHash": "3adbcff96a689b7b316b918cbd00b929aa90a7ce5638e7ba5c5fd8260dfdc267",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5580,7 +5590,7 @@
         "basis": "title_only",
         "inputHash": "21e731705c2a8e8067c0505d84b5818dba5a545947078e72538c2abe55f54123",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5619,7 +5629,7 @@
         "basis": "abstract",
         "inputHash": "360e8ce6ebc22d505c390559ae2a5c78a5893a2e0ed392c2b88fbb8590a376a6",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5654,7 +5664,7 @@
         "basis": "title_only",
         "inputHash": "c5c0db6a8a1efde68e6830b5ccdd0c3f443959742d7392362cb3500a47454371",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5691,7 +5701,7 @@
         "basis": "title_only",
         "inputHash": "31be54afb1867651e0618a1c4054c1ccbebe6c0d03eb4c382005dd061ded20cd",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5726,7 +5736,7 @@
         "basis": "title_only",
         "inputHash": "294d975c0a431d77c1b69afcb0629326dd9a6167a1bec8b97b5391a2f5c461c9",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5762,7 +5772,7 @@
         "basis": "title_only",
         "inputHash": "cd2769e16cbe1b5580bb5b6e6cf044cd3bdcdea696c7302c5816507c71cd89e7",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5800,7 +5810,7 @@
         "basis": "title_only",
         "inputHash": "300f7bbcd834b6e9b732dc923bb983572d1cbd74a8f3a3d5e1b695dc908709cf",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5838,7 +5848,7 @@
         "basis": "title_only",
         "inputHash": "e860ad5d0b0cb434b4380cb896b195b7c8b3404c86b65bcf77f8660ddbaaf4a8",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5874,7 +5884,7 @@
         "basis": "title_only",
         "inputHash": "b941300bb7ca3d795ffc0d8c3fdb4447866d7d65977c1e43a5e487826fc74c15",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5912,7 +5922,7 @@
         "basis": "title_only",
         "inputHash": "92568679970875ea47fab335bfd22321aad70ec35132ec8b6ef9cc32523b9b99",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5952,7 +5962,7 @@
         "basis": "abstract",
         "inputHash": "1e912486f2cc40c96eb341f0d9252ef8e90e5180a3c95bd001cec7135040042d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -5989,7 +5999,7 @@
         "basis": "title_only",
         "inputHash": "63fdd369908cc47c7709d7c80a4a4ace8066396d0dfad67f6fb15130babaa908",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6026,7 +6036,7 @@
         "basis": "title_only",
         "inputHash": "85947d4577cd86d5538a11e59579f331931203f15157d74da94398918349b0e9",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6063,7 +6073,7 @@
         "basis": "title_only",
         "inputHash": "a60bcb2a682f296b3df97656cccb0f429c13d784742d7fbc992a09a50f9675ce",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6098,7 +6108,7 @@
         "basis": "title_only",
         "inputHash": "20f0e9975fc60b3f2fa0c5fc6136815b483261e75b8a37b73f121aec7b7f9deb",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6136,7 +6146,7 @@
         "basis": "abstract",
         "inputHash": "3e91a1f542a95b9cdf1bedad10586f4d7f573f7d1fc75314cbbc729720d66da1",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6175,7 +6185,7 @@
         "basis": "abstract",
         "inputHash": "f9ee1e0cb8dbce4b46cbe8f7a92e27969a2d3d8b291bbf198ee6dfa8420eea6b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6213,7 +6223,7 @@
         "basis": "title_only",
         "inputHash": "31cbfd5601e24f8c374abee288df72c709f1bc2a337a35392ad31e27855a6323",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6251,7 +6261,7 @@
         "basis": "title_only",
         "inputHash": "334f4afdebe0371c8b295de72d7da780ff99d22504bbe866475b5b97bcb466cf",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6289,7 +6299,7 @@
         "basis": "title_only",
         "inputHash": "1824591bc888b8eb1981ab6bb67b05e130a226a806ff98f8637cc8dbb129e0b9",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6325,7 +6335,7 @@
         "basis": "title_only",
         "inputHash": "93bf3f57fcea9bb178377273aafea397e42117e15c7ea6d9ce95b6b0d3d93f04",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6363,7 +6373,7 @@
         "basis": "title_only",
         "inputHash": "579fc357d06903ea87bcf2c7036e96a086e1fd9e0d2a0c7cc9aee38fa487b75e",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6400,7 +6410,7 @@
         "basis": "title_only",
         "inputHash": "e4e4791e5002f46968921f7fe9ff34b36c339ea07d76d78f59fd5092ecaa117c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6438,7 +6448,7 @@
         "basis": "title_only",
         "inputHash": "ee837de7a4c7e9885b1917fc0f46ae76da340109c91595d52578b138b872e398",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6474,7 +6484,7 @@
         "basis": "title_only",
         "inputHash": "f7f3b21865c66bcaaf2847a39ef9ffe559427a388cf578d1680bba5ba6da22e6",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6509,7 +6519,7 @@
         "basis": "title_only",
         "inputHash": "fed41da77cbac5afea1bc7564ae1f958a3dda173a8580dad084f3080c49d1400",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6546,7 +6556,7 @@
         "basis": "title_only",
         "inputHash": "4adb11b59e8d9325e9b4228365dbc8b935e5c8c0bd4ee2c5dd96e0ba13483cd3",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6582,7 +6592,7 @@
         "basis": "title_only",
         "inputHash": "fa6a1a7cc258d568bf0607cc27d1f783a0d4970846f3f9c3cd89b5ba53e77bcf",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6618,7 +6628,7 @@
         "basis": "title_only",
         "inputHash": "b7b6107c06966c4aaa5db3f3591a338c8ec0791fcfbed7302e535b6c7c0e6d36",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6656,7 +6666,7 @@
         "basis": "title_only",
         "inputHash": "c6b822fd193866d3ed6c675ebc9b9f18aafd92ff8a37c02274e9588758094978",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6691,7 +6701,7 @@
         "basis": "title_only",
         "inputHash": "ced44cf63d4050dcd750bc2dd981927f706876b742feb5bbc969522afdff53ac",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6729,7 +6739,7 @@
         "basis": "title_only",
         "inputHash": "56f5c6c6ae89e857a7038d75938258a233efeaa8b24b73831ae81197492a7b8f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6768,7 +6778,7 @@
         "basis": "abstract",
         "inputHash": "e3fe335db6b44e2b8269e141ff138ce40bc2efd8e26389682b2d19614e6b866b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6803,7 +6813,7 @@
         "basis": "title_only",
         "inputHash": "d263b0209aabb9f128601f0f79e95fd731de156d6fa905ab8b13c0a0ece25bf8",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6840,7 +6850,7 @@
         "basis": "title_only",
         "inputHash": "77020e673469bf6ac15eb8f61301a59c8d7195308d38dc1eaac69588832805b0",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6879,7 +6889,7 @@
         "basis": "title_only",
         "inputHash": "a0342119087f13c0575c77fcfc4f1f09a623693e305e463410b742b2b6c0fe14",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6918,7 +6928,7 @@
         "basis": "title_only",
         "inputHash": "9bf176ab8ea0b6e53597912dedab184f5fce5ed82d8bfb57e43c4445321a0ab2",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6953,7 +6963,7 @@
         "basis": "title_only",
         "inputHash": "5a9d6778a518475d68e8e47d069cdc09ccb44b941eee4dcc6befc3c6bc1f76ea",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -6992,7 +7002,7 @@
         "basis": "abstract",
         "inputHash": "00c9ecd4e21ff28208a439adea573233985e311f16241605c2247d5ba7e34304",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7027,7 +7037,7 @@
         "basis": "title_only",
         "inputHash": "d1aaecb78b51d353c078f7e8600031480c89290b8843f360effe8b99ec102471",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7066,7 +7076,7 @@
         "basis": "abstract",
         "inputHash": "a38a4edd999655cf01e06a586c642d2075106514bdb0956952497ef6c5d102c2",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7104,7 +7114,7 @@
         "basis": "title_only",
         "inputHash": "479df2bd63585ab21aff7e5e2c3faca14cee87d56c306d73f8604302024ee9ad",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7139,7 +7149,7 @@
         "basis": "title_only",
         "inputHash": "de3268398bdfa4c42e3627e5488c7b3934b46631442822ea9c0f2f8543c37a25",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7174,7 +7184,7 @@
         "basis": "title_only",
         "inputHash": "b9acbaf0e763063ba6d6ec9a6ba3d6c16b81a132be729e880fac79890476ab93",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7211,7 +7221,7 @@
         "basis": "title_only",
         "inputHash": "0236869f9e668b47476b579b579f15397f767bb278e394c4e7242471345395a4",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7247,7 +7257,7 @@
         "basis": "title_only",
         "inputHash": "ce49bdc3cc7f6a858c924a1af58360fcceaea3441c5ee110b52da7367900d116",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7285,7 +7295,7 @@
         "basis": "title_only",
         "inputHash": "c6e5a4838e85fb3ff5334fecbdf6ec8da9f2e05929c2a88288a963b51dfc0a93",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7324,7 +7334,7 @@
         "basis": "abstract",
         "inputHash": "58251f20b6093c008e858b2b26618eb53492304ddd58ea705b2fe05b8c1a7092",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7362,7 +7372,7 @@
         "basis": "title_only",
         "inputHash": "517834e96aefce802bed6837f0bfd7df265ab3188075a123f7d1f84db60b977c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7397,7 +7407,7 @@
         "basis": "title_only",
         "inputHash": "d440fa4e45011d401bf40657ed1953fde51d3bc4f02f658d977415b34885c2a8",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7435,7 +7445,7 @@
         "basis": "title_only",
         "inputHash": "913e5a94b9eea8f03cba8d97ff83c842ee3ad33d896b7269d952983cd298d2ee",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7474,7 +7484,7 @@
         "basis": "abstract",
         "inputHash": "94508f9a3a788696c09bda8f11efb51f084d0109fe8057d251faeec171863b59",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7512,7 +7522,7 @@
         "basis": "title_only",
         "inputHash": "e225e6e6c0b0db585e289585e40c15d7bc216e441bc160265f0bc73da1b5c69f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7547,7 +7557,7 @@
         "basis": "title_only",
         "inputHash": "d13831b648b3c4dcf94bc5897041fc5656e7daeef0d89470676e3547a8a418de",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7586,7 +7596,7 @@
         "basis": "abstract",
         "inputHash": "50c0e9fc66c15c98e18366bb163da480af8d7aa99c6a94f9a6abd50002f97f0f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7626,7 +7636,7 @@
         "basis": "title_only",
         "inputHash": "37cb3c4242b9600f3b1566020264ad17248d652fba77d9c2f3f07ed813c2ffce",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7664,7 +7674,7 @@
         "basis": "title_only",
         "inputHash": "085a8d928c26950ec881f33688f03233fa6cd8d548fd6b0d98048caa616c1090",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7703,7 +7713,7 @@
         "basis": "title_only",
         "inputHash": "5f7d85bd45b2802d6d16d7b90a00ff84aede5ee59b899184f36195b885ab9f8f",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7738,7 +7748,7 @@
         "basis": "title_only",
         "inputHash": "272a4d16087639afe80e3522ee0852f3cff435801a140d2bb9313fd0f7dd755b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7777,7 +7787,7 @@
         "basis": "title_only",
         "inputHash": "6fe3b4579c01cf594c5c5aea4e794b8e243121ae6208514238725f434a121f1a",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7813,7 +7823,7 @@
         "basis": "title_only",
         "inputHash": "87844e4b2cc3738cbb945c3bca4284ff2e20705c8faa1046277f671f141ee969",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7848,7 +7858,7 @@
         "basis": "title_only",
         "inputHash": "ca03e9db8dd0d363f662b4e0c0ff8c69a3fc07ae2c9062f49ed0f85ab6388d31",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7883,7 +7893,7 @@
         "basis": "title_only",
         "inputHash": "f5a072684f440e3d8042c3fe4d56f52d3eda1e5c1b3e2caf5299d8a9600bbf53",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7918,7 +7928,7 @@
         "basis": "title_only",
         "inputHash": "90efabfd857f78799a13db0c0143f203779b72d4f66017979858a6547b9a236d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7957,7 +7967,7 @@
         "basis": "title_only",
         "inputHash": "3df45e47af47248c4e27f6f7cf67b8ad8b6f2df58b38904e0374d1d05e2a0660",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -7993,7 +8003,7 @@
         "basis": "title_only",
         "inputHash": "f0dff82f1cb03ff6162f8cde69208d36cafab6d42d614f231abb1f350c386835",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8028,7 +8038,7 @@
         "basis": "title_only",
         "inputHash": "a64c829a8ee96b3681a40dfc0755a6ac05613daf02fe1621ed88360cd3715f19",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8065,7 +8075,7 @@
         "basis": "title_only",
         "inputHash": "f384d5d4a7ac1bf7dc646221849db0b5477bdb046315ba832e806bb00d78a0bc",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8104,7 +8114,7 @@
         "basis": "title_only",
         "inputHash": "853359dd1db6ea47d1bc81404b235e125e8bf7826efe4263c1d62369bda24aa7",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8142,7 +8152,7 @@
         "basis": "title_only",
         "inputHash": "cac91ae021f46c859b252a6e46e8667c91350f7aca20219d4f6171c0117ec41b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8177,7 +8187,7 @@
         "basis": "title_only",
         "inputHash": "b445c8e4092c17d7ebbb2e053196ddffa9abaed053cbea6aa7af5876f49c327d",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8216,7 +8226,7 @@
         "basis": "title_only",
         "inputHash": "29798e408ed1a2a4948c763a62dfc743996e71342c1e45f2974a6e6c629349ff",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8256,7 +8266,7 @@
         "basis": "title_only",
         "inputHash": "1ca983605f123c81aa80977d2f1958ebeec0df1a893c6334cebad4d0a4063f66",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8294,7 +8304,7 @@
         "basis": "title_only",
         "inputHash": "eff9550a777ef74743640cff5640d703031a4b022caefd2a1f99185c5e13617b",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8331,7 +8341,7 @@
         "basis": "title_only",
         "inputHash": "66b3f4bd62d419a444bc2f910af4f0e79112fa99e6c7d7344c989980b3488e2c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8366,7 +8376,7 @@
         "basis": "title_only",
         "inputHash": "f8990fae09d21cdc1e822e265b29ae84450384619331a19058be8d60c1255b27",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8404,7 +8414,7 @@
         "basis": "title_only",
         "inputHash": "51e719e540606e7a41e5bcf940b19b32d246fdde008dbeecc78eda91b8724cd4",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8443,7 +8453,7 @@
         "basis": "title_only",
         "inputHash": "3f239f82c07cf633f095b9a6c0934e260b011723faad070058263665824c7a5c",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8479,7 +8489,7 @@
         "basis": "title_only",
         "inputHash": "1038cc2fd8ec9468d9e1a93f42b5949f6a75a23cbe32683a345938367d74cdef",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8514,7 +8524,7 @@
         "basis": "title_only",
         "inputHash": "d08be600e1919783d1340bae9daedd6572e532373e310c5db02f4841b7c3b358",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8553,7 +8563,7 @@
         "basis": "title_only",
         "inputHash": "eb49f4b88dfa9967329fcb21a00145a5e1d35b491e1c42895bc8c8d812afa2c2",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     },
@@ -8592,7 +8602,7 @@
         "basis": "title_only",
         "inputHash": "80eff537fca3fcc396e74a717ff309051e6046565dace96f9215f0eb653fe288",
         "promptVersion": "chinese-reader-v1",
-        "generatedAt": "2026-10-24T15:15:38Z",
+        "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
     }
