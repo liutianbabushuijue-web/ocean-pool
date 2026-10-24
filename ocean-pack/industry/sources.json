@@ -1,0 +1,883 @@
+{
+  "$comment": "海洋信源。首次启动时由 scripts/seed.ts 导入；已存在的不会被覆盖。字段说明见 docs/sources.md。id 上线后不要改（external 信源的中文采集脚本按 id 推送）。verification.verifiedAt / verifiedItems 是 tools/verify_sources.py 的实测结果，可删。",
+  "sources": [
+    {
+      "id": "rss-noaa-nos",
+      "name": "NOAA National Ocean Service",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://oceanservice.noaa.gov/rss/nosnews.xml",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 6
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "noaa",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "官方",
+        "机构"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 406
+      }
+    },
+    {
+      "id": "rss-noaa",
+      "name": "NOAA News",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.noaa.gov/rss.xml",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "noaa",
+      "participation_mode": "editorial",
+      "interval_minutes": 120,
+      "tags": [
+        "官方"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 10
+      }
+    },
+    {
+      "id": "rss-noaa-arctic",
+      "name": "NOAA Arctic Report Card / News",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://arctic.noaa.gov/feed/",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "noaa",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方",
+        "极地"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 10
+      }
+    },
+    {
+      "id": "rss-nature",
+      "name": "Nature",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nature.com/nature.rss",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 10
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "nature",
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 75
+      }
+    },
+    {
+      "id": "rss-nature-climate",
+      "name": "Nature Climate Change",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nature.com/nclimate.rss",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "nature",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "气候"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 8
+      }
+    },
+    {
+      "id": "rss-nature-geoscience",
+      "name": "Nature Geoscience",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nature.com/ngeo.rss",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "nature",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "地球科学"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 8
+      }
+    },
+    {
+      "id": "rss-science-news",
+      "name": "Science News",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.science.org/rss/news_current.xml",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "science",
+      "participation_mode": "editorial",
+      "interval_minutes": 240,
+      "tags": [
+        "期刊",
+        "媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 10
+      }
+    },
+    {
+      "id": "rss-eos",
+      "name": "Eos (AGU)",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://eos.org/feed",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 240,
+      "tags": [
+        "学会",
+        "地球科学"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 15
+      }
+    },
+    {
+      "id": "json-crossref-progress-oceanography",
+      "name": "Progress in Oceanography (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/0079-6611/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "json-crossref-deep-sea-research",
+      "name": "Deep-Sea Research Part I (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/0967-0637/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "论文",
+        "深海"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "json-crossref-jpo",
+      "name": "Journal of Physical Oceanography (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/0022-3670/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "论文",
+        "物理海洋"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "json-crossref-ocean-modelling",
+      "name": "Ocean Modelling (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/1463-5003/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "论文",
+        "模式"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "json-crossref-ices-jms",
+      "name": "ICES Journal of Marine Science (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/1054-3139/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": "ices",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "论文",
+        "渔业"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "json-crossref-marine-policy",
+      "name": "Marine Policy (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/0308-597X/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "期刊",
+        "政策"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "json-crossref-marine-pollution",
+      "name": "Marine Pollution Bulletin (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/0025-326X/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "污染"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "json-crossref-limnology",
+      "name": "Limnology and Oceanography (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/0024-3590/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "json-crossref-global-biogeochem",
+      "name": "Global Biogeochemical Cycles (Crossref)",
+      "kind": "json_list",
+      "config": {
+        "url": "https://api.crossref.org/journals/0886-6236/works?filter=type:journal-article,from-created-date:2026-06-01&sort=created&order=desc&rows=30&select=DOI,title,abstract,published,published-online,created,URL,type,author",
+        "itemsPath": "message.items",
+        "titlePaths": [
+          "title.0"
+        ],
+        "summaryPaths": [
+          "abstract"
+        ],
+        "authorPaths": [
+          "author.0.family"
+        ],
+        "publishedAtPath": "published.date-parts",
+        "externalIdPath": "DOI",
+        "urlTemplate": "https://doi.org/{DOI}",
+        "publishedAfter": "2026-06-01T00:00:00.000Z",
+        "sortByPublishedAt": true
+      },
+      "tier": "T1",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "期刊",
+        "碳循环"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 30
+      }
+    },
+    {
+      "id": "rss-mbari",
+      "name": "MBARI",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.mbari.org/feed/",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1_5",
+      "owner_entity_id": "mbari",
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "机构",
+        "深海"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 10
+      }
+    },
+    {
+      "id": "rss-scripps",
+      "name": "Scripps Institution of Oceanography",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://scripps.ucsd.edu/news/feed/",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1_5",
+      "owner_entity_id": "scripps",
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "机构"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 10
+      }
+    },
+    {
+      "id": "rss-frontiers-marine",
+      "name": "Frontiers in Marine Science",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.frontiersin.org/journals/marine-science/rss",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 10
+        }
+      },
+      "tier": "T1_5",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "开放获取"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 20
+      }
+    },
+    {
+      "id": "rss-sciencedaily-ocean",
+      "name": "ScienceDaily Oceanography",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.sciencedaily.com/rss/earth_climate/oceanography.xml",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": [
+        "媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 60
+      }
+    },
+    {
+      "id": "rss-mongabay",
+      "name": "Mongabay",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://news.mongabay.com/feed/",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "媒体",
+        "环境"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 32
+      }
+    },
+    {
+      "id": "rss-carbonbrief",
+      "name": "Carbon Brief",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.carbonbrief.org/feed/",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "媒体",
+        "气候"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 12
+      }
+    },
+    {
+      "id": "rss-physicsworld",
+      "name": "Physics World",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.physicsworld.com/feed/",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "媒体",
+        "物理"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 160
+      }
+    },
+    {
+      "id": "rss-newscientist",
+      "name": "New Scientist",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.newscientist.com/feed/home/",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": null,
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "媒体"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 10
+      }
+    },
+    {
+      "id": "rss-nature-comms",
+      "name": "Nature Communications",
+      "kind": "rss",
+      "config": {
+        "feedUrl": "https://www.nature.com/ncomms.rss",
+        "sortByPublishedAt": true,
+        "_aihot": {
+          "initialBackfillLimit": 10
+        }
+      },
+      "tier": "T2",
+      "owner_entity_id": "nature",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "期刊",
+        "综合"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 8
+      }
+    },
+    {
+      "id": "ext-cn-mnr",
+      "name": "自然资源部 · 海洋",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "owner_entity_id": "mnr",
+      "participation_mode": "editorial",
+      "interval_minutes": 180,
+      "tags": [
+        "官方",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 0
+      }
+    },
+    {
+      "id": "ext-cn-nmdis",
+      "name": "国家海洋信息中心",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "owner_entity_id": "mnr",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方",
+        "中文",
+        "数据"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 0
+      }
+    },
+    {
+      "id": "ext-cn-ouc",
+      "name": "中国海洋大学 · 新闻网",
+      "kind": "external",
+      "config": {},
+      "tier": "T1_5",
+      "owner_entity_id": "ouc",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "高校",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 0
+      }
+    },
+    {
+      "id": "ext-cn-iocas",
+      "name": "中国科学院海洋研究所",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "owner_entity_id": "cas",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方",
+        "科研",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 0
+      }
+    },
+    {
+      "id": "ext-cn-sio",
+      "name": "自然资源部第二海洋研究所",
+      "kind": "external",
+      "config": {},
+      "tier": "T1",
+      "owner_entity_id": "mnr",
+      "participation_mode": "editorial",
+      "interval_minutes": 720,
+      "tags": [
+        "官方",
+        "科研",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-23",
+        "verifiedItems": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@aihot/stepx-push",
+  "private": true,
+  "type": "module",
+  "sideEffects": false,
+  "dependencies": { "cron-parser": "5.10.1" },
+  "exports": {
+    ".": "./server.ts",
+    "./module": "./module.ts",
+    "./web": "./web.tsx",
+    "./payload": "./payload.ts"
+  }
+}

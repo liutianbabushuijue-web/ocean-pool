@@ -1,0 +1,67 @@
+name: Refresh ocean sources
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update.yml'
+      - 'scripts/**'
+      - 'config/sources.json'
+      - 'tests/**'
+  schedule:
+    # UTC: avoid the top of the hour; delivery can still be delayed by GitHub.
+    - cron: '27 */6 * * *'
+
+permissions: {}
+
+concurrency:
+  group: ocean-source-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      OCEAN_SITE_URL: ${{ vars.OCEAN_SITE_URL }}
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Run offline regression tests
+        run: python -m unittest discover -s tests -v
+      - name: Refresh public source data
+        id: refresh
+        continue-on-error: true
+        run: python scripts/refresh.py
+      - name: Commit generated files using the official bot
+        if: steps.refresh.outcome != 'skipped'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- site/data.json site/feed.xml site/ocean-sources.opml site/sources.opml
+          if git diff --cached --quiet; then
+            printf '%s\n' 'No generated data changes.'
+          else
+            git commit -m "Update public ocean source data"
+            git push origin "HEAD:$DEFAULT_BRANCH"
+          fi
+      - name: Report a failed refresh honestly
+        if: steps.refresh.outcome != 'success'
+        run: |
+          printf '%s\n' 'No successful refresh. Existing items were preserved; inspect source status.'
+          exit 1
+

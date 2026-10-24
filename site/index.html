@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="公开海洋信源的轻量阅读收件箱。原始订阅、来源状态、收藏与 RSS，无需登录。">
+  <meta name="color-scheme" content="light">
+  <title>深蓝知 · 海洋资讯收件箱</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="alternate" type="application/rss+xml" title="深蓝知海洋订阅" href="./feed.xml">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#reader">跳到资讯列表</a>
+  <header class="site-header">
+    <a class="wordmark" href="./index.html" aria-label="深蓝知首页">深蓝知<span>海洋资讯收件箱</span></a>
+    <nav aria-label="页面导航">
+      <a href="#sources">信源状态</a>
+      <a href="#subscription">订阅与备份</a>
+    </nav>
+  </header>
+
+  <main class="workspace">
+    <aside class="sidebar" aria-label="资讯筛选">
+      <div class="sidebar-heading"><span class="edition-label">OCEAN READING</span><p>把值得追踪的来源<br>放在同一个地方。</p></div>
+      <div class="field">
+        <label for="search">搜索资讯</label>
+        <input id="search" type="search" autocomplete="off" placeholder="标题、来源或摘要">
+      </div>
+      <div class="field">
+        <label for="source-filter">来源</label>
+        <select id="source-filter"><option value="all">全部来源</option></select>
+      </div>
+      <div class="topic-group">
+        <h2>海洋主题</h2>
+        <div id="topic-filters" class="topic-filters" aria-label="按主题筛选"></div>
+      </div>
+      <div class="reading-note">
+        <strong>先看来源，再作判断。</strong>
+        <p>AI 根据可获得的论文摘要或来源节选整理中文标题与总结；仅有标题时会明确标注。相关性仍按关键词筛选，不等于 AI 选稿或事实核验。</p>
+      </div>
+    </aside>
+
+    <section id="reader" class="reader" aria-labelledby="reader-title">
+      <div class="reader-intro">
+        <p class="section-tag">公开来源 · 免费阅读</p>
+        <h1 id="reader-title">海洋世界的新消息</h1>
+        <p class="intro-copy">中文标题与摘要速读，点击标题查看原文。</p>
+      </div>
+
+      <div class="update-status" id="update-status" aria-live="polite">
+        <p class="status-label" id="update-label">正在读取订阅文件</p>
+        <p id="last-success">首次加载可能需要几秒。</p>
+        <p id="update-detail" class="subtle"></p>
+      </div>
+      <div id="notice" class="notice" role="status" hidden></div>
+      <div id="editorial-controls" class="editorial-controls" hidden>
+        <p id="editorial-status" aria-live="polite"></p>
+        <label class="pending-option"><input id="show-pending" type="checkbox">也看待整理原文</label>
+      </div>
+
+      <div class="reader-toolbar">
+        <div id="view-filters" class="view-filters" role="group" aria-label="阅读范围">
+          <button type="button" data-view="all" aria-pressed="true">全部</button>
+          <button type="button" data-view="unread" aria-pressed="false">未读</button>
+          <button type="button" data-view="saved" aria-pressed="false">收藏</button>
+        </div>
+        <span id="result-count" class="result-count" aria-live="polite">正在加载</span>
+      </div>
+      <p id="filter-description" class="filter-description"></p>
+      <div id="article-list" class="article-list" aria-busy="true">
+        <div class="loading-row" aria-hidden="true"></div>
+        <div class="loading-row" aria-hidden="true"></div>
+        <div class="loading-row" aria-hidden="true"></div>
+      </div>
+      <div class="pagination" id="pagination" hidden>
+        <button type="button" id="load-more" class="secondary-button">显示更多</button>
+      </div>
+      <noscript><p class="notice">需要启用 JavaScript 才能搜索和收藏。你也可以直接使用下方的 RSS 文件。</p></noscript>
+    </section>
+
+    <section id="sources" class="sources-section" aria-labelledby="sources-title">
+      <div class="section-heading"><h2 id="sources-title">信源状态</h2><p>成功、暂时失败与手工来源分别列出。抓取失败时保留上次内容，不把旧内容当作刚更新。</p></div>
+      <details class="source-disclosure">
+        <summary><span>查看各来源</span><span id="source-summary" class="subtle">等待读取</span></summary>
+        <div id="source-status-list" class="source-status-list"><p class="subtle">尚未取得状态。</p></div>
+      </details>
+    </section>
+
+    <section id="subscription" class="subscription-section" aria-labelledby="subscription-title">
+      <div class="section-heading"><h2 id="subscription-title">按自己的习惯阅读</h2><p>使用 RSS 阅读器，或在这台设备上收藏。无需注册和付费。</p></div>
+      <div class="subscription-layout">
+        <div class="subscription-block">
+          <h3>订阅更新</h3>
+          <p>RSS 是本页的资讯输出；OPML 是原始 RSS 来源清单，可以导入自己的阅读器。网页和 JSON 来源不在 OPML 内。</p>
+          <div class="action-row"><a class="primary-link" href="./feed.xml">打开 RSS</a><a class="secondary-link" href="./ocean-sources.opml" download>下载 OPML</a></div>
+        </div>
+        <div class="subscription-block">
+          <h3>保留你的收藏</h3>
+          <p>收藏和已读只保存在当前浏览器。导出可作备份；导入会合并收藏，不覆盖现有记录。</p>
+          <div class="action-row"><button type="button" id="export-bookmarks" class="secondary-button">导出收藏</button><button type="button" id="import-bookmarks" class="secondary-button">导入收藏</button></div>
+          <input id="bookmark-file" type="file" accept="application/json,.json" hidden>
+          <p id="backup-status" class="backup-status" role="status"></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><span>深蓝知</span><p>中文内容由AI依据可用摘要整理。阅读、引用或使用资料前，请到原文核对内容、日期与许可。</p><a href="#reader">回到资讯列表</a></footer>
+</body>
+</html>

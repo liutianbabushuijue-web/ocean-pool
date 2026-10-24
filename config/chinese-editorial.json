@@ -1,0 +1,2024 @@
+{
+  "schemaVersion": 1,
+  "promptVersion": "chinese-reader-v1",
+  "generatedAt": "2026-10-24T15:15:38Z",
+  "executor": "AI assistant in the current chat; no external model API key used",
+  "items": [
+    {
+      "id": "ff200ce251e7cacdc7f2e9d9",
+      "inputHash": "416297cbcd2d62f2bcccb38369b857dba6ff246845a120f35ecabcf234a2d626",
+      "titleZh": "欧盟蓝色经济的性别平等现状、缺口与改进建议",
+      "summaryZh": "这条记录关注欧盟蓝色经济中的性别平等状况，以及建设更包容、公平行业的建议。来源未提供摘要，具体方法与结果需查看原文，目前不能判断哪些差距最突出或建议如何验证。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "f2de1827484a512bca08c8b1",
+      "inputHash": "aab002255e67a6fe3f518d00f79e65f6f3babab0e4e1ccf0fc1716fe65b87c4b",
+      "titleZh": "地中海鳀鱼与沙丁鱼幼体输运模型的生物参数校准",
+      "summaryZh": "题名讨论地中海鳀鱼、沙丁鱼幼体输运模型中，特定或通用生物参数化方案对校准的影响。来源未提供摘要，具体方法与结果需查看原文，不能据此认定某种参数方案更准确。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ed500b9876548322ec4fc453",
+      "inputHash": "58670bde6feed2d77d967a7115e12ef47357b38d3606f974da14ed98e6d5d561",
+      "titleZh": "浮游生物营养质量如何影响海洋食物链长度",
+      "summaryZh": "研究用稳定同位素、生物量和结构方程模型比较东印度洋不同营养梯度下的食物网。赤道贫营养区食物链较短，上升流和海山区较长；分析强调浮游生物碳氮比等营养质量指标与食物链长度的联系。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "442c4e4fc1e4c7bce703bdaedd7c8d10e3959d7173a47082e73f14f5ef4e294b"
+    },
+    {
+      "id": "eb7c30361f09b95c8b1ca109",
+      "inputHash": "5e6587dbdad36da17f59ab14a26af48611b62a82867285442622a3d3738f96b3",
+      "titleZh": "用SWAN与WRF模型研究沿岸风急流对峡湾波浪的影响",
+      "summaryZh": "题名介绍结合SWAN与WRF模型，考察沿岸风急流如何影响峡湾内波浪。来源未提供摘要，具体方法与结果需查看原文，目前无法确认模型设置、验证资料或波浪变化幅度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "e9ab47abe9c7d0f217d0b4d0",
+      "inputHash": "9578c9da78f827ab67da37aa9291e506caf9613bd8bc38a69d3517da1f7d345a",
+      "titleZh": "不同临界条件下内波在三维海山上的反射",
+      "summaryZh": "这条记录聚焦内波遇到三维海山时的反射，以及不同临界条件之间的差异。来源未提供摘要，具体方法与结果需查看原文，尚不能判断采用何种模型或哪些条件决定反射特征。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "e3dd44e72deef0485fcb9911",
+      "inputHash": "2f4cdff7e047e4538972319e879a3c5af1a1b5e740983df111ec11c09e6fb5c9",
+      "titleZh": "从海洋污染到蓝色金融：南亚沿海韧性的联系",
+      "summaryZh": "题名尝试把南亚海洋污染的传输路径与蓝色金融联系起来，讨论沿海韧性问题。来源未提供摘要，具体方法与结果需查看原文，不能据题名推断资金工具已产生何种治理成效。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ddaaf831fe4854965381b042",
+      "inputHash": "6128de99dc6b06a0bdf1345cd99727cdc0e2b665492552e6c2b17d9079b3e110",
+      "titleZh": "期刊编委会信息",
+      "summaryZh": "这是一条题名为“编委会”的期刊记录，并未提供具体研究内容。来源未提供摘要，具体方法与结果需查看原文；该记录不宜当作海洋研究发现或新闻结论阅读。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "d7ced3b690749bd7b9b08066",
+      "inputHash": "982442a5db5bc6e7af9ee02135023e62bf85cebd8207a9eb1fac6eeff49a7fca",
+      "titleZh": "东海沿岸锋面如何影响秋季鱼类与无脊椎动物群落",
+      "summaryZh": "题名以东海为案例，关注沿岸锋面区的秋季鱼类与无脊椎动物群落。来源未提供摘要，具体方法与结果需查看原文，目前不能判断群落变化方向、样本范围或锋面的具体作用机制。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "d073abaff16b88c1bcc713c2",
+      "inputHash": "7d744239485caa679dfcb4de1d293c0bdaa91e21648dbef854f016c9e02f4e73",
+      "titleZh": "巴芬湾与拉布拉多陆架季节性淡水积累的气候态",
+      "summaryZh": "这条记录研究季节性淡水积累的气候态，并将其作为界定巴芬湾和拉布拉多陆架淡水收支的基础。来源未提供摘要，具体方法与结果需查看原文，淡水来源、通量和变化趋势尚不明确。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ccc07eb4696f5b5ff5fcf631",
+      "inputHash": "f1242f9b4e2d9338e785fe5adbeea5c2dc7b9b70de93063d34c63a3e39b5189f",
+      "titleZh": "涡分辨地球系统模型改进墨西哥湾海平面季节模拟",
+      "summaryZh": "题名报告涡分辨版本的社区地球系统模型用于改进墨西哥湾海平面季节周期模拟。来源未提供摘要，具体方法与结果需查看原文，改进幅度、比较基准和适用范围不能据题名确定。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ca8558336aa715926ae3a12a",
+      "inputHash": "5605cf785f3064dadb718a9049c1a8ad534b845b4cfafc2ba2a7d45c072c3ce8",
+      "titleZh": "卡斯卡迪亚沿岸甲烷排放受局地源与短时事件影响",
+      "summaryZh": "研究以高分辨率浓度和碳同位素测量区分美国卡斯卡迪亚沿岸的甲烷来源。哥伦比亚河羽状流覆盖不到研究区一成，却贡献约24%的观测期排放；上升流时期的日排放超过平稳时期三倍，显示局地与短时过程的重要性。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "efa184f2a2e9028344e08953ca3003ba2753bec735ab7ce1b00a336b846807d2"
+    },
+    {
+      "id": "b7adea5dab794b5108eec9d3",
+      "inputHash": "6128de99dc6b06a0bdf1345cd99727cdc0e2b665492552e6c2b17d9079b3e110",
+      "titleZh": "深海研究期刊编委会信息",
+      "summaryZh": "这条记录的题名为“编委会”，来源信息指向深海研究期刊，未包含研究性摘要。来源未提供摘要，具体方法与结果需查看原文；目前不应把它解释为一项深海科学研究。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "b52384f91a946bfabbe77d55",
+      "inputHash": "21856ad24bbc38201258910055203c85c5ea22e755063d91b9328d65c566731e",
+      "titleZh": "蓝色经济研究如何处理冲突并改善社会结果",
+      "summaryZh": "题名讨论蓝色经济研究中的冲突，以及如何面向更好的社会结果开展研究。来源未提供摘要，具体方法与结果需查看原文，目前无法确认涉及哪些冲突、利益相关方或评估方式。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ae69d6ef022b7a90ec5def56",
+      "inputHash": "827062d83ae2a697ff8d4871f96f64ce3e723030cb191377ffdad67a32788525",
+      "titleZh": "澳大利亚生物区的海洋热浪与寒潮历史暴露",
+      "summaryZh": "这条记录关注澳大利亚不同生物区过去遭遇海洋热浪和寒潮的情况及管理含义。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断哪些区域风险最高或未来变化程度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "a9fa42edec6156a5c9c3d0ae",
+      "inputHash": "360e8ce6ebc22d505c390559ae2a5c78a5893a2e0ed392c2b88fbb8590a376a6",
+      "titleZh": "浒苔绿潮从持续漂移到衰退：可塑性与能量失衡",
+      "summaryZh": "研究结合黄海约300公里梯度上的生理与转录组资料，发现浒苔漂移中期存在补偿性光保护，后期迹象则指向光合修复不足和能量代谢下降。结果有助于解释绿潮由维持转向衰退的过程，并提示升温、酸化等压力可能加剧后期损伤。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "9df5a4dee91c575799c0a46c41ad84704d41cbf969a993bde3ff4abf15660018"
+    },
+    {
+      "id": "a7067efb4f73bd9689b2b5f2",
+      "inputHash": "294d975c0a431d77c1b69afcb0629326dd9a6167a1bec8b97b5391a2f5c461c9",
+      "titleZh": "观测重建资料揭示东格陵兰冬季混合层持续变浅",
+      "summaryZh": "题名利用基于观测的重建资料，讨论东格陵兰附近冬季混合层深度持续变浅的现象。来源未提供摘要，具体方法与结果需查看原文，时间跨度、变浅幅度和驱动因素尚无法确认。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "9ead96b1ae9b914abce511f7",
+      "inputHash": "e860ad5d0b0cb434b4380cb896b195b7c8b3404c86b65bcf77f8660ddbaaf4a8",
+      "titleZh": "长江流域降水与东海叶绿素a浓度升高的机制",
+      "summaryZh": "这条记录关注长江流域降水与东海叶绿素a浓度升高之间的关联机制。来源未提供摘要，具体方法与结果需查看原文，目前不能判断降水通过哪些过程起作用，也不能量化其贡献。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "96d4a05d16a3ac189bfb54fb",
+      "inputHash": "1e912486f2cc40c96eb341f0d9252ef8e90e5180a3c95bd001cec7135040042d",
+      "titleZh": "镭同位素示踪南太平洋微量元素的边界输入",
+      "summaryZh": "研究沿GEOTRACES GP17-OCE断面测量镭同位素，追踪南太平洋和南大洋的边界交换。结果将广泛的次表层镭信号与坎贝尔高原形成的模态水相联系，并识别出太平洋—南极海岭热液输入，提示现有微量元素模型可能遗漏这些输运过程。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "046b29e58a6203eea512880567cc8fc23c2b40e0856a2166103c260f96585cdd"
+    },
+    {
+      "id": "92b30d93154c123052dc4701",
+      "inputHash": "a60bcb2a682f296b3df97656cccb0f429c13d784742d7fbc992a09a50f9675ce",
+      "titleZh": "次季节强迫如何调节温带陆架海叶绿素变化",
+      "summaryZh": "题名指出次季节强迫对温带陆架海叶绿素变化及其年平均水平的作用。来源未提供摘要，具体方法与结果需查看原文，目前无法确认所研究海域、强迫类型或与季节过程的相对贡献。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "8eb0b3300eb32d16d8771325",
+      "inputHash": "f9ee1e0cb8dbce4b46cbe8f7a92e27969a2d3d8b291bbf198ee6dfa8420eea6b",
+      "titleZh": "海冰边缘区波浪衰减估计为何会出现高频回落",
+      "summaryZh": "研究分析斯瓦尔巴周边四组波浪浮标资料，发现海冰中的波浪衰减总体随频率增强，但高频段可能变平或回落。仪器噪声与局地风能输入均会干扰估计；控制噪声并扣除风输入后，回落信号明显减弱。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "b90434b0328965f2fa4e0e3619f5a5d9ba8aa8a69de4a527d147cf4743a1fb0d"
+    },
+    {
+      "id": "8bf8a34896d7ba8a0523591f",
+      "inputHash": "1824591bc888b8eb1981ab6bb67b05e130a226a806ff98f8637cc8dbb129e0b9",
+      "titleZh": "浮游生物大小与鱼类生活史性状的变化",
+      "summaryZh": "题名比较浮游生物大小的直接作用与非生物环境因素对鱼类生活史性状变化的影响。来源未提供摘要，具体方法与结果需查看原文，尚不能判断比较所涵盖的鱼类、区域及证据强度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "8660f3f5964e86fd6d17f3c1",
+      "inputHash": "e4e4791e5002f46968921f7fe9ff34b36c339ea07d76d78f59fd5092ecaa117c",
+      "titleZh": "南森海盆西部大西洋来源水温变化及其海冰表现",
+      "summaryZh": "这条记录关注南森海盆西部大西洋来源海水的温度时空变化，以及海冰覆盖状态中的对应表现。来源未提供摘要，具体方法与结果需查看原文，目前不能推断水温趋势或海冰响应幅度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "816a10129406a16953e6a89e",
+      "inputHash": "fed41da77cbac5afea1bc7564ae1f958a3dda173a8580dad084f3080c49d1400",
+      "titleZh": "马里亚纳海沟从深海平原到超深渊的大型动物群落",
+      "summaryZh": "题名研究马里亚纳海沟从深海平原至超深渊带的大型动物群落多样性及分布。来源未提供摘要，具体方法与结果需查看原文，采样深度、物种差异和环境解释尚不能据题名确定。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "7d3625b58b349b4ff2237134",
+      "inputHash": "b7b6107c06966c4aaa5db3f3591a338c8ec0791fcfbed7302e535b6c7c0e6d36",
+      "titleZh": "图神经网络数据同化：稀疏观测下的空间重建",
+      "summaryZh": "这条记录介绍基于图神经网络的数据同化，用于观测稀疏条件下的空间重建。来源未提供摘要，具体方法与结果需查看原文，不能确认重建对象、训练资料或相对传统方法的性能。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "74718de928e72900bf7d1260",
+      "inputHash": "56f5c6c6ae89e857a7038d75938258a233efeaa8b24b73831ae81197492a7b8f",
+      "titleZh": "用评估约束CMIP6模型的北极海洋热浪预估",
+      "summaryZh": "题名关注利用模型评估信息约束CMIP6给出的北极海洋热浪预估。来源未提供摘要，具体方法与结果需查看原文，目前不能确定使用哪些评估指标、排放情景或预估变化幅度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "6735a84ea794acf9c814dfdd",
+      "inputHash": "77020e673469bf6ac15eb8f61301a59c8d7195308d38dc1eaac69588832805b0",
+      "titleZh": "大西洋中脊热液口荧光观测的概念验证",
+      "summaryZh": "这条记录探讨大西洋中脊热液口的荧光现象及其用于生态评估的潜力。来源未提供摘要，具体方法与结果需查看原文，不能据题名认定荧光信号已能可靠评估某项生态指标。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "6505765bb8bf8dca3bd2a002",
+      "inputHash": "5a9d6778a518475d68e8e47d069cdc09ccb44b941eee4dcc6befc3c6bc1f76ea",
+      "titleZh": "日本飞乌贼体型的长期变化与季节、空间及温度关系",
+      "summaryZh": "题名关注日本飞乌贼体型的长期变化，并考察季节、空间和温度关系。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断体型增减趋势、变化幅度或温度的因果作用。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "604d3815d348f67d047cc64f",
+      "inputHash": "a38a4edd999655cf01e06a586c642d2075106514bdb0956952497ef6c5d102c2",
+      "titleZh": "僧帽水母从海面漂流到搁浅：湾流与风的作用",
+      "summaryZh": "研究将iNaturalist观测与考虑生物特性的粒子追踪模型结合，分析西北大西洋僧帽水母的来源和搁浅。模型显示湾流能沿美国东海岸快速输运个体，季节性繁殖和向岸风共同塑造区域搁浅高峰，与观测分布相符。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "155863e808cd531f317113228f71fd3cbde6bb6e3764c3cba9c969c3dc5bfa15"
+    },
+    {
+      "id": "57fb1f00d49b9c5ef7200149",
+      "inputHash": "b9acbaf0e763063ba6d6ec9a6ba3d6c16b81a132be729e880fac79890476ab93",
+      "titleZh": "阿拉伯湾原水变化与海水反渗透运行范围",
+      "summaryZh": "题名把阿拉伯湾原水监测与海水反渗透（SWRO）运行范围联系起来，涉及季节变化、长期漂移和碳酸盐控制基线。来源未提供摘要，具体方法与结果需查看原文，具体运行限值尚不明确。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "51f98070818ab3d11b45abb7",
+      "inputHash": "c6e5a4838e85fb3ff5334fecbdf6ec8da9f2e05929c2a88288a963b51dfc0a93",
+      "titleZh": "用能量加权机器学习验证与校准中层海流",
+      "summaryZh": "这条记录介绍能量加权机器学习在中层海流验证和校准中的应用。来源未提供摘要，具体方法与结果需查看原文，目前不能确定输入观测、校准对象或与其他方法相比的精度变化。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "4dfc498ec52d737a779568cb",
+      "inputHash": "d440fa4e45011d401bf40657ed1953fde51d3bc4f02f658d977415b34885c2a8",
+      "titleZh": "液相MRI示踪比较贻贝与化能共生深海贻贝的消化系统",
+      "summaryZh": "题名用液相MRI示踪比较含化能共生细菌的Bathymodiolus双壳类与Mytilus贻贝的胃肠系统。来源未提供摘要，具体方法与结果需查看原文，不能推断两者功能差异或共生细菌的具体贡献。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "4b2154e4f798d9a021397b5d",
+      "inputHash": "e225e6e6c0b0db585e289585e40c15d7bc216e441bc160265f0bc73da1b5c69f",
+      "titleZh": "废弃渔具再生利用的随机演化博弈研究",
+      "summaryZh": "这条记录以随机演化博弈模型研究被弃置、丢失或丢弃渔具的回收与再生利用。来源未提供摘要，具体方法与结果需查看原文，目前不能判断模型参与方、激励条件或政策效果。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "46c0dc1f078dd45478547d80",
+      "inputHash": "37cb3c4242b9600f3b1566020264ad17248d652fba77d9c2f3f07ed813c2ffce",
+      "titleZh": "深海占主导国家的海洋生态系统面积核算",
+      "summaryZh": "题名讨论在深海生态系统占主导的国家开展海洋生态系统范围核算。来源未提供摘要，具体方法与结果需查看原文，不能确定涉及哪个国家、如何划分生态系统或具体核算结果。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "40fabf3656af12b5cda655fa",
+      "inputHash": "272a4d16087639afe80e3522ee0852f3cff435801a140d2bb9313fd0f7dd755b",
+      "titleZh": "巴基斯坦沿海青蟹与沉积物中的痕量金属",
+      "summaryZh": "这条记录评估巴基斯坦沿海Scylla olivacea青蟹及沉积物中的痕量金属浓度。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断污染水平、暴露来源或食用风险。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "3bfbfaf6b061742dac3ab135",
+      "inputHash": "ca03e9db8dd0d363f662b4e0c0ff8c69a3fc07ae2c9062f49ed0f85ab6388d31",
+      "titleZh": "新西兰海域皱鳃鲨：西南太平洋的分布热点",
+      "summaryZh": "题名关注新西兰海域具有独特演化地位的皱鳃鲨，并将其描述为西南太平洋的一个热点。来源未提供摘要，具体方法与结果需查看原文，调查范围、丰度和热点判定依据尚不能确认。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "361accaf72e851faa8abbc8a",
+      "inputHash": "3df45e47af47248c4e27f6f7cf67b8ad8b6f2df58b38904e0374d1d05e2a0660",
+      "titleZh": "名人参与渔业与海洋保护的风险和机会",
+      "summaryZh": "这条记录讨论名人影响力进入渔业与海洋保护领域可能带来的风险和机会。来源未提供摘要，具体方法与结果需查看原文，目前无法判断研究涉及哪些案例、传播效果或治理建议。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "3139443576384cc3f6d18a23",
+      "inputHash": "f384d5d4a7ac1bf7dc646221849db0b5477bdb046315ba832e806bb00d78a0bc",
+      "titleZh": "马尔马拉海养殖与野生地中海贻贝的有毒元素风险",
+      "summaryZh": "题名比较马尔马拉海养殖和野生地中海贻贝的有毒元素膳食暴露及累积风险。来源未提供摘要，具体方法与结果需查看原文，不能据此判断风险大小、限值超标或具体食用建议。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "1f560c983251676f1b2411cb",
+      "inputHash": "b445c8e4092c17d7ebbb2e053196ddffa9abaed053cbea6aa7af5876f49c327d",
+      "titleZh": "镉对幼年中国鲎的生理与多组学影响",
+      "summaryZh": "这条记录研究镉对幼年中国鲎的毒理干扰，涵盖生理损伤与多组学变化。来源未提供摘要，具体方法与结果需查看原文，目前不能确定实验剂量、持续时间或观察到的具体损伤。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "17bb8076e4eab2520004994b",
+      "inputHash": "eff9550a777ef74743640cff5640d703031a4b022caefd2a1f99185c5e13617b",
+      "titleZh": "用土壤—空气—水热交换改进浅海热力过程表征",
+      "summaryZh": "题名讨论通过土壤、空气与水之间的热交换改进浅沿岸水域的热力过程表征。来源未提供摘要，具体方法与结果需查看原文，模型方案、适用条件和改进幅度尚无法确认。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "0c032b3645794a0d8b6cd888",
+      "inputHash": "51e719e540606e7a41e5bcf940b19b32d246fdde008dbeecc78eda91b8724cd4",
+      "titleZh": "台湾冲浪资源可持续性的空间差异及政策含义",
+      "summaryZh": "这条记录聚焦台湾冲浪资源可持续性的空间差异，以及对沿海政策和海洋教育的启示。来源未提供摘要，具体方法与结果需查看原文，目前不能确认评估标准、具体地区或差异成因。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "0833ac9307aceb3a93631d9d",
+      "inputHash": "d08be600e1919783d1340bae9daedd6572e532373e310c5db02f4841b7c3b358",
+      "titleZh": "耳石如何记录玉筋鱼的连通性与移动",
+      "summaryZh": "题名探讨利用Ammodytes marinus玉筋鱼的耳石了解群体连通性与移动。来源未提供摘要，具体方法与结果需查看原文，目前不能确定分析采用的耳石指标、研究海域或识别出的迁移路径。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ac807ba0f45cf1edf9fe3fa9",
+      "inputHash": "c3edd1a92cbede7169ab1da8b644db8cbd8ca5b7c8b12c4c8431159e1b97ddf9",
+      "titleZh": "激光雷达识别加利福尼亚海岸崖壁退缩热点",
+      "summaryZh": "研究比较2016年和2023年的机载激光雷达资料，发现加利福尼亚海岸崖壁变化分布很不均匀，退缩热点多在中北部。全州约65%的崖壁出现超过研究阈值的可测变化；团队还提供公开地图，用于持续监测和沿海规划。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:45Z",
+      "evidenceDigest": "3e3379c38ca0c05cd8ae2894d5df398fcc63251985b3110e5ea1ee2e419733ca"
+    },
+    {
+      "id": "11cb0e57bc35dca5323f82c7",
+      "inputHash": "bee00cf9b585653da892ed6c42b467ba84e485b06efd3b77d54660697d42bb69",
+      "titleZh": "渔业补贴协定的资金机制如何支持可持续捕捞",
+      "summaryZh": "文章以规范分析和跨学科方法审视世贸组织渔业资金机制，指出融资不确定、申请门槛、分配规则及监测协调方面的潜在问题，并提出明确优先标准、简化申请和稳定资金来源等改进方向，以支持发展中成员实施协定。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "969e7a44be344353e3befc92506e0d161392efa6ed6604b3636d699061d60338"
+    },
+    {
+      "id": "de67607ec8e7c6bbbfcfd657",
+      "inputHash": "78f84f36d5f048b990749e256ea3d3eda1935b9d4fa64a6057f3cbc503699e63",
+      "titleZh": "培养无生殖海莴苣可减少海洋结构表面附着",
+      "summaryZh": "研究发现，在海水中培养无生殖的海莴苣，可减少藻类、藤壶等生物在金属和塑料部件上的附着，附着生物干重最高相差31.5倍。作者据此提出在海上结构附近设置培养区的防污思路；所给摘要未说明大规模长期应用效果。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "673aa984e9ba5d25f4205231bb00e58120c3ab721ecb5fdd5a7f3f4b2bc599ff"
+    },
+    {
+      "id": "b3f28b4770db07221f1e9beb",
+      "inputHash": "9804c2142a5bb416d6149bda2205676d0d52e5f90216d70ae75a569f10e69a61",
+      "titleZh": "写给孙女的信：一位珊瑚礁保护者的反思",
+      "summaryZh": "作者在退休之际回顾西大西洋珊瑚礁保护中的不足，承认人类开发与利用带来的压力未被充分控制。文章同时讨论保护仍较完好礁区、借鉴恢复案例和减少压力的可能价值，是个人反思与保护倡议，而非新的实验研究。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "b2fc5884d4628e571fd3f8516df241e8e76f92128f0ca26ea2f9218bb63ea9bf"
+    },
+    {
+      "id": "64c097f81bf6283fde6ac1ff",
+      "inputHash": "b7d9e656b461aa9e538b853ece4127099cef6345bba57af9e0f280e5aad9684c",
+      "titleZh": "用小波核识别抹香鲸回声定位点击声",
+      "summaryZh": "研究设计与抹香鲸点击声模型相匹配的小波核，从被动声学记录中提取目标信号并抑制瞬态噪声。在多米尼克和巴哈马附近的人工标注数据上，该方法相较两个参照方案，在正确检出与误报之间取得较好的权衡。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "44e83a1a94e1c8699e007e1a2e5a067e5b7a2185b84bcead77aa54e895b7118b"
+    },
+    {
+      "id": "52ed59074501f4268e283a55",
+      "inputHash": "9e785dfb30a98d529f7bec32f272d3a263fbe66082b25fab7f4d988faa9ad9bd",
+      "titleZh": "微生物与微藻生产Omega-3的培养路线和资源利用",
+      "summaryZh": "这篇综述梳理微生物和微藻生产EPA、DHA的培养、提取纯化及产品稳定性问题，并讨论农业残余物、食品加工副产物、废油和废水作为低成本底物的潜力。文章也评估产率、工艺可持续性与商业化面临的技术限制。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "7c2a0efc1e1e658f264ceeb0047c9f695d42ec2174edb6f9cb0bf6bdc8e725ba"
+    },
+    {
+      "id": "ad3bdc6a7e82481c223b9906",
+      "inputHash": "14c116788639fc251ba888fd0b81b5cf55d0cc37256c740da222c10e9f39f3c3",
+      "titleZh": "北海古陨石撞击形成银坑陨石坑并引发巨浪",
+      "summaryZh": "报道介绍埋在北海海床下约700米的银坑陨石坑。研究将其形成归因于约4300万至4600万年前一颗直径约160米的小行星撞击，并估计撞击抛起约1.5公里高的岩水幕、触发超过100米的海啸；这是古地质事件的重建。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "f26e8c9c1ce59a6b346dfb254592b33ca829cc9222a4f4e0ee804e2b6a9b4824"
+    },
+    {
+      "id": "cca9914dc8171359e283d7f2",
+      "inputHash": "878a9db9e19393cd30a52e7b748665cacda0cb6a8d7e02e586e257f7d9d28052",
+      "titleZh": "如何区分南海海上执法与军事行为",
+      "summaryZh": "文章比较海上强制行为的法律分类，认为只看机构身份难以区分执法与军事活动。作者提出按行动对象、法律依据、实施措施和系统性影响四方面判断实际功能，并讨论分区域执法合作与分层响应机制，以降低误判和意外升级风险。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "ca46ae9f55932b8f0cf76d0b5361d580fa299e3d454f38a57f747775e69380da"
+    },
+    {
+      "id": "7fb6b153826225d7d75d4ad9",
+      "inputHash": "c0addfd354b6f7ba2d20a89a65f246b05ec903f8ad96be7a2e09024c3ec2f1b7",
+      "titleZh": "本地哲水蚤能否用于海水鱼育苗：系统综述与证据评估",
+      "summaryZh": "综述从1157条去重记录中筛选文献，按培养、繁殖、营养、育苗验证和规模化等维度评估哲水蚤证据成熟度。等权评价中Acartia tonsa表现最成熟，但作者强调不同类群仍需直接鱼苗生长存活验证，并提出从鉴定到育苗场测试的研究框架。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "399a9c1e9d67fa76e12164f53d085cd454ee1dcfcfec457080838912d448c443"
+    },
+    {
+      "id": "734811b627c87fc0bdaf4d2f",
+      "inputHash": "3e2cfb17c85de71b440f8384d8a4f5fe873e4c04a94ad160dca7586470b6514d",
+      "titleZh": "中尺度涡与内波耦合如何维持环流尺度位涡梯度",
+      "summaryZh": "研究更新涡—内波能量交换的理论表达，并与马尾藻海观测比较，结果支持该耦合在当地内波能量收支中的重要作用。作者进一步推测，耦合产生的局地涡度平方阻尼可能限制位涡级联，帮助维持湾流南部再循环环流的位涡梯度。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "624c046e541aadcd26edf4b0612aa837dcd857239f191fd47e11985a2db47906"
+    },
+    {
+      "id": "d05a85d6b69cc7cd811126f8",
+      "inputHash": "389357460388ff628693c180838aa9291fc7fa8a1651aa65f2418fdd582ce1aa",
+      "titleZh": "在帕莱奥霍里驻扎：米洛斯岛野外工作随记",
+      "summaryZh": "这是一篇MBARI野外工作随记。所给订阅文字只提到团队已在米洛斯岛开展数天工作，逐渐熟悉当地环境；没有提供采样方法或研究发现，具体任务、观测过程与结果需要点开原文查看。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "48041ac1cf1807848977dcca4b5d4453d2edfa2874f2d3b128aba349bccdcd43"
+    },
+    {
+      "id": "a62bd06a0956e46981aa005c",
+      "inputHash": "c47040ec567074ca0b7a7fde0985a58d7dc943568e47908af0af3c2d0fccb152",
+      "titleZh": "缓慢海洋调整可缓和赤道太平洋增暖格局",
+      "summaryZh": "来源摘要介绍突增至四倍二氧化碳情景下的模型模拟：全球变暖初期增强的海表温度梯度，随后会受到环流变化的缓和。这里描述的是特定情景中的海洋调整过程，摘要未给出变化时间尺度或具体幅度。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:35Z",
+      "evidenceDigest": "107b6c0386e63848b44ac494e1bf48a0f99c232996cf5a268f8ba85e124a74ae"
+    },
+    {
+      "id": "77dd04c3abca245850472b8c",
+      "inputHash": "5eeae1482bd51ff9a53126b40a0c8616961f6706f4490f244a2df0d90444a89e",
+      "titleZh": "淡水强迫与水循环如何塑造大西洋、太平洋翻转状态",
+      "summaryZh": "研究用宽、窄两个海盆的概念模型，考察淡水通量不对称与水循环强度对深水形成位置的影响。模型可出现仅一盆下沉或两盆同时下沉的多种状态；结果说明海盆尺度差异和淡水收支能改变翻转环流的稳定格局，但该框架未纳入温度变化。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "e1c31c074235688c87661b402d78432608b5f6ab447cf3b7dc6e04e56e3504d4"
+    },
+    {
+      "id": "7fd013d3fe8d91ce78238880",
+      "inputHash": "077f629e6c913912ee0926e510b3f5b16cb92ad4d78c86ea49d75ea9f40f332c",
+      "titleZh": "从海面到深海：胶质动物与光的多种联系",
+      "summaryZh": "MBARI这条资讯介绍海面至深海的胶质动物如何以不同方式与光相互作用。提供的订阅摘要只有主题性说明，没有具体物种、观测方法或结果；若想了解所展示的现象与实例，需要查看原文。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "3d9113b524fef199e8bd218855329af399247bcc478ef93e0f51e0a2b04a086e"
+    },
+    {
+      "id": "52139f1783b1e41ac83e591c",
+      "inputHash": "d81ae7efe60b85a889643027fc26ec3ee1831ef539962693350824ff97e5bba7",
+      "titleZh": "食物、恐惧与物理环境如何塑造海洋动物集群",
+      "summaryZh": "MBARI介绍一篇综述，讨论远洋环境中海洋动物集体行为的影响因素，包括食物、风险与物理条件。所给文字未列出具体机制或研究结论，因此目前只能了解综述关注的问题，详细案例和证据应到原文核对。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "a24f2890f949f64cae1f96c2fa6a3f412e2c07610a6f01b3f5c48047fe77b280"
+    },
+    {
+      "id": "fd84449f235e522d6a90a345",
+      "inputHash": "7a760938a1b3b7599c2034833a5d280980faf8922bc347135f5b6eb94e80d7f6",
+      "titleZh": "南极海冰从增长转向减少，2026年冬季峰值偏低",
+      "summaryZh": "报道指出，南极海冰2026年冬季最大范围为记录中第三低，延续了此前从多年增长转向明显减少的变化。科学家仍在研究这种反转是否代表长期状态转变，所给摘要没有把这一判断视为已经确定的结论。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "050db78b1f3b72bed2d5144d3876df49ce08f88f16d853387d9527990c0c14cf"
+    },
+    {
+      "id": "70ca5f71a0208d99b0c846a0",
+      "inputHash": "c8b2a7b68b855eb83c25c4d03e48792948a8722fcb165d0143da151ce35919dd",
+      "titleZh": "新EOF分解方法分析沃尔维斯海岭内潮与涡旋",
+      "summaryZh": "研究用5公里分辨率ICON模型与新的EOF模态分解方法分析沃尔维斯海岭附近内潮。一级模态的固定垂向结构假设较适用；厄加勒斯环经过内潮束时主要造成折射。结果对“低模态经涡旋散射成高模态”的简单解释提出限制。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "fb942f515164a92b370341e3416a1c4f5e518a844113a8ad0bea5f9bcfcbcfa1"
+    },
+    {
+      "id": "0f66227665ffc3b5a3672454",
+      "inputHash": "33a512556d3fcef8b3df6d15d9b9ce86e5661564218e7eefaf8c01b13c115994",
+      "titleZh": "哨兵3C卫星传回首批地球图像与观测数据",
+      "summaryZh": "报道展示欧洲哨兵3C卫星发射两周后传回的阿尔卑斯山、北极岛屿与加勒比海图像。首批测量显示其监测海平面、冰盖等变化的应用前景；摘要未提供长期精度或完整验证结果，不能把初始表现等同于持续业务能力。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "fac8871cd32ed08ab4d2cc40987209fadf4df587c42198bf876a6b30f5cf2019"
+    },
+    {
+      "id": "a2969f66312d1217637248db",
+      "inputHash": "5263428b147fb623f5bb35a22329f1fed40b5f6274c705cadece983c7f1b36f0",
+      "titleZh": "海洋雪越黏，可能向深海输送更多碳",
+      "summaryZh": "研究结合三维显微成像、细菌实验和计算模拟，分析海洋雪颗粒黏度对降解与下沉的影响。较黏区域更难被细菌侵入和分解，模型估计高黏度颗粒向深海输送的碳可超过低黏度颗粒六倍，为理解碳输送效率提供了机制线索。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:45Z",
+      "evidenceDigest": "dc56b12ad2ccd2e804fd46d11cd0715275e4ba2dec0c6da64085f30b0d2d24ea"
+    },
+    {
+      "id": "757edb1c199327b22168f90a",
+      "inputHash": "4f402cd5567943ad6d252c96ceae8cbb69f47fe7ca14146d615ae699a5bfd1bb",
+      "titleZh": "Saildrone无人艇队启动五年环南极观测计划",
+      "summaryZh": "NOAA及合作方计划用四艘Saildrone无人水面艇反复环绕南极，连续测量海气二氧化碳交换及温盐、风等变量。首艇已于2026年9月出发，项目希望补足南大洋冬季船舶观测不足；这是观测计划，尚非五年研究结果。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:35Z",
+      "evidenceDigest": "6cac69a3c8fb6aeaac0dbaf2af52505125f2c5a6f2b56d698f58152a57a37e19"
+    },
+    {
+      "id": "bd9be2a4c3b468bc3865f1d5",
+      "inputHash": "8b56dd10e6414d0be9aa324f71cd172f7888f7f8ae10e321568699db0a14be17",
+      "titleZh": "斯克里普斯学生专访：Tommy Stone研究海平面变化",
+      "summaryZh": "专访介绍应用海洋科学博士生Tommy Stone的研究：结合卫星测高、重力测量、海洋观测和计算模型，理解大地水准面与海洋动力对海面高度的贡献。文章也回顾其从物理和计算建模转向海洋研究的经历。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:45Z",
+      "evidenceDigest": "3232ab237d6d08aef23229ef387be32c628e2a54add86784f78f26318a4980b3"
+    },
+    {
+      "id": "b9a311fc5b36d9f6da4417c1",
+      "inputHash": "0635e783c9ceee7f5e719d246f01ac1ce85234717f0ca6efe8b5c2ac74d3378d",
+      "titleZh": "浮标观测揭示黑潮绿岛尾流的不稳定与湍混合",
+      "summaryZh": "研究利用多组EM-APEX剖面浮标观测黑潮诱发的绿岛尾流，发现近尾流区湍流耗散较强，与垂向切变不稳定密切相关。涡度、位涡等信号提示更复杂的不稳定过程，但观测处于非线性失衡状态，传统地转判据并不足够；混合还受半日潮调节。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "752a5afbd29ba63f170fe7630ad554da9de5842fe7882396a383d38f789a96c8"
+    },
+    {
+      "id": "7f394e9fbffbdabdc8b50674",
+      "inputHash": "3ea83ce955c6c691f1e6114ff700b4080270f5e145ee2aa3260a32702c7bbfcd",
+      "titleZh": "直接数值模拟检验表面波诱发力的近似",
+      "summaryZh": "研究用直接解析气水两相表面波的模型，系统比较模拟中的应力散度与Craik–Leibovich方程中的波致力。科里奥利—斯托克斯力和涡旋力在假设范围内近似较好，部分超出范围时仍有用；梯度力的比较则受平均压力定义不明确影响。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "c86cc359c56a00ad409216b6cd64355ec5d7bdcba069f88b088313a403b5eeae"
+    },
+    {
+      "id": "ac4e9f8cfdecd03e010c528f",
+      "inputHash": "8209bf14d18ce715f8d7de4cd8071add1042337163482ab3eac89835d692fb10",
+      "titleZh": "期刊信息与目录",
+      "summaryZh": "这是一条“期刊信息与目录”记录，题名未指向具体研究发现。来源未提供摘要，具体方法与结果需查看原文；阅读时应将其视为期刊导航资料，而不是有实验或观测结论的海洋论文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "a1c14daa7f0262cbba3af392",
+      "inputHash": "62439bd6e75275eafa84c1559fdb39a055ba527f6ebe77673422c0ad45c9c445",
+      "titleZh": "海洋热浪之外，额外增暖可能延续数月",
+      "summaryZh": "报道指出，海洋热浪可能只是更长增暖事件中最强的一段，偏高温度有时会持续数月。研究认为传统统计可能平均低估总热暴露超过150%，因此仅统计热浪高峰，可能漏掉海洋生态系统承受的部分持续热压力。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "82933bf356ba5a23d50c470d8fbd7ba2c5fe796a94363717cc8e5100855e28ca"
+    },
+    {
+      "id": "e606e1d85af4f512e78a314a",
+      "inputHash": "ae1046967688a108de0da63b8534941d71e19fef460abc4f3a5df8fa6722bec1",
+      "titleZh": "海流与地形相互作用如何驱动深层边界流混合",
+      "summaryZh": "研究以奥克尼海峡输送南极底层水的边界流为案例，用高分辨率模拟分析2017年观测所涉过程。海槛水力控制、剪切不稳定、坡面下沉及小尺度地形尾流均可产生湍流；这些过程随正压流和半日潮变化，影响混合及水团性质。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "ca129e4f7ccc5ac3e033718632ea0cd9358bba99786d40b35c65832487f66c42"
+    },
+    {
+      "id": "555d484bebee3fd9d49ba009",
+      "inputHash": "649d6fc9aaee1153bd4e838f4d4e3e45ac3e1fe28126e83a50a1ad0770a5dc0f",
+      "titleZh": "17亿年前化石为氧与复杂生命的关系提供线索",
+      "summaryZh": "研究在澳大利亚古老岩石中识别出逾1.2万件早期真核生物化石。这些细胞出现在有氧的潮滩至外海环境，而无氧环境中主要见到较简单的微生物；这一分布支持氧对复杂生命兴起具有重要作用的解释。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "a30b42780b8a247eae0897f3b35e44df3822fef6fc750c7923b77666a3b4bf19"
+    },
+    {
+      "id": "259989e3a02609fb4e87cf2c",
+      "inputHash": "a34a9a2549dcca2b3be6a36dc29d0029f049e926c45b520df34b09601b397702",
+      "titleZh": "水团变化如何影响沿海固氮速率与固氮群落",
+      "summaryZh": "研究结合北卡罗来纳沿岸的月度观测与航次资料，发现不同水团和锋面混合区具有不同固氮速率及群落组成，夏末秋初通常较高。多种检测方法的比较表明，单一方法可能遗漏部分固氮生物，需要联合使用以更完整描述群落。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "3f0a902fc114aa56ef5026e137045f849e67f9a4d3e7b7e26ffb0883cf73dff5"
+    },
+    {
+      "id": "eaf80c17b62e93461ed9c659",
+      "inputHash": "0317b9722cd0afd9311cfe853339f9b41ea12eaa302adf80b0f5d545d61dc958",
+      "titleZh": "海洋沉积证据提示美国西海岸两大断层可能相继破裂",
+      "summaryZh": "报道依据约3100年的海洋沉积记录，提出卡斯卡迪亚俯冲带与圣安德烈亚斯断层北段有时可能在数分钟至数小时内相继破裂，约1700年的事件也是讨论案例。文章讨论这种历史联系若重演可能带来的并发应急压力。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "4ced1290a79c04c7740fedc28a9545a08054e896b7ac57c47e623103ff6437d6"
+    },
+    {
+      "id": "d2370be679233d679a52f2e5",
+      "inputHash": "eebb09e12d951ac174900480d188986af40d6c793fc76fbc2b2819809926da4f",
+      "titleZh": "观测显示大西洋翻转环流关键部分近二十年减弱",
+      "summaryZh": "报道介绍观测证据，显示大西洋经向翻转环流的一个关键部分在较大海域内持续减弱近二十年。作者讨论其未来可能影响大西洋周边降雨、风暴、冬季天气和沿岸海平面；所给摘要未给出这些影响的具体幅度与时间范围。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "26723deed4fbf314241dc1580b9f6ac066e3dbbf8eb640393c9d051618a5f5f8"
+    },
+    {
+      "id": "62dfe08a964a98c054c76a3b",
+      "inputHash": "a1c442ee036516849b6ced46dc8ecab2b377905bc7a1863098e543685ef567cb",
+      "titleZh": "加利福尼亚海流中尺度涡的能量来源随季节切换",
+      "summaryZh": "研究以1公里分辨率模拟分析加利福尼亚海流。冬春深混合层在风强迫减弱后再层化，产生的小尺度结构可向中尺度输送能量；夏季浅混合层则更易受风驱动，并增强大尺度向中尺度的能量转移，表明涡旋供能路径具有季节差异。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "e7a07cb9ecd282e7ad88e314e94bc0faebf692d1aa7a3c0402827ed90d9d2a28"
+    },
+    {
+      "id": "34c59e02d69207af67e5fc24",
+      "inputHash": "b93fb00824f7789a2110f6b6d4863c9fd6a15a701c5651b7a6a5dd8211816aa5",
+      "titleZh": "守护北极也需持续支持原住民监测",
+      "summaryZh": "这篇NOAA北极报告题名强调，北极管理应持续支持原住民开展监测。现有节选主要列作者与单位；来源未提供摘要，具体方法与结果需查看原文，目前不能据此概括监测案例与发现。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "fa1fea91bf20849a473facb2384c2dcf9504305920539fca65c158aeb53f2f34"
+    },
+    {
+      "id": "8dd281a1883e05a82c5940bc",
+      "inputHash": "f7f67588cf57879dd2e8342cfb2095f48ef30f0c0c34d12126040e384362f57c",
+      "titleZh": "北冰洋“大西洋化”：北极报告中的海洋变化主题",
+      "summaryZh": "这条NOAA北极报告记录关注北冰洋的“大西洋化”，现有节选主要列作者、单位和导航。来源未提供摘要，具体方法与结果需查看原文，目前不能推断变化幅度、时间趋势或生态后果。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "2c68cb169c7631b66192b4d3eb6c473f8630fae0fa3b859b6643f62800a609b0"
+    },
+    {
+      "id": "f0f360ece23ed0f362bfb70b",
+      "inputHash": "23ccad488c02465f3672fd651738b8d8b91f7ad05793a4ae809b71eb9dbd3d7b",
+      "titleZh": "北极报告的陆地积雪覆盖专题",
+      "summaryZh": "这条NOAA北极报告记录介绍陆地积雪覆盖主题，现有节选以作者及机构信息为主。来源未提供摘要，具体方法与结果需查看原文，目前不能概括积雪范围、季节变化或长期趋势。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "7195126ea0304523d8bb2103023fe83202dd6823ac2ef27b077b7164616b1691"
+    },
+    {
+      "id": "fee64b26b672163cb6e9e709",
+      "inputHash": "8097396273ec358edb24a93df68e29a92c4673fc3f53287293d091662fdda3fe",
+      "titleZh": "基于海洋环境敏感性评估的污染事故管理",
+      "summaryZh": "这篇条目讨论如何把海洋环境敏感性评估用于污染事故管理，并将其与海洋可持续发展联系起来。来源未提供摘要，具体评估指标、管理方法、适用场景与结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "f23980edad288d61631bbe5d",
+      "inputHash": "4b1195cc8dab65893039f80220c8fad4b8aa337eec7efbd07dc232366a91c3fb",
+      "titleZh": "海底峡谷中潮汐驱动驻波的简化理论模型",
+      "summaryZh": "研究将海底峡谷简化为狭长矩形箱体，分析正压潮如何激发驻立内开尔文波。理论与理想化数值模拟均表明，波幅受潮汐强度、共振条件和峡谷宽长比影响；能量主要在潮汐输入与向外辐射的内潮之间平衡，结论仍基于简化地形。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "8952d28093ae1ed9071212a13fa16924321751f77d462f469ba0caffdccdb31f"
+    },
+    {
+      "id": "ecb605b5ce0958fe4b516a72",
+      "inputHash": "c4b0cede1cd121c315f1a268df0b70df984e8a93d6b07b42bf0f5e7b21395d90",
+      "titleZh": "以可持续发展为导向的海事产业集群新范式",
+      "summaryZh": "该条目围绕海事产业集群提出一种面向可持续发展的新范式，涉及产业集聚与可持续目标之间的联系。来源未提供摘要，具体框架、案例、评价方法与结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "eb225911877840b998d13901",
+      "inputHash": "8727bb095b159fac9d2f14ce636c03eeaf79a636593aafeb63669161637a4b6e",
+      "titleZh": "太平洋二战沉船油中的烃类及相关细菌群落",
+      "summaryZh": "研究主题是太平洋二战沉船油的烃类组成，以及与这些油类相关的细菌群落特征。来源未提供摘要，具体沉船位置、采样与分析方法、污染物组成及微生物研究结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "e8d5c0f97dc03b0295e6d549",
+      "inputHash": "194a0539029d12b9cd86786cd5dbe3401e5eed102dfc187d446fd40e5f592f67",
+      "titleZh": "北太平洋副热带环流区气溶胶微量元素的季节输入",
+      "summaryZh": "研究利用夏威夷两年逐周气溶胶采样与铍-7示踪，估算北太平洋副热带环流区微量元素的沉降。春季亚洲沙尘主导全年输入，夏末秋初还有一次增强期，可能包含夏威夷本地来源；这些季节差异或影响表层海洋微生物的营养限制。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "962cda40495b35ff5ef22da13aa561966a0ce47f7966b2d78679ea2be5c95845"
+    },
+    {
+      "id": "e38a1a37f126de91ba72222f",
+      "inputHash": "d21467211005c54806c710441e5194b2dddcfe1902d3f820200f4e117c955022",
+      "titleZh": "底栖群落代谢留下的化学影响如何改变珊瑚生理",
+      "summaryZh": "在法属波利尼西亚开展的25天围隔实验中，研究者比较珊瑚、大型藻类和珊瑚藻群落形成的水化学环境。群落代谢改变了碳化学，较高pH通过共生藻等间接途径影响珊瑚代谢；实验期内，溶解有机碳对下游珊瑚未显示可检测影响。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "4ad4d1b6a1aff1d90b9bf51aa989b08c79cfeaae241c1b53acfb4f40553c9bcb"
+    },
+    {
+      "id": "d9959cf6d95964db904c2728",
+      "inputHash": "937b334f1d32088b2d36e549c8e86f6d051859199230cd92145aafb97ddd7141",
+      "titleZh": "海带残体在近岸海域能保存多久：原位降解研究",
+      "summaryZh": "研究在新西兰豪拉基湾六个浑浊度不同的站点追踪海带组织降解，发现残体平均约58天损失一半，保存不超过四个月。光照未显著影响组织存续时间，但降解伴随碳氮比和附生细菌变化，提示仅凭生物量损失难以评估其碳循环作用。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "bced04de624a15b9d35967d401ce5451c5621783781c70381762ce8d69628106"
+    },
+    {
+      "id": "d69e08371404a12284d583b8",
+      "inputHash": "d4eeb65abf43e60c8969153d86205708f2065a4856bc3f13c47d5672ddebed14",
+      "titleZh": "热带海洋主导全球海洋羰基硫排放的估算",
+      "summaryZh": "研究用船测资料与环境数据建立模型，估算海洋羰基硫排放为每年270±28吉克硫，其中约一半源自二硫化碳。热带海域贡献突出，总量仍低于多数大气反推估计，提示预算差异可能与陆地吸收被高估有关，而非必然存在遗漏的海洋来源。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "734085bb941605913baa4dc37e1b23990977787e3060b486403885df5fad925b"
+    },
+    {
+      "id": "cd11f6db24a8b50352917166",
+      "inputHash": "30012bd1a8e0e04defcc1f7779e05b886fefad4d0175ba6fd91ab1aedef39fbf",
+      "titleZh": "洛福滕涡旋中大西洋水的来源与输送路径",
+      "summaryZh": "这篇研究依据2025年12月船舶观测和拉格朗日分析，考察洛福滕涡旋内大西洋水的来源与输送。来源未提供摘要，具体观测布设、路径识别方法及得到的输送结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "cc7c3ecd91b24d9ef68e748a",
+      "inputHash": "87cb1fc28b707f1129cdc781486da269981bdbb16422cbfac863c0c7db1c718d",
+      "titleZh": "南大洋海气二氧化碳通量对增排与移除的非对称响应",
+      "summaryZh": "模型实验先让大气二氧化碳逐年增加，再对称减少，检验南大洋碳汇能否恢复。移除可在约百年内逆转吸收区域的空间变化，但海洋内部碳储存与热量响应存在滞后，使其在减排后至少50年仍为净碳源；结果属于所设理想化情景。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "55f9d345c6f0a17683de2c6172a1226fc641abdd1758fc082a3419d61416bfa5"
+    },
+    {
+      "id": "c5ff1fa8a2890591a829ec36",
+      "inputHash": "6187eb8835780822ac04697cd3eefb55269276c539326e94c2bd947da63a15bd",
+      "titleZh": "从捕食者胃内容物重建东白令海磷虾变化",
+      "summaryZh": "研究标题提出结合捕食者胃内容物与联合时空模型，推断东白令海磷虾丰度趋势及其气候响应。来源未提供摘要，具体捕食者、资料时段、模型设定和结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "b719c530e2f01ebe38f76c8f",
+      "inputHash": "f690ac35447ae2fa27dd953edd3dc52b9a38000ab9b1eea69b5d1a74c1640772",
+      "titleZh": "海底地下水排放对近岸总汞与甲基汞通量的贡献",
+      "summaryZh": "研究汇总中国沿岸44组新观测及全球20组既有观测，估算非热液海底地下水排放携带的汞。结果表明，其溶解总汞输入可与河流相当，甲基汞则可能是近岸海洋已知最大的外部来源；估算范围较宽，热液地下水贡献仍是知识缺口。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "92799dbc9ad70eb4667e711122274599345185e22594738254aeab6e24b355b1"
+    },
+    {
+      "id": "b18a91dfb1987cbf4fb451a8",
+      "inputHash": "576ab3e465756bf92937d2d1913495b1c86567004dafa751c0196fcf141e6078",
+      "titleZh": "南海海洋热浪的垂向结构与初级生产力响应",
+      "summaryZh": "研究利用物理—生物地球化学模型，将南海海洋热浪分为四类垂向结构，深层型约占一半。不同结构通过层化和营养输送产生不同生产力响应；过去二十年，四类事件均增强，相关生产力异常呈下降趋势，主要关联混合层层化加强与生产力降低。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "64a573b0dc277aa854150d21ececd73c583f4121c5d328a5c04a9c93180533fb"
+    },
+    {
+      "id": "adef36474db6e9bb394ec3ed",
+      "inputHash": "3adbcff96a689b7b316b918cbd00b929aa90a7ce5638e7ba5c5fd8260dfdc267",
+      "titleZh": "自主传感器揭示红海离岸珊瑚礁的代谢变化",
+      "summaryZh": "研究在红海中部珊瑚礁部署总碱度、pH和溶解氧等自主传感器，连续观测数月。礁后与礁前水化学日变化不同，礁后碳酸盐系统变化约87%与净群落生产有关；2023年的代谢特征与历史红海观测接近，不能简单视为近期才发生的变化。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "9353f46296a02bf32ac255d517f65c708c4a56b32e338533f6ada0737b86ff59"
+    },
+    {
+      "id": "a9c84fc1ff6fb6932d15babb",
+      "inputHash": "c5c0db6a8a1efde68e6830b5ccdd0c3f443959742d7392362cb3500a47454371",
+      "titleZh": "地震勘探震源作业如何影响大西洋鳕求偶行为",
+      "summaryZh": "该条目考察地震勘探中的震源作业与大西洋鳕求偶行为之间的关系，研究对象为Gadus morhua。来源未提供摘要，作业强度、行为观测方式、影响方向与程度需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "a42fe8297aa0a400f933f04b",
+      "inputHash": "cd2769e16cbe1b5580bb5b6e6cf044cd3bdcdea696c7302c5816507c71cd89e7",
+      "titleZh": "与小规模渔业社区共创更公平的研究方式",
+      "summaryZh": "文章倡议与小规模渔业社区开展符合伦理、共同生产知识且以公正为导向的研究，并强调跨尺度行动。来源未提供摘要，具体倡议依据、参与方式、案例及行动建议需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "9b02846a2ac0e22a41241e5d",
+      "inputHash": "b941300bb7ca3d795ffc0d8c3fdb4447866d7d65977c1e43a5e487826fc74c15",
+      "titleZh": "历史时间序列中的地中海次表层热层化与气候动力",
+      "summaryZh": "研究围绕历史时间序列，讨论次表层热层化在地中海气候动力中的作用。来源未提供摘要，所用资料的时空范围、分析方法、变量关系及结论需查看原文，不能仅凭标题确定因果强度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "964eb6826c408196f0f59869",
+      "inputHash": "63fdd369908cc47c7709d7c80a4a4ace8066396d0dfad67f6fb15130babaa908",
+      "titleZh": "垂向分辨率不足可能制造AMOC虚假多稳态",
+      "summaryZh": "这项条目的标题关注海洋模型垂向分辨率不足，及其可能导致的与对流相关的AMOC虚假多稳态。来源未提供摘要，具体模型配置、分辨率试验、诊断依据与结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "905cf2dd3b481d72d81a5529",
+      "inputHash": "20f0e9975fc60b3f2fa0c5fc6136815b483261e75b8a37b73f121aec7b7f9deb",
+      "titleZh": "CPIES观测下黑潮延伸体底部近惯性波能量过程",
+      "summaryZh": "研究基于CPIES观测，考察黑潮延伸体海域底部近惯性波能量受到哪些过程控制。来源未提供摘要，具体观测位置、资料时段、能量收支分析与主导过程需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "8e9f78e837541c633c84f342",
+      "inputHash": "31cbfd5601e24f8c374abee288df72c709f1bc2a337a35392ad31e27855a6323",
+      "titleZh": "台风强迫结构对南海近惯性波生成与演变的影响",
+      "summaryZh": "这篇条目研究台风强迫的结构如何影响南海近惯性波的生成和后续演变。来源未提供摘要，所涉及台风、观测或模拟方法、强迫变量及具体结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "87f878baa2d6faa5ed06c0b7",
+      "inputHash": "93bf3f57fcea9bb178377273aafea397e42117e15c7ea6d9ce95b6b0d3d93f04",
+      "titleZh": "利用有限漂流浮标观测学习马尾藻输送动力",
+      "summaryZh": "研究主题是从有限的漂流浮标观测中学习有效的马尾藻输送动力，涉及资料有限时的输运描述。来源未提供摘要，具体海域、学习模型、训练与验证方法及预测表现需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "85139cc2060044755ec0a73c",
+      "inputHash": "ee837de7a4c7e9885b1917fc0f46ae76da340109c91595d52578b138b872e398",
+      "titleZh": "沿海居民为何支持海洋空间规划：价值与地方依恋",
+      "summaryZh": "这项研究关注沿海居民对海洋空间规划的支持，并考察价值观、地方依恋和社区影响的作用。来源未提供摘要，具体调查地区、样本、变量定义、分析方法与结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "80aa6af4b422f5df994b8ad4",
+      "inputHash": "4adb11b59e8d9325e9b4228365dbc8b935e5c8c0bd4ee2c5dd96e0ba13483cd3",
+      "titleZh": "深海视频记录带来戈林奇海台鲨类新发现",
+      "summaryZh": "该条目介绍在戈林奇海台开展深海视频观测获得的鲨类新记录。来源未提供摘要，具体记录到的种类、深度、观测装备、调查范围及记录意义需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "78f9a71f2b643c290a3cda57",
+      "inputHash": "c6b822fd193866d3ed6c675ebc9b9f18aafd92ff8a37c02274e9588758094978",
+      "titleZh": "印度尼西亚小规模渔业衰退的政治生态学视角",
+      "summaryZh": "文章以“去渔业化”为主题，从政治生态学角度讨论印度尼西亚小规模渔业的衰退。来源未提供摘要，具体社区、历史过程、研究方法、影响机制及政策讨论需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "7392950b0074b975cbfe6ac8",
+      "inputHash": "e3fe335db6b44e2b8269e141ff138ce40bc2efd8e26389682b2d19614e6b866b",
+      "titleZh": "台风“摩羯”路径两侧浮游植物粒级为何不同",
+      "summaryZh": "研究结合卫星资料与现场营养盐、叶绿素观测，分析2024年台风“摩羯”后南海西北部的生态差异。路径右侧降温更强，表层叶绿素及较大粒级贡献较高；左侧部分站点以小粒级为主，营养条件、锋面与平流均可能参与塑造这种分布。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "edba5bd98f1ed25fb1d67792dd33c1700ac494d685e510f3c9f581be08c432e5"
+    },
+    {
+      "id": "65d3117ab8dc07a99f352c4d",
+      "inputHash": "a0342119087f13c0575c77fcfc4f1f09a623693e305e463410b742b2b6c0fe14",
+      "titleZh": "东南大西洋鲸湾海岭冷水珊瑚的高分辨率分布建模",
+      "summaryZh": "这篇研究对鲸湾海岭的Enallopsammia rostrata开展高分辨率物种分布建模，该物种被作为脆弱海洋生态系统的指示种。来源未提供摘要，模型资料、环境变量、验证方法及分布结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "62a19f4f16561c1199a4903c",
+      "inputHash": "00c9ecd4e21ff28208a439adea573233985e311f16241605c2247d5ba7e34304",
+      "titleZh": "用海表数据推断深层海洋统计特征的生成式AI框架",
+      "summaryZh": "研究采用基于分数的扩散模型，在理想化双环流模拟中从海表观测重建深层流速与浮力场。模型能够恢复主要环流和涡旋统计结构并给出不确定性，但海表分辨率越低、推断深度越大，预测能力越弱；尚不能等同于真实海域的普遍验证。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "3992d10f8fa1992fe76bc1170e44651215d9bf25892bc88dd9cdd09b34cac8cc"
+    },
+    {
+      "id": "5a035958c85009d4f3aa665e",
+      "inputHash": "479df2bd63585ab21aff7e5e2c3faca14cee87d56c306d73f8604302024ee9ad",
+      "titleZh": "北极鱼类同位素资源利用与不同尺度的海气条件",
+      "summaryZh": "该条目将北极鱼类同位素反映的资源利用，与跨空间尺度和海冰时期的模拟大气、海洋条件联系起来。来源未提供摘要，鱼种、同位素指标、时期划分、模型资料与关联结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "54589557ca877c927eb67035",
+      "inputHash": "0236869f9e668b47476b579b579f15397f767bb278e394c4e7242471345395a4",
+      "titleZh": "阿拉伯海东部微型浮游动物群落的年代际变化",
+      "summaryZh": "研究主题为阿拉伯海东部微型浮游动物群落的年代际趋势及生态地理分布。来源未提供摘要，具体调查年代、群落组成、空间范围、环境变量及变化结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "51c6954bfcb13ec80ff2f94f",
+      "inputHash": "58251f20b6093c008e858b2b26618eb53492304ddd58ea705b2fe05b8c1a7092",
+      "titleZh": "亚马孙河羽状流如何调节热带西大西洋碳酸盐化学",
+      "summaryZh": "研究结合盐度、碳酸盐系统和生物地球化学指标的气候态空间差异，估算亚马孙河羽状流影响。湿季受影响海区多项碳化学指标降低约8%—10%；淡水稀释、生物吸碳及海流外输共同调节更大范围的海表二氧化碳状态。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "adbeba5848f5be3c6d74277837a0b585dcef6337d8b48a2507dfe8b79f94bf91"
+    },
+    {
+      "id": "4b8b0c4816bc609d08aaa896",
+      "inputHash": "913e5a94b9eea8f03cba8d97ff83c842ee3ad33d896b7269d952983cd298d2ee",
+      "titleZh": "结合人工神经网络与概率圆的长江口风暴潮预报",
+      "summaryZh": "该条目提出面向长江口的风暴潮预报系统，标题说明其结合人工神经网络与概率圆方法。来源未提供摘要，具体输入资料、系统构建、预报时效、误差及验证结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "4992dc044a31f2b1011faea3",
+      "inputHash": "d13831b648b3c4dcf94bc5897041fc5656e7daeef0d89470676e3547a8a418de",
+      "titleZh": "低纬度海域叶绿素的垂向分布、存量与季节变化",
+      "summaryZh": "研究围绕低纬度海域叶绿素的分布，考察垂向结构、现存量及季节变化。来源未提供摘要，所指海域、资料类型、深度范围、季节划分及主要分布特征需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "4413d8dfa58b4f4c87e3519c",
+      "inputHash": "085a8d928c26950ec881f33688f03233fa6cd8d548fd6b0d98048caa616c1090",
+      "titleZh": "社会网络分析如何用于社区主导的龙虾渔业管理",
+      "summaryZh": "文章以热带龙虾渔业为案例，讨论利用社会网络分析支持社区主导的区域型渔业管理。来源未提供摘要，具体参与主体、网络构建方式、管理制度、案例地点及评价结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "40c2870666292cfe6024e2ed",
+      "inputHash": "6fe3b4579c01cf594c5c5aea4e794b8e243121ae6208514238725f434a121f1a",
+      "titleZh": "海上风电场对北海及丹麦海峡湍流和水文的短期影响",
+      "summaryZh": "该研究关注海上风电场对北海与丹麦海峡区域海洋湍流和水文条件的短期影响。来源未提供摘要，风场范围、资料或模型、时间尺度、变化幅度及影响机制需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "3ad9f9a327282ce5528a0bdf",
+      "inputHash": "f5a072684f440e3d8042c3fe4d56f52d3eda1e5c1b3e2caf5299d8a9600bbf53",
+      "titleZh": "“海马”冷泉沉积物含量梯度与甲烷水合物形成",
+      "summaryZh": "研究主题为“海马”冷泉沉积物的含量梯度及其对甲烷水合物形成模式的调节，标题提及多机制分析。来源未提供摘要，具体梯度指何种成分、试验设置、作用机制与结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "35b1facd7678ae48ca934993",
+      "inputHash": "f0dff82f1cb03ff6162f8cde69208d36cafab6d42d614f231abb1f350c386835",
+      "titleZh": "把无AIS小船纳入中华白海豚分布压力评估",
+      "summaryZh": "这项研究强调评估人类活动对印度太平洋驼海豚分布的影响时，应考虑不装AIS的小型船舶。来源未提供摘要，船舶统计方法、研究海域、压力指标及分布分析结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "2f7b4d48b6cdd761a7a4340e",
+      "inputHash": "853359dd1db6ea47d1bc81404b235e125e8bf7826efe4263c1d62369bda24aa7",
+      "titleZh": "北冰洋海洋环节动物的分布格局与环境驱动",
+      "summaryZh": "研究围绕北冰洋海洋环节动物的分布格局，讨论与其相关的环境驱动因素。来源未提供摘要，调查区域、物种组成、环境变量、统计模型与具体关系需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "1cee38744f86a6f6ccb911c8",
+      "inputHash": "29798e408ed1a2a4948c763a62dfc743996e71342c1e45f2974a6e6c629349ff",
+      "titleZh": "深海采矿决策中的知识公正与认知多样性",
+      "summaryZh": "文章讨论深海采矿中的知识公正，并涉及《联合国海洋法公约》与国际海底管理局决策中的认知多样性。来源未提供摘要，具体法律论证、知识参与机制、案例和结论需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "13b22ca395b5cf858ca3c0ea",
+      "inputHash": "66b3f4bd62d419a444bc2f910af4f0e79112fa99e6c7d7344c989980b3488e2c",
+      "titleZh": "海洋酸化下腹足类的恢复限制与代谢权衡",
+      "summaryZh": "该条目以多种生物标志物为证据，研究一种腹足类在海洋酸化胁迫后的恢复与生理韧性限制。来源未提供摘要，具体物种、胁迫水平、恢复时长、指标变化及代谢权衡需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "0b3e51f080209f2c7d5ed61a",
+      "inputHash": "3f239f82c07cf633f095b9a6c0934e260b011723faad070058263665824c7a5c",
+      "titleZh": "北大西洋冷水珊瑚海域的浮力效应与内波动力",
+      "summaryZh": "研究主题为北大西洋冷水珊瑚分布海域中的浮力效应和内波动力过程。来源未提供摘要，具体海区、观测或模拟方法、珊瑚栖息环境及动力学研究结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "07e8339f4804f0975783a21e",
+      "inputHash": "eb49f4b88dfa9967329fcb21a00145a5e1d35b491e1c42895bc8c8d812afa2c2",
+      "titleZh": "北海中上层拖网渔业如何减少海豹兼捕",
+      "summaryZh": "文章评估由行业推动的海豹兼捕缓解措施，重点涉及北海中上层拖网渔业的排除装置及政策含义。来源未提供摘要，装置设计、试验条件、减捕效果与管理建议需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "f60f011edc2510dbecf3ff1b",
+      "inputHash": "fc594884b85e2da560611bf8903aa6825acb86052f48a5fa24ff16f53d68230d",
+      "titleZh": "水下地震调查揭示日本鬼界破火山口岩浆再补给",
+      "summaryZh": "来源报道，研究者通过水下地震调查发现，日本鬼界破火山口下的大型岩浆储库在约7300年前的强烈喷发后重新积累岩浆。这一发现有助于研究超级火山的岩浆补给过程，但报道并未据此给出即将喷发的判断。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "7136540a780324a4e4e2e1d32db079d46681a359c79f61b118cec450a17fd6cd"
+    },
+    {
+      "id": "76882a2c5bf7588d19379f48",
+      "inputHash": "6b0df0c6d2766cb17abf5ceeb300526f9f978bd63a625bfe5eec38714db5fd2b",
+      "titleZh": "博物馆、潜器与基因资料揭示深海管水母新物种",
+      "summaryZh": "MBARI等机构的研究团队结合博物馆标本、潜器观测与基因组测序，重新考察深海Bargmannia管水母的多样性，并报告两个此前未知的物种。资料说明研究整合多类证据，但未给出新物种的具体名称与完整鉴别特征。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "b4272336ec603c3e51fb4a5ecd84a098cce09f0e2535a10047fa2b3f7e596c15"
+    },
+    {
+      "id": "cfbc9294c0c8bc7cedfc74aa",
+      "inputHash": "f2fe1a2c7ec972177f1a3450d10b23275a0ef7a03d2158ce1c8345be91b04aa3",
+      "titleZh": "改进YOLOv8提升SAR船舶检测，也带来定位精度权衡",
+      "summaryZh": "研究在YOLOv8中结合注意力、卷积和形状感知损失模块，提升复杂杂波下的SAR船舶检测。实验显示常用阈值下的精确率、召回率等改善，但更严格定位指标与推理速度有所牺牲，适用性需结合定位精度和实时性要求判断。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "e43bce00506bdb9bae26422601aecd34e635c8e87782c6a60e274b234a600660"
+    },
+    {
+      "id": "8fa8fe9584302dda81ba8844",
+      "inputHash": "6ea008826298ade015d20cbb22a1a17e2e44602bd25bb28bd0efc5a7051e8680",
+      "titleZh": "珊瑚礁的“摇篮曲”能帮助它们避免灭绝吗",
+      "summaryZh": "这篇条目的标题以“摇篮曲”为切入点，提出声音是否能帮助保护珊瑚礁的问题。来源未提供摘要，具体声音处理方式、研究对象、实验依据与结果需查看原文，不能仅凭标题认定其能够避免灭绝。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "60859e777e81917da0fa3032",
+      "inputHash": "a9f3b4b37ff8ed3d32ac41224a9e565fc29fe53b449be16ed148ef0472ce21d2",
+      "titleZh": "舟岱跨海大桥如何改变附近泥沙输运与海床冲淤",
+      "summaryZh": "研究用经实测验证的MIKE 21模型分析舟岱大桥影响。模拟显示，水动力变化主要集中在桥区附近，整体潮位变化较小，局部流速及悬沙输运增强；影响随距离减弱，泥沙可在较远处逐渐沉积，改变周边海床冲淤格局。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "bbf9a2c0419712ee85a9a27d2dfebdf75e1c4222ab619dfef2b75cc9d789e9a3"
+    },
+    {
+      "id": "0d40fe28764770bfd315f320",
+      "inputHash": "562b457906338345d7b5a87c8ec6b21e228f231cb864798a7f1eeb9dc0a2ff5a",
+      "titleZh": "用降维模型理解跨半球地转经向翻转环流",
+      "summaryZh": "研究建立包含南大洋通道和风驱上升流的简化模型，分析边界浮力如何维持与调节跨半球翻转环流。结果显示，南大洋风强迫可引起较快的跨赤道调整，而北大西洋浮力强迫的响应更慢；这一差异在理想化海洋模式中得到再现。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "7a25f095062a4691e8f5d4d36f6dbc1626769415a61e2574c322e4df5fed1749"
+    },
+    {
+      "id": "da6cb29abfe65657f17ff1fd",
+      "inputHash": "83bafef8eb463ea9ae8c99fc03df32b376a5101678ff570ddcf4f92ebf74dbbf",
+      "titleZh": "苏格兰养殖场海洋热浪暴露正在不均衡加剧",
+      "summaryZh": "研究分析1990—2025年苏格兰361个养殖场位置的海温资料，识别出两类海洋热浪暴露特征。两组频次增长相近，但一组的持续时间、累计强度及严重事件概率增幅更大，表明区域平均变化不能充分代表各养殖场的气候风险。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "4417b93201a91cb2ee65207254bb49afdf7500f1c3654bfaf9d0a7cb6552399d"
+    },
+    {
+      "id": "92fc11e52e5b43f27c738db3",
+      "inputHash": "ccf4c4d46e2ff56a72e930f06d73544e2d78104757e7e1b4bdf131d94ea8e0ab",
+      "titleZh": "2025—2026年冬季波罗的海低海面事件的海气背景",
+      "summaryZh": "研究整合海面高度、大气场、输运与水文观测，分析波罗的海区域海面降低约60厘米或更多的事件。持续高压、东风与有利外流的压差先于最低海面出现；后续水量恢复和局部增氧与交换有关，但不能仅凭水量恢复判定重大咸水入侵。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "ec542effd5f8901c81bd55d6cc531e679429c7e33378396db62128c62884546a"
+    },
+    {
+      "id": "77912dd69e4d2f15ec9e7d0a",
+      "inputHash": "9f6be9e8394f969632d66ee6b14633034b8c5459b8e174f44a3acf48ab51f591",
+      "titleZh": "加利福尼亚湾鲯鳅与条纹四鳍旗鱼的汞砷硒风险评估",
+      "summaryZh": "研究分析2018—2019年墨西哥捕获的鲯鳅和条纹四鳍旗鱼肌肉、肝脏中的汞、砷、硒，并按特定暴露假设估算膳食风险。不同鱼种及人群的风险指标存在差异；摘要强调继续监测，结果不能直接替代针对具体食用量的个人健康判断。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "e60c7e5f1240cbcda7d86b5ecb612921f68e1fc1815e7d68cec68c7b28082b7b"
+    },
+    {
+      "id": "461e130504de5fec8d9553a3",
+      "inputHash": "615a2fe91f1b261a2be1ee0f7dc3294cfc9b34937253353118358a0da5703349",
+      "titleZh": "多模态深度学习识别溢油：光学分割已验证，SAR仍待完善",
+      "summaryZh": "研究提出先判断影像类型、再检测溢油并进行像素分割的三阶段框架。光学RGB分割在560幅评估影像上取得0.8756的Dice/F1分数，但仍有背景误判；SAR分割受标注处理和计算条件限制尚未完成，不能将光学结果直接外推到SAR。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "49ddd3d9a6db84ad67cc7fc4d52d05f482f5e05ddf5fff751aa4b54679bb070c"
+    },
+    {
+      "id": "e5e1f3a921594a06219f45b9",
+      "inputHash": "6185f1431f89dfe3f3192ecb9de880a6c851cbe995c47838ddf63d07d8f7394f",
+      "titleZh": "当升温快于固体地球反馈，南极海基冰体可能失稳",
+      "summaryZh": "这篇条目的标题提出，升温速度超过固体地球反馈时，南极海基冰体会面临失稳。来源未提供摘要，具体冰区、反馈机制、模型情景、时间尺度及结果适用条件需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "b4f9b4577892c4f556ea35f0",
+      "inputHash": "5a59aa51604405252f6c310c82a661c2b2dfca8e04ac0613ff815c71e1ce289d",
+      "titleZh": "阿拉斯加滑坡海啸的爬高为何达到约482米",
+      "summaryZh": "来源报道，阿拉斯加一次大型滑坡触发海啸，水和碎屑沿山坡爬升1580英尺，约482米。研究者识别出冰川快速退缩、强降雨及大量微小震动等事前信号；这是特定地点的爬高记录，不能理解为远海普遍浪高。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "0519ff2d3142c18f697adbfc70a59e72209d2f2c9c5256bffef1e53564bd944f"
+    },
+    {
+      "id": "38bf5f89d3734db729205c3c",
+      "inputHash": "841e84a24310930247761237145c81779e12f38dd657ef92d56064f234e5375d",
+      "titleZh": "近距离研究管水母，寻找深海多样性与生态功能",
+      "summaryZh": "MBARI的这则来源摘要介绍，细致研究管水母有助于识别尚未充分认识的多样性及其重要功能。当前节选十分简短，没有给出具体物种、研究方法或结果；相关证据和更完整的生态说明需进入原文查看。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "425994f4d10b2e56eedba8da8091da974cc311e6a187a55e3cd4a9d7f8d60a05"
+    },
+    {
+      "id": "55416843ebf1e927243427c2",
+      "inputHash": "d1a7aab19e9472441048185ca0abd6f0fd3dac9feb72776b6d0f6b4540502345",
+      "titleZh": "古气候约束有望缩小北极冬季海冰预测的不确定性",
+      "summaryZh": "该条目关注利用古气候信息约束未来北极冬季海冰预测，以缩小预测中的不确定性。来源未提供摘要，具体古气候记录、模型集合、未来情景、约束方法及不确定性变化幅度需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "d6872a856bb7e3e6f6e9dbe5",
+      "inputHash": "1dd3e944d8e07447f6f04d065aa2b1811cfc1decb6fffd7c8b7dd80509102b4a",
+      "titleZh": "海洋展馆将连续第五年参与全球气候谈判",
+      "summaryZh": "Scripps与伍兹霍尔海洋研究所等机构宣布，海洋展馆将在2026年土耳其COP31期间继续组织科学交流与政策讨论。活动拟通过多场论坛连接海洋科学、气候行动与生物多样性议题；这是机构发布的活动安排，并非谈判已经取得的成果。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:45Z",
+      "evidenceDigest": "bd6c3d514b96afe687c78855c97bf35e45ac113ee280ac1e56c4aae7478d07fd"
+    },
+    {
+      "id": "cc8633fb1d0ff64f1665bc2c",
+      "inputHash": "50148cd4f556c49013931d307e36683d08489728537a990b945f98758f914d78",
+      "titleZh": "蓝水潜水记录加州中部罕见到访的暖水物种",
+      "summaryZh": "MBARI的这则来源摘要介绍，蓝水潜水观测发现了一些较少出现在加州中部的暖水物种。当前节选没有列出物种、观测时间、数量或迁移原因，具体记录与解释需查看原文，不能据此推断长期分布已经发生变化。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "9bc53beac251592fe62d0bc2c380e80fa6b984148f654387e95f067a471637eb"
+    },
+    {
+      "id": "444115b2c42174176d8e2eb5",
+      "inputHash": "9437e665acf26a2316e3c246c83a447cbe31b8b4247835df4fb51fb67c279c9a",
+      "titleZh": "复杂海盆地形如何调节多源内孤立波的演变与能量",
+      "summaryZh": "研究用高分辨率非静力模式分析苏禄海内孤立波。西侧波由海槛背风波机制产生，初始非线性较强；东侧波主要以线性内潮跨盆地传播，到陆坡才形成非线性波列。地形共同控制路径与能量分布，西侧波总能量约为东侧两倍。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "020be49cd47d00fb552b304a1de226e95f54ec73ff0b1cdd75ff818ef63925c9"
+    },
+    {
+      "id": "13c01fb0a5a24b35992186e2",
+      "inputHash": "1424eeecef85e4f82a3526786ca74510b0d3ff07b54320306af76dc7fef74710",
+      "titleZh": "古老海洋中的磷循环或帮助地球维持氧气供应",
+      "summaryZh": "来源报道，古老岩石中的证据提示，约23亿年前海洋磷的循环利用可能形成有利于维持氧气的反馈过程。该解释为早期地球宜居性提供一种机制，也对复杂生命为何较晚出现提出问题；具体证据与推论范围仍需结合原文理解。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "ab1a6066868d94d2eb771e1c2f4c22708cb4f4dc84d8b6c2f2bf84de8d3599aa"
+    },
+    {
+      "id": "5ceff5ef227be2d0634b0208",
+      "inputHash": "019aece114bf646592db8d8c534c52db25a5aa4de668f19cc973a838c9fdcdfe",
+      "titleZh": "美国发布“美国优先海产品战略”，重点扩大本土产能",
+      "summaryZh": "NOAA通报，美国政府发布新的海产品战略，计划扩大国内生产、更新加工与岸上设施、改善市场准入，并加强进口合规及打击非法捕捞。文件主要使用现有法定权限和项目，不是这些目标已经实现的报告，后续效果需看执行与评估。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:35Z",
+      "evidenceDigest": "ed20a78eb431f9636dd4d87a4eec4f9e34031482ab411e1df1d959a8fe269f03"
+    },
+    {
+      "id": "5a8844635d903a9f30a952fb",
+      "inputHash": "4f81d0649fba8b8139a8196465a16f74182b43ac7d6513972ff826e2fba075d0",
+      "titleZh": "播放健康珊瑚礁声音，能否吸引珊瑚与鱼类幼体",
+      "summaryZh": "在夏威夷的野外试验中，研究者把健康礁区录音播放于人工结构附近，并结合不同定着表面。声音处理增加了珊瑚幼体定着，鱼类幼体数量约为对照的4—14倍；结果支持声音作为修复辅助方法，但尚不等于整个礁生态系统已经恢复。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:45Z",
+      "evidenceDigest": "b523deedcd1838831b523bba06cc6003b007a621b5d08fd22ac2624fd06e0628"
+    },
+    {
+      "id": "94a102027aa6d6d34876e2b1",
+      "inputHash": "f00d3fc770946e481705aefea548df104ad171a9a5712316925b626a7c40bbf5",
+      "titleZh": "美国向佛州、加州及马卡部落分配1580万美元渔灾资金",
+      "summaryZh": "NOAA宣布分配1580万美元，支持佛罗里达州、加利福尼亚州和马卡部落此前已认定的渔业灾害。资金对应2019—2024年的多个事件，可用于直接援助、设施、栖息地修复等；后续仍需由相关州或部落提交申请。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:35Z",
+      "evidenceDigest": "5aea359b11e493d0af96230ea11a24966eb49e6ad6cf8d816c1460813c925e26"
+    },
+    {
+      "id": "1df6383eba2539d3ab165b2c",
+      "inputHash": "7904bb80a042adbed25f461bff091fc4cc4a5d7e5389711bb4764c24eaee9344",
+      "titleZh": "寻找耐热海带、建立种质库：加州水下森林修复研究",
+      "summaryZh": "Scripps团队正结合潜水监测、耐热试验、遗传研究与种质保存，探索加州海带森林修复。早期试验发现部分物种耐热性较强，团队也计划扩大巨藻品系生物样本库；许多工作仍在进行，尚不能据此认定修复技术已经普遍有效。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:45Z",
+      "evidenceDigest": "c68bb42830ca8db55c5738ccd8c81d15f3b1c937b32ddef0a1c4432a397d7642"
+    },
+    {
+      "id": "1f9095f7f9db1fbcb11de780",
+      "inputHash": "5070d9c9373a1f993f6cb82fc580f2e809a328330c5a368e4b611d67ebff812f",
+      "titleZh": "从幽灵渔具到废弃船舶：大型海洋垃圾的四种清理方法",
+      "summaryZh": "NOAA介绍四类大型海洋垃圾清理方式：回收遗失渔具、用重型机械打捞、人工移除，以及在偏远地区用航空设备运输。不同方法取决于垃圾重量、位置、海况与栖息地条件，文中通过案例说明清理工作往往需要专门装备与规划。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:35Z",
+      "evidenceDigest": "9a33e99bd412d7376a3fe149dba31a175105104409908fc401b3f6e9c31a2960"
+    },
+    {
+      "id": "8def35dd9ef4c5d271675f84",
+      "inputHash": "b727ab9407c54d234e52b487e5551b36f2d290379ba49364c541ab36591caf5e",
+      "titleZh": "墨西哥湾深层水如何更新：地形与海流相互作用的作用",
+      "summaryZh": "研究结合长期观测、区域模拟和水团转化分析，指出深流与地形相互作用是维持墨西哥湾深层增温与混合的重要过程。染料示踪实验估算，上层1500米水体约50年更新，而更深处达到90%更新约需350年，显示深浅层更新存在明显差异。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "1d3d9fc2acb06a7f41cf2e772920829692b3e855ddd25d371728e04eb9692bde"
+    },
+    {
+      "id": "2b53f31d58f43d412020f468",
+      "inputHash": "375d9dc1049ed76b15919f126ade08240d3007316b72de021efddbd84e9f7d57",
+      "titleZh": "变暖的地中海东部，冬季浮游植物如何变化",
+      "summaryZh": "研究结合冬季现场调查与20年卫星记录，分析地中海东部浮游植物变化。更暖、层化更强的东部海水中叶绿素较低，蓝细菌贡献更高；长期资料显示，叶绿素损失在原本浓度较高的冬春时期尤为明显，体现了变暖与群落、营养环境的关联。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:49Z",
+      "evidenceDigest": "78632632aa47431f9bcb40a3ea34268f5f79a074101e9c8df7fa1be386343d2c"
+    },
+    {
+      "id": "c6530a461337c74ae3f3baa4",
+      "inputHash": "138ba8ad7ea7a310346f39f88a7ccb2cd3864936433c43ecbe9819964f989d4f",
+      "titleZh": "养殖围垦与升温可能放大温带潮滩温室气体产生潜力",
+      "summaryZh": "研究用沉积物培养与宏基因组分析比较裸滩和不同强度养殖塘。围垦降低甲烷产生潜力，却增加氧化亚氮和二氧化碳，并改变温度敏感性；中等强度围垦的刺激更明显。模型预测升温可能进一步放大效应，但这些是产生潜力而非现场实测总排放。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "b18c92857b575c05752567d9b70712a583b17bcbe9e0c926c6ca9d2026883c33"
+    },
+    {
+      "id": "9373d98ca46aca15a61b6ed8",
+      "inputHash": "916a4ea8f7fac67b08c6df060bcc5a195fbdacce07bd2393315642547aad9cc9",
+      "titleZh": "约20亿年前的化学信号，可能来自局部过程而非全球变化",
+      "summaryZh": "来源报道，一个曾被解释为地球碳循环巨大变化的古老化学信号，也可能由局部岩浆、烃类与甲烷氧化微生物共同形成。这一新解释提示应重新审视该信号的空间代表性，但不能仅据报道断言早期地球全球碳循环变化已被否定。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "f2ffbbb613ace717089150a233870601cdf2f5f140dc2b01cac4acc6b37c151b"
+    },
+    {
+      "id": "cb8e9995e85854c8d6019346",
+      "inputHash": "1aa04af77379cff1e5d8cd236f139ddbc21f1eba2192bc5be901ca3f7c9d2414",
+      "titleZh": "美国东北部2026年9月风暴预报：强风与沿海洪水风险",
+      "summaryZh": "这是一则2026年9月25日发布的历史天气预报，NOAA当时预计美国东北沿海周末可能出现强阵风、暴雨和沿海洪水，纽约及新泽西近岸尤其受关注。内容对应当次风暴，不能当作现在的有效预警，当前天气需查看气象部门最新信息。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:35Z",
+      "evidenceDigest": "9305de4e8a71ff9d72bcf4b838cf28162ba9f1af1811675afeab8380386a5e08"
+    },
+    {
+      "id": "76e8f5914785c028273c8301",
+      "inputHash": "7345c0fb2dfd6dd63d1b0d15443dd3d744ce6c648ca2b458179b27918792a40c",
+      "titleZh": "北极海冰融化季延长约40天，为何在2010年前后趋缓",
+      "summaryZh": "来源摘要指出，北极海冰融化季较1979年约延长40天，但快速延长的趋势在2010年前后意外趋平。研究者提出，云层变化与海冰变薄可能解释这一停顿；持续增暖仍可能带来新的快速变化，不能把趋缓理解为北极变暖已经停止。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "d3c8455adfd5de0e69160dced30fc677aa633b9041228a3b5111edfd86450707"
+    },
+    {
+      "id": "89e5907b47f208ded9e56fc3",
+      "inputHash": "5a9eb974509609cd2ebfc6d76d9b6bdc7ad98d9c0ec4931868066f694cabe38b",
+      "titleZh": "如果黄石超级火山发生特大喷发，可能经历什么",
+      "summaryZh": "这则来源内容讨论黄石超级火山特大喷发的假设情景，包括可能提前出现的震群、地面隆起与气体变化，以及最坏情况下火山灰对北美基础设施和农业的冲击。它不是黄石即将喷发的预报，情景描述与现实风险判断需加以区分。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "b2ae35c43c001a28168258cb558fd297c548b41f51bc1f34dd770e54befcd3cc"
+    },
+    {
+      "id": "fa5ea69ca396fe6af16015e6",
+      "inputHash": "2f6be552db06fcc9a9cf4a3687d172fdadfb90a5bb3c1d7ef87ba06637770d19",
+      "titleZh": "北极观测网络现状评估：系统优势、缺口与风险",
+      "summaryZh": "该报告条目关注追踪北极变化的观测网络，标题涉及现有系统的优势、缺口与风险。当前来源节选只有作者、机构及DOI等信息，未提供实质摘要；具体评估方法、主要发现与建议需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "047d9ca948d023397ac80f03effc8722b27d2cc783eeb7ff73f0eae533f26740"
+    },
+    {
+      "id": "dbf23673ee14590131e93413",
+      "inputHash": "4e34db5acacdc347f0a202e0b3e46f583a732b11003ddd8bff3c5cc607941c5c",
+      "titleZh": "格陵兰以外冰川与冰帽的北极报告条目",
+      "summaryZh": "这是一则以格陵兰以外冰川和冰帽为主题的报告条目。当前来源节选主要列出作者、机构和DOI，没有提供冰川变化、观测时间或研究结果等实质摘要；具体覆盖地区、数据与结论需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "ea005fe4cf3b25c08f4a13b941403e23fa9199aa172c0d4937e2a886a91d3142"
+    },
+    {
+      "id": "87a541761bac6e72a36997d6",
+      "inputHash": "a3122c53318070aa1fe233b6c7d3f25625a01469989c87f949187832107c46c2",
+      "titleZh": "北极近地面气温报告：数据与结论需查阅原文",
+      "summaryZh": "该报告条目的主题是近地面气温，当前来源节选主要包含作者名单、研究机构和DOI。它没有给出温度变化数值、分析时段或实质摘要，因此不能据此概括变暖幅度与区域差异；具体资料、方法与结果需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "be66916e6429a64f9720924256ca6dd966a7900c85905b0e39cb9648ca8dd63e"
+    },
+    {
+      "id": "1b0d1242d20ea24063536214",
+      "inputHash": "cfe58cfe3e0543e58bce31dab3a3bb4d437f85e6d97271f0f1d4dec4b2846622",
+      "titleZh": "格陵兰冰盖报告：来源节选尚未提供实质摘要",
+      "summaryZh": "这则报告条目以格陵兰冰盖为主题，当前来源节选只列出作者、机构与DOI等元数据。尚未提供冰量变化、融化情况或具体观测结果的实质摘要；报告的时间范围、分析方法和主要发现需查看原文。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "18dc93707bf984a8cd5ad14ab7f87525ae9b711d412d48f95fb33e55eb5fd153"
+    },
+    {
+      "id": "f4dd4858e588077485d4acdd",
+      "inputHash": "5764ce8f2622484639c473ec518b388b69ff2c0e9f8c30ee045ed5af71f1c8e8",
+      "titleZh": "惯性振荡如何影响示踪物扩散",
+      "summaryZh": "文章关注惯性振荡与示踪物扩散之间的联系，涉及海洋中物质输运的动力过程。来源未提供摘要，具体方法与结果需查看原文，不能仅据标题判断扩散增强或减弱。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "f0f225a48fc23af6db47cd72",
+      "inputHash": "9fc19987e91dc3e0afcccbe2be9b66ffe931097d33b3e63278d248d5b9d23d42",
+      "titleZh": "西南极半岛北端秋季浮游植物的铁与维生素B12吸收",
+      "summaryZh": "研究主题是西南极半岛北端秋季浮游植物对铁和维生素B12的吸收特征。来源未提供摘要，具体方法与结果需查看原文，目前无法确定不同群落的吸收差异或限制因素。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ebb03c853b1eb8f8608a6481",
+      "inputHash": "de3ff4517914d3cb8b265acb07826fd7037c99ff8ea2aa70f107b205f2ec2230",
+      "titleZh": "以底栖动物为指标估算香港海洋微塑料污染",
+      "summaryZh": "文章提出以底栖动物作为生物指示物，结合地统计方法估算香港海洋微塑料污染。来源未提供摘要，具体方法与结果需查看原文，尚不能判断污染程度或估算精度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ea28b2bfb021b4ff3beefbae",
+      "inputHash": "93e74307ea5482973d1e2b7b942d2e907abbd28620a24fe48b9905c4afad3065",
+      "titleZh": "韩国近海三种鱼类不同组织中的钋210与铯137分布",
+      "summaryZh": "研究比较韩国沿海三种海洋鱼类不同组织中钋210与铯137的分布。来源未提供摘要，具体方法与结果需查看原文，不能据此判断鱼种间的含量高低或食用风险。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "e6d2fec8ec6e9f31b3a6922b",
+      "inputHash": "49422d3c7acbb3cb93e606c4d091ad0ad0aca5c04b4b6f0f4a4c74c51c8ee198",
+      "titleZh": "海洋变暖下产卵策略与狭鳕、太平洋鳕种群变化",
+      "summaryZh": "文章讨论西北太平洋海洋变暖背景下，产卵策略与狭鳕、太平洋鳕种群变化差异的关系。来源未提供摘要，具体方法与结果需查看原文，尚不能推断其变化幅度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "e00512a81968e14bab7e1f58",
+      "inputHash": "ab62b758cd12332cfafcc3ca23dcc0f1da5667d1a71e06e3cf12ad4c35dbf3d6",
+      "titleZh": "极地代表性海域沉积物中的亲脂性海藻毒素",
+      "summaryZh": "研究关注极地代表性海域表层沉积物中亲脂性海藻毒素的出现及其对产毒微藻研究的意义。来源未提供摘要，具体方法与结果需查看原文，尚无可据以概括的浓度或分布结论。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "d892702ae90c4017a9e07abd",
+      "inputHash": "cce14d5506532326dd33971bb4520a20cebaa07e7ce5e69561d8f0fa28aedd38",
+      "titleZh": "3DSeaVizKit：海洋数据时空交互可视化工具包",
+      "summaryZh": "文章介绍面向海洋数据的时空交互可视化工具包3DSeaVizKit。来源未提供摘要，具体方法与结果需查看原文，目前无法判断它支持的数据类型、性能表现或实际应用效果。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "d0a0aa57c52c032a529d8802",
+      "inputHash": "35574227d65ffdcc10d210032e6cf2f1a43515d6196b5ba29132430531a22511",
+      "titleZh": "深海鳐Bathyraja irrasa的活动模式研究",
+      "summaryZh": "标题聚焦深海鳐Bathyraja irrasa的活动模式，并将其描述为移动缓慢、却很少完全静止。来源未提供摘要，具体方法与结果需查看原文，尚不能确认观测时长或行为机制。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "ccdeacbafef7a8ebe912fe3b",
+      "inputHash": "71d115c9e08e8964ba427ea1dea742ecce5c04a76474fe64104012852f0d418f",
+      "titleZh": "海运液袋的安全与环境风险：多层级治理缺口分析",
+      "summaryZh": "文章围绕海运液袋的安全和环境风险，开展多层级治理缺口分析并讨论政策选项。来源未提供摘要，具体方法与结果需查看原文，不能将标题视为对某一治理方案有效性的证明。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "cc3a355298b48222b2a69a8a",
+      "inputHash": "b425a4971487bebe6cdcda1c20bae68ccb13a44154008c37dbaa0ca1142ab230",
+      "titleZh": "南乔治亚陆架内外大型浮游动物群落有何差异",
+      "summaryZh": "研究分析南乔治亚海域连续十年的夏季网采资料，发现陆架外群落物种更丰富、组成更稳定，陆架内则波动较大且更常出现大量南极磷虾。群落组成差异总体不依赖磷虾是否出现，为理解该区食物网变化提供了观测依据。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "790c34b6b6a4a421af908f4cc1341da5c9213572cdc435b4b84ce4e7ca6b9e9d"
+    },
+    {
+      "id": "c4ab8206baee9cc684d2f7a2",
+      "inputHash": "d938772eca99d2cfccc2d37f773ee83244e5bb0ba08ea8e16feba5b796f19f16",
+      "titleZh": "长期低氧如何重塑海洋底栖无脊椎动物的脂质组成",
+      "summaryZh": "研究沿天然低氧梯度分析海洋环节动物Neoleanira tetragona的1700余种脂质。低氧区域个体储能脂质增加、膜脂不饱和度降低，并出现潜在氧阈值信号。作者将这些变化解释为长期低氧下能量保存与细胞保护之间的生理权衡。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "d2c97d8d831b1df6d97389847df61e0e33ae0cb1f605e704180eb83bb614dcec"
+    },
+    {
+      "id": "b699ee390f8ce481f8a8aae1",
+      "inputHash": "9f59375776206458d5dd2d404341bf771741f5d9e009c834941e54b6090ff18a",
+      "titleZh": "OilSegSARFormer：用于SAR影像多类溢油分割的新模型",
+      "summaryZh": "文章介绍OilSegSARFormer，题名包含Adapter-Mix Transformer骨干与门控细节优化语义解码器，用于SAR影像多类别溢油分割。来源未提供摘要，具体方法与结果需查看原文，尚不能比较检测精度或泛化能力。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "b10632d27bf73b5881744d6f",
+      "inputHash": "42186df8888d325dc50bda0618b018903e93f2ceb6db8469889e2596a81a3321",
+      "titleZh": "土耳其伊兹密尔食鱼营养收益与持久性有机污染物风险",
+      "summaryZh": "研究评估土耳其伊兹密尔食鱼带来的营养收益与持久性有机污染物风险，题名采用多变量膳食暴露分析。来源未提供摘要，具体方法与结果需查看原文，不能据此形成具体食用建议。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "acee40fbd174a5af2b46b998",
+      "inputHash": "21e731705c2a8e8067c0505d84b5818dba5a545947078e72538c2abe55f54123",
+      "titleZh": "勘误：瑞典波罗的海海洋空间规划中的政策协调",
+      "summaryZh": "这是一篇勘误，对应讨论蓝色增长、生态系统方法与瑞典波罗的海海洋空间规划政策协调的原论文。来源未提供摘要，具体方法与结果需查看原文；标题没有说明更正涉及哪些内容。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "a837a20b2e1bd61524a313d1",
+      "inputHash": "31be54afb1867651e0618a1c4054c1ccbebe6c0d03eb4c382005dd061ded20cd",
+      "titleZh": "利用扩散式多智能模型开展ENSO概率预报",
+      "summaryZh": "文章提出利用扩散式多智能模型开展ENSO概率预报，关注海气变化的概率预测。来源未提供摘要，具体方法与结果需查看原文，目前无法判断模型构成、预报提前期或准确率。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "a1bf88e22e5c2e232c54baa6",
+      "inputHash": "300f7bbcd834b6e9b732dc923bb983572d1cbd74a8f3a3d5e1b695dc908709cf",
+      "titleZh": "北太平洋海沟与岛弧脊如何塑造深海等足类分布",
+      "summaryZh": "研究关注北太平洋超深海海沟和岛弧脊对深海等足类生物地理与多样性的影响。来源未提供摘要，具体方法与结果需查看原文，尚不能判断地形主要起隔离还是连接作用。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "99c15d7c8ccd84053314fd31",
+      "inputHash": "92568679970875ea47fab335bfd22321aad70ec35132ec8b6ef9cc32523b9b99",
+      "titleZh": "全球海洋模型中基于EnOI的MLD多尺度同化研究",
+      "summaryZh": "文章在全球海洋模型中研究基于EnOI的多尺度同化对MLD的作用。来源未提供摘要，具体方法与结果需查看原文，不能仅从标题判断同化方案的改进幅度或适用海区。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "93652f7fdf05a5a7748bd865",
+      "inputHash": "85947d4577cd86d5538a11e59579f331931203f15157d74da94398918349b0e9",
+      "titleZh": "末次冰消期以来西太平洋边缘海底水氧化还原演变",
+      "summaryZh": "研究关注末次冰消期以来西太平洋边缘海底层海水氧化还原变化的空间差异。来源未提供摘要，具体方法与结果需查看原文，尚不能确认重建指标、区域对比结果或驱动因素。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "8fb0eb5432867675503304ef",
+      "inputHash": "3e91a1f542a95b9cdf1bedad10586f4d7f573f7d1fc75314cbbc729720d66da1",
+      "titleZh": "东太平洋赤道中层海流为何整体向西流动",
+      "summaryZh": "研究用理想化数值模拟分析赤道中层流、深层急流与季节内柳井波的联系。动量收支表明，柳井波对向西背景流的增强大于对向东背景流的影响，其作用在时间平均后未完全抵消，从而为向西的赤道中层流提供动量。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "7be20a2d284ec65113b8fda2841d9318adcf8faad719a62b3d4a07060ea54838"
+    },
+    {
+      "id": "8dc376b3a972d5d3def9fcd1",
+      "inputHash": "334f4afdebe0371c8b295de72d7da780ff99d22504bbe866475b5b97bcb466cf",
+      "titleZh": "勘误：关于章鱼养殖潜力的平衡评估",
+      "summaryZh": "这是一篇针对《以平衡视角看待章鱼养殖潜力》的勘误记录。来源未提供摘要，具体方法与结果需查看原文；目前无法判断更正涉及数据、文字还是结论，也不应把勘误当作新的养殖效果证据。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "87afc2300c328b61e8e80dbc",
+      "inputHash": "579fc357d06903ea87bcf2c7036e96a086e1fd9e0d2a0c7cc9aee38fa487b75e",
+      "titleZh": "温度、营养状态与承载力对大西洋浮游生物大小谱的作用",
+      "summaryZh": "文章关注温度、营养状态和承载力与大西洋浮游生态系统大小谱的关系。来源未提供摘要，具体方法与结果需查看原文，尚不能判断各因素作用方向、相对重要性或区域差异。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "8199f9db6e8a76ed396c60cb",
+      "inputHash": "f7f3b21865c66bcaaf2847a39ef9ffe559427a388cf578d1680bba5ba6da22e6",
+      "titleZh": "利用陆地地震噪声预测西西里海峡有效波高",
+      "summaryZh": "研究探索利用陆地记录的地震噪声，对西西里海峡有效波高进行空间预报。来源未提供摘要，具体方法与结果需查看原文，目前无法确认所用观测网络、预报范围或误差水平。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "808f8ae3fbe06c01f85e2f4b",
+      "inputHash": "fa6a1a7cc258d568bf0607cc27d1f783a0d4970846f3f9c3cd89b5ba53e77bcf",
+      "titleZh": "瑞典海产品多样化：结合生物筛选与利益相关方约束",
+      "summaryZh": "文章讨论瑞典海产品多样化的优先次序，尝试结合生物学筛选与利益相关方约束。来源未提供摘要，具体方法与结果需查看原文，不能据此确定应优先推广的物种或产品。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "77a0e1d894bb0a53250eb745",
+      "inputHash": "ced44cf63d4050dcd750bc2dd981927f706876b742feb5bbc969522afdff53ac",
+      "titleZh": "失落之城热液区多阶段岩石—熔体及流体相互作用中的元素迁移",
+      "summaryZh": "研究主题是失落之城热液区多阶段岩石、熔体和流体相互作用中的元素迁移。来源未提供摘要，具体方法与结果需查看原文，尚不能概括具体元素变化、反应路径或作用强度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "6f35273aa493fd68b1e70221",
+      "inputHash": "d263b0209aabb9f128601f0f79e95fd731de156d6fa905ab8b13c0a0ece25bf8",
+      "titleZh": "雅浦—马里亚纳交汇处下层绕极深层水的溢流与改造",
+      "summaryZh": "文章研究雅浦—马里亚纳交汇处下层绕极深层水的溢流及水体改造过程。来源未提供摘要，具体方法与结果需查看原文，尚不能确认输运规模、混合特征或对周边水团的影响。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "65a543e399fb62ada9e5014e",
+      "inputHash": "9bf176ab8ea0b6e53597912dedab184f5fce5ed82d8bfb57e43c4445321a0ab2",
+      "titleZh": "评估印尼海草气候风险与生物多样性脆弱性",
+      "summaryZh": "研究评估印度尼西亚海草的气候风险与生物多样性脆弱性，旨在支持海洋空间规划。来源未提供摘要，具体方法与结果需查看原文，尚不能指出高风险区域或具体规划优先项。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "623497139a5b085a8579e3e4",
+      "inputHash": "d1aaecb78b51d353c078f7e8600031480c89290b8843f360effe8b99ec102471",
+      "titleZh": "将热输运纳入浊流分层平均框架：高屏峡谷应用",
+      "summaryZh": "文章把热输运纳入浊流的分层平均分析框架，并以高屏峡谷开展现场尺度应用。来源未提供摘要，具体方法与结果需查看原文，尚不能判断其参数设置或对预测能力的影响。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "59d7878070dde0672739d582",
+      "inputHash": "de3268398bdfa4c42e3627e5488c7b3934b46631442822ea9c0f2f8543c37a25",
+      "titleZh": "西南印度洋脊64°E热液活动的岩浆与构造控制",
+      "summaryZh": "研究聚焦西南印度洋脊64°E轴向火山脊离散、多阶段热液活动的岩浆与构造控制。来源未提供摘要，具体方法与结果需查看原文，不能据此确定各活动阶段的年代与成因。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "538a745bbbdad6ab59804a84",
+      "inputHash": "ce49bdc3cc7f6a858c924a1af58360fcceaea3441c5ee110b52da7367900d116",
+      "titleZh": "适用于陡峭地形的局部Sigma坐标与削切单元新方案",
+      "summaryZh": "文章提出结合局部Sigma坐标和削切单元的地形配置方案，面向陡峭地形条件。来源未提供摘要，具体方法与结果需查看原文，目前无法比较数值误差、计算成本或稳定性。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "4eeb0595f3ea70c17cb84d89",
+      "inputHash": "517834e96aefce802bed6837f0bfd7df265ab3188075a123f7d1f84db60b977c",
+      "titleZh": "海上自主水面船舶的救助义务与IMO MASS规则实施",
+      "summaryZh": "文章讨论海上自主水面船舶的海上救助义务及其在IMO MASS规则下的实施。来源未提供摘要，具体方法与结果需查看原文；仅凭题名无法概括作者提出的法律解释或实施安排。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "4b73b2f7874a49297a00f59b",
+      "inputHash": "94508f9a3a788696c09bda8f11efb51f084d0109fe8057d251faeec171863b59",
+      "titleZh": "温带河口B族维生素的时空变化与微型浮游群落",
+      "summaryZh": "研究在美国Neuse河口同步测量多种B族维生素及微生物群落，发现河口内部可产生维生素，中段藻类生长区浓度较高，且数周内变化明显。部分维生素可解释浮游群落组成差异，提示其与河口微生物生态过程密切相关。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "018f77e653389ba7734161de38e0dfb70f3366467c694630a6b582c3f1d898cd"
+    },
+    {
+      "id": "4982035331542a48e55c103c",
+      "inputHash": "50c0e9fc66c15c98e18366bb163da480af8d7aa99c6a94f9a6abd50002f97f0f",
+      "titleZh": "潮间带盆地的无机碳收支：全年净汇与秋季间歇输出",
+      "summaryZh": "研究结合离散采样和原位观测估算德国Spiekeroog背障壁盆地的溶解无机碳收支。2022年估计净吸收4.22±1.85 Gmol，秋季则可因再矿化、沉积物交换及风暴混合出现阶段性输出；地下水排放仍是收支评估中的重要空缺。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "6d66a0fb086faad380fec3f1645ade172b72d5765b4897db2d69ae88eab725bc"
+    },
+    {
+      "id": "440fe817d6b2aae49046c64e",
+      "inputHash": "5f7d85bd45b2802d6d16d7b90a00ff84aede5ee59b899184f36195b885ab9f8f",
+      "titleZh": "大气沉降与海洋酸化对热带东印度洋挥发性卤代烃释放的影响",
+      "summaryZh": "文章研究热带东印度洋挥发性卤代烃释放对大气沉降和海洋酸化的响应。来源未提供摘要，具体方法与结果需查看原文，不能据此判断不同化合物释放增加、减少或变化幅度。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "3c98f2c06cecc74049083546",
+      "inputHash": "87844e4b2cc3738cbb945c3bca4284ff2e20705c8faa1046277f671f141ee969",
+      "titleZh": "采用五阶WENO混合格式的水平二维Boussinesq波浪模型",
+      "summaryZh": "文章提出基于五阶WENO有限体积与有限差分混合格式的水平二维Boussinesq型模型。来源未提供摘要，具体方法与结果需查看原文，目前无法判断模型验证场景或相较已有方案的表现。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "3910cbd5ed09e88a83eeeb0f",
+      "inputHash": "90efabfd857f78799a13db0c0143f203779b72d4f66017979858a6547b9a236d",
+      "titleZh": "直布罗陀海峡真实地形实验模型中的内水力与孤立波",
+      "summaryZh": "研究利用直布罗陀海峡的现实地形实验模型，关注内水力过程与孤立波。来源未提供摘要，具体方法与结果需查看原文，尚不能确认实验条件、波形特征或与实际海峡的对应关系。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "323f7b4cccd58848cde50a65",
+      "inputHash": "a64c829a8ee96b3681a40dfc0755a6ac05613daf02fe1621ed88360cd3715f19",
+      "titleZh": "那不勒斯绿色港口项目：可持续性与竞争力如何兼顾",
+      "summaryZh": "文章以那不勒斯港绿色港口项目为案例，讨论欧盟港口可持续性与竞争力面临的挑战。来源未提供摘要，具体方法与结果需查看原文，不能仅据题名评价项目成效。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "27cf063a50315e52d746d855",
+      "inputHash": "cac91ae021f46c859b252a6e46e8667c91350f7aca20219d4f6171c0117ec41b",
+      "titleZh": "强分层河口盐度模拟：垂向网格、滤波与湍流方案的影响",
+      "summaryZh": "研究模拟具有主要航道的强分层河口盐度变化，考察垂向网格、Shapiro滤波及湍流实现方式。来源未提供摘要，具体方法与结果需查看原文，尚不能确定哪种配置更接近观测。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "182b8740e3e4be8f1afbb61b",
+      "inputHash": "1ca983605f123c81aa80977d2f1958ebeec0df1a893c6334cebad4d0a4063f66",
+      "titleZh": "印尼安汶湾陆地清理活动与珊瑚礁健康风险",
+      "summaryZh": "文章关注印度尼西亚马鲁古省安汶湾上游陆地清理活动对珊瑚礁健康的威胁。来源未提供摘要，具体方法与结果需查看原文，尚不能确认影响路径、污染物来源或风险大小。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "0c9143a73a3d873855a89ae8",
+      "inputHash": "f8990fae09d21cdc1e822e265b29ae84450384619331a19058be8d60c1255b27",
+      "titleZh": "日本与千岛—堪察加海沟中涟虫群落的深度差异",
+      "summaryZh": "研究比较日本海沟与千岛—堪察加海沟深海至超深海涟虫类群物种组成的深度相关模式。来源未提供摘要，具体方法与结果需查看原文，不能据此推断物种更替幅度或具体驱动因素。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "0895c5153418384fa1c59bd7",
+      "inputHash": "1038cc2fd8ec9468d9e1a93f42b5949f6a75a23cbe32683a345938367d74cdef",
+      "titleZh": "耐盐红球菌Rhodococcus ruber TN-1的苯并芘生物修复研究",
+      "summaryZh": "文章关注耐盐菌Rhodococcus ruber TN-1在盐环境中对苯并芘的生物修复，题名涉及全基因组、降解效率及微生物特性。来源未提供摘要，具体方法与结果需查看原文，尚不能评价实际修复效果。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "0570dec523dd4b338257dba8",
+      "inputHash": "80eff537fca3fcc396e74a717ff309051e6046565dace96f9215f0eb653fe288",
+      "titleZh": "智利渔业补贴如何转向更清洁的生产方式",
+      "summaryZh": "文章讨论智利通过更清洁的生产方式重新引导渔业补贴，以服务海洋可持续利用。来源未提供摘要，具体方法与结果需查看原文，目前无法确认其政策方案、评估指标或实际影响。",
+      "basis": "title_only",
+      "evidenceFetchedAt": null,
+      "evidenceDigest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "1f8032a1cf02665a7452d17c",
+      "inputHash": "69a9443310102427bdaeba292ddce69cc1327c639fa711626e5dcc07c48b432a",
+      "titleZh": "瑞士冰川五年间损失近两成冰量",
+      "summaryZh": "来源报道，瑞士冰川在2026年损失超过5%的冰量，五年累计减少接近20%，部分小冰川已完全消失。报道将持续消融与少雪冬季及极端夏季高温联系起来，反映山区冰储量正在快速缩减。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "39793dbbe051fc4f1b863b32fc375a733925256d620dd54ae2f2023987f40e1a"
+    },
+    {
+      "id": "3ea9bcdf21020ea82e636757",
+      "inputHash": "6a94702e3e1afda3180539c77f8934e5fa3f3865aa15d21f410e37c6678e5a94",
+      "titleZh": "IUCN警告：热带浅水珊瑚礁面临本世纪内消失风险",
+      "summaryZh": "据来源报道，IUCN在联合国生物多样性会议上警告，浅水珊瑚礁到2075年面临较高消失风险。其退化可能重创渔业并加剧海岸侵蚀。这是一项风险警示，并不表示所有珊瑚礁已确定会在同一时间崩溃。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:53Z",
+      "evidenceDigest": "68f8ce13abae6054829ecc189e8d29a6a215a40d28627fcc68495c213fc3a81e"
+    },
+    {
+      "id": "bc4fbb7226c8698e97a15f10",
+      "inputHash": "dbad70e1f77464b369062cb3d61409fd2f3ff2b460143abbdb2015557f0711bd",
+      "titleZh": "专利挖掘比较五类绿色船用燃料的技术机会",
+      "summaryZh": "研究以4471个专利族和955篇论文比较氢、氨、LNG、甲醇及生物燃料。结果显示氢的研究关注与专利活动一致性较强，氨和甲醇近期增长明显；船上储存、供给、安全及能源管理是多条燃料路线共享的创新重点。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "7e2ea0f1ff4afdddd0b46baac0c7a3057821e4ff10f1c56fe893e7c2f339729e"
+    },
+    {
+      "id": "774e2014c923eb7fd3b3d2eb",
+      "inputHash": "ee0674212b15c2df2bfa7fa81b333e62f4c7fbc01fa4a384a08bf27c604c9ca7",
+      "titleZh": "渔业机构如何衔接BBNJ：分阶段互操作的政策选项",
+      "summaryZh": "文章比较四种跨机构治理架构，讨论BBNJ与渔业、港口和海事制度如何协作。在条约与行政权限约束下，作者提出分阶段的联邦式互操作方案，并明确它是有条件的政策建议，仍需试点、法律评估和后续审查。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "e39e88479a767ba0b8e245ab0eab8e1546c9b07aa14e097a42bf72626e65ffca"
+    },
+    {
+      "id": "56309a6e807440165952188c",
+      "inputHash": "41c6057b2850b0d89bba127fbbf638ffaa1859a1c2927a012a6dc24ee239af94",
+      "titleZh": "斜坡湿床溃坝波撞击竖墙：压力特征与预测模型",
+      "summaryZh": "水槽实验比较水深、床坡和河道长度对溃坝波撞击竖墙的影响。结果显示上游水深和坡度可放大峰值压力，较长下游河道则降低压力；不同波况下水深比的作用并不相同。研究进一步建立最大冲击力和爬高预测关系。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "35a9baaff60ad42ab921af0fe16906a6253a5a3a825240cae42e017d98ce9f8d"
+    },
+    {
+      "id": "1a33675e9814a2997bee7580",
+      "inputHash": "7d394acf8a3d6353736ea258cd5fd1de19f9e7e599fa2d9099d81e5731ecffce",
+      "titleZh": "书评：天体不稳定性如何影响人类历史",
+      "summaryZh": "这是一篇关于Dagomar Degroot著作《Ripples on the Cosmic Ocean》的书评，主题是太阳系变化与人类历史之间的联系。来源节选只说明书评对象和作者，没有给出具体论证；题名中的“海洋”是比喻，并非海洋科学研究。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:51Z",
+      "evidenceDigest": "eb00aecffc93968df862aac56161ab61c867068fe78f10104c93f789388c7ee6"
+    },
+    {
+      "id": "d3b526163a43fd916392b2d4",
+      "inputHash": "31acc3c4e42bb78087878e2f7c272ca2121b70a1219037861820c9233f9c7439",
+      "titleZh": "墨西哥虾苗补贴与养虾产量：工具变量研究",
+      "summaryZh": "研究采用工具变量和两阶段最小二乘设计，估计墨西哥养虾业生物投入补贴的局部平均处理效应。结果显示半集约与集约养殖系统的估计增产效应不同，为支持计划调整提供讨论依据，不能直接推广为所有养殖场的固定收益。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "bf3b77a54a8a973aff582e2e7e8097aecadc45f4ae8ec4c9868b7a0e534a7e46"
+    },
+    {
+      "id": "85c4ed8fe2420acd15228509",
+      "inputHash": "be31d7aab5616a103be73c3fb835ee552a5c05a2f71929d59788fcb158a68b47",
+      "titleZh": "巴沙鱼感染试验：Annona glabra叶提取物的保护作用",
+      "summaryZh": "研究结合体外实验与20天喂养试验，评估Annona glabra叶甲醇提取物对细菌感染巴沙鱼的作用。添加2%提取物的实验组死亡率下降，部分血液及脾脏组织指标改善。作者将其视为候选饲料添加剂，仍需剂量和作用机制研究。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "cc5abf8b1f775d3d53f6c4081e23379702cd803361bd586e90498dd4a30b65b7"
+    },
+    {
+      "id": "73956e7bcf057f31b4ab6a08",
+      "inputHash": "6631554718d85575149d55008fea7f2f5a47d978deba77c62f37869c12bfbec0",
+      "titleZh": "黄河新旧河口沉积物的微生物组装与铁硫碳循环差异",
+      "summaryZh": "研究比较黄河废弃河口与现行河口的沉积物岩芯，发现两地微生物群落组装机制及活性铁分布不同。现行河口持续沉积与群落垂向连续性相关，废弃河口深层则出现更高的甲烷及C1代谢功能潜力；这些潜力不等于已测定的实际反应速率。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "5685a1b0cb5d47c23b16f01af4fca07ec73804ef8abe14b5aab0feb8f2511db3"
+    },
+    {
+      "id": "06f209e4f202b06ecd36648a",
+      "inputHash": "e58f6cd064e467f900de5514ba58c68b2a9df2b59db7e281fd9aa5159327df1b",
+      "titleZh": "穴居甲壳动物的沉积物DNA可在水槽中残留30至50天",
+      "summaryZh": "研究通过Upogebia major水槽实验发现，其沉积物DNA至少可保持30天，最长50天浓度仍无明显变化。DNA持续产生、微生物降解较弱或洞穴间歇释放都可能参与其中，提示环境DNA检测不一定代表动物当时仍在场。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "76848f19fb35cab422186fbc774d6bc78b847c4ab09da329fa15b5290b04af5e"
+    },
+    {
+      "id": "006458a02a7884eaf50b4ab4",
+      "inputHash": "7c7f4b06a3beafefda5d565b3f3d2b9a0a707b2433ee15a6a9a8b7d3118e3806",
+      "titleZh": "MBARI负责人Antje Boetius获法国国家功绩勋章",
+      "summaryZh": "MBARI宣布，其负责人Antje Boetius获授法国国家功绩勋章骑士级，以表彰她对海洋科学与政策的贡献。来源节选是一则机构荣誉消息，没有提供新的研究方法或科学发现。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "82807e2ce08ffbe80962f25415b00413079534ee7329c89ce3209a4d60900dc3"
+    },
+    {
+      "id": "69c3507b928d464fcfeba125",
+      "inputHash": "1fa604fdb065110d4b3a8dab020347d30f3e23102c0e0a15b915b6b952eb69af",
+      "titleZh": "实验发现：接触健康同基因珊瑚可促进白化珊瑚恢复",
+      "summaryZh": "来源介绍的一项实验发现，严重白化珊瑚接触健康且遗传一致的珊瑚后，可在七周内恢复颜色；部分情况下接触五天已足以启动恢复过程。这些结果来自实验室条件，不能直接视为所有野外珊瑚礁修复都已有效。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "0065c342376eae4ba70cc02f64048bb56ebec17e99163c844285402792a91caa"
+    },
+    {
+      "id": "f1b395946b9eac68fc3b54a0",
+      "inputHash": "f30dd23acafc124afb33ed75a96931f7efe187ed617bfd1137c3625e7bd5b5de",
+      "titleZh": "MOLA准备在希腊Paleochori湾首次下潜调查热液区",
+      "summaryZh": "MBARI的机构动态介绍MOLA首次下潜前的准备：检查通信、启用传感器与推进器，并准备控制设备。任务面向Paleochori湾热液喷口区调查，来源节选尚未报告下潜取得的观测结果。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "43d2a66ed9c0976c7bf5af43bb790836ac1c33d4ff2ed1569fda8ddd83db6dbc"
+    },
+    {
+      "id": "25925b1be00c174aaecc5972",
+      "inputHash": "c587a53234983fb76b998f6dac436d826badff28cac42c1a7350bf7d2cb510f2",
+      "titleZh": "MBARI赴希腊合作绘制与监测近岸海底气体喷口",
+      "summaryZh": "MBARI研究人员前往希腊开展跨学科合作，计划部署新技术，对向外释放气体的近岸海底喷口进行测绘和监测。来源节选介绍的是任务安排，尚未提供气体通量、分布图或具体调查结论。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "3f882d1fda42f76949b4c9114582fc9e195808e2a487dfcf566fbb30178cf57c"
+    },
+    {
+      "id": "f45c0c39b21019794d82a443",
+      "inputHash": "07c4436b96137096debedcdc31c6a3a53e1b14b12ea3aeca340aaaeb86bd7013",
+      "titleZh": "2026年北极海冰再现低位，剩余冰层更薄更年轻",
+      "summaryZh": "来源报道，北极冬夏海冰均在减少，卫星记录显示剩余冰层更薄、更年轻，也更易融化。尽管夏季损失近期有所放缓，科学家仍警告2050年前可能出现近乎无冰的夏季；这是一项未来风险判断。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "7431c3710f3c4afa411ddad4f49b77a46dcd6db7a5beb127b8dc7dede030bf4d"
+    },
+    {
+      "id": "07ec15479e8f629501a2b219",
+      "inputHash": "eb8453d520495b879ae6ae3abf92f14664b61830760edb7164e100e3e0656e41",
+      "titleZh": "海洋知识：卫星如何识别大尺度开尔文波",
+      "summaryZh": "NOAA介绍，开尔文波尺度大、移动慢，也不像常见近岸波浪那样破碎，因此难以凭肉眼辨认。卫星雷达高度计可通过海面相对长期平均值的升降显示波动信号，帮助观察这类海洋过程。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:35Z",
+      "evidenceDigest": "17ab18fdf507b2d6c4223f785ba1168171f4d41c00a18f9731e70bf9494622f4"
+    },
+    {
+      "id": "81c36c7d88ae1fa9759699f8",
+      "inputHash": "974077a0159b33d698c5334b3401f07074df659db9d3319c942481f48385d26e",
+      "titleZh": "Antje Boetius参加2026年北极圈大会",
+      "summaryZh": "MBARI负责人Antje Boetius参加2026年北极圈大会，并参与全体讨论，主题是科学如何为北极国家和社区提供决策所需工具与信息。来源节选是会议动态，没有列出新的研究结果或已经实施的政策。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:50Z",
+      "evidenceDigest": "6de0e462f6699089b393a6dfe7bd973a54f597608e42d4ccc71e4e95909e5cd0"
+    },
+    {
+      "id": "fda1c07ef7a5ddb9d087641d",
+      "inputHash": "de860a92ca842dd84f589725a9a881901633c42d2357ed42c7e0ddc746f82d91",
+      "titleZh": "萨摩亚海峡深海溢流中的剪切不稳定与水力跃变",
+      "summaryZh": "研究利用250米水平分辨率拖曳观测，分析萨摩亚海峡南极底层水越过海槛的三维结构。下游界面分叉伴随剪切不稳定，水力跃变区出现强湍流和超过百米的翻转；相比之下，局部对称或离心不稳定的重要性仍不明确。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "20d5f8692680633b1e90c30ba91de8fd079b9471bc8a717d2a801115ca5f456e"
+    },
+    {
+      "id": "680aab4e797102c0eaa3eecc",
+      "inputHash": "022c96543e45aa059a22e27cad5e9a3c1d44ba34eefd5a16ade71fdb83f95dd7",
+      "titleZh": "表面重力波与内孤立波的粒子输运不能简单相加",
+      "summaryZh": "数值模拟发现，表面重力波与内孤立波共同作用时，粒子位移不能由两者单独效应直接相加。仅用内孤立波估计，在同向传播时低估30%—46%，反向时高估200%—350%；波浪还会改变接触时间和沿轨迹的漂移。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "62bc2078ce3d1a182d11cf0fb1e29e59f6b8b1d7c4d3b6f6e0dbc52b584a594e"
+    },
+    {
+      "id": "e4c7a753f87006b34db9a3ee",
+      "inputHash": "e6b3be71b04e02222fdfe7c513b7d40742c620dad3b2c7df822bacad2c300cb5",
+      "titleZh": "哥斯达黎加外海“金色树”珊瑚被归入新科",
+      "summaryZh": "来源介绍，哥斯达黎加外海发现的亮黄色珊瑚Laurinque elenya具有特殊形态，遗传分析也显示其属于此前未知的演化支系，研究者因此建立新科进行分类。其米级群体生长在布满蛇尾类的海底。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "10e999fb80d252795e6cdb6ca9262a52f75dfdbbbdcfc7eb6207d69d7c030a6d"
+    },
+    {
+      "id": "c7f753c9c4d974abcf35001f",
+      "inputHash": "86d232ebe9c63e64535c57f58080c4172e2394ce47198eb30101226c0f3c6913",
+      "titleZh": "NASA结合激光测距与GPS更精确追踪地球质心移动",
+      "summaryZh": "来源报道，水、冰和大气的季节性迁移会使地球质心发生毫米量级移动。NASA研究人员结合卫星激光测距、GPS及地壳形变资料改进追踪方法。报道关注的是质心位置变化，不是地核整体迁移。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "dd4e2311d4d91968a6f7c9243e0684bfe11b02b96a115c34a168152bdf4875f6"
+    },
+    {
+      "id": "cd4e4b26c827a7c7a01273d0",
+      "inputHash": "58c4e971653f1d3b536f13a8704d4b9c9f22c78beb9e2675e6627e4bb8e97af1",
+      "titleZh": "黑潮入侵路径如何影响台湾西南海域中尺度涡生成",
+      "summaryZh": "研究结合1993—2024年卫星高度计资料与区域模型，发现黑潮穿越吕宋海峡的不同路径与涡旋出现频率和旋转方向相关。代表性个例显示，不同路径下正压与斜压不稳定贡献不同，但机制仍需更多事件和更高分辨率模拟检验。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "0881ba4b1c88b7e4581a6df67ebb119fcdd532cf00898c37000f553f4ed146c8"
+    },
+    {
+      "id": "f7ddd2ca46ee86bbf3d6890f",
+      "inputHash": "87d2cf8a3cec0d3581f4b6aaa3ede64e4eff6455d627fe5340ec4eef890447f7",
+      "titleZh": "南极普里兹湾内波应变谱呈现明显南北差异",
+      "summaryZh": "研究利用七次中国南极科考的温盐观测分析普里兹湾内波谱，发现南纬64度附近形成明显分界，其北侧近惯性内波信号更强。风、锋面和反气旋涡影响波的产生与传播，深层地形相互作用也可能参与能量向湍流的传递。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "e718aabbf25be6a75b306ab7a7f679a70b89f39bddadefefc07191fa6bb3c1a3"
+    },
+    {
+      "id": "38010cf5ac521a3610564a86",
+      "inputHash": "f388bb83932299017c92bb9b3a49ffbc13512a8ac00540e1aee3a785ed4fa6c6",
+      "titleZh": "太平洋丽龟首次在加利福尼亚筑巢的记录",
+      "summaryZh": "NOAA标题记录太平洋丽龟首次在加利福尼亚筑巢。来源未提供摘要，具体方法与结果需查看原文；节选仅有图片及日期等元数据，不能据此推断巢数、孵化结果或长期繁殖分布趋势。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:35Z",
+      "evidenceDigest": "9b6366447e5a8729fed4fec1e0eb1532888d0a3ad5407d19e16cdc4cd5e1cf44"
+    },
+    {
+      "id": "18c174c2149a2252dc09d070",
+      "inputHash": "9273d06a0f2bee3a2af249c2c12eddfadeb24be20f9377e70ab4f7c49fb33bc1",
+      "titleZh": "浮游动物昼夜迁移是南大洋不可忽视的主动输碳途径",
+      "summaryZh": "研究结合昼夜网采和代谢估算，发现浮游动物主动输碳具有显著区域差异。环南极外推的夏季输碳约3890万吨碳，95%不确定区间为2700万—6000万吨，约占200米深总输出13%，提示碳泵评估还需计入迁移动物的贡献。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "982468517d8199293a62551d714f0e1a6b2287274f70247a41328f1ffc812b71"
+    },
+    {
+      "id": "74593d7e953857ce58b49be6",
+      "inputHash": "9c079014180022f8048779184e2a588ea946909965165262d9e0601060ba3cfc",
+      "titleZh": "营养盐阈值决定海草生态系统二氧化碳汇源转换",
+      "summaryZh": "研究沿南海海草床营养盐梯度进行原位测量，发现二氧化碳通量存在非线性和季节性阈值。无机氮在春夏促进吸收、秋冬可促进排放，无机磷则持续削弱吸收，说明海草碳汇作用可能随营养盐污染而改变。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "169631e3f4668074a49ebef6fffa6cc8d8a0a91e85de1c30cbfca2ff3800c5d4"
+    },
+    {
+      "id": "7d5af713535d9700fdecfa50",
+      "inputHash": "5173f8ba9787e468ad4408c5b0aac0408ab3ab83d4b84e349818c89df50321a7",
+      "titleZh": "北太平洋寡营养环流中一次藻华衰退的向下输送效应",
+      "summaryZh": "研究在2021年夏季跟踪反气旋涡内的藻华衰退，观测到硅藻壳以每日约50—100米下沉。碳、氮和硅通量达到邻近站常规夏季值的2—3倍，说明短期藻华及其衰亡也能显著影响中层海洋物质输出。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:46Z",
+      "evidenceDigest": "c9a40e82bdb3566151e2e8993d8b9207b8a1445d61d43ebe3566da2eedfd2caa"
+    },
+    {
+      "id": "242a7d7d0b6daa560367483c",
+      "inputHash": "4e92604c91af5c3d01da7c54e99d26bc3f5348a9a865100a7a4362e670f595b6",
+      "titleZh": "温哥华岛外海俯冲带出现局部撕裂迹象",
+      "summaryZh": "来源报道，研究人员观察到温哥华岛外海一处俯冲带正在局部分裂，提示大型俯冲系统可能逐段停止活动。这一发现或有助于理解古老板块碎片及火山活动，但节选未提供可用于预测具体地震的结论。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "4f8b4756c488814eb17200e6c2c5ae23db4e8673901e519e22b3dcb5776adfcc"
+    },
+    {
+      "id": "aa1bb7d0d92f25478890dff2",
+      "inputHash": "de6e5556af8ca440ba025851eb4eec7c01e5c7a95213abcfdc9294fbe3d78f75",
+      "titleZh": "巨石阵六吨祭坛石或曾经历冰川与人类接力搬运",
+      "summaryZh": "来源提出一种可能路径：巨石阵六吨重祭坛石先被冰川从苏格兰搬运至Dogger Bank，再由史前人类运往索尔兹伯里平原。这是关于多阶段运输的假说，节选没有表明完整路线已获确定证明。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:48Z",
+      "evidenceDigest": "1f23622614668681c1898fcc3e1426f4a6d4d78c7dfd54a13a74eb0c039f5590"
+    },
+    {
+      "id": "e81be7cc1449efaae317d16b",
+      "inputHash": "307a68e305f45cd0a08c174c4aeda9502c973d505f7cc79562852a3bf6fe91d8",
+      "titleZh": "地形约束如何塑造黑潮沿程的动力与能量连接",
+      "summaryZh": "高分辨率模拟把黑潮沿程区分为地形强约束加速区与弱约束分离摆动区。前者流速和剪切增强、横向摆动受抑，后者更易发生正压不稳定并向涡动能转换；两种状态的交替有助于解释黑潮不同海段的动力差异。",
+      "basis": "abstract",
+      "evidenceFetchedAt": "2026-10-24T15:02:41Z",
+      "evidenceDigest": "7f7512ac1889d12278f4a708751ed3c0378d4866e91bb3da334ea8c99278607a"
+    },
+    {
+      "id": "428178fa4df2fa242e781be0",
+      "inputHash": "188ba0ffe0ddb99cc0762cfd51136ffceddb054b4a39acc84563362087a1aee3",
+      "titleZh": "AMAP与北极报告卡：持续二十年的科学评估合作",
+      "summaryZh": "来源回顾AMAP与北极报告卡二十年的合作。北极报告卡自2006年起提供年度北极状况更新，并承担科学传播作用。当前节选没有展开具体合作项目或最新评估结果，主要介绍这一长期评估机制的定位。",
+      "basis": "source_excerpt",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "89db308a8e15eebd86e4f139b15a7e6c65a7f2a49b3793fe1e565f66032aa949"
+    },
+    {
+      "id": "e9db62c2988bbc551782fb73",
+      "inputHash": "d371a1101e3dc8bccc189f7e6eda120bbec5aef4f466802ccc6b88da22d943b3",
+      "titleZh": "阿拉斯加与北极“生锈河流”的成因及影响专题",
+      "summaryZh": "这份北极报告卡专题关注阿拉斯加及北极地区河流“生锈”现象的成因与影响。来源未提供摘要，具体方法与结果需查看原文；当前节选主要列出作者和机构，不能据此概括发生机制或变化趋势。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "a2a7ca72f3f3d178f84d724a2576a4f29cb2f7e2ec9c0dccc6ffa5722cebdbb8"
+    },
+    {
+      "id": "d5fcc22d4188b699e4643e7c",
+      "inputHash": "5c1bb41a88ce8025b5a9c9b935ffd114d95edd37b7651c0a3a2288389da73e54",
+      "titleZh": "北极报告卡：降水专题",
+      "summaryZh": "本条是北极报告卡中的降水专题。来源未提供摘要，具体方法与结果需查看原文；当前节选仅有作者、机构与DOI等元数据，没有包含降水量变化、地区对比或趋势结论。",
+      "basis": "title_only",
+      "evidenceFetchedAt": "2026-10-24T15:02:37Z",
+      "evidenceDigest": "d9c6e99b2ab60ac0a1cffe6561ae34df86a745f922e6ca72940211ce170c407e"
+    }
+  ]
+}

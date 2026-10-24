@@ -1,0 +1,877 @@
+[
+  {
+    "id": "rss-noaa-nos",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 406,
+    "withDate": 406,
+    "withSummary": 405,
+    "newest": "2026-10-22T15:00:00+00:00",
+    "oldest": "2013-01-02T18:03:20+00:00",
+    "sample": [
+      {
+        "title": "New NOAA report shows U.S. ocean enterprise sector continues to grow",
+        "url": "https://oceanservice.noaa.gov/news/oct26/ocean-enterprise-grows.html",
+        "published": "2026-10-22T15:00:00+00:00"
+      },
+      {
+        "title": "Hurricane Isaias: Aerial Imagery",
+        "url": "https://oceanservice.noaa.gov/news/oct26/ngs-hurricane-isaias.html",
+        "published": "2026-10-13T15:00:00+00:00"
+      },
+      {
+        "title": "NOAA invests $45.7 million to improve ocean observing systems",
+        "url": "https://oceanservice.noaa.gov/news/oct26/ioos-ra-awards.html",
+        "published": "2026-10-08T15:00:00+00:00"
+      }
+    ],
+    "notes": [
+      "整份 XML 损坏；406/407 个 item 可用（AIHOT 的 RSS 解析器更宽松，通常能全部读到）"
+    ]
+  },
+  {
+    "id": "rss-noaa",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 10,
+    "withDate": 10,
+    "withSummary": 10,
+    "newest": "2026-10-14T19:40:37+00:00",
+    "oldest": "2026-09-21T16:50:28+00:00",
+    "sample": [
+      {
+        "title": "El Nino looms large over U.S. Winter Outlook",
+        "url": "https://www.noaa.gov/news-release/el-nino-looms-large-over-us-winter-outlook",
+        "published": "2026-10-14T19:40:37+00:00"
+      },
+      {
+        "title": "Ocean Facts: What are Kelvin waves?",
+        "url": "https://www.noaa.gov/stories/ocean-facts-what-are-kelvin-waves-ext",
+        "published": "2026-10-14T16:10:01+00:00"
+      },
+      {
+        "title": "Aerial images of damage from #Isaias now available online",
+        "url": "https://www.noaa.gov/news/aerial-images-of-damage-from-isaias-now-available-online",
+        "published": "2026-10-13T18:56:49+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-noaa-arctic",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 10,
+    "withDate": 10,
+    "withSummary": 10,
+    "newest": "2025-10-13T17:56:32+00:00",
+    "oldest": "2025-10-10T22:17:53+00:00",
+    "sample": [
+      {
+        "title": "Assessing the State of the Arctic Observing Network: Strengths, Gaps and Risks to Systems ",
+        "url": "https://arctic.noaa.gov/report-card/report-card-2025/assessing-the-state-of-the-arctic-observing-network-strengths-gaps-and-risks-to-systems-that-track-arctic-change/",
+        "published": "2025-10-13T17:56:32+00:00"
+      },
+      {
+        "title": "AMAP and the Arctic Report Card: A Collaboration that is 20 Years Strong",
+        "url": "https://arctic.noaa.gov/report-card/report-card-2025/amap-and-the-arctic-report-card-a-collaboration-that-is-20-years-strong/",
+        "published": "2025-10-12T02:28:25+00:00"
+      },
+      {
+        "title": "Weaving the Seen and Unseen: Stewarding the Arctic Means Sustaining Indigenous Monitoring",
+        "url": "https://arctic.noaa.gov/report-card/report-card-2025/weaving-the-seen-and-unseen-stewarding-the-arctic-means-sustaining-indigenous-monitoring/",
+        "published": "2025-10-10T22:56:00+00:00"
+      }
+    ],
+    "notes": [
+      "最新一条是 374 天前，信源可能已停更"
+    ]
+  },
+  {
+    "id": "rss-nature",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 75,
+    "withDate": 75,
+    "withSummary": 75,
+    "newest": "2026-10-22T00:00:00+00:00",
+    "oldest": "2026-10-19T00:00:00+00:00",
+    "sample": [
+      {
+        "title": "Can a 'lullaby' save coral reefs from extinction?",
+        "url": "https://www.nature.com/articles/d41586-026-03414-3",
+        "published": "2026-10-22T00:00:00+00:00"
+      },
+      {
+        "title": "A first for CRISPR: powerful prime editing alters DNA directly in the human body",
+        "url": "https://www.nature.com/articles/d41586-026-03371-x",
+        "published": "2026-10-22T00:00:00+00:00"
+      },
+      {
+        "title": "Teen depression and anxiety predicted by childhood brain development",
+        "url": "https://www.nature.com/articles/d41586-026-03357-9",
+        "published": "2026-10-22T00:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-nature-climate",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 8,
+    "withDate": 8,
+    "withSummary": 8,
+    "newest": "2026-10-20T00:00:00+00:00",
+    "oldest": "2026-10-15T00:00:00+00:00",
+    "sample": [
+      {
+        "title": "Targeting high-value uses to unlock the mitigation potential of clean hydrogen",
+        "url": "https://www.nature.com/articles/s41558-026-02766-y",
+        "published": "2026-10-20T00:00:00+00:00"
+      },
+      {
+        "title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
+        "url": "https://www.nature.com/articles/s41558-026-02767-x",
+        "published": "2026-10-20T00:00:00+00:00"
+      },
+      {
+        "title": "Rare diseases are an overlooked dimension in climate–health adaptation",
+        "url": "https://www.nature.com/articles/s41558-026-02770-2",
+        "published": "2026-10-19T00:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-nature-geoscience",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 8,
+    "withDate": 8,
+    "withSummary": 8,
+    "newest": "2026-10-21T00:00:00+00:00",
+    "oldest": "2026-10-12T00:00:00+00:00",
+    "sample": [
+      {
+        "title": "The Baffin Bay Ice Shelf stabilized three adjacent ice sheets during the last glacial peri",
+        "url": "https://www.nature.com/articles/s41561-026-02126-7",
+        "published": "2026-10-21T00:00:00+00:00"
+      },
+      {
+        "title": "Antarctic marine-based ice destabilized when warming outpaces solid-Earth feedbacks",
+        "url": "https://www.nature.com/articles/s41561-026-02117-8",
+        "published": "2026-10-20T00:00:00+00:00"
+      },
+      {
+        "title": "Decolonize soil erosion modelling",
+        "url": "https://www.nature.com/articles/s41561-026-02124-9",
+        "published": "2026-10-19T00:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-science-news",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 10,
+    "withDate": 10,
+    "withSummary": 0,
+    "newest": "2026-10-22T09:10:09+00:00",
+    "oldest": "2026-10-20T03:30:00+00:00",
+    "sample": [
+      {
+        "title": "Iron at Earth’s heart may take a surprising form",
+        "url": "https://www.science.org/content/article/iron-earth-s-heart-may-take-surprising-form",
+        "published": "2026-10-22T09:10:09+00:00"
+      },
+      {
+        "title": "Europe’s summer heat wave killed more than 50,000 people in urban areas",
+        "url": "https://www.science.org/content/article/europe-s-summer-heat-wave-killed-more-50-000-people-urban-areas",
+        "published": "2026-10-22T07:01:00+00:00"
+      },
+      {
+        "title": "First human death linked to recently discovered livestock virus in Europe",
+        "url": "https://www.science.org/content/article/first-human-death-linked-recently-discovered-livestock-virus-europe",
+        "published": "2026-10-22T02:55:37+00:00"
+      }
+    ],
+    "notes": [
+      "摘要普遍为空，模型只能靠标题判断（海洋论文类常见，可接受但要有取舍）"
+    ]
+  },
+  {
+    "id": "rss-eos",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 15,
+    "withDate": 15,
+    "withSummary": 15,
+    "newest": "2026-10-22T18:31:32+00:00",
+    "oldest": "2026-10-19T13:12:49+00:00",
+    "sample": [
+      {
+        "title": "Cuts to Satellite Program Add “Uncertainty” and “Risk,” Suggests GAO Report",
+        "url": "https://eos.org/research-and-developments/cuts-to-satellite-program-add-uncertainty-and-risk-suggests-gao-report",
+        "published": "2026-10-22T18:31:32+00:00"
+      },
+      {
+        "title": "The Geomagnetic Polarity Time Scale Revisited Once Again",
+        "url": "https://eos.org/editor-highlights/the-geomagnetic-polarity-time-scale-revisited-once-again",
+        "published": "2026-10-22T13:37:10+00:00"
+      },
+      {
+        "title": "Where Did Formaldehyde Rain Down on Mars? Almost Everywhere.",
+        "url": "https://eos.org/articles/where-did-formaldehyde-rain-down-on-mars-almost-everywhere",
+        "published": "2026-10-22T13:22:12+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "json-crossref-progress-oceanography",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [
+      {
+        "title": "Fronts affect autumn fish and invertebrate assemblages in a coastal frontal zone: A case s",
+        "url": "https://doi.org/10.1016/j.pocean.2026.103838",
+        "published": null
+      },
+      {
+        "title": "Direct effects of plankton size are stronger than abiotic factors in driving variation in ",
+        "url": "https://doi.org/10.1016/j.pocean.2026.103837",
+        "published": null
+      },
+      {
+        "title": "The continuous shoaling of wintertime mixed layer depth near East Greenland using an obser",
+        "url": "https://doi.org/10.1016/j.pocean.2026.103836",
+        "published": null
+      }
+    ],
+    "notes": [
+      "没有一条能解析出日期；上线后按发布日期归档会全部进 unknown",
+      "摘要普遍为空，模型只能靠标题判断（海洋论文类常见，可接受但要有取舍）"
+    ]
+  },
+  {
+    "id": "json-crossref-deep-sea-research",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [
+      {
+        "title": "Spatiotemporal variability of the Atlantic-origin water temperature in the western Nansen ",
+        "url": "https://doi.org/10.1016/j.dsr.2026.104769",
+        "published": null
+      },
+      {
+        "title": "Sharks of the Gorringe Bank: new records from deep-sea video observations",
+        "url": "https://doi.org/10.1016/j.dsr.2026.104768",
+        "published": null
+      },
+      {
+        "title": "Slowly moving but seldom still: Activity patterns of deep-sea skate Bathyraja irrasa",
+        "url": "https://doi.org/10.1016/j.dsr.2026.104765",
+        "published": null
+      }
+    ],
+    "notes": [
+      "没有一条能解析出日期；上线后按发布日期归档会全部进 unknown",
+      "摘要普遍为空，模型只能靠标题判断（海洋论文类常见，可接受但要有取舍）"
+    ]
+  },
+  {
+    "id": "json-crossref-jpo",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 19,
+    "withSummary": 28,
+    "newest": "2026-10-22T00:00:00+00:00",
+    "oldest": "2026-09-01T00:00:00+00:00",
+    "sample": [
+      {
+        "title": "A Reduced-Dimensional Model for the Interhemispheric Geostrophic Meridional Overturning Ci",
+        "url": "https://doi.org/10.1175/jpo-d-25-0231.1",
+        "published": "2026-10-22T00:00:00+00:00"
+      },
+      {
+        "title": "Mesoscale Eddy - Internal Wave Coupling. III. The End of the Enstrophy Cascade and Mainten",
+        "url": "https://doi.org/10.1175/jpo-d-25-0138.1",
+        "published": "2026-10-21T00:00:00+00:00"
+      },
+      {
+        "title": "Multi-stability of Atlantic and Pacific overturning: The role of Freshwater Forcing Asymme",
+        "url": "https://doi.org/10.1175/jpo-d-26-0108.1",
+        "published": "2026-10-19T00:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "json-crossref-ocean-modelling",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [
+      {
+        "title": "A New Configuration Scheme of Localized Sigma Coordinates with Shaved Cell for Steep Terra",
+        "url": "https://doi.org/10.1016/j.ocemod.2026.102855",
+        "published": null
+      },
+      {
+        "title": "Modeling salinity dynamics in a highly stratified estuary with a predominant ship channel:",
+        "url": "https://doi.org/10.1016/j.ocemod.2026.102854",
+        "published": null
+      },
+      {
+        "title": "Learning effective Sargassum transport dynamics from limited drifter observations",
+        "url": "https://doi.org/10.1016/j.ocemod.2026.102850",
+        "published": null
+      }
+    ],
+    "notes": [
+      "没有一条能解析出日期；上线后按发布日期归档会全部进 unknown",
+      "摘要普遍为空，模型只能靠标题判断（海洋论文类常见，可接受但要有取舍）"
+    ]
+  },
+  {
+    "id": "json-crossref-ices-jms",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 29,
+    "withSummary": 27,
+    "newest": "2026-10-01T00:00:00+00:00",
+    "oldest": "2026-08-29T00:00:00+00:00",
+    "sample": [
+      {
+        "title": "Sea ice influences Antarctic krill population structure through juvenile habitat associati",
+        "url": "https://doi.org/10.1093/icesjms/fsag216",
+        "published": "2026-10-01T00:00:00+00:00"
+      },
+      {
+        "title": "Topic modelling reveals rapid but uneven growth in marine structure-from-motion photogramm",
+        "url": "https://doi.org/10.1093/icesjms/fsag215",
+        "published": "2026-10-01T00:00:00+00:00"
+      },
+      {
+        "title": "Tuna species differ in Mediterranean habitat suitability and environmental accessibility u",
+        "url": "https://doi.org/10.1093/icesjms/fsag210",
+        "published": "2026-10-01T00:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "json-crossref-marine-policy",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [
+      {
+        "title": "Celebrity influence on fisheries and marine conservation: Risks and opportunities",
+        "url": "https://doi.org/10.1016/j.marpol.2026.107330",
+        "published": null
+      },
+      {
+        "title": "Use of Social Network Analysis for community-led area-based fisheries management: The case",
+        "url": "https://doi.org/10.1016/j.marpol.2026.107329",
+        "published": null
+      },
+      {
+        "title": "Assessing seagrass climate risk and biodiversity vulnerability to support marine spatial p",
+        "url": "https://doi.org/10.1016/j.marpol.2026.107326",
+        "published": null
+      }
+    ],
+    "notes": [
+      "没有一条能解析出日期；上线后按发布日期归档会全部进 unknown",
+      "摘要普遍为空，模型只能靠标题判断（海洋论文类常见，可接受但要有取舍）"
+    ]
+  },
+  {
+    "id": "json-crossref-marine-pollution",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [
+      {
+        "title": "Spawning strategy drives divergent stock trends of walleye pollock and Pacific cod under o",
+        "url": "https://doi.org/10.1016/j.marpolbul.2026.120481",
+        "published": null
+      },
+      {
+        "title": "Geostatistical estimation of marine microplastics pollution in Hong Kong using benthic fau",
+        "url": "https://doi.org/10.1016/j.marpolbul.2026.120480",
+        "published": null
+      },
+      {
+        "title": "The effect of seismic shooting on the courtship behaviour of cod (Gadus morhua)",
+        "url": "https://doi.org/10.1016/j.marpolbul.2026.120472",
+        "published": null
+      }
+    ],
+    "notes": [
+      "没有一条能解析出日期；上线后按发布日期归档会全部进 unknown",
+      "摘要普遍为空，模型只能靠标题判断（海洋论文类常见，可接受但要有取舍）"
+    ]
+  },
+  {
+    "id": "json-crossref-limnology",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 6,
+    "withSummary": 29,
+    "newest": "2026-09-30T00:00:00+00:00",
+    "oldest": "2026-09-26T00:00:00+00:00",
+    "sample": [
+      {
+        "title": "Zooplankton diel vertical migration drives a major, variable and underestimated carbon sin",
+        "url": "https://doi.org/10.1002/lno.70516",
+        "published": "2026-09-30T00:00:00+00:00"
+      },
+      {
+        "title": "Climate warming and aquaculture reclamation activate positive feedback mechanisms for gree",
+        "url": "https://doi.org/10.1002/lno.70512",
+        "published": "2026-09-28T00:00:00+00:00"
+      },
+      {
+        "title": "Nutrient thresholds govern carbon dioxide sink–source dynamics in seagrass ecosystems",
+        "url": "https://doi.org/10.1002/lno.70488",
+        "published": "2026-09-28T00:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "json-crossref-global-biogeochem",
+    "kind": "json_list",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 30,
+    "withDate": 2,
+    "withSummary": 30,
+    "newest": "2026-09-30T00:00:00+00:00",
+    "oldest": "2026-09-30T00:00:00+00:00",
+    "sample": [
+      {
+        "title": "Spatial Variability and Long‐Term Trends in Winter Phytoplankton of the Warming Eastern Me",
+        "url": "https://doi.org/10.1029/2026gb009273",
+        "published": "2026-09-30T00:00:00+00:00"
+      },
+      {
+        "title": "Issue Information",
+        "url": "https://doi.org/10.1029/gbc.70158",
+        "published": "2026-09-30T00:00:00+00:00"
+      },
+      {
+        "title": "Spatial Variation of Post‐Fire Aboveground Carbon Accumulation Rates in Young Forests Nort",
+        "url": "https://doi.org/10.1029/2026gb009207",
+        "published": null
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-mbari",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 10,
+    "withDate": 10,
+    "withSummary": 10,
+    "newest": "2026-10-22T16:00:43+00:00",
+    "oldest": "2026-10-08T21:31:35+00:00",
+    "sample": [
+      {
+        "title": "New research reveals the hidden diversity of deep-sea siphonophores",
+        "url": "https://www.mbari.org/news/new-research-reveals-the-hidden-diversity-of-deep-sea-siphonophores/",
+        "published": "2026-10-22T16:00:43+00:00"
+      },
+      {
+        "title": "MBARI President and CEO Antje Boetius elected to France’s National Order of Merit",
+        "url": "https://www.mbari.org/news/mbari-president-and-ceo-antje-boetius-elected-to-frances-national-order-of-merit/",
+        "published": "2026-10-19T23:10:18+00:00"
+      },
+      {
+        "title": "Siphonophores, served cold",
+        "url": "https://www.mbari.org/news/siphonophores-served-cold/",
+        "published": "2026-10-17T16:00:28+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-scripps",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 10,
+    "withDate": 10,
+    "withSummary": 10,
+    "newest": "2026-10-22T20:04:24+00:00",
+    "oldest": "2026-09-23T18:09:40+00:00",
+    "sample": [
+      {
+        "title": "We’re Going Back to the Moon! Here’s Where We Might Land",
+        "url": "https://scripps.ucsd.edu/news/were-going-back-moon-heres-where-we-might-land",
+        "published": "2026-10-22T20:04:24+00:00"
+      },
+      {
+        "title": "What Climate Change Is Costing California",
+        "url": "https://scripps.ucsd.edu/news/what-climate-change-costing-california",
+        "published": "2026-10-20T21:50:06+00:00"
+      },
+      {
+        "title": "The Ocean Pavilion Returns to Global Climate Negotiations for the Fifth Year at the “Blue”",
+        "url": "https://scripps.ucsd.edu/news/ocean-pavilion-returns-global-climate-negotiations-fifth-year-blue-cop",
+        "published": "2026-10-15T13:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-frontiers-marine",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 20,
+    "withDate": 0,
+    "withSummary": 20,
+    "newest": null,
+    "oldest": null,
+    "sample": [
+      {
+        "title": "Promoting sustainable fishing: from the perspective of Fisheries Funding Mechanism under t",
+        "url": "https://www.frontiersin.org/articles/10.3389/fmars.2025.1699171",
+        "published": null
+      },
+      {
+        "title": "Implementing BBNJ across fisheries institutions: policy options for interoperable ocean go",
+        "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1986237",
+        "published": null
+      },
+      {
+        "title": "A wavelet kernel design for the detection of sperm whale echolocation clicks",
+        "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1903330",
+        "published": null
+      }
+    ],
+    "notes": [
+      "没有一条能解析出日期；上线后按发布日期归档会全部进 unknown"
+    ]
+  },
+  {
+    "id": "rss-sciencedaily-ocean",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 60,
+    "withDate": 60,
+    "withSummary": 60,
+    "newest": "2026-10-21T04:08:28+00:00",
+    "oldest": "2026-07-03T17:31:51+00:00",
+    "sample": [
+      {
+        "title": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261020085727.htm",
+        "published": "2026-10-21T04:08:28+00:00"
+      },
+      {
+        "title": "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
+        "published": "2026-10-19T13:09:18+00:00"
+      },
+      {
+        "title": "A simple touch can bring dying corals back to life in just 7 weeks",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261017230025.htm",
+        "published": "2026-10-19T11:05:52+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-mongabay",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 32,
+    "withDate": 0,
+    "withSummary": 32,
+    "newest": null,
+    "oldest": null,
+    "sample": [
+      {
+        "title": "Googly-eyed buoys and kites help keep seabirds out of fishing nets, study finds",
+        "url": "https://news.mongabay.com/2026/10/googly-eyed-buoys-and-kites-help-keep-seabirds-out-of-fishing-nets-study-finds/",
+        "published": null
+      },
+      {
+        "title": "Mass sloth deaths prompt US bill calling for import ban",
+        "url": "https://news.mongabay.com/short-article/2026/10/mass-sloth-deaths-prompt-us-bill-calling-for-import-ban/",
+        "published": null
+      },
+      {
+        "title": "Scorched sanctuaries: The race to save Borneo’s orangutans from fires",
+        "url": "https://news.mongabay.com/2026/10/scorched-sanctuaries-the-race-to-save-borneos-orangutans-from-fires/",
+        "published": null
+      }
+    ],
+    "notes": [
+      "没有一条能解析出日期；上线后按发布日期归档会全部进 unknown"
+    ]
+  },
+  {
+    "id": "rss-carbonbrief",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 12,
+    "withDate": 12,
+    "withSummary": 12,
+    "newest": "2026-10-22T10:45:03+00:00",
+    "oldest": "2026-09-25T12:45:39+00:00",
+    "sample": [
+      {
+        "title": "Experts: How are climate scientists using artificial intelligence?",
+        "url": "https://www.carbonbrief.org/experts-how-are-climate-scientists-using-artificial-intelligence",
+        "published": "2026-10-22T10:45:03+00:00"
+      },
+      {
+        "title": "Revealed: Expensive gas behind ‘nearly 90%’ of rise in UK electricity bills",
+        "url": "https://www.carbonbrief.org/revealed-expensive-gas-behind-nearly-90-of-rise-in-uk-electricity-bills",
+        "published": "2026-10-21T11:37:55+00:00"
+      },
+      {
+        "title": "UNEP: Opportunity has ‘been lost’ to meet 1.5C warming limit without ‘overshoot’",
+        "url": "https://www.carbonbrief.org/unep-opportunity-has-been-lost-to-meet-1-5c-warming-limit-without-overshoot",
+        "published": "2026-10-21T05:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-physicsworld",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 160,
+    "withDate": 160,
+    "withSummary": 160,
+    "newest": "2026-10-22T15:38:58+00:00",
+    "oldest": "2026-08-28T08:00:08+00:00",
+    "sample": [
+      {
+        "title": "Theorists use cloud-based Bose–Einstein condensate to study tunnelling",
+        "url": "https://physicsworld.com/a/theorists-use-cloud-based-bose-einstein-condensate-to-study-tunnelling/",
+        "published": "2026-10-22T15:38:58+00:00"
+      },
+      {
+        "title": "Earth’s gravity and magnetism have unexpected effects on the human genome and mitochondria",
+        "url": "https://physicsworld.com/a/earths-gravity-and-magnetism-have-unexpected-effects-on-the-human-genome-and-mitochondria/",
+        "published": "2026-10-22T08:00:03+00:00"
+      },
+      {
+        "title": "Japan launches sample-return mission to Mars’s moon Phobos",
+        "url": "https://physicsworld.com/a/japan-launches-sample-return-mission-to-marss-moon-phobos/",
+        "published": "2026-10-21T16:00:05+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-newscientist",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 10,
+    "withDate": 10,
+    "withSummary": 9,
+    "newest": "2026-10-22T19:00:00+00:00",
+    "oldest": "2026-10-21T17:00:00+00:00",
+    "sample": [
+      {
+        "title": "Tiny ‘solar flares’ recreated in the lab may explain corona mystery",
+        "url": "https://www.newscientist.com/article/2595244-tiny-solar-flares-recreated-in-the-lab-may-explain-corona-mystery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+        "published": "2026-10-22T19:00:00+00:00"
+      },
+      {
+        "title": "Earth entered its ‘bad decades’ after dinosaur-ending asteroid strike",
+        "url": "https://www.newscientist.com/article/2594979-earths-bad-decades-after-dinosaur-ending-asteroid-strike/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+        "published": "2026-10-22T17:00:00+00:00"
+      },
+      {
+        "title": "All tropical coral reefs could collapse within 50 years",
+        "url": "https://www.newscientist.com/article/2595378-all-tropical-coral-reefs-could-collapse-within-50-years/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+        "published": "2026-10-22T13:20:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rss-nature-comms",
+    "kind": "rss",
+    "ok": true,
+    "status": 200,
+    "error": "",
+    "total": 8,
+    "withDate": 8,
+    "withSummary": 8,
+    "newest": "2026-10-23T00:00:00+00:00",
+    "oldest": "2026-10-22T00:00:00+00:00",
+    "sample": [
+      {
+        "title": "Fine-tuning of polygenic score to local data improves risk prediction and clinical impleme",
+        "url": "https://www.nature.com/articles/s41467-026-77770-z",
+        "published": "2026-10-23T00:00:00+00:00"
+      },
+      {
+        "title": "A global livestock virome catalog links viruses with resistome assembly",
+        "url": "https://www.nature.com/articles/s41467-026-78855-5",
+        "published": "2026-10-23T00:00:00+00:00"
+      },
+      {
+        "title": "Clade-specific transmission dynamics of enterovirus D68 and their association with acute f",
+        "url": "https://www.nature.com/articles/s41467-026-78448-2",
+        "published": "2026-10-23T00:00:00+00:00"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ext-cn-mnr",
+    "kind": "external",
+    "ok": false,
+    "status": 0,
+    "error": "external 需要 API key 或人工确认，脚本不验（上线后在后台预览）",
+    "total": 0,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [],
+    "notes": []
+  },
+  {
+    "id": "ext-cn-nmdis",
+    "kind": "external",
+    "ok": false,
+    "status": 0,
+    "error": "external 需要 API key 或人工确认，脚本不验（上线后在后台预览）",
+    "total": 0,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [],
+    "notes": []
+  },
+  {
+    "id": "ext-cn-ouc",
+    "kind": "external",
+    "ok": false,
+    "status": 0,
+    "error": "external 需要 API key 或人工确认，脚本不验（上线后在后台预览）",
+    "total": 0,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [],
+    "notes": []
+  },
+  {
+    "id": "ext-cn-iocas",
+    "kind": "external",
+    "ok": false,
+    "status": 0,
+    "error": "external 需要 API key 或人工确认，脚本不验（上线后在后台预览）",
+    "total": 0,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [],
+    "notes": []
+  },
+  {
+    "id": "ext-cn-sio",
+    "kind": "external",
+    "ok": false,
+    "status": 0,
+    "error": "external 需要 API key 或人工确认，脚本不验（上线后在后台预览）",
+    "total": 0,
+    "withDate": 0,
+    "withSummary": 0,
+    "newest": null,
+    "oldest": null,
+    "sample": [],
+    "notes": []
+  }
+]

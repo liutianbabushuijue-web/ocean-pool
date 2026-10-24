@@ -1,0 +1,39 @@
+# Private environment and credentials
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.*.example
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/private/
+**/.data/
+**/pgdata/
+**/backups/
+**/ocean-runtime/
+**/*.dump
+**/*.backup
+**/*.sqlite
+**/*.sqlite3
+**/*.sqlite-*
+
+# Dependencies, generated engine builds and local caches
+**/node_modules/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/build/
+**/dist/
+**/*.tsbuildinfo
+**/*.log
+/work/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Reader's generated public data is deliberately tracked:
+# site/data.json, site/feed.xml, site/ocean-sources.opml, site/sources.opml
+

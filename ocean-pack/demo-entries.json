@@ -1,0 +1,1574 @@
+{
+  "$comment": "演示用条目。字段与 GET /api/stepx/v1/items 的 items[] 完全一致；summary/category/score 为 null 是因为这里没有调模型。stepx 侧联调时按这份结构写 upsert，正式环境换成真实接口即可。",
+  "schema": "stepx.ocean.v1",
+  "generatedAt": "2026-10-23T05:18:24.844776Z",
+  "count": 54,
+  "items": [
+    {
+      "externalId": "aihot:demo-a48f9ab9915c",
+      "sourceItemId": "demo-a48f9ab9915c",
+      "tombstone": false,
+      "title": "New NOAA report shows U.S. ocean enterprise sector continues to grow",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "NOAA National Ocean Service",
+      "originalUrl": "https://oceanservice.noaa.gov/news/oct26/ocean-enterprise-grows.html",
+      "aihotUrl": "http://localhost:3000/item/demo-a48f9ab9915c",
+      "publishedAt": "2026-10-22T15:00:00Z",
+      "updatedAt": "2026-10-23T05:17:35.277603Z",
+      "category": null,
+      "tags": [
+        "官方",
+        "机构"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-noaa-nos",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-751fd41eff22",
+      "sourceItemId": "demo-751fd41eff22",
+      "tombstone": false,
+      "title": "Hurricane Isaias: Aerial Imagery",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "NOAA National Ocean Service",
+      "originalUrl": "https://oceanservice.noaa.gov/news/oct26/ngs-hurricane-isaias.html",
+      "aihotUrl": "http://localhost:3000/item/demo-751fd41eff22",
+      "publishedAt": "2026-10-13T15:00:00Z",
+      "updatedAt": "2026-10-23T05:17:35.277603Z",
+      "category": null,
+      "tags": [
+        "官方",
+        "机构"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-noaa-nos",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-52a603bf3038",
+      "sourceItemId": "demo-52a603bf3038",
+      "tombstone": false,
+      "title": "El Nino looms large over U.S. Winter Outlook",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "NOAA News",
+      "originalUrl": "https://www.noaa.gov/news-release/el-nino-looms-large-over-us-winter-outlook",
+      "aihotUrl": "http://localhost:3000/item/demo-52a603bf3038",
+      "publishedAt": "2026-10-14T19:40:37Z",
+      "updatedAt": "2026-10-23T05:17:37.801356Z",
+      "category": null,
+      "tags": [
+        "官方"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-noaa",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-f4e30b75e7a6",
+      "sourceItemId": "demo-f4e30b75e7a6",
+      "tombstone": false,
+      "title": "Ocean Facts: What are Kelvin waves?",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "NOAA News",
+      "originalUrl": "https://www.noaa.gov/stories/ocean-facts-what-are-kelvin-waves-ext",
+      "aihotUrl": "http://localhost:3000/item/demo-f4e30b75e7a6",
+      "publishedAt": "2026-10-14T16:10:01Z",
+      "updatedAt": "2026-10-23T05:17:37.801356Z",
+      "category": null,
+      "tags": [
+        "官方"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-noaa",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-d7e05eebe5ea",
+      "sourceItemId": "demo-d7e05eebe5ea",
+      "tombstone": false,
+      "title": "Assessing the State of the Arctic Observing Network: Strengths, Gaps and Risks to Systems that Track Arctic Change",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "NOAA Arctic Report Card / News",
+      "originalUrl": "https://arctic.noaa.gov/report-card/report-card-2025/assessing-the-state-of-the-arctic-observing-network-strengths-gaps-and-risks-to-systems-that-track-arctic-change/",
+      "aihotUrl": "http://localhost:3000/item/demo-d7e05eebe5ea",
+      "publishedAt": "2025-10-13T17:56:32Z",
+      "updatedAt": "2026-10-23T05:17:42.579945Z",
+      "category": null,
+      "tags": [
+        "官方",
+        "极地"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-noaa-arctic",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-0a5b074d0ebe",
+      "sourceItemId": "demo-0a5b074d0ebe",
+      "tombstone": false,
+      "title": "AMAP and the Arctic Report Card: A Collaboration that is 20 Years Strong",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "NOAA Arctic Report Card / News",
+      "originalUrl": "https://arctic.noaa.gov/report-card/report-card-2025/amap-and-the-arctic-report-card-a-collaboration-that-is-20-years-strong/",
+      "aihotUrl": "http://localhost:3000/item/demo-0a5b074d0ebe",
+      "publishedAt": "2025-10-12T02:28:25Z",
+      "updatedAt": "2026-10-23T05:17:42.579945Z",
+      "category": null,
+      "tags": [
+        "官方",
+        "极地"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-noaa-arctic",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-b99d9b821501",
+      "sourceItemId": "demo-b99d9b821501",
+      "tombstone": false,
+      "title": "Can a 'lullaby' save coral reefs from extinction?",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-03414-3",
+      "aihotUrl": "http://localhost:3000/item/demo-b99d9b821501",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:42.968524Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-nature",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-b908ce2f90c3",
+      "sourceItemId": "demo-b908ce2f90c3",
+      "tombstone": false,
+      "title": "A first for CRISPR: powerful prime editing alters DNA directly in the human body",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Nature",
+      "originalUrl": "https://www.nature.com/articles/d41586-026-03371-x",
+      "aihotUrl": "http://localhost:3000/item/demo-b908ce2f90c3",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:42.968524Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-nature",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-0302f860d60c",
+      "sourceItemId": "demo-0302f860d60c",
+      "tombstone": false,
+      "title": "Targeting high-value uses to unlock the mitigation potential of clean hydrogen",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Nature Climate Change",
+      "originalUrl": "https://www.nature.com/articles/s41558-026-02766-y",
+      "aihotUrl": "http://localhost:3000/item/demo-0302f860d60c",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:43.238613Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "气候"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-nature-climate",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-0e6ae67bbee3",
+      "sourceItemId": "demo-0e6ae67bbee3",
+      "tombstone": false,
+      "title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Nature Climate Change",
+      "originalUrl": "https://www.nature.com/articles/s41558-026-02767-x",
+      "aihotUrl": "http://localhost:3000/item/demo-0e6ae67bbee3",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:43.238613Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "气候"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-nature-climate",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-74c1f02bb819",
+      "sourceItemId": "demo-74c1f02bb819",
+      "tombstone": false,
+      "title": "The Baffin Bay Ice Shelf stabilized three adjacent ice sheets during the last glacial period",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Nature Geoscience",
+      "originalUrl": "https://www.nature.com/articles/s41561-026-02126-7",
+      "aihotUrl": "http://localhost:3000/item/demo-74c1f02bb819",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:43.440306Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "地球科学"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-nature-geoscience",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-84ca7e7e2d4e",
+      "sourceItemId": "demo-84ca7e7e2d4e",
+      "tombstone": false,
+      "title": "Antarctic marine-based ice destabilized when warming outpaces solid-Earth feedbacks",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Nature Geoscience",
+      "originalUrl": "https://www.nature.com/articles/s41561-026-02117-8",
+      "aihotUrl": "http://localhost:3000/item/demo-84ca7e7e2d4e",
+      "publishedAt": "2026-10-20T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:43.440306Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "地球科学"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-nature-geoscience",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-e5e7d2e1f88a",
+      "sourceItemId": "demo-e5e7d2e1f88a",
+      "tombstone": false,
+      "title": "Iron at Earth’s heart may take a surprising form",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Science News",
+      "originalUrl": "https://www.science.org/content/article/iron-earth-s-heart-may-take-surprising-form",
+      "aihotUrl": "http://localhost:3000/item/demo-e5e7d2e1f88a",
+      "publishedAt": "2026-10-22T09:10:09Z",
+      "updatedAt": "2026-10-23T05:17:43.639057Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "媒体"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-science-news",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-1444d94c1459",
+      "sourceItemId": "demo-1444d94c1459",
+      "tombstone": false,
+      "title": "Europe’s summer heat wave killed more than 50,000 people in urban areas",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Science News",
+      "originalUrl": "https://www.science.org/content/article/europe-s-summer-heat-wave-killed-more-50-000-people-urban-areas",
+      "aihotUrl": "http://localhost:3000/item/demo-1444d94c1459",
+      "publishedAt": "2026-10-22T07:01:00Z",
+      "updatedAt": "2026-10-23T05:17:43.639057Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "媒体"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-science-news",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-5c7a9ce5a5e9",
+      "sourceItemId": "demo-5c7a9ce5a5e9",
+      "tombstone": false,
+      "title": "Cuts to Satellite Program Add “Uncertainty” and “Risk,” Suggests GAO Report",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Eos (AGU)",
+      "originalUrl": "https://eos.org/research-and-developments/cuts-to-satellite-program-add-uncertainty-and-risk-suggests-gao-report",
+      "aihotUrl": "http://localhost:3000/item/demo-5c7a9ce5a5e9",
+      "publishedAt": "2026-10-22T18:31:32Z",
+      "updatedAt": "2026-10-23T05:17:44.167682Z",
+      "category": null,
+      "tags": [
+        "学会",
+        "地球科学"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-eos",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-0d82df78997f",
+      "sourceItemId": "demo-0d82df78997f",
+      "tombstone": false,
+      "title": "The Geomagnetic Polarity Time Scale Revisited Once Again",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Eos (AGU)",
+      "originalUrl": "https://eos.org/editor-highlights/the-geomagnetic-polarity-time-scale-revisited-once-again",
+      "aihotUrl": "http://localhost:3000/item/demo-0d82df78997f",
+      "publishedAt": "2026-10-22T13:37:10Z",
+      "updatedAt": "2026-10-23T05:17:44.167682Z",
+      "category": null,
+      "tags": [
+        "学会",
+        "地球科学"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-eos",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-02b2e8a03fba",
+      "sourceItemId": "demo-02b2e8a03fba",
+      "tombstone": false,
+      "title": "Fronts affect autumn fish and invertebrate assemblages in a coastal frontal zone: A case study in the East China Sea",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Progress in Oceanography (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.pocean.2026.103838",
+      "aihotUrl": "http://localhost:3000/item/demo-02b2e8a03fba",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:46.445147Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-progress-oceanography",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-2930f77aa548",
+      "sourceItemId": "demo-2930f77aa548",
+      "tombstone": false,
+      "title": "Direct effects of plankton size are stronger than abiotic factors in driving variation in fish life history traits",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Progress in Oceanography (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.pocean.2026.103837",
+      "aihotUrl": "http://localhost:3000/item/demo-2930f77aa548",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:46.445147Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-progress-oceanography",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-2c958f869469",
+      "sourceItemId": "demo-2c958f869469",
+      "tombstone": false,
+      "title": "Spatiotemporal variability of the Atlantic-origin water temperature in the western Nansen Basin and its manifestation in the state of the ice cover",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Deep-Sea Research Part I (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.dsr.2026.104769",
+      "aihotUrl": "http://localhost:3000/item/demo-2c958f869469",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:47.764817Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文",
+        "深海"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-deep-sea-research",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-2106f73b0d17",
+      "sourceItemId": "demo-2106f73b0d17",
+      "tombstone": false,
+      "title": "Sharks of the Gorringe Bank: new records from deep-sea video observations",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Deep-Sea Research Part I (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.dsr.2026.104768",
+      "aihotUrl": "http://localhost:3000/item/demo-2106f73b0d17",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:47.764817Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文",
+        "深海"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-deep-sea-research",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-130e78fefda4",
+      "sourceItemId": "demo-130e78fefda4",
+      "tombstone": false,
+      "title": "A Reduced-Dimensional Model for the Interhemispheric Geostrophic Meridional Overturning Circulation",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Journal of Physical Oceanography (Crossref)",
+      "originalUrl": "https://doi.org/10.1175/jpo-d-25-0231.1",
+      "aihotUrl": "http://localhost:3000/item/demo-130e78fefda4",
+      "publishedAt": "2026-10-22T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:50.287440Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文",
+        "物理海洋"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-jpo",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-2e0da67d3e7e",
+      "sourceItemId": "demo-2e0da67d3e7e",
+      "tombstone": false,
+      "title": "Mesoscale Eddy - Internal Wave Coupling. III. The End of the Enstrophy Cascade and Maintenance of Gyre Scale Potential Vorticity Gradients",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Journal of Physical Oceanography (Crossref)",
+      "originalUrl": "https://doi.org/10.1175/jpo-d-25-0138.1",
+      "aihotUrl": "http://localhost:3000/item/demo-2e0da67d3e7e",
+      "publishedAt": "2026-10-21T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:50.287440Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文",
+        "物理海洋"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-jpo",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-724636905a75",
+      "sourceItemId": "demo-724636905a75",
+      "tombstone": false,
+      "title": "A New Configuration Scheme of Localized Sigma Coordinates with Shaved Cell for Steep Terrain",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Ocean Modelling (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.ocemod.2026.102855",
+      "aihotUrl": "http://localhost:3000/item/demo-724636905a75",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:52.046926Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文",
+        "模式"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-ocean-modelling",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-a5c0f1789d20",
+      "sourceItemId": "demo-a5c0f1789d20",
+      "tombstone": false,
+      "title": "Modeling salinity dynamics in a highly stratified estuary with a predominant ship channel: Effect of vertical grid, Shapiro filtering, and turbulence implementation",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Ocean Modelling (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.ocemod.2026.102854",
+      "aihotUrl": "http://localhost:3000/item/demo-a5c0f1789d20",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:52.046926Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文",
+        "模式"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-ocean-modelling",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-dac8f8fc7e90",
+      "sourceItemId": "demo-dac8f8fc7e90",
+      "tombstone": false,
+      "title": "Sea ice influences Antarctic krill population structure through juvenile habitat associations in the Western Indian Ocean sector of the Southern Ocean",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "ICES Journal of Marine Science (Crossref)",
+      "originalUrl": "https://doi.org/10.1093/icesjms/fsag216",
+      "aihotUrl": "http://localhost:3000/item/demo-dac8f8fc7e90",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:55.029642Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文",
+        "渔业"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-ices-jms",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-e39e26c54cbc",
+      "sourceItemId": "demo-e39e26c54cbc",
+      "tombstone": false,
+      "title": "Topic modelling reveals rapid but uneven growth in marine structure-from-motion photogrammetry research",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "ICES Journal of Marine Science (Crossref)",
+      "originalUrl": "https://doi.org/10.1093/icesjms/fsag215",
+      "aihotUrl": "http://localhost:3000/item/demo-e39e26c54cbc",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "updatedAt": "2026-10-23T05:17:55.029642Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文",
+        "渔业"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-ices-jms",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-c844574fa022",
+      "sourceItemId": "demo-c844574fa022",
+      "tombstone": false,
+      "title": "Celebrity influence on fisheries and marine conservation: Risks and opportunities",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Marine Policy (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.marpol.2026.107330",
+      "aihotUrl": "http://localhost:3000/item/demo-c844574fa022",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:56.698711Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "政策"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-marine-policy",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-c717612af866",
+      "sourceItemId": "demo-c717612af866",
+      "tombstone": false,
+      "title": "Use of Social Network Analysis for community-led area-based fisheries management: The case of tropical lobster fisheries",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Marine Policy (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.marpol.2026.107329",
+      "aihotUrl": "http://localhost:3000/item/demo-c717612af866",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:56.698711Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "政策"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-marine-policy",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-f0965e36c424",
+      "sourceItemId": "demo-f0965e36c424",
+      "tombstone": false,
+      "title": "Spawning strategy drives divergent stock trends of walleye pollock and Pacific cod under ocean warming in the northwestern Pacific",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.marpolbul.2026.120481",
+      "aihotUrl": "http://localhost:3000/item/demo-f0965e36c424",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:58.154240Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "污染"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-marine-pollution",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-130b82590cfb",
+      "sourceItemId": "demo-130b82590cfb",
+      "tombstone": false,
+      "title": "Geostatistical estimation of marine microplastics pollution in Hong Kong using benthic fauna as bioindicators",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "originalUrl": "https://doi.org/10.1016/j.marpolbul.2026.120480",
+      "aihotUrl": "http://localhost:3000/item/demo-130b82590cfb",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:17:58.154240Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "污染"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-marine-pollution",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-8ae9bd8a54bd",
+      "sourceItemId": "demo-8ae9bd8a54bd",
+      "tombstone": false,
+      "title": "Zooplankton diel vertical migration drives a major, variable and underestimated carbon sink in the Southern Ocean",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Limnology and Oceanography (Crossref)",
+      "originalUrl": "https://doi.org/10.1002/lno.70516",
+      "aihotUrl": "http://localhost:3000/item/demo-8ae9bd8a54bd",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "updatedAt": "2026-10-23T05:18:01.567480Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-limnology",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-7e29cd042748",
+      "sourceItemId": "demo-7e29cd042748",
+      "tombstone": false,
+      "title": "Climate warming and aquaculture reclamation activate positive feedback mechanisms for greenhouse gases in a temperate mudflat",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Limnology and Oceanography (Crossref)",
+      "originalUrl": "https://doi.org/10.1002/lno.70512",
+      "aihotUrl": "http://localhost:3000/item/demo-7e29cd042748",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "updatedAt": "2026-10-23T05:18:01.567480Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "论文"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-limnology",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-7870d516c8e3",
+      "sourceItemId": "demo-7870d516c8e3",
+      "tombstone": false,
+      "title": "Spatial Variability and Long‐Term Trends in Winter Phytoplankton of the Warming Eastern Mediterranean Sea",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Global Biogeochemical Cycles (Crossref)",
+      "originalUrl": "https://doi.org/10.1029/2026gb009273",
+      "aihotUrl": "http://localhost:3000/item/demo-7870d516c8e3",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "updatedAt": "2026-10-23T05:18:06.325751Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "碳循环"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-global-biogeochem",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-7ba5289dcdf5",
+      "sourceItemId": "demo-7ba5289dcdf5",
+      "tombstone": false,
+      "title": "Issue Information",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Global Biogeochemical Cycles (Crossref)",
+      "originalUrl": "https://doi.org/10.1029/gbc.70158",
+      "aihotUrl": "http://localhost:3000/item/demo-7ba5289dcdf5",
+      "publishedAt": "2026-09-30T00:00:00Z",
+      "updatedAt": "2026-10-23T05:18:06.326396Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "碳循环"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "json-crossref-global-biogeochem",
+        "tier": "T1"
+      }
+    },
+    {
+      "externalId": "aihot:demo-601e3ba4b2c2",
+      "sourceItemId": "demo-601e3ba4b2c2",
+      "tombstone": false,
+      "title": "New research reveals the hidden diversity of deep-sea siphonophores",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "MBARI",
+      "originalUrl": "https://www.mbari.org/news/new-research-reveals-the-hidden-diversity-of-deep-sea-siphonophores/",
+      "aihotUrl": "http://localhost:3000/item/demo-601e3ba4b2c2",
+      "publishedAt": "2026-10-22T16:00:43Z",
+      "updatedAt": "2026-10-23T05:18:10.562205Z",
+      "category": null,
+      "tags": [
+        "机构",
+        "深海"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-mbari",
+        "tier": "T1_5"
+      }
+    },
+    {
+      "externalId": "aihot:demo-c51843230c72",
+      "sourceItemId": "demo-c51843230c72",
+      "tombstone": false,
+      "title": "MBARI President and CEO Antje Boetius elected to France’s National Order of Merit",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "MBARI",
+      "originalUrl": "https://www.mbari.org/news/mbari-president-and-ceo-antje-boetius-elected-to-frances-national-order-of-merit/",
+      "aihotUrl": "http://localhost:3000/item/demo-c51843230c72",
+      "publishedAt": "2026-10-19T23:10:18Z",
+      "updatedAt": "2026-10-23T05:18:10.562205Z",
+      "category": null,
+      "tags": [
+        "机构",
+        "深海"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-mbari",
+        "tier": "T1_5"
+      }
+    },
+    {
+      "externalId": "aihot:demo-bb13c7117cfa",
+      "sourceItemId": "demo-bb13c7117cfa",
+      "tombstone": false,
+      "title": "We’re Going Back to the Moon! Here’s Where We Might Land",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Scripps Institution of Oceanography",
+      "originalUrl": "https://scripps.ucsd.edu/news/were-going-back-moon-heres-where-we-might-land",
+      "aihotUrl": "http://localhost:3000/item/demo-bb13c7117cfa",
+      "publishedAt": "2026-10-22T20:04:24Z",
+      "updatedAt": "2026-10-23T05:18:12.853113Z",
+      "category": null,
+      "tags": [
+        "机构"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-scripps",
+        "tier": "T1_5"
+      }
+    },
+    {
+      "externalId": "aihot:demo-f01d7d664079",
+      "sourceItemId": "demo-f01d7d664079",
+      "tombstone": false,
+      "title": "What Climate Change Is Costing California",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Scripps Institution of Oceanography",
+      "originalUrl": "https://scripps.ucsd.edu/news/what-climate-change-costing-california",
+      "aihotUrl": "http://localhost:3000/item/demo-f01d7d664079",
+      "publishedAt": "2026-10-20T21:50:06Z",
+      "updatedAt": "2026-10-23T05:18:12.853113Z",
+      "category": null,
+      "tags": [
+        "机构"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-scripps",
+        "tier": "T1_5"
+      }
+    },
+    {
+      "externalId": "aihot:demo-d023193787d4",
+      "sourceItemId": "demo-d023193787d4",
+      "tombstone": false,
+      "title": "Chez Chanelle’s Maple Glazed Salmon",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Ocean Conservancy",
+      "originalUrl": "https://ocean.org/blog/chez-chanelles-maple-glazed-salmon/",
+      "aihotUrl": "http://localhost:3000/item/demo-d023193787d4",
+      "publishedAt": "2026-10-09T00:02:32Z",
+      "updatedAt": "2026-10-23T05:18:14.846123Z",
+      "category": null,
+      "tags": [
+        "NGO",
+        "保护"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-ocean-org",
+        "tier": "T1_5"
+      }
+    },
+    {
+      "externalId": "aihot:demo-a59c56cab3bc",
+      "sourceItemId": "demo-a59c56cab3bc",
+      "tombstone": false,
+      "title": "Ocean Wise Welcomes Sean Southey as President and CEO",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Ocean Conservancy",
+      "originalUrl": "https://ocean.org/blog/ocean-wise-welcomes-sean-southey-as-president-and-ceo/",
+      "aihotUrl": "http://localhost:3000/item/demo-a59c56cab3bc",
+      "publishedAt": "2026-10-05T20:10:15Z",
+      "updatedAt": "2026-10-23T05:18:14.846123Z",
+      "category": null,
+      "tags": [
+        "NGO",
+        "保护"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-ocean-org",
+        "tier": "T1_5"
+      }
+    },
+    {
+      "externalId": "aihot:demo-f6cb2bbc1d4d",
+      "sourceItemId": "demo-f6cb2bbc1d4d",
+      "tombstone": false,
+      "title": "Promoting sustainable fishing: from the perspective of Fisheries Funding Mechanism under the Agreement on Fisheries Subsidies",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Frontiers in Marine Science",
+      "originalUrl": "https://www.frontiersin.org/articles/10.3389/fmars.2025.1699171",
+      "aihotUrl": "http://localhost:3000/item/demo-f6cb2bbc1d4d",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:18:15.842870Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "开放获取"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-frontiers-marine",
+        "tier": "T1_5"
+      }
+    },
+    {
+      "externalId": "aihot:demo-de77ac891110",
+      "sourceItemId": "demo-de77ac891110",
+      "tombstone": false,
+      "title": "Implementing BBNJ across fisheries institutions: policy options for interoperable ocean governance",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Frontiers in Marine Science",
+      "originalUrl": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1986237",
+      "aihotUrl": "http://localhost:3000/item/demo-de77ac891110",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:18:15.842870Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "开放获取"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-frontiers-marine",
+        "tier": "T1_5"
+      }
+    },
+    {
+      "externalId": "aihot:demo-fe101e0ff9da",
+      "sourceItemId": "demo-fe101e0ff9da",
+      "tombstone": false,
+      "title": "A massive asteroid slammed into the North Sea and unleashed a 330-foot tsunami",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "ScienceDaily Oceanography",
+      "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261020085727.htm",
+      "aihotUrl": "http://localhost:3000/item/demo-fe101e0ff9da",
+      "publishedAt": "2026-10-21T04:08:28Z",
+      "updatedAt": "2026-10-23T05:18:17.006424Z",
+      "category": null,
+      "tags": [
+        "媒体"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-sciencedaily-ocean",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-6938f5510a09",
+      "sourceItemId": "demo-6938f5510a09",
+      "tombstone": false,
+      "title": "Alaska’s monster tsunami sent water 1,580 feet up a mountain",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "ScienceDaily Oceanography",
+      "originalUrl": "https://www.sciencedaily.com/releases/2026/10/261018205047.htm",
+      "aihotUrl": "http://localhost:3000/item/demo-6938f5510a09",
+      "publishedAt": "2026-10-19T13:09:18Z",
+      "updatedAt": "2026-10-23T05:18:17.006424Z",
+      "category": null,
+      "tags": [
+        "媒体"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-sciencedaily-ocean",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-337d3455ef8d",
+      "sourceItemId": "demo-337d3455ef8d",
+      "tombstone": false,
+      "title": "Googly-eyed buoys and kites help keep seabirds out of fishing nets, study finds",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Mongabay",
+      "originalUrl": "https://news.mongabay.com/2026/10/googly-eyed-buoys-and-kites-help-keep-seabirds-out-of-fishing-nets-study-finds/",
+      "aihotUrl": "http://localhost:3000/item/demo-337d3455ef8d",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:18:17.520703Z",
+      "category": null,
+      "tags": [
+        "媒体",
+        "环境"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-mongabay",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-248565cd20b9",
+      "sourceItemId": "demo-248565cd20b9",
+      "tombstone": false,
+      "title": "Mass sloth deaths prompt US bill calling for import ban",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Mongabay",
+      "originalUrl": "https://news.mongabay.com/short-article/2026/10/mass-sloth-deaths-prompt-us-bill-calling-for-import-ban/",
+      "aihotUrl": "http://localhost:3000/item/demo-248565cd20b9",
+      "publishedAt": null,
+      "updatedAt": "2026-10-23T05:18:17.520703Z",
+      "category": null,
+      "tags": [
+        "媒体",
+        "环境"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-mongabay",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-c5e2d7de1397",
+      "sourceItemId": "demo-c5e2d7de1397",
+      "tombstone": false,
+      "title": "Experts: How are climate scientists using artificial intelligence?",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Carbon Brief",
+      "originalUrl": "https://www.carbonbrief.org/experts-how-are-climate-scientists-using-artificial-intelligence",
+      "aihotUrl": "http://localhost:3000/item/demo-c5e2d7de1397",
+      "publishedAt": "2026-10-22T10:45:03Z",
+      "updatedAt": "2026-10-23T05:18:18.863768Z",
+      "category": null,
+      "tags": [
+        "媒体",
+        "气候"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-carbonbrief",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-54ff4ff8cfc2",
+      "sourceItemId": "demo-54ff4ff8cfc2",
+      "tombstone": false,
+      "title": "Revealed: Expensive gas behind ‘nearly 90%’ of rise in UK electricity bills",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Carbon Brief",
+      "originalUrl": "https://www.carbonbrief.org/revealed-expensive-gas-behind-nearly-90-of-rise-in-uk-electricity-bills",
+      "aihotUrl": "http://localhost:3000/item/demo-54ff4ff8cfc2",
+      "publishedAt": "2026-10-21T11:37:55Z",
+      "updatedAt": "2026-10-23T05:18:18.863768Z",
+      "category": null,
+      "tags": [
+        "媒体",
+        "气候"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-carbonbrief",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-387abac727af",
+      "sourceItemId": "demo-387abac727af",
+      "tombstone": false,
+      "title": "Theorists use cloud-based Bose–Einstein condensate to study tunnelling",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Physics World",
+      "originalUrl": "https://physicsworld.com/a/theorists-use-cloud-based-bose-einstein-condensate-to-study-tunnelling/",
+      "aihotUrl": "http://localhost:3000/item/demo-387abac727af",
+      "publishedAt": "2026-10-22T15:38:58Z",
+      "updatedAt": "2026-10-23T05:18:21.779363Z",
+      "category": null,
+      "tags": [
+        "媒体",
+        "物理"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-physicsworld",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-e520c90bba81",
+      "sourceItemId": "demo-e520c90bba81",
+      "tombstone": false,
+      "title": "Earth’s gravity and magnetism have unexpected effects on the human genome and mitochondria",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Physics World",
+      "originalUrl": "https://physicsworld.com/a/earths-gravity-and-magnetism-have-unexpected-effects-on-the-human-genome-and-mitochondria/",
+      "aihotUrl": "http://localhost:3000/item/demo-e520c90bba81",
+      "publishedAt": "2026-10-22T08:00:03Z",
+      "updatedAt": "2026-10-23T05:18:21.779363Z",
+      "category": null,
+      "tags": [
+        "媒体",
+        "物理"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-physicsworld",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-a2e59e3c14f6",
+      "sourceItemId": "demo-a2e59e3c14f6",
+      "tombstone": false,
+      "title": "Tiny ‘solar flares’ recreated in the lab may explain corona mystery",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "New Scientist",
+      "originalUrl": "https://www.newscientist.com/article/2595244-tiny-solar-flares-recreated-in-the-lab-may-explain-corona-mystery/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "aihotUrl": "http://localhost:3000/item/demo-a2e59e3c14f6",
+      "publishedAt": "2026-10-22T19:00:00Z",
+      "updatedAt": "2026-10-23T05:18:24.571098Z",
+      "category": null,
+      "tags": [
+        "媒体"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-newscientist",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-5725bd698ace",
+      "sourceItemId": "demo-5725bd698ace",
+      "tombstone": false,
+      "title": "Earth entered its ‘bad decades’ after dinosaur-ending asteroid strike",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "New Scientist",
+      "originalUrl": "https://www.newscientist.com/article/2594979-earths-bad-decades-after-dinosaur-ending-asteroid-strike/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "aihotUrl": "http://localhost:3000/item/demo-5725bd698ace",
+      "publishedAt": "2026-10-22T17:00:00Z",
+      "updatedAt": "2026-10-23T05:18:24.571098Z",
+      "category": null,
+      "tags": [
+        "媒体"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-newscientist",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-8dd1acf701b6",
+      "sourceItemId": "demo-8dd1acf701b6",
+      "tombstone": false,
+      "title": "Fine-tuning of polygenic score to local data improves risk prediction and clinical implementation",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-77770-z",
+      "aihotUrl": "http://localhost:3000/item/demo-8dd1acf701b6",
+      "publishedAt": "2026-10-23T00:00:00Z",
+      "updatedAt": "2026-10-23T05:18:24.844776Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "综合"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-nature-comms",
+        "tier": "T2"
+      }
+    },
+    {
+      "externalId": "aihot:demo-96bf69d40ca1",
+      "sourceItemId": "demo-96bf69d40ca1",
+      "tombstone": false,
+      "title": "A global livestock virome catalog links viruses with resistome assembly",
+      "summary": null,
+      "originalTitle": null,
+      "language": "en",
+      "sourceName": "Nature Communications",
+      "originalUrl": "https://www.nature.com/articles/s41467-026-78855-5",
+      "aihotUrl": "http://localhost:3000/item/demo-96bf69d40ca1",
+      "publishedAt": "2026-10-23T00:00:00Z",
+      "updatedAt": "2026-10-23T05:18:24.844776Z",
+      "category": null,
+      "tags": [
+        "期刊",
+        "综合"
+      ],
+      "score": null,
+      "reason": null,
+      "storyId": null,
+      "storyTitle": null,
+      "bodyText": null,
+      "author": null,
+      "_demo": {
+        "sourceId": "rss-nature-comms",
+        "tier": "T2"
+      }
+    }
+  ]
+}

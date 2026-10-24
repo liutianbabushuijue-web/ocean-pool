@@ -1,0 +1,252 @@
+// RSS 2.0 / Atom / RDF feeds.
+import { readPublicationDate } from "./dates.ts";
+import { XMLParser } from "fast-xml-parser";
+import { languageHeaders, requireOk } from "../lib/http-fetch.ts";
+import { fetchListing } from "./listing-fetch.ts";
+import { collapseWhitespace, escapeXml, stripTags } from "../lib/text.ts";
+import { sanitizeBody } from "../content/sanitize.ts";
+import { identityKeyFor } from "../content/materials.ts";
+import { sha256, stableJson } from "../lib/ids.ts";
+import { normalizeUrl } from "../lib/url.ts";
+import { isVideoPageUrl } from "../lib/video-url.ts";
+import { FetchError, type Candidate, type SourceRow } from "./types.ts";
+
+const parser = new XMLParser({
+  ignoreAttributes: false,
+  attributeNamePrefix: "@",
+  textNodeName: "#text",
+  cdataPropName: "#cdata",
+  processEntities: true,
+  htmlEntities: true,
+  trimValues: true,
+  // XHTML is mixed content: keep its markup and text order for stripTags/sanitizeBody below.
+  // Only XHTML stops parsing; escaped HTML and CDATA retain their existing entity handling.
+  stopNodes: ["feed.entry.title[type=xhtml]", "feed.entry.summary[type=xhtml]", "feed.entry.content[type=xhtml]"],
+});
+
+function text(v: unknown): string {
+  if (v === null || v === undefined) return "";
+  if (typeof v === "string" || typeof v === "number") return String(v);
+  if (Array.isArray(v)) return text(v[0]);
+  if (typeof v === "object") {
+    const o = v as Record<string, unknown>;
+    if ("#cdata" in o) return text(o["#cdata"]);
+    if ("#text" in o) return text(o["#text"]);
+  }
+  return "";
+}
+
+/** Atom defaults to text: XML entities have already been decoded, and literal markup is not HTML. */
+function atomPlainText(v: unknown): string | null {
+  const type = v && typeof v === "object" ? (v as Record<string, unknown>)["@type"] : undefined;
+  return type === undefined || type === "text" ? text(v) : null;
+}
+
+function arr<T>(v: T | T[] | undefined | null): T[] {
+  if (v === undefined || v === null) return [];
+  return Array.isArray(v) ? v : [v];
+}
+
+/** Media RSS descriptions describe the video; even a long description is not a transcript. */
+function mediaDescription(entry: Record<string, any>): string | null {
+  const groups = arr<Record<string, any>>(entry["media:group"]);
+  const containers = [...groups.flatMap(group => arr<Record<string, any>>(group["media:content"])), ...arr<Record<string, any>>(entry["media:content"]), ...groups, entry];
+  for (const container of containers) {
+    const description = container["media:description"];
+    const value = text(description);
+    if (!value) continue;
+    return collapseWhitespace(description?.["@type"] === "html" ? stripTags(value) : value).slice(0, 2000) || null;
+  }
+  return null;
+}
+
+function parseDate(v: string): Date | null {
+  if (!v) return null;
+  const t = Date.parse(v);
+  if (Number.isFinite(t)) return new Date(t);
+  // RFC 822 variants with Chinese weekday or odd zones
+  const cleaned = v.replace(/星期[一二三四五六日天]/, "").replace(/\s+/g, " ").trim();
+  const t2 = Date.parse(cleaned);
+  return Number.isFinite(t2) ? new Date(t2) : null;
+}
+
+function atomLink(links: unknown, base: string): string {
+  const list = arr(links as Record<string, string> | Array<Record<string, string>>);
+  const alt = list.find((l) => typeof l === "object" && (!l["@rel"] || l["@rel"] === "alternate"));
+  const link = alt ?? list[0];
+  const href = typeof link === "string" ? link : link?.["@href"];
+  if (!href) return "";
+  const linkBase = typeof link === "object" ? new URL(link["@xml:base"] ?? "", base).toString() : base;
+  return new URL(href, linkBase).toString();
+}
+
+function imagesFrom(html: string, base: string): Array<{ kind: "image"; url: string }> {
+  const out: Array<{ kind: "image"; url: string }> = [];
+  for (const m of html.matchAll(/<img\b[^>]*\bsrc="([^"]+)"/gi)) {
+    try {
+      out.push({ kind: "image", url: new URL(m[1]!, base).toString() });
+    } catch {
+      // ignore bad urls
+    }
+    if (out.length >= 6) break;
+  }
+  return out;
+}
+
+/**
+ * Feed text of an editorial source that only teases the article: short and ending in a "read more"
+ * mark (a news site's "Read the full story at <its name>."). Treated as a summary, so extraction fetches
+ * the page before the article is judged.
+ */
+const TEASER_BELOW = 1200;
+const TEASER_MARKS = [
+  /\bappeared first on\b/i,
+  /\bread (?:the )?full (?:story|article)\b/i,
+  /\bcontinue reading\b/i,
+  /\bread more\b/i,
+  /…\s*$/,
+  /\[\s*(?:…|\.\.\.)\s*\]\s*$/,
+];
+
+export function isTeaser(text: string): boolean {
+  const t = text.trim();
+  return t.length < TEASER_BELOW && TEASER_MARKS.some((m) => m.test(t));
+}
+
+/**
+ * The body and excerpt of a feed entry: its text when it is the article, else no body (a summary, or
+ * a teaser that stands in as the excerpt when the entry has none) until extraction reads the entry's
+ * page; an entry without a page has none. A short text is taken for a summary, unless the source
+ * declares its summary to be the body.
+ */
+function feedText(bodyHtml: string | null, summaryText: string | null, source: SourceRow, hasPage = true, plainBody: string | null = null): Pick<Candidate, "excerpt" | "bodyHtml" | "bodyText" | "bodyStatus"> {
+  const bodyText = bodyHtml ? collapseWhitespace(plainBody ?? stripTags(bodyHtml)) : null;
+  const teaser = !!bodyText && source.participation_mode === "editorial" && isTeaser(bodyText);
+  const excerpt = summaryText !== null ? collapseWhitespace(summaryText).slice(0, 2000) : teaser ? collapseWhitespace(bodyText!) : null;
+  return bodyText && (bodyText.length > 280 || source.config.summaryIsBody === true) && !teaser
+    ? { excerpt, bodyHtml, bodyText, bodyStatus: "ok" }
+    : { excerpt, bodyHtml: null, bodyText: null, bodyStatus: hasPage ? "pending" : "none" };
+}
+
+interface RssValidator {
+  configHash: string;
+  responseUrl: string;
+  etag: string | null;
+  lastModified: string | null;
+}
+
+export interface RssRead {
+  candidates: Candidate[];
+  validator: RssValidator;
+  notModified: boolean;
+}
+
+export async function fetchRss(source: SourceRow, opts: { force?: boolean } = {}): Promise<RssRead> {
+  const url = String(source.config.feedUrl ?? "");
+  if (!url) throw new FetchError("feedUrl missing");
+  // Config changes can alter parsing/filtering even when the upstream bytes did not change.
+  const configHash = sha256(stableJson(source.config));
+  const previous = !opts.force && source.cursor?.rss?.configHash === configHash ? source.cursor.rss as RssValidator : null;
+  const plain = { accept: "application/rss+xml, application/atom+xml, application/xml;q=0.9, */*;q=0.8", ...languageHeaders(source.config.acceptLanguage) };
+  const headers: Record<string, string> = { ...plain };
+  if (previous?.etag) headers["if-none-match"] = previous.etag;
+  if (previous?.lastModified) headers["if-modified-since"] = previous.lastModified;
+  let res = await fetchListing(url, { headers, timeoutMs: 25_000 });
+  // A redirect may have changed destinations, whose ETag namespace is unrelated to the old one.
+  if (res.status === 304 && previous && res.url !== previous.responseUrl) {
+    res = await fetchListing(url, { headers: plain, timeoutMs: 25_000 });
+  }
+  const validator: RssValidator = {
+    configHash, responseUrl: res.url,
+    etag: res.headers.get("etag") ?? (res.status === 304 ? previous?.etag ?? null : null),
+    lastModified: res.headers.get("last-modified") ?? (res.status === 304 ? previous?.lastModified ?? null : null),
+  };
+  if (res.status === 304 && previous && (previous.etag || previous.lastModified) && res.url === previous.responseUrl) {
+    return { candidates: [], validator, notModified: true };
+  }
+  requireOk(res);
+  let doc: Record<string, any>;
+  try {
+    doc = parser.parse(res.text());
+  } catch (e) {
+    throw new FetchError(`feed parse error: ${String(e).slice(0, 200)}`);
+  }
+  const summaryIsBody = source.config.summaryIsBody === true;
+  const out: Candidate[] = [];
+
+  const channel = doc.rss?.channel ?? doc["rdf:RDF"];
+  if (channel) {
+    const items = arr(doc.rss?.channel?.item ?? doc["rdf:RDF"]?.item);
+    for (const it of items) {
+      const guid = text(it.guid);
+      // A site-relative link resolves against the fetched document, as Atom links do; absolute ones stay as given.
+      const href = text(it.link);
+      const page = (href && !/^[a-z][a-z\d+.-]*:/i.test(href) ? URL.parse(href, res.url)?.toString() : href) || (normalizeUrl(guid) ? guid : "");
+      const enclosures = arr(it.enclosure as Record<string, string> | Array<Record<string, string>>);
+      // An episode with no page (no <link>, a guid that is no address) links to its audio or video file,
+      // which a browser plays. Its identity stays the one its guid gives, and it has no page to read a body from.
+      const mediaFile = !page && guid ? enclosures.find((e) => /^(audio|video)\//.test(e?.["@type"] ?? ""))?.["@url"] ?? "" : "";
+      const link = page || mediaFile || guid;
+      const title = collapseWhitespace(stripTags(text(it.title)));
+      if (!link || !title) continue;
+      const contentEncoded = text(it["content:encoded"]);
+      const description = text(it.description);
+      const video = isVideoPageUrl(link);
+      const videoExcerpt = video ? mediaDescription(it) : null;
+      const bodyHtmlRaw = contentEncoded || (summaryIsBody && !video ? description : "");
+      const bodyHtml = bodyHtmlRaw ? sanitizeBody(bodyHtmlRaw, link) : null;
+      const enclosure = enclosures.find((e) => /^image\//.test(e?.["@type"] ?? ""));
+      const media = [
+        ...(enclosure ? [{ kind: "image" as const, url: enclosure["@url"]! }] : []),
+        ...(bodyHtmlRaw ? imagesFrom(bodyHtmlRaw, link) : []),
+      ];
+      out.push({
+        url: link,
+        ...(mediaFile ? { identityKey: identityKeyFor({ sourceId: source.id, url: guid, title, via: "fetch" }) } : {}),
+        title,
+        author: text(it["dc:creator"]) || text(it.author) || null,
+        ...readPublicationDate((text(it.pubDate) || text(it["dc:date"]) || text(it.published)).replace(/星期[一二三四五六日天]/, ""), source.config.publishedAtUtcOffset),
+        ...feedText(bodyHtml, description ? stripTags(description) : null, source, !mediaFile && !video),
+        ...(videoExcerpt ? { excerpt: videoExcerpt } : {}),
+        media: media.slice(0, 6),
+        categories: arr(it.category).map((c) => text(c)).filter(Boolean),
+        raw: { guid: guid || null },
+      });
+    }
+    return { candidates: out, validator, notModified: false };
+  }
+
+  const feed = doc.feed;
+  if (feed) {
+    // XML Base is inherited; redirects determine the document's base, not the configured URL.
+    const feedBase = new URL(feed["@xml:base"] ?? "", res.url).toString();
+    for (const e of arr(feed.entry)) {
+      const entryBase = new URL(e["@xml:base"] ?? "", feedBase).toString();
+      const entryUrl = atomLink(e.link, entryBase);
+      const title = collapseWhitespace(atomPlainText(e.title) ?? stripTags(text(e.title)));
+      if (!entryUrl || !title) continue;
+      const summary = text(e.summary) ? atomPlainText(e.summary) ?? stripTags(text(e.summary)) : null;
+      const video = isVideoPageUrl(entryUrl);
+      const videoExcerpt = video ? mediaDescription(e) : null;
+      const body = text(e.content) ? e.content : summaryIsBody && !video ? e.summary : null;
+      const plainBody = atomPlainText(body);
+      const bodyHtmlRaw = plainBody === null ? text(body) : escapeXml(plainBody);
+      const bodyHtml = bodyHtmlRaw ? sanitizeBody(bodyHtmlRaw, entryUrl) : null;
+      out.push({
+        url: entryUrl,
+        title,
+        author: text(arr(e.author)[0]?.name) || null,
+        // Atom updated describes a revision, not the original publication.
+        ...readPublicationDate(text(e.published), source.config.publishedAtUtcOffset),
+        sourceUpdatedAt: parseDate(text(e.updated)),
+        ...feedText(bodyHtml, summary, source, !video, plainBody),
+        ...(videoExcerpt ? { excerpt: videoExcerpt } : {}),
+        media: bodyHtmlRaw ? imagesFrom(bodyHtmlRaw, entryUrl) : [],
+        categories: arr(e.category).map((c: any) => c?.["@term"] ?? text(c)).filter(Boolean),
+        raw: { id: text(e.id) || null },
+      });
+    }
+    return { candidates: out, validator, notModified: false };
+  }
+  throw new FetchError("not an RSS/Atom document");
+}
