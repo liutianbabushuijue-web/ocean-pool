@@ -1,0 +1,32 @@
+Ocean Knowledge Hub / 海洋知识星球
+
+This repository includes a customized snapshot of AIHOT:
+https://github.com/KKKKhazix/AIHOT
+
+Upstream copyright:
+Copyright (c) 2026 数字生命卡兹克
+
+The upstream MIT license is preserved verbatim in LICENSE and in engine/LICENSE.
+The inherited engine, ocean customization, lightweight reader, documentation and
+automation in this distribution are provided under that MIT license, except
+where a bundled file or dependency carries its own applicable notice.
+
+engine/ is a customized source snapshot inherited from an existing ocean project.
+It is not claimed to be an exact mirror of an upstream commit. The upstream
+reference b3998dc6fc138eb9659f33f55eb38c1c716f0d57 is documented for comparison only.
+
+The public AIHOT repository describes an engine with 18 public demonstration
+sources. It does not include the running AIHOT site's private source inventory,
+operational database, users, credentials or all private operational features.
+This project uses its own ocean branding and does not represent or endorse
+the original AIHOT service.
+
+MIT covers software; it does not automatically license news, article text,
+abstracts, photographs, logos or other third-party content collected from feeds
+and APIs. Those materials remain subject to their respective owners' terms.
+Source attribution and original links should be retained.
+
+本仓库保留原作者版权和MIT全文。海洋阅读站的来源标题、摘要与机构标识
+不因软件开源而变成可任意再分发的内容。轻量版是来源订阅与规则相关性，
+不冒充已经运行完整引擎的AI精选、热点、日报或科学审核。
+
