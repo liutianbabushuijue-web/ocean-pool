@@ -8,7 +8,7 @@
 - 本机最初一轮完整采集于北京时间2026年10月24日16:54完成；首轮 GitHub 采集于当日23:27完成，26个自动来源中22个成功，4个失败或保留旧资料；另有5个中文手工来源，不计入自动成功。
 - 规则调整后，从原230条记录中剔除6条跑题内容；中文整理时再剔除3条期刊封面、目录等非文章记录，保留221条。首轮 GitHub 更新再收录1条 Mongabay 珊瑚资料，补齐中文后最终222条。重建、恢复请求与真实采集时间分别记录，没有用重建时间冒充整轮抓取成功时间。
 - 本轮 AI 助手依据44条可获得的论文摘要、67条实质来源节选生成中文结果；另外111条只有标题，已明确提醒资料不足，没有编造方法与结果。作者、单位等元数据不计作实质摘要。
-- 中文 RSS 输出最新200条已整理资料；OPML列出17个原始RSS/Atom地址。尚未配置线上发布地址，XML文件不是已上线的公共订阅服务。
+- 中文 RSS 输出最新200条已整理资料，订阅入口为 [公开原始XML文件](https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml)，无需启用 Pages；OPML列出17个原始RSS/Atom地址。RSS的数据订阅入口与在线阅读网站分别处理，本次没有发布阅读网站。
 - 最新 GitHub 采集中，NOAA National Ocean Service 返回内容无法按RSS解析；Ocean Modelling、ICES Journal of Marine Science、Global Biogeochemical Cycles 的 Crossref 接口返回429，已有资料按来源状态保留。Mongabay和Carbon Brief本轮已恢复成功；后续更新仍会再次尝试失败来源。
 
 ## 已核验
@@ -27,7 +27,7 @@
 
 开发者可运行 `python -m unittest discover -s tests -v` 和 `node --test tests/test_reader.mjs` 重复离线检查；运行 `python scripts/refresh.py --check` 只核对配置和已有资料，不抓取外部来源。
 
-本轮离线检查合计45项通过：Python 38项、阅读页 JavaScript 7项。RSS按真实发表日期排序，未提供发表日期的条目放在后面，不用采集日期冒充最新发表。
+本轮离线检查合计48项通过：Python 41项、阅读页 JavaScript 7项。RSS按真实发表日期排序，未提供发表日期的条目放在后面，不用采集日期冒充最新发表。
 
 ## 使用入口与尚未开启的部分
 
@@ -41,3 +41,7 @@
 - 首轮 [Refresh ocean sources](https://github.com/liutianbabushuijue-web/ocean-pool/actions/runs/40107030865) 成功：离线测试、公开来源采集及资料写回均通过。
 - 流程成功提交了本轮资料文件；本机已取回该轮新资料，再补齐新增条目的中文结果。
 - [Pages 任务](https://github.com/liutianbabushuijue-web/ocean-pool/actions/runs/40107052304) 按预期跳过，未发布在线阅读网站。代码上传、资料更新与网页发布是分开的验收结果。
+
+## 10月25日续验
+
+GitHub 定时刷新已实际新增21条待整理资料，本机同步后共有243条：222条中文整理、21条待整理。最近成功取数为北京时间10月25日05:00；默认中文页和中文RSS只显示已整理条目。新增资料不会自动调用模型。公开原始RSS可直接订阅，无需启用Pages。

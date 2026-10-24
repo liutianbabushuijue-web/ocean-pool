@@ -10,6 +10,8 @@
 
 本次授权是保存到公开代码仓库。阅读入口仍在本机，**ENABLE_PAGES 保持未设置**，不启用 Pages。公开仓库和已发布网站是两个独立状态。
 
+中文资料已经可以通过 [公开 RSS 地址](https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml) 订阅；把该链接加入自己的 RSS 阅读器即可。这个入口读取仓库中的原始XML文件，不需要开启 Pages；GitHub 的文件预览页不能代替这个订阅地址。
+
 ## 手动更新一次
 
 1. 确认完整项目已上传到 [ocean-pool](https://github.com/liutianbabushuijue-web/ocean-pool)，流程文件位于默认分支。
@@ -45,7 +47,7 @@ Pages 默认受仓库变量 ENABLE_PAGES 控制；未设或不是 true 时，发
 2. 在仓库 Settings → Pages，将发布来源设置为 **GitHub Actions**。如果账户不支持当前仓库类型的Pages，先保留本机使用或选择你明确接受的仓库可见性。
 3. 在 Settings → Secrets and variables → Actions → Variables 添加仓库变量 **ENABLE_PAGES=true**。
 4. 在 Actions 手动运行 **Publish reader to Pages**。成功后，以实际部署记录里的网址为准。
-5. 把实际网址保存为仓库变量 **OCEAN_SITE_URL**，下次刷新会补齐RSS中的站点地址。
+5. 需要使用新站点地址时，将实际网址保存为仓库变量 **OCEAN_SITE_URL**。中文RSS目前继续使用已配置的公开原始文件地址；若也要迁移订阅入口，再将 config/sources.json 的 feedUrl 改为新站点的 feed.xml 地址。
 
 开启以后，每次 Refresh ocean sources 成功结束会触发Pages流程；手动修改site/后也可以手动发布。不需要再添加个人token。GitHub内置token写回的push通常不会触发另一个push工作流，所以这里使用更新完成事件接力。[GitHub令牌触发规则](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)
 
@@ -59,7 +61,7 @@ Pages 默认受仓库变量 ENABLE_PAGES 控制；未设或不是 true 时，发
 | Actions红色 | 来源全部失败，还是写回权限/分支规则失败；它们是不同问题 |
 | 一部分来源失败 | 旧资料是否保留、stale是否显示；不要把全部资料清空 |
 | 长时间没有运行记录 | 流程是否在默认分支、是否停用、是否遇到平台排队 |
-| RSS网址不正确 | OCEAN_SITE_URL/siteUrl是否为实际地址，是否保留仓库子路径 |
+| RSS网址不正确 | 使用公开 raw XML 地址，核对 feedUrl；不要复制 GitHub 文件预览页 |
 | 有私人资料要保存 | 不要提交到本次公开仓库；保留在本机私密目录，或另建私有仓库 |
 | 新资料还没有中文 | 在“也看待整理原文”中查看；让 AI 助手按仓库提示词处理待整理队列 |
 | 想要AI选稿、事件热点和日报 | 启动并验收 engine/；已有中文概括不等于完成两次选稿评分 |

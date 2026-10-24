@@ -298,6 +298,8 @@ if (typeof document !== 'undefined') {
 
   function renderUpdate() {
     const metadata = state.metadata;
+    const publicFeed = safeHttpUrl(metadata.publicFeedUrl);
+    $('public-rss').href = publicFeed || './feed.xml';
     const statuses = Array.isArray(metadata.sourceStatus) ? metadata.sourceStatus : [];
     const auto = statuses.filter(source => source.mode !== 'manual' && source.status !== 'disabled');
     const successes = auto.filter(source => source.status === 'ok').length;

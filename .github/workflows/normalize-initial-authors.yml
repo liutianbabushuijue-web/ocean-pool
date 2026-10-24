@@ -1,15 +1,15 @@
 name: Normalize initial commit metadata
 
 on:
-  push:
-    paths:
-      - '.github/workflows/normalize-initial-authors.yml'
+  workflow_run:
+    workflows: ['Refresh ocean sources']
+    types: [completed]
 
 permissions: {}
 
 jobs:
   normalize:
-    if: github.repository == 'liutianbabushuijue-web/ocean-pool' && github.ref == 'refs/heads/main' && github.run_number == 1
+    if: github.repository == 'liutianbabushuijue-web/ocean-pool' && github.event.workflow_run.head_branch == 'main' && github.run_number == 2
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
@@ -23,11 +23,18 @@ jobs:
         shell: bash
         env:
           FILTER_BRANCH_SQUELCH_WARNING: '1'
+          UPDATE_SHA: ${{ github.event.workflow_run.head_sha }}
         run: |
           set -euo pipefail
-          test "$(git rev-parse HEAD)" = "$GITHUB_SHA"
-          test "$(git rev-parse HEAD^)" = 'ce5203eaa7611c6a596836083d75aa08fe7bd816'
-          test "$(git rev-list --count HEAD)" = '4'
+          expected_ref="$(git rev-parse HEAD)"
+          test "$(git rev-parse "$UPDATE_SHA^")" = '154a788130ecdb0fc36104629a615b1465dc1c90'
+          git merge-base --is-ancestor "$UPDATE_SHA" HEAD
+          test "$(git rev-list --count "$UPDATE_SHA..HEAD")" -le 1
+          if test "$expected_ref" != "$UPDATE_SHA"; then
+            test "$(git rev-parse HEAD^)" = "$UPDATE_SHA"
+            test "$(git log -1 --format=%ae)" = '41898282+github-actions[bot]@users.noreply.github.com'
+            test "$(git log -1 --format=%s)" = 'Update public ocean source data'
+          fi
           previous_tree="$(git rev-parse 'HEAD^{tree}')"
           git filter-branch --env-filter '
             case "$GIT_AUTHOR_EMAIL" in
@@ -46,4 +53,4 @@ jobs:
           assert emails and all(email.endswith('@users.noreply.github.com') for email in emails)
           print('Verified anonymous email metadata throughout the initial main history.')
           PY
-          git push --force-with-lease="refs/heads/main:$GITHUB_SHA" origin HEAD:refs/heads/main
+          git push --force-with-lease="refs/heads/main:$expected_ref" origin HEAD:refs/heads/main

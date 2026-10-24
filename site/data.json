@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-10-24T21:00:24Z",
+    "generatedAt": "2026-10-24T23:48:21Z",
     "lastAttemptAt": "2026-10-24T21:00:18Z",
     "lastSuccessAt": "2026-10-24T21:00:24Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
-    "feedUrlConfigured": false,
+    "feedUrlConfigured": true,
     "totalItems": 243,
     "successfulSources": 22,
     "automaticSources": 26,
@@ -447,6 +447,9 @@
       }
     ],
     "notice": "Rules match marine keywords; no AI review or quality scoring. Feed-provided excerpts only; full-text redistribution permission is not inferred.",
+    "ruleRebuiltAt": "2026-10-24T23:48:21Z",
+    "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
+    "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "editorial": {
       "enabled": true,
       "promptVersion": "chinese-reader-v1",

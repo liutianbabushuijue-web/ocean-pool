@@ -35,7 +35,7 @@ GitHub 的定时任务可能排队、延迟或被丢弃；公开仓库60天无�
 
 ## RSS 在哪里
 
-先自己使用时，可以把 OPML 文件导入已有的订阅阅读器，直接订阅原始来源；不需要先发布本站。
+把 [海洋中文 RSS 订阅](https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml) 加入自己的 RSS 阅读器，就能读取本项目已整理的中文资料；不需要先发布阅读网站。也可以把 OPML 文件导入阅读器，直接订阅各原始来源。
 
 RSS 既是输入，也可以是输出：
 
@@ -43,7 +43,7 @@ RSS 既是输入，也可以是输出：
 - **输出**：site/feed.xml 把已完成中文整理的资料输出为一个中文订阅流，最多保留最新200条；待整理原文不会混入。
 - **来源打包**：site/ocean-sources.opml 是来源目录，阅读器导入后可以直接订阅其中的 RSS 来源。OPML 本身不是新闻流，Crossref 和外部脚本源不会伪装成 RSS。
 
-发布地址确定后，把实际站点地址设为 OCEAN_SITE_URL 或配置文件的 siteUrl，输出 RSS 才有正确的站点地址。未配置发布地址时，不把仓库里的 XML 文件宣称为已发布的线上订阅服务。详见 [RSS、信源与资料边界](docs/SOURCES_AND_RSS.md)。
+中文 RSS 通过公开仓库的原始 XML 文件提供，项目主页指向本仓库；它是可订阅的数据文件，不是已经发布的阅读网站。GitHub 更新资料并写回文件后，阅读器可以取得更新；新增资料仍需完成中文整理才会进入中文RSS。详见 [RSS、信源与资料边界](docs/SOURCES_AND_RSS.md)。
 
 ## 卡兹克的 AIHOT，海洋版保留了什么
 

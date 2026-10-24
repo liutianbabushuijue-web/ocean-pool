@@ -1,4 +1,6 @@
 {
+  "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
+  "feedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
   "$comment": "海洋信源。首次启动时由 scripts/seed.ts 导入；已存在的不会被覆盖。字段说明见 docs/sources.md。id 上线后不要改（external 信源的中文采集脚本按 id 推送）。verification.verifiedAt / verifiedItems 是 tools/verify_sources.py 的实测结果，可删。",
   "sources": [
     {

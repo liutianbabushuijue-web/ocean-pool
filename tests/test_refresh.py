@@ -277,6 +277,32 @@ class ArchiveTests(unittest.TestCase):
         self.assertFalse(data['metadata']['feedUrlConfigured'])
         self.assertIsNone(data['metadata']['lastSuccessAt'])
 
+    def test_repository_rss_works_without_pages(self):
+        config = {'sources': [source()], 'projectUrl': 'https://github.com/example/ocean',
+                  'feedUrl': 'https://raw.githubusercontent.com/example/ocean/main/site/feed.xml'}
+        data, _ = reader.refresh(config, fetcher=lambda *a, **kw: (RSS, 'https://example.com/feed'), now=NOW)
+        self.assertIsNone(data['metadata']['siteUrl'])
+        self.assertTrue(data['metadata']['feedUrlConfigured'])
+        with tempfile.TemporaryDirectory() as folder:
+            reader.write_outputs(data, Path(folder))
+            channel = ET.parse(Path(folder) / 'feed.xml').find('channel')
+            self.assertEqual(channel.findtext('link'), config['projectUrl'])
+            self.assertEqual(channel.find('{http://www.w3.org/2005/Atom}link').get('href'), config['feedUrl'])
+            self.assertEqual(channel.findtext('item/link'), data['items'][0]['url'])
+
+    def test_publication_addresses_reject_local_and_script_urls(self):
+        for key in ['siteUrl', 'projectUrl', 'feedUrl']:
+            for address in ['javascript:alert(1)', 'http://127.0.0.1/private']:
+                with self.assertRaises(ValueError):
+                    reader.publication_urls({key: address})
+
+    def test_website_override_preserves_explicit_feed_address(self):
+        urls = reader.publication_urls({'feedUrl': 'https://example.com/old.xml'}, 'https://example.com/ocean')
+        self.assertEqual(urls['siteUrl'], 'https://example.com/ocean/')
+        self.assertEqual(urls['publicFeedUrl'], 'https://example.com/old.xml')
+        self.assertEqual(reader.publication_urls({'siteUrl': 'https://example.com/ocean'})['publicFeedUrl'],
+                         'https://example.com/ocean/feed.xml')
+
 
 class NetworkBoundaryTests(unittest.TestCase):
     def test_private_dns_resolution_rejected_before_connect(self):

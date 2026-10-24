@@ -459,7 +459,17 @@ def load_config(file: Path) -> dict:
         reader = source.get('reader', {})
         if not isinstance(reader, dict) or ('requireOceanKeyword' in reader and not isinstance(reader['requireOceanKeyword'], bool)) or not isinstance(reader.get('topics', []), list) or any(topic not in TOPICS for topic in reader.get('topics', [])):
             raise ValueError('source reader rules/topics are invalid')
+    publication_urls(payload)
     return payload
+
+
+def publication_urls(config: dict, base_url=None) -> dict:
+    site_url = base_url or config.get('siteUrl')
+    site_url = public_url(site_url).rstrip('/') + '/' if site_url else None
+    project_url = public_url(config['projectUrl']) if config.get('projectUrl') else None
+    feed_url = public_url(config['feedUrl']) if config.get('feedUrl') else (urljoin(site_url, 'feed.xml') if site_url else None)
+    return {'siteUrl': site_url, 'projectUrl': project_url, 'publicFeedUrl': feed_url,
+            'feedUrlConfigured': bool(feed_url or site_url)}
 
 
 def source_info(source: dict) -> dict:
@@ -535,6 +545,7 @@ def reapply_rules(items: list[dict], sources: list[dict]) -> list[dict]:
 
 
 def refresh(config: dict, previous: dict | None = None, *, fetcher=fetch_public, now=None, workers=4, timeout=12, limit=20, base_url=None) -> tuple[dict, int]:
+    publication = publication_urls(config, base_url)
     fixed_now = now
     now = now or timestamp()
     previous = previous or {}
@@ -579,12 +590,9 @@ def refresh(config: dict, previous: dict | None = None, *, fetcher=fetch_public,
     # including old items retained after a source failure or a rolling feed window.
     for source_id, state in statuses.items():
         state['itemCount'] = sum(any(p['id'] == source_id for p in item['sources']) for item in items)
-    site_url = base_url or config.get('siteUrl')
-    if site_url:
-        site_url = public_url(site_url).rstrip('/') + '/'
     metadata = {'generatedAt': fixed_now or timestamp(), 'lastAttemptAt': now,
                 'lastSuccessAt': max(state['lastSuccessAt'] for state in statuses.values() if state['status'] == 'ok') if successes else previous.get('metadata', {}).get('lastSuccessAt'),
-                'ruleVersion': RULE_VERSION, 'siteUrl': site_url, 'feedUrlConfigured': bool(site_url), 'totalItems': len(items),
+                'ruleVersion': RULE_VERSION, **publication, 'totalItems': len(items),
                 'successfulSources': successes, 'automaticSources': len(pending),
                 'sourceStatus': [statuses[s['id']] for s in sources],
                 'notice': 'Rules match marine keywords; no AI review or quality scoring. Feed-provided excerpts only; full-text redistribution permission is not inferred.'}
@@ -607,11 +615,15 @@ def write_outputs(data: dict, directory: Path):
     meta = data['metadata']
     dc_namespace = 'http://purl.org/dc/elements/1.1/'
     ET.register_namespace('dc', dc_namespace)
+    atom_namespace = 'http://www.w3.org/2005/Atom'
+    ET.register_namespace('atom', atom_namespace)
     sources = {source['id']: source for source in data['sources']}
     rss = ET.Element('rss', version='2.0')
     channel = ET.SubElement(rss, 'channel')
     ET.SubElement(channel, 'title').text = 'Ocean Knowledge Hub'
-    ET.SubElement(channel, 'link').text = meta.get('siteUrl') or ''
+    ET.SubElement(channel, 'link').text = meta.get('siteUrl') or meta.get('projectUrl') or meta.get('publicFeedUrl') or ''
+    if meta.get('publicFeedUrl'):
+        ET.SubElement(channel, f'{{{atom_namespace}}}link', href=public_url(meta['publicFeedUrl']), rel='self', type='application/rss+xml')
     chinese_mode = meta.get('editorial', {}).get('enabled') is True
     ET.SubElement(channel, 'description').text = ('海洋公开来源的中文标题与摘要整理，点击查看原文；不等于事实核验或AI选稿。'
                                                 if chinese_mode else 'Ocean source links and short feed excerpts; keyword rules, no AI review.')
@@ -685,7 +697,7 @@ def main(argv=None) -> int:
             rebuilt_at = timestamp()
             data = {**previous, 'metadata': {**previous['metadata'], 'ruleVersion': RULE_VERSION,
                     'generatedAt': rebuilt_at, 'ruleRebuiltAt': rebuilt_at, 'totalItems': len(items),
-                    'sourceStatus': list(states.values())}, 'items': items,
+                    'sourceStatus': list(states.values()), **publication_urls(config, args.base_url)}, 'items': items,
                     'sources': [source_info(s) for s in config['sources']]}
             data = _editorial.apply_editorial(data, _editorial.load_editorial(args.config.parent / 'chinese-editorial.json'))
             write_outputs(data, args.output_dir)
