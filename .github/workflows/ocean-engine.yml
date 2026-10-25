@@ -83,7 +83,7 @@ jobs:
 
   anonymize-this-publication:
     needs: checks
-    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Simplify ocean station interface and complete browser fixtures'
+    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Align topic order with the minimal ocean interface'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
@@ -100,7 +100,7 @@ jobs:
         run: |
           set -euo pipefail
           expected_ref="$(git rev-parse HEAD)"
-          test "$(git rev-parse "$GITHUB_SHA^")" = 'e5098a40efaa734c6680c2629f1fe2b49ac404a1'
+          test "$(git rev-parse "$GITHUB_SHA^")" = '00cddb5007974dc0b9e463eb22f068ec53c55e83'
           git merge-base --is-ancestor "$GITHUB_SHA" HEAD
           test "$(git rev-list --count "$GITHUB_SHA..HEAD")" -le 1
           if test "$expected_ref" != "$GITHUB_SHA"; then

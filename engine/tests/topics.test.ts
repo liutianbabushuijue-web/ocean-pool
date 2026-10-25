@@ -150,6 +150,6 @@ test("every topic has a page; unknown topics and pages past the end have none", 
   assert.equal(await loadTopicPage("ipcc", 2, new Date()), null);
   const index = await app.inject({ method: "GET", url: "/api/site/topics" });
   const body = JSON.parse(index.body) as { groups: Array<{ key: string }>; topics: Array<{ slug: string }> };
-  assert.deepEqual(body.groups.map((g) => g.key), ["company", "field", "genre"]);
+  assert.deepEqual(body.groups.map((g) => g.key), ["field", "company", "genre"]);
   assert.deepEqual(body.topics.map((t) => t.slug).sort(), TOPICS.map((t) => t.slug).sort(), "the index lists every topic");
 });
