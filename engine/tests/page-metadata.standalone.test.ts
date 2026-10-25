@@ -57,15 +57,15 @@ function structured($: cheerio.CheerioAPI): Array<Record<string, unknown>> {
 }
 
 test("filtered feeds keep their exact content address but leave indexing to the public landing pages", async () => {
-  for (const base of ["/", "/all"]) for (const query of ["channel=news", "category=physical", "tag=Agent", "channel=x&category=paper&tag=Agent"]) {
+  for (const base of ["/", "/all"]) for (const query of ["channel=news", "category=physical", "tag=ENSO", "channel=x&category=biology&tag=ENSO"]) {
     const $ = await page(`${base}?${query}&utm_source=fixture&anchorAt=old&deep=1`);
     assert.equal($("meta[name=robots]").attr("content"), "noindex, follow", `${base}?${query}`);
     assert.equal($("link[rel=canonical]").attr("href"), `${web.origin}${base}?${query}`);
     assert.ok($("main").text().includes(item.title));
   }
-  const $ = await page("/all?q=Claude&tab=relevance&page=2&anchorAt=old");
+  const $ = await page("/all?q=NOAA&tab=relevance&page=2&anchorAt=old");
   assert.equal($("meta[name=robots]").attr("content"), "noindex, follow");
-  assert.equal($("link[rel=canonical]").attr("href"), `${web.origin}/all?q=Claude&tab=relevance&page=2`);
+  assert.equal($("link[rel=canonical]").attr("href"), `${web.origin}/all?q=NOAA&tab=relevance&page=2`);
 });
 
 test("ordinary feed pages remain indexable and normalize ignored parameters", async () => {

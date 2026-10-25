@@ -83,7 +83,7 @@ jobs:
 
   anonymize-this-publication:
     needs: checks
-    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Verify complete ocean station on Linux'
+    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Finish ocean station verification and brand layout'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
@@ -100,7 +100,7 @@ jobs:
         run: |
           set -euo pipefail
           expected_ref="$(git rev-parse HEAD)"
-          test "$(git rev-parse "$GITHUB_SHA^")" = 'f5e1c7b50542ee5748fb2886ad678e4636b643e0'
+          test "$(git rev-parse "$GITHUB_SHA^")" = '28f2863446443bc64bc10de81d6bdec5282dd73f'
           git merge-base --is-ancestor "$GITHUB_SHA" HEAD
           test "$(git rev-list --count "$GITHUB_SHA..HEAD")" -le 1
           if test "$expected_ref" != "$GITHUB_SHA"; then
