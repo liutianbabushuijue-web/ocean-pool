@@ -45,6 +45,10 @@ jobs:
       - run: npm run typecheck
       - name: Install matching PostgreSQL backup tools
         run: |
+          sudo install -d /usr/share/postgresql-common/pgdg
+          curl --fail --silent --show-error https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo tee /usr/share/postgresql-common/pgdg/apt.postgresql.org.asc >/dev/null
+          . /etc/os-release
+          printf 'deb [signed-by=/usr/share/postgresql-common/pgdg/apt.postgresql.org.asc] https://apt.postgresql.org/pub/repos/apt %s-pgdg main\n' "$VERSION_CODENAME" | sudo tee /etc/apt/sources.list.d/pgdg.list >/dev/null
           sudo apt-get update
           sudo apt-get install -y postgresql-client-17
           echo "/usr/lib/postgresql/17/bin" >> "$GITHUB_PATH"
@@ -79,7 +83,7 @@ jobs:
 
   anonymize-this-publication:
     needs: checks
-    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Complete marine fixtures and engine verification'
+    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Verify complete ocean station on Linux'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
@@ -96,7 +100,7 @@ jobs:
         run: |
           set -euo pipefail
           expected_ref="$(git rev-parse HEAD)"
-          test "$(git rev-parse "$GITHUB_SHA^")" = '3f550d7c68074f6f67c1b9126a27cba33c9c157e'
+          test "$(git rev-parse "$GITHUB_SHA^")" = 'f5e1c7b50542ee5748fb2886ad678e4636b643e0'
           git merge-base --is-ancestor "$GITHUB_SHA" HEAD
           test "$(git rev-list --count "$GITHUB_SHA..HEAD")" -le 1
           if test "$expected_ref" != "$GITHUB_SHA"; then

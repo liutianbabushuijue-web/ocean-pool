@@ -1,6 +1,6 @@
 # 海洋知识星球：热点站定制与验收
 
-本轮按用户明确的站名和五类关注点定制完整引擎。重新阅读了上游 `AGENTS.md`、`docs/customize.md`，主要修改 `engine/site/` 与 `engine/industry/`；同名可移植配置同步至 `ocean-pack/`。共享后端与前端业务代码未改。
+本轮按用户明确的站名和五类关注点定制完整引擎。重新阅读了上游 `AGENTS.md`、`docs/customize.md`，主要修改 `engine/site/` 与 `engine/industry/`；同名可移植配置同步至 `ocean-pack/`。共享后端与前端业务代码未改；验收发现的stepx模块时间显示、圆角与环境变量模板遗漏已修正。原测试中的AI行业样本换成海洋机构和专题，保留撤回、去重、归属与排序等行为断言。
 
 ## 与之前版本有什么区别
 
