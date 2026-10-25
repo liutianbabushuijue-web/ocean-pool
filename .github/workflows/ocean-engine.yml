@@ -1,0 +1,120 @@
+name: Ocean knowledge planet engine checks
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'engine/**'
+      - '.github/workflows/ocean-engine.yml'
+
+permissions: {}
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER: ocean_ci
+          POSTGRES_PASSWORD: isolated-ci-only-password
+          POSTGRES_DB: ocean_planet_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U ocean_ci -d ocean_planet_ci"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    defaults:
+      run:
+        working-directory: engine
+    env:
+      DATABASE_URL: postgres://ocean_ci:isolated-ci-only-password@127.0.0.1:5432/ocean_planet_ci
+      AIHOT_CREDENTIALS_DIR: /tmp/ocean-empty-credentials
+      FEISHU_CONTENT_PUSH_ENABLED: 'false'
+      FEISHU_INTERNAL_ENABLED: 'false'
+      INDEXNOW_SUBMIT_ENABLED: 'false'
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.22.1'
+          cache: npm
+          cache-dependency-path: engine/package-lock.json
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build -w @aihot/web
+      - run: npx playwright install --with-deps chromium webkit
+      - run: node --test apps/web/tests/*.test.ts
+      - name: Smoke the actual web and API on an isolated database
+        shell: bash
+        env:
+          COLLECT_ENABLED: 'false'
+          MODEL_CALLS_ENABLED: 'false'
+          SITE_URL: http://127.0.0.1:3000
+          API_BASE_URL: http://127.0.0.1:3001
+          AIHOT_DATA_DIR: /tmp/ocean-preview-data
+          LOG_LEVEL: error
+        run: |
+          set -euo pipefail
+          export SESSION_SECRET="$(openssl rand -hex 32)"
+          export IMG_PROXY_SIGN_SECRET="$(openssl rand -hex 32)"
+          export ADMIN_PASSWORD="$(openssl rand -hex 16)"
+          node scripts/migrate.ts
+          node scripts/seed.ts
+          node apps/api/src/main.ts > /tmp/ocean-api.log 2>&1 & api_pid=$!
+          node apps/web/server.ts > /tmp/ocean-web.log 2>&1 & web_pid=$!
+          trap 'kill "$api_pid" "$web_pid" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:3000/api/health >/dev/null; then break; fi
+            sleep 1
+          done
+          node scripts/smoke.ts --base http://127.0.0.1:3000
+
+  anonymize-this-publication:
+    needs: checks
+    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Customize ocean knowledge planet editorial station'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Keep the reviewed files and normalize this connector commit only
+        shell: bash
+        env:
+          FILTER_BRANCH_SQUELCH_WARNING: '1'
+        run: |
+          set -euo pipefail
+          expected_ref="$(git rev-parse HEAD)"
+          test "$(git rev-parse "$GITHUB_SHA^")" = '027e0ce0f0042ef673022839d0d53deca19aa622'
+          git merge-base --is-ancestor "$GITHUB_SHA" HEAD
+          test "$(git rev-list --count "$GITHUB_SHA..HEAD")" -le 1
+          if test "$expected_ref" != "$GITHUB_SHA"; then
+            test "$(git rev-parse HEAD^)" = "$GITHUB_SHA"
+            test "$(git log -1 --format=%ae)" = '41898282+github-actions[bot]@users.noreply.github.com'
+            test "$(git log -1 --format=%s)" = 'Update public ocean source data'
+          fi
+          previous_tree="$(git rev-parse 'HEAD^{tree}')"
+          git filter-branch --env-filter '
+            case "$GIT_AUTHOR_EMAIL" in
+              *@users.noreply.github.com) ;;
+              *) export GIT_AUTHOR_EMAIL="307004628+liutianbabushuijue-web@users.noreply.github.com" ;;
+            esac
+            case "$GIT_COMMITTER_EMAIL" in
+              *@users.noreply.github.com) ;;
+              *) export GIT_COMMITTER_EMAIL="307004628+liutianbabushuijue-web@users.noreply.github.com" ;;
+            esac
+          ' -- main
+          test "$(git rev-parse 'HEAD^{tree}')" = "$previous_tree"
+          python - <<'PY'
+          import subprocess
+          emails = subprocess.check_output(['git','log','--format=%ae%n%ce','main']).decode().splitlines()
+          assert emails and all(email.endswith('@users.noreply.github.com') for email in emails)
+          print('Current main history uses anonymous email metadata.')
+          PY
+          git push --force-with-lease="refs/heads/main:$expected_ref" origin HEAD:refs/heads/main

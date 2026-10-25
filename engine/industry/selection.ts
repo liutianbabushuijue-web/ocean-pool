@@ -11,6 +11,8 @@
 //   1) 从后台“内容”页导出近 30 天的候选，标成 .data/gold.jsonl（格式见 industry/gold.example.jsonl）
 //   2) node --env-file=.env scripts/eval-selection.ts --gold .data/gold.jsonl
 //   3) 看精确率/召回率曲线，再改这里的数字；改完用 SelectBench 复核判错的那批
+// 本轮按使用者定位调整提示词，保留 58/64/74 与 48；尚无本人金标，不因内容少而降低门槛。
+// 校准样本须覆盖五类关注点，并加入标题党、宣传、常规论文、单来源重要发现等负例与边界例。
 // 校准流程写在 docs/OPERATIONS.md 的“门槛校准”一节。
 
 export const SELECTION = {

@@ -21,27 +21,27 @@ export const EDITION_WHEN = {
 
 export const SITE = {
   /** 站名：导航、页面标题、分享图、RSS、MCP、后台都用它。 */
-  name: "深蓝知",
+  name: "海洋知识星球",
   /** 行业词：拼进默认说法里，比如“海洋日报”“全部海洋动态”。 */
   subject: "海洋",
   /** 首页的完整标题（浏览器标签、搜索结果）。 */
-  homeTitle: "深蓝知 — 海洋科技与治理动态 · 每日精选与日报",
+  homeTitle: "海洋知识星球 — 科研突破、生态与中国海洋发展 · 热点与日报",
   /** 主题目录页（/topics）的标题。 */
-  topicsTitle: "海洋主题：机构与计划、研究方向、内容形态的最新动态",
+  topicsTitle: "海洋主题：科研突破、中国发展、生态保护与公众生活",
   /** 反馈表单输入框里的示例。 */
   feedbackExample: "例如：某条深海采矿的条目把海区写错了，原文是 CCZ，摘要写成了南海……",
   /** 反馈页标题下面的一句话。 */
-  feedbackLead: "发现条目错误、想要的信源、课程与合作，都可以告诉我们。",
+  feedbackLead: "发现内容错误、希望补充的信源，或想分享海洋实践，都可以告诉我们。",
   /** 反馈表单邮箱框里的提示。 */
   feedbackEmailHint: "留下邮箱，我们可以回信联系你",
   /** 一句话介绍：搜索引擎、分享卡片、RSS、llms.txt 会用。 */
-  description: `从一批海洋信源里挑出值得看的动态——论文、航次、数据产品、政策文本——把同一件事的多篇报道归到一起，${EDITION_WHEN.daily} 出一份日报。`,
+  description: `追踪海洋科研突破、生态变化、中国海洋发展与实际应用，说明新发现与公众生活的联系；同一事件合并阅读，${EDITION_WHEN.daily} 出一份日报。`,
   /** llms.txt 里一句话介绍下面的一段详细介绍（选填）。 */
-  llmsIntro: "深蓝知面向海洋科研、海洋治理与蓝色经济的从业者，以及涉海专业的学生。信源分三级，只收能追溯到原文的条目；每条都标注来源、原文日期和原文链接。",
+  llmsIntro: "海洋知识星球面向关心海洋的公众、学生、科研人员与从业者。精选关注证据、影响与可用性，热点反映独立来源的讨论，不代表科学结论更可靠。每条保留来源、原文日期和原文链接。",
   /** 一行小字：分享图、海报下方。 */
-  tagline: "值得关注的海洋动态",
+  tagline: "看见海洋的变化，找到与自己的联系",
   /** 搜索引擎读到的关键词（首页结构化数据）。 */
-  keywords: ["海洋资讯", "海洋科学", "海洋政策", "海洋热浪", "深海", "海洋日报", "Ocean News"] as string[],
+  keywords: ["海洋资讯", "海洋科学", "海洋政策", "海洋热浪", "深海", "海洋日报", "中国海洋发展", "海洋生态", "海洋应用", "海洋科普", "Ocean News"] as string[],
   /** 网站开始收录的年份（结构化数据的时间范围，选填）。 */
   since: "2026",
   /** 界面语言（HTML lang、og:locale）。 */
@@ -63,10 +63,10 @@ export const SITE = {
   /** 中国大陆网站的公安备案信息（选填）。 */
   psb: null as string | null,
   /** 源码的 GitHub 仓库地址（选填）。 */
-  github: null as string | null,
+  github: "https://github.com/liutianbabushuijue-web/ocean-pool" as string | null,
   /** 结构化数据里的网站运营者（搜索引擎用）。 */
   organization: {
-    name: "深蓝知",
+    name: "海洋知识星球",
     /** 创始人（选填）。 */
     founder: null as Founder | null,
   },
@@ -84,8 +84,8 @@ export const POLICY = {
     covers: null as string | null,
     /** Agent 接入页的 RSS、API 两栏各自提醒的使用规则（选填）。 */
     notes: {
-      rss: "个人阅读与非商业聚合可直接订阅；转售、再分发或用于训练模型前请先联系我们。",
-      api: "同一 IP 每分钟请不超过 60 次；批量同步请注明 User-Agent 并附上来源。",
+      rss: "免费订阅摘要与原文链接；引用请保留来源，原文与数据的使用以权利方许可为准。",
+      api: "按缓存时间轮询；遇到 429 遵守 Retry-After，批量同步请注明 User-Agent。",
     },
     /** 讲清哪些用途要先取得授权的话（选填）。 */
     license: {
@@ -113,9 +113,9 @@ export const NAV = {
 /** 条目卡片和详情页上的几处说法和显示。 */
 export const ITEM_COPY = {
   /** 模型写的那句理由叫什么：卡片、详情页、Markdown 导出、给 Agent 的回答和群推送都用它。 */
-  reasonLabel: "为什么值得看",
+  reasonLabel: "与我们有什么关系",
   /** 读者在网页和分享图上看不看得到 AI 评分。只管显示：公开 API 和 MCP 的数据照样带 score。 */
-  showScore: true,
+  showScore: false,
 };
 
 /** 关于页的一张二维码卡片。 */
@@ -133,15 +133,15 @@ export const ABOUT = {
   /** 页面描述（搜索结果、分享卡片）。 */
   description: `关于 ${SITE.name}：${SITE.description}`,
   /** 大标题：第一行正常颜色，第二行强调色。 */
-  headline: ["海洋每天都有新数据、新论文、新协定，", "真正需要知道的，只有几条。"] as [string, string],
+  headline: ["海洋不只在远方，", "它也关系我们的生活与未来。"] as [string, string],
   /** 标题下面的一段话。{sources} 会换成实时的信源数。 */
-  lead: `${SITE.name} 替你盯着{sources}个信源：海洋机构的官网与期刊、深海与极地科考、政策文本和中文一手发布；抓取、归并、打分、精选，${EDITION_WHEN.daily} 出一份日报。免费，不用注册。`,
+  lead: `${SITE.name} 替你盯着{sources}个信源：海洋机构与期刊、中国科研和政策发布、生态与应用报道；用证据筛选、按事件归并，既追重要变化，也关注普通人能理解和参与的事，${EDITION_WHEN.daily} 出一份日报。免费，不用注册。`,
   sourcesFallback: "二十多个",
   /** 信源河动画下面的四个环节。 */
   steps: {
-    collect: "NOAA、Nature、Science、Eos 和 Crossref 上的海洋期刊，以及自然资源部、中科院海洋所、中国海洋大学的一手发布；更新越勤的源看得越勤。",
-    store: "抓到的都存下来，同一件事的报道归到一起，热点榜就是从这里算出来的。",
-    select: `模型先看是不是海洋的事、有没有实际信息，再写中文标题、摘要和${ITEM_COPY.reasonLabel}；旅游营销、签约通稿和重复转发进不来。`,
+    collect: "追踪国际海洋机构、期刊与公开媒体，并单独补充中国海洋科研和政策一手发布；外部推送来源只有接好采集器才会更新，来源名单不等于已经采集成功。",
+    store: "同一事件的多篇报道归在一起；热点依据独立来源的讨论计算，不伪造点击量，也不以热度替代科研价值。",
+    select: `先判断海洋相关性，再独立评分两次。科研突破、生态、中国发展、实用技术和公众服务都可入选；标题通俗具体，说明证据和适用范围，压住宣传、重复转发和夸大突破。`,
     publish: `${EDITION_WHEN.daily} 出日报，${EDITION_WHEN.weekly} 出周报，${EDITION_WHEN.monthly} 出月报。`,
   },
   /** 作者块（选填），null 就不显示。 */
@@ -222,7 +222,7 @@ export const COMMUNITY_FEEDS: { dev: string[]; hn: string[] } = {
 export const CARDS: Record<string, { kicker: string; title: string; subtitle: string; accent?: "hot" | "amber" }> = {
   site: { kicker: subjectAfter("每日", "精选"), title: SITE.tagline, subtitle: SITE.description },
   all: { kicker: subjectAfter("全部", "动态"), title: "所有信源的最新动态，一站看完", subtitle: "按时间汇总各信源的最新动态，可按类别与标签筛选。" },
-  hot: { kicker: "热点榜", title: "过去 48 小时，海洋界在讨论什么", subtitle: "热度指数、趋势与组成热度的公开来源。", accent: "hot" },
+  hot: { kicker: "热点榜", title: "过去 48 小时，哪些海洋事件被共同关注", subtitle: "按独立来源讨论计算，热度不等于点击量或科研质量。", accent: "hot" },
   daily: { kicker: withSubject("日报"), title: subjectAfter(`每天 ${spokenTime(EDITION_TIMES.daily)}，一份读得完的`, "日报"), subtitle: `${subjectAfter("前一天值得关注的", "动态")}。` },
   weekly: { kicker: withSubject("周报"), title: `一周${REPORTS.entry.noun}，一次看清`, subtitle: "本周的主线、重要发布与值得回看的讨论。" },
   monthly: { kicker: withSubject("月报"), title: "一个月的变化", subtitle: "月度主线与关键事件回顾。" },
@@ -237,7 +237,7 @@ export const CARDS: Record<string, { kicker: string; title: string; subtitle: st
 /** 公开接口的访问约定里随部署而变的几处。 */
 export const ACCESS = {
   /** 同一 IP 每分钟大约能请求多少次（选填，由反向代理限流）；null 表示不限流。 */
-  ratePerMinute: 60 as number | null,
+  ratePerMinute: null as number | null,
   /** 请写程序同步数据的人报上的 User-Agent（选填）。 */
   userAgent: "OceanSync/1.0 (+联系方式)",
 };

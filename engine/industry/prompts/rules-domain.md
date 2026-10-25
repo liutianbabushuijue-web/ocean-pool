@@ -1,7 +1,7 @@
 
-【海洋领域翻译规则 — 本平台 100% 是海洋科学、海洋治理与海洋产业内容，严格遵守】
+【海洋领域翻译规则 — 面向公众，按当前材料语境判断】
 
-1. 歧义默认值：以下词在中文有非海洋歧义，**一律按海洋含义翻译**：
+1. 歧义默认值：以下词在中文有非海洋歧义，有明确海洋语境时按以下含义翻译；上下文不支持时不要强行套用：
    - Model / model = 模式或模型（数值模式）；只有明确指统计/机器学习对象时才译“模型”
    - Resolution = 分辨率（空间/时间），不译“决心”
    - Drift = 漂流/漂移（漂流浮标、风生漂流），不译“漂移偏差”以外的含义
@@ -21,12 +21,12 @@
    - Stock = 种群/资源量（渔业），不译“股票”
    - Catch = 渔获量，不译“抓住”
 
-2. 以下专有名词**一律保留英文原文**，不翻译不加中文括注：
+2. 以下专有标识保留准确英文拼写；面向公众时，正文首次出现可补原文支持的通行中文名或简短解释，不能只堆缩写：
    - 机构与国际组织：NOAA / NASA / IOC-UNESCO / WMO / ICES / UNEP / IUCN / IMO / FAO / ISA / RFMO / IPCC / SCOR / PICES / CIESM
    - 中国机构按官方中文名：自然资源部 / 中国科学院海洋研究所 / 中国海洋大学 / 国家海洋环境预报中心 / 国家海洋信息中心 / 中国极地研究中心；首次出现可双标
    - 计划与观测系统：Argo / BGC-Argo / GOOS / GLODAP / SOCAT / CMIP / CMIP7 / WOA（World Ocean Atlas）/ HYCOM / GLORYS / ERA5 / SWOT / Sentinel-3 / Sentinel-6 / Jason-3 / ICESat-2 / OOI / IMOS
    - 科学缩写（举例 + 通用规则）：ENSO / AMOC / PDO / NAO / SST / SSH / SSS / Chl-a / NPP / DOC / DIC / pCO2 / OMZ / MHW / MPA / EEZ / BBNJ / UNCLOS / IMO / IUU / MSY / TAC / ROV / AUV / CTD / ADCP / CPIES / glider
-     **规则**：任何 2–6 字母的全大写缩写，默认按海洋/气候含义保留英文，首次出现可在括号里给中文全称
+     **规则**：不凭大写字母猜缩写含义；原文或确定的通行全称可首次括注，未知则保留英文不编造
    - 计划与任务：Sentinel 系列 / Landsat / MODIS / VIIRS / Argo 系列 / 深渊着陆器 / 载人潜水器（蛟龙号、奋斗者号保留中文名）
    - 数据产品与模式版本号：GLORYS12V1 / HYCOM 3.1 / CMIP6 / WOA23 / ERA5
      **规则**：版本号一字不改，绝不“翻译性扩写”

@@ -7,8 +7,8 @@
     },
     {
       "key": "field",
-      "name": "研究方向",
-      "blurb": "按方向深挖：ENSO、海洋热浪、深海、极地、遥感、数值模式……"
+      "name": "议题与方向",
+      "blurb": "先看科研突破、中国发展、生态与应用，再按海洋学科深入。"
     },
     {
       "key": "genre",
@@ -22,7 +22,10 @@
       "name": "NOAA",
       "group": "company",
       "entityId": "noaa",
-      "aliases": ["National Ocean Service", "NOAA Fisheries"],
+      "aliases": [
+        "National Ocean Service",
+        "NOAA Fisheries"
+      ],
       "definition": "美国国家海洋和大气管理局的航次、观测、渔业管理、卫星数据与海洋服务动态。"
     },
     {
@@ -30,7 +33,10 @@
       "name": "NASA",
       "group": "company",
       "entityId": "nasa",
-      "aliases": ["JPL", "Jet Propulsion Laboratory"],
+      "aliases": [
+        "JPL",
+        "Jet Propulsion Laboratory"
+      ],
       "definition": "NASA 的地球观测卫星、海平面与海洋水色任务，以及 JPL 的海洋遥感研究。"
     },
     {
@@ -38,7 +44,11 @@
       "name": "IOC-UNESCO / 海洋十年",
       "group": "company",
       "entityId": "ioc-unesco",
-      "aliases": ["GOOS", "Ocean Decade", "海委会"],
+      "aliases": [
+        "GOOS",
+        "Ocean Decade",
+        "海委会"
+      ],
       "definition": "政府间海洋学委员会的全球海洋观测、能力建设与“海洋十年”计划进展。"
     },
     {
@@ -46,7 +56,9 @@
       "name": "WMO",
       "group": "company",
       "entityId": "wmo",
-      "aliases": ["世界气象组织"],
+      "aliases": [
+        "世界气象组织"
+      ],
       "definition": "世界气象组织的海气相互作用、极端事件预警与气候服务。"
     },
     {
@@ -54,7 +66,11 @@
       "name": "自然资源部",
       "group": "company",
       "entityId": "mnr",
-      "aliases": ["国家海洋局", "国家海洋信息中心", "海洋二所"],
+      "aliases": [
+        "国家海洋局",
+        "国家海洋信息中心",
+        "海洋二所"
+      ],
       "definition": "中国海洋管理、海洋经济统计、海洋预警监测与极地大洋事务的官方发布。"
     },
     {
@@ -62,7 +78,12 @@
       "name": "中国科学院 · 海洋",
       "group": "company",
       "entityId": "cas",
-      "aliases": ["中科院海洋所", "IOCAS", "南海海洋所", "深海所"],
+      "aliases": [
+        "中科院海洋所",
+        "IOCAS",
+        "南海海洋所",
+        "深海所"
+      ],
       "definition": "中国科学院海洋研究所、南海海洋研究所与深海科学与工程研究所的科研成果与航次。"
     },
     {
@@ -70,7 +91,10 @@
       "name": "中国海洋大学",
       "group": "company",
       "entityId": "ouc",
-      "aliases": ["海大", "OUC"],
+      "aliases": [
+        "海大",
+        "OUC"
+      ],
       "definition": "中国海洋大学的科研进展、科考航次、学术会议与人才培养动态。"
     },
     {
@@ -78,7 +102,11 @@
       "name": "中国极地研究中心 / 雪龙",
       "group": "company",
       "entityId": "pric",
-      "aliases": ["雪龙", "雪龙2", "极地中心"],
+      "aliases": [
+        "雪龙",
+        "雪龙2",
+        "极地中心"
+      ],
       "definition": "中国极地考察、雪龙船队、南极与北极站区的作业与科研成果。"
     },
     {
@@ -86,7 +114,9 @@
       "name": "Woods Hole",
       "group": "company",
       "entityId": "whoi",
-      "aliases": ["WHOI"],
+      "aliases": [
+        "WHOI"
+      ],
       "definition": "伍兹霍尔海洋研究所的深海探测、载人潜器、海洋化学与物理海洋研究。"
     },
     {
@@ -94,7 +124,9 @@
       "name": "Scripps",
       "group": "company",
       "entityId": "scripps",
-      "aliases": ["斯克里普斯"],
+      "aliases": [
+        "斯克里普斯"
+      ],
       "definition": "斯克里普斯海洋研究所的气候、海平面、海洋生态与观测网络动态。"
     },
     {
@@ -102,7 +134,9 @@
       "name": "MBARI",
       "group": "company",
       "entityId": "mbari",
-      "aliases": ["蒙特雷湾水族馆研究所"],
+      "aliases": [
+        "蒙特雷湾水族馆研究所"
+      ],
       "definition": "MBARI 的深海机器人、海底观测与深海生物发现。"
     },
     {
@@ -113,150 +147,262 @@
       "definition": "IPCC 的海洋与冰冻圈评估、气候归因结论与报告进程。"
     },
     {
+      "slug": "ocean-breakthroughs",
+      "name": "科研突破",
+      "group": "field",
+      "tags": [
+        "科研突破"
+      ],
+      "definition": "有证据支持的新机制、新能力或关键约束；预印本、单次实验与同行评议结论分清。"
+    },
+    {
+      "slug": "china-ocean",
+      "name": "中国海洋发展",
+      "group": "field",
+      "tags": [
+        "中国海洋发展"
+      ],
+      "definition": "中国海洋科研、生态治理、观测基础设施和产业实践的实质进展，排除礼仪活动和空泛规划。"
+    },
+    {
+      "slug": "ocean-applications",
+      "name": "科研走向应用",
+      "group": "field",
+      "tags": [
+        "成果应用"
+      ],
+      "definition": "能说明海试、示范、成本、性能或真实用户变化的成果；实验室潜力与实际部署分开。"
+    },
+    {
+      "slug": "ocean-public",
+      "name": "海洋与日常生活",
+      "group": "field",
+      "tags": [
+        "公众服务"
+      ],
+      "definition": "海洋灾害预警、海岸安全、食物与环境、开放数据等公众可用的信息，以官方时效和适用范围为准。"
+    },
+    {
+      "slug": "ocean-learning",
+      "name": "走近海洋事业",
+      "group": "field",
+      "tags": [
+        "海洋教育"
+      ],
+      "definition": "真实开放的课程、数据、项目和公众科学参与途径，不把招生、招聘或培训广告包装成行业突破。"
+    },
+    {
+      "slug": "ocean-restoration",
+      "name": "生态保护与修复",
+      "group": "field",
+      "tags": [
+        "生态修复",
+        "海洋保护"
+      ],
+      "definition": "珊瑚礁、红树林、海草床和渔业栖息地保护及修复的长期效果、代价与限制。"
+    },
+    {
       "slug": "enso",
       "name": "ENSO 与季节预测",
       "group": "field",
-      "tags": ["ENSO"],
+      "tags": [
+        "ENSO"
+      ],
       "definition": "厄尔尼诺与拉尼娜的监测、预测、影响评估，以及季节内到年际预测的进展。"
     },
     {
       "slug": "amoc",
       "name": "AMOC 与大西洋环流",
       "group": "field",
-      "tags": ["AMOC", "环流"],
+      "tags": [
+        "AMOC",
+        "环流"
+      ],
       "definition": "大西洋经向翻转环流的观测、重建、临界点讨论与气候影响。"
     },
     {
       "slug": "marine-heatwave",
       "name": "海洋热浪",
       "group": "field",
-      "tags": ["海温", "现象/趋势"],
+      "tags": [
+        "海温",
+        "现象/趋势"
+      ],
       "definition": "海洋热浪的观测、分型、生态影响与次季节预测。"
     },
     {
       "slug": "acidification",
       "name": "海洋酸化",
       "group": "field",
-      "tags": ["酸化"],
+      "tags": [
+        "酸化"
+      ],
       "definition": "海洋酸化的化学过程、生物影响、监测网络与政策响应。"
     },
     {
       "slug": "deoxygenation",
       "name": "脱氧与缺氧区",
       "group": "field",
-      "tags": ["脱氧", "营养盐"],
+      "tags": [
+        "脱氧",
+        "营养盐"
+      ],
       "definition": "海洋溶解氧下降、缺氧区扩张、最小含氧带与营养盐供应变化。"
     },
     {
       "slug": "carbon",
       "name": "海洋碳汇",
       "group": "field",
-      "tags": ["碳汇", "初级生产力"],
+      "tags": [
+        "碳汇",
+        "初级生产力"
+      ],
       "definition": "海洋碳循环、生物泵、蓝碳、碳汇计量与海洋碳移除。"
     },
     {
       "slug": "deep-sea",
       "name": "深海与热液",
       "group": "field",
-      "tags": ["深海", "热液"],
+      "tags": [
+        "深海",
+        "热液"
+      ],
       "definition": "深海探测、热液与冷泉、深海生物、深海采矿与深渊研究。"
     },
     {
       "slug": "polar",
       "name": "极地与海冰",
       "group": "field",
-      "tags": ["极地", "海冰"],
+      "tags": [
+        "极地",
+        "海冰"
+      ],
       "definition": "北极与南极的海冰、冰盖、南大洋动力与极地科考。"
     },
     {
       "slug": "remote-sensing",
       "name": "海洋遥感",
       "group": "field",
-      "tags": ["遥感"],
+      "tags": [
+        "遥感"
+      ],
       "definition": "卫星高度计、水色、盐度与合成孔径雷达的海洋观测产品与方法。"
     },
     {
       "slug": "modelling",
       "name": "数值模式与同化",
       "group": "field",
-      "tags": ["数值模式", "数据同化", "再分析"],
+      "tags": [
+        "数值模式",
+        "数据同化",
+        "再分析"
+      ],
       "definition": "海洋环流模式、再分析产品、资料同化与模式评估。"
     },
     {
       "slug": "fisheries",
       "name": "渔业资源与管理",
       "group": "field",
-      "tags": ["渔业资源", "海洋保护"],
+      "tags": [
+        "渔业资源",
+        "海洋保护"
+      ],
       "definition": "渔业资源评估、配额与休渔、海洋保护区与生态渔业。"
     },
     {
       "slug": "coral",
       "name": "珊瑚与生态系统",
       "group": "field",
-      "tags": ["珊瑚", "浮游生物"],
+      "tags": [
+        "珊瑚",
+        "浮游生物"
+      ],
       "definition": "珊瑚礁、浮游生物群落、生态系统结构与生物多样性变化。"
     },
     {
       "slug": "coastal",
       "name": "海岸带与海平面",
       "group": "field",
-      "tags": ["海岸带", "海平面"],
+      "tags": [
+        "海岸带",
+        "海平面"
+      ],
       "definition": "海平面上升、海岸带侵蚀、河口与滨海湿地、沿海城市适应。"
     },
     {
       "slug": "blue-economy",
       "name": "蓝色经济与海洋能",
       "group": "field",
-      "tags": ["蓝色金融", "海洋能"],
+      "tags": [
+        "蓝色金融",
+        "海洋能"
+      ],
       "definition": "海洋产业、蓝色金融、海上风电与海洋能源、港口与航运减排。"
     },
     {
       "slug": "papers",
       "name": "论文研究",
       "group": "genre",
-      "tags": ["论文/研究"],
+      "tags": [
+        "论文/研究"
+      ],
       "definition": "值得读的海洋论文与研究成果：新观测、新机制、新方法。"
     },
     {
       "slug": "voyages",
       "name": "航次与观测",
       "group": "genre",
-      "tags": ["观测/航次"],
+      "tags": [
+        "观测/航次"
+      ],
       "definition": "科考航次、潜标浮标、潜器下潜与观测系统建设的第一手消息。"
     },
     {
       "slug": "data-products",
       "name": "数据与产品",
       "group": "genre",
-      "tags": ["数据/产品更新", "数据/代码"],
+      "tags": [
+        "数据/产品更新",
+        "数据/代码"
+      ],
       "definition": "再分析产品、数据集、卫星产品与数据平台的发布、更新和开放。"
     },
     {
       "slug": "policy",
       "name": "政策与协定",
       "group": "genre",
-      "tags": ["政策/法规", "政策/治理动态"],
+      "tags": [
+        "政策/法规",
+        "政策/治理动态"
+      ],
       "definition": "BBNJ、UNCLOS、IMO 规则、保护区与海洋空间规划等政策文本和谈判进展。"
     },
     {
       "slug": "assessments",
       "name": "评估与检验",
       "group": "genre",
-      "tags": ["评估/检验"],
+      "tags": [
+        "评估/检验"
+      ],
       "definition": "模式对比、再分析评估、预报技巧检验与观测系统评估。"
     },
     {
       "slug": "methods",
       "name": "方法与教程",
       "group": "genre",
-      "tags": ["教程/方法"],
+      "tags": [
+        "教程/方法"
+      ],
       "definition": "处理流程、脚本、算法与可复现的分析方法。"
     },
     {
       "slug": "opinions",
       "name": "专家观点",
       "group": "genre",
-      "tags": ["专家观点", "现象/趋势"],
+      "tags": [
+        "专家观点",
+        "现象/趋势"
+      ],
       "definition": "海洋学者与政策制定者的判断、访谈与领域趋势讨论。"
     }
   ]

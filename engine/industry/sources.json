@@ -878,6 +878,42 @@
         "verifiedAt": "2026-10-23",
         "verifiedItems": 0
       }
+    },
+    {
+      "id": "web-cn-iocas-research",
+      "name": "中国科学院海洋研究所 · 科研进展",
+      "kind": "web_list",
+      "config": {
+        "url": "https://qdio.cas.cn/2019Ver/News/kyjz/",
+        "parseMode": "html",
+        "itemSelector": ".list-news li",
+        "linkSelector": "a",
+        "titleSelector": "a",
+        "publishedAtSelector": "span.right",
+        "publishedAtUtcOffset": "+08:00",
+        "allowUrlPrefixes": [
+          "https://qdio.cas.cn/2019Ver/News/kyjz/"
+        ],
+        "_aihot": {
+          "initialBackfillLimit": 8
+        }
+      },
+      "tier": "T1",
+      "owner_entity_id": "cas",
+      "participation_mode": "editorial",
+      "interval_minutes": 360,
+      "tags": [
+        "官方",
+        "科研",
+        "中文"
+      ],
+      "site_fulltext": false,
+      "syndicate_fulltext": false,
+      "verification": {
+        "verifiedAt": "2026-10-25",
+        "verifiedItems": 20,
+        "method": "Live HTML, article URL and publication-date selectors checked"
+      }
     }
   ]
 }
