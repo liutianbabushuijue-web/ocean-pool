@@ -217,14 +217,14 @@ export default function AboutPage() {
             <br />
             <span className="text-accent">{ABOUT.headline[1]}</span>
           </h1>
-          <p className="mt-5 max-w-[36em] text-[15.5px] leading-[1.85] text-ink-3 xl:text-[17px]">
+          {ABOUT.lead && <p className="mt-5 max-w-[36em] text-[15.5px] leading-[1.85] text-ink-3 xl:text-[17px]">
             {ABOUT.lead.split("{sources}").map((part, i) => (
               <Fragment key={i}>
                 {i > 0 && (stats ? <>{" "}<span className="num font-semibold text-ink">{stats.sources}</span>{" "}</> : ABOUT.sourcesFallback)}
                 {part}
               </Fragment>
             ))}
-          </p>
+          </p>}
         </div>
         <div className="flex flex-wrap gap-3 lg:pb-2">
           <IntentLink to="/" className={buttonClass("primary", "lg")}>
@@ -260,9 +260,6 @@ export default function AboutPage() {
                 <span className="num text-[12px] font-bold tracking-[0.12em] text-accent">{s.no}</span>
                 <h3 className="text-[17px] font-bold text-ink">{s.title}</h3>
               </div>
-              {s.figure && <div className="mt-4">{s.figure}</div>}
-              <p className="mt-3 text-[14px] leading-[1.8] text-ink-3">{s.text}</p>
-              {s.note && <p className="mt-3 text-[12px] text-ink-4">{s.note}</p>}
             </li>
           ))}
         </ol>
@@ -270,13 +267,13 @@ export default function AboutPage() {
 
       {ABOUT.maker && <Maker maker={ABOUT.maker} contact={contact} />}
 
-      <p className="mt-16 well rounded-card px-5 py-4 text-[13px] leading-[1.85] text-ink-3">
+      {ABOUT.copyright.some(Boolean) && <p className="mt-16 well rounded-card px-5 py-4 text-[13px] leading-[1.85] text-ink-3">
         {ABOUT.copyright[0]}
         <Link viewTransition to="/feedback" className="text-accent hover:underline">
           反馈页
         </Link>
         {ABOUT.copyright[1]}
-      </p>
+      </p>}
 
       <footer className="mt-8 flex flex-wrap items-center justify-between gap-3 border-t border-line pt-5 text-[12.5px] text-ink-4">
         <span>{SITE.footerNote}</span>

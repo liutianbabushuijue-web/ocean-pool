@@ -57,7 +57,7 @@ export const SITE = {
   /** 对外联系邮箱（选填）：llms.txt 和给 Agent 的使用说明里会写。 */
   contactEmail: null as string | null,
   /** 关于页底部的一行小字（选填）。 */
-  footerNote: "基于 AIHOT 开源框架搭建",
+  footerNote: null as string | null,
   /** 中国大陆网站的 ICP 备案号（选填）。 */
   icp: null as string | null,
   /** 中国大陆网站的公安备案信息（选填）。 */
@@ -135,7 +135,7 @@ export const ABOUT = {
   /** 大标题：第一行正常颜色，第二行强调色。 */
   headline: ["海洋不只在远方，", "它也关系我们的生活与未来。"] as [string, string],
   /** 标题下面的一段话。{sources} 会换成实时的信源数。 */
-  lead: `${SITE.name} 已配置{sources}个信源，运行采集后追踪：海洋机构与期刊、中国科研和政策发布、生态与应用报道；用证据筛选、按事件归并，既追重要变化，也关注普通人能理解和参与的事，${EDITION_WHEN.daily} 出一份日报。免费，不用注册。`,
+  lead: "" as string,
   sourcesFallback: "二十多个",
   /** 信源河动画下面的四个环节。 */
   steps: {
@@ -153,7 +153,7 @@ export const ABOUT = {
     feishu?: ContactCard;
   },
   /** 页面底部的版权与下架说明，中间接“反馈页”的链接。 */
-  copyright: [`${SITE.name} 是聚合摘要和阅读索引，原文版权归各来源所有。如果你是来源方，希望更正、下架或调整展示方式，可以通过`, "联系我们。"] as [string, string],
+  copyright: ["", ""] as [string, string],
   /** 页面底部“使用规则”链接的锚点 id（选填）。 */
   termsAnchor: null as string | null,
 } as const;

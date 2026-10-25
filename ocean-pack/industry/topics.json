@@ -1,14 +1,14 @@
 {
   "groups": [
     {
-      "key": "company",
-      "name": "机构与计划",
-      "blurb": "按机构追踪：NOAA、IOC-UNESCO、中科院海洋所、中国海洋大学……"
-    },
-    {
       "key": "field",
       "name": "议题与方向",
       "blurb": "先看科研突破、中国发展、生态与应用，再按海洋学科深入。"
+    },
+    {
+      "key": "company",
+      "name": "机构与计划",
+      "blurb": "按机构追踪：NOAA、IOC-UNESCO、中科院海洋所、中国海洋大学……"
     },
     {
       "key": "genre",
