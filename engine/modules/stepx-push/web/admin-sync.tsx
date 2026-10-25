@@ -11,6 +11,7 @@ import { useFetcher } from "react-router";
 import { API_BASE_URL } from "../../../apps/web/app/lib/api.server.ts";
 import { adminSignedIn } from "../../../apps/web/app/lib/admin.server.ts";
 import { SITE } from "@aihot/site";
+import { beijingDate, beijingTime } from "@aihot/contracts/time";
 import { AdminPage, Badge, Card, KV, Stat } from "../../../apps/web/app/features/admin/ui";
 
 interface PushStatus {
@@ -183,10 +184,10 @@ export default function AdminSync({ loaderData, actionData }: { loaderData: Page
                 items={[
                   ["状态", status.push.configured ? <Badge tone="ok">已配置</Badge> : <Badge tone="muted">未配置（只用拉模式）</Badge>],
                   ["Webhook", status.push.webhookHost ?? "—"],
-                  ["上次成功", status.push.state?.lastSuccessAt ? new Date(status.push.state.lastSuccessAt).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }) : "—"],
+                  ["上次成功", status.push.state?.lastSuccessAt ? `${beijingDate(status.push.state.lastSuccessAt)} ${beijingTime(status.push.state.lastSuccessAt)}` : "—"],
                   ["上次结果", status.push.state?.lastStatus ? `${status.push.state.lastStatus} · ${status.push.state.lastCount} 条` : "—"],
                   ["累计投递", status.push.state ? `${status.push.state.pushedTotal} 条（含重核）` : "0 条"],
-                  ["全量核对", status.push.state?.reconciledAt ? new Date(status.push.state.reconciledAt).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai" }) : "尚未完成"],
+                  ["全量核对", status.push.state?.reconciledAt ? `${beijingDate(status.push.state.reconciledAt)} ${beijingTime(status.push.state.reconciledAt)}` : "尚未完成"],
                   ["核对进度", status.push.state?.reconciling ? "正在分批核对" : "等待下次核对"],
                 ]}
               />
@@ -237,7 +238,7 @@ export default function AdminSync({ loaderData, actionData }: { loaderData: Page
 
           <div className="mt-4">
             <Card title="接口与契约（给 stepx 的工程师）">
-              <pre className="overflow-x-auto rounded-md bg-surface-2 p-3 text-[12px] leading-relaxed text-ink-2">
+              <pre className="overflow-x-auto rounded-control bg-surface-2 p-3 text-[12px] leading-relaxed text-ink-2">
 {`# 拉
 GET ${status.site.name}/api/stepx/v1/items?limit=50
 Authorization: Bearer <STEPX_TOKEN>

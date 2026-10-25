@@ -43,8 +43,13 @@ jobs:
           cache-dependency-path: engine/package-lock.json
       - run: npm ci --ignore-scripts --no-audit --no-fund
       - run: npm run typecheck
-      - run: npm test
+      - name: Install matching PostgreSQL backup tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y postgresql-client-17
+          echo "/usr/lib/postgresql/17/bin" >> "$GITHUB_PATH"
       - run: npm run build -w @aihot/web
+      - run: npm test
       - run: npx playwright install --with-deps chromium webkit
       - run: node --test apps/web/tests/*.test.ts
       - name: Smoke the actual web and API on an isolated database
@@ -74,7 +79,7 @@ jobs:
 
   anonymize-this-publication:
     needs: checks
-    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Customize ocean knowledge planet editorial station'
+    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/main' && github.event.head_commit.message == 'Complete marine fixtures and engine verification'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
@@ -91,7 +96,7 @@ jobs:
         run: |
           set -euo pipefail
           expected_ref="$(git rev-parse HEAD)"
-          test "$(git rev-parse "$GITHUB_SHA^")" = '027e0ce0f0042ef673022839d0d53deca19aa622'
+          test "$(git rev-parse "$GITHUB_SHA^")" = '3f550d7c68074f6f67c1b9126a27cba33c9c157e'
           git merge-base --is-ancestor "$GITHUB_SHA" HEAD
           test "$(git rev-list --count "$GITHUB_SHA..HEAD")" -le 1
           if test "$expected_ref" != "$GITHUB_SHA"; then
