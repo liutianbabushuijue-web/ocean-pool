@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-10-29T22:53:10Z",
-    "lastAttemptAt": "2026-10-29T22:53:06Z",
-    "lastSuccessAt": "2026-10-29T22:53:10Z",
+    "generatedAt": "2026-10-30T06:05:32Z",
+    "lastAttemptAt": "2026-10-30T06:05:20Z",
+    "lastSuccessAt": "2026-10-30T06:05:25Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
     "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "feedUrlConfigured": true,
-    "totalItems": 341,
-    "successfulSources": 22,
+    "totalItems": 344,
+    "successfulSources": 20,
     "automaticSources": 26,
     "sourceStatus": [
       {
@@ -22,7 +22,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4323, column 6"
@@ -36,8 +36,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:20Z",
         "itemCount": 7,
         "error": null
       },
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:21Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:20Z",
         "itemCount": 2,
         "error": null
       },
@@ -77,11 +77,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
         "lastSuccessAt": "2026-10-29T22:53:06Z",
         "itemCount": 1,
-        "error": null
+        "error": "OSError: public source connection failed"
       },
       {
         "id": "rss-nature-geoscience",
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:07Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:20Z",
         "itemCount": 3,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:20Z",
         "itemCount": 1,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:20Z",
         "itemCount": 4,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:07Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:21Z",
         "itemCount": 25,
         "error": null
       },
@@ -148,7 +148,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
         "lastSuccessAt": "2026-10-29T13:23:51Z",
         "itemCount": 21,
         "error": "OSError: HTTP 429"
@@ -162,7 +162,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
         "lastSuccessAt": "2026-10-29T13:23:51Z",
         "itemCount": 19,
         "error": "OSError: HTTP 429"
@@ -176,8 +176,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:07Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:21Z",
         "itemCount": 24,
         "error": null
       },
@@ -190,7 +190,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
         "lastSuccessAt": "2026-10-29T13:23:51Z",
         "itemCount": 23,
         "error": "OSError: HTTP 429"
@@ -204,8 +204,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:07Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:22Z",
         "itemCount": 27,
         "error": null
       },
@@ -218,8 +218,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:07Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:22Z",
         "itemCount": 31,
         "error": null
       },
@@ -231,11 +231,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
         "lastSuccessAt": "2026-10-29T22:53:07Z",
         "itemCount": 19,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "json-crossref-global-biogeochem",
@@ -246,8 +246,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:07Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:22Z",
         "itemCount": 14,
         "error": null
       },
@@ -260,9 +260,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:09Z",
-        "itemCount": 13,
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:23Z",
+        "itemCount": 14,
         "error": null
       },
       {
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:08Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:23Z",
         "itemCount": 6,
         "error": null
       },
@@ -288,9 +288,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:08Z",
-        "itemCount": 50,
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:23Z",
+        "itemCount": 51,
         "error": null
       },
       {
@@ -302,8 +302,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:08Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:23Z",
         "itemCount": 25,
         "error": null
       },
@@ -316,9 +316,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:08Z",
-        "itemCount": 7,
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:23Z",
+        "itemCount": 8,
         "error": null
       },
       {
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:08Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:23Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,8 +344,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:10Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:25Z",
         "itemCount": 1,
         "error": null
       },
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:09Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:25Z",
         "itemCount": 5,
         "error": null
       },
@@ -372,8 +372,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-10-29T22:53:06Z",
-        "lastSuccessAt": "2026-10-29T22:53:10Z",
+        "lastAttemptAt": "2026-10-30T06:05:20Z",
+        "lastSuccessAt": "2026-10-30T06:05:25Z",
         "itemCount": 3,
         "error": null
       },
@@ -454,12 +454,67 @@
       "promptVersion": "chinese-reader-v1",
       "generatedAt": "2026-10-24T15:35:07Z",
       "localizedCount": 219,
-      "pendingCount": 122,
+      "pendingCount": 125,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
   },
   "items": [
+    {
+      "id": "50f4bbe2a7776c25b9c3c9a7",
+      "title": "Bat Week: Celebrating ecologically important, poorly understood mammals",
+      "url": "https://news.mongabay.com/short-article/2026/10/bat-week-celebrating-ecologically-important-poorly-understood-mammals/",
+      "sourceId": "rss-mongabay",
+      "sourceName": "Mongabay",
+      "publishedAt": "2026-10-30T05:33:07Z",
+      "publishedDate": "2026-10-30",
+      "publishedDatePrecision": "second",
+      "summary": "Bat Week, from Oct. 24-31, 2026, is a worldwide celebration of bats — a group that makes up 20% of all mammals. Bats live on all continents except for Antarctica, and provide major ecosystem services such as mosquito control, pollination an",
+      "topics": [
+        "biology"
+      ],
+      "collectedAt": "2026-10-30T06:05:23Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "antarctica"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.66709/news-334489",
+      "sources": [
+        {
+          "id": "rss-mongabay",
+          "name": "Mongabay"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "26cc10149a5cc77cfa7748ac",
+      "title": "Implications of hardbottom sponge community decline for ecosystem function in the Florida Keys, Florida (USA)",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1891588",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-10-30T00:00:00Z",
+      "publishedDate": "2026-10-30",
+      "publishedDatePrecision": "second",
+      "summary": "Human damage to the marine ecosystem of the Florida Keys may have begun in pre-Columbian times but expanded with European colonization about 400 years ago, particularly through overfishing of large species such as seals, turtles, and groupe",
+      "topics": [
+        "biology"
+      ],
+      "collectedAt": "2026-10-30T06:05:23Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "marine"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
     {
       "id": "b53b1450a0e8515dd6f722f0",
       "title": "Birds can get jet lag on long, fast flights and then fly off course",
@@ -1057,7 +1112,7 @@
           "name": "Nature Climate Change"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "60142a18216de022da7a22e2",
@@ -1346,7 +1401,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "b89356dad7707a76adc759e3",
@@ -3168,6 +3223,34 @@
         "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
+    },
+    {
+      "id": "b693c6b25006ebf9fa89415e",
+      "title": "Success beyond our hopes",
+      "url": "https://www.mbari.org/news/success-beyond-our-hopes/",
+      "sourceId": "rss-mbari",
+      "sourceName": "MBARI",
+      "publishedAt": "2026-10-20T19:00:42Z",
+      "publishedDate": "2026-10-20",
+      "publishedDatePrecision": "second",
+      "summary": "Studying the deep sea reveals unexpected forms of biodiversity. The post Success beyond our hopes appeared first on MBARI .",
+      "topics": [
+        "biology",
+        "deepsea"
+      ],
+      "collectedAt": "2026-10-30T06:05:23Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "sea"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-mbari",
+          "name": "MBARI"
+        }
+      ],
+      "stale": false
     },
     {
       "id": "e5e1f3a921594a06219f45b9",
@@ -5380,7 +5463,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "浮游动物昼夜迁移是南大洋不可忽视的主动输碳途径",
       "summaryZh": "研究结合昼夜网采和代谢估算，发现浮游动物主动输碳具有显著区域差异。环南极外推的夏季输碳约3890万吨碳，95%不确定区间为2700万—6000万吨，约占200米深总输出13%，提示碳泵评估还需计入迁移动物的贡献。",
       "editorial": {
@@ -5457,7 +5540,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "养殖围垦与升温可能放大温带潮滩温室气体产生潜力",
       "summaryZh": "研究用沉积物培养与宏基因组分析比较裸滩和不同强度养殖塘。围垦降低甲烷产生潜力，却增加氧化亚氮和二氧化碳，并改变温度敏感性；中等强度围垦的刺激更明显。模型预测升温可能进一步放大效应，但这些是产生潜力而非现场实测总排放。",
       "editorial": {
@@ -5495,7 +5578,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "营养盐阈值决定海草生态系统二氧化碳汇源转换",
       "summaryZh": "研究沿南海海草床营养盐梯度进行原位测量，发现二氧化碳通量存在非线性和季节性阈值。无机氮在春夏促进吸收、秋冬可促进排放，无机磷则持续削弱吸收，说明海草碳汇作用可能随营养盐污染而改变。",
       "editorial": {
@@ -5602,7 +5685,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "北太平洋寡营养环流中一次藻华衰退的向下输送效应",
       "summaryZh": "研究在2021年夏季跟踪反气旋涡内的藻华衰退，观测到硅藻壳以每日约50—100米下沉。碳、氮和硅通量达到邻近站常规夏季值的2—3倍，说明短期藻华及其衰亡也能显著影响中层海洋物质输出。",
       "editorial": {
@@ -5642,7 +5725,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "水团变化如何影响沿海固氮速率与固氮群落",
       "summaryZh": "研究结合北卡罗来纳沿岸的月度观测与航次资料，发现不同水团和锋面混合区具有不同固氮速率及群落组成，夏末秋初通常较高。多种检测方法的比较表明，单一方法可能遗漏部分固氮生物，需要联合使用以更完整描述群落。",
       "editorial": {
@@ -6508,7 +6591,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "f2de1827484a512bca08c8b1",
@@ -6730,7 +6813,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "浮游生物营养质量如何影响海洋食物链长度",
       "summaryZh": "研究用稳定同位素、生物量和结构方程模型比较东印度洋不同营养梯度下的食物网。赤道贫营养区食物链较短，上升流和海山区较长；分析强调浮游生物碳氮比等营养质量指标与食物链长度的联系。",
       "editorial": {
@@ -7107,7 +7190,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "底栖群落代谢留下的化学影响如何改变珊瑚生理",
       "summaryZh": "在法属波利尼西亚开展的25天围隔实验中，研究者比较珊瑚、大型藻类和珊瑚藻群落形成的水化学环境。群落代谢改变了碳化学，较高pH通过共生藻等间接途径影响珊瑚代谢；实验期内，溶解有机碳对下游珊瑚未显示可检测影响。",
       "editorial": {
@@ -7186,7 +7269,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海带残体在近岸海域能保存多久：原位降解研究",
       "summaryZh": "研究在新西兰豪拉基湾六个浑浊度不同的站点追踪海带组织降解，发现残体平均约58天损失一半，保存不超过四个月。光照未显著影响组织存续时间，但降解伴随碳氮比和附生细菌变化，提示仅凭生物量损失难以评估其碳循环作用。",
       "editorial": {
@@ -7679,7 +7762,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "南乔治亚陆架内外大型浮游动物群落有何差异",
       "summaryZh": "研究分析南乔治亚海域连续十年的夏季网采资料，发现陆架外群落物种更丰富、组成更稳定，陆架内则波动较大且更常出现大量南极磷虾。群落组成差异总体不依赖磷虾是否出现，为理解该区食物网变化提供了观测依据。",
       "editorial": {
@@ -7846,7 +7929,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "长期低氧如何重塑海洋底栖无脊椎动物的脂质组成",
       "summaryZh": "研究沿天然低氧梯度分析海洋环节动物Neoleanira tetragona的1700余种脂质。低氧区域个体储能脂质增加、膜脂不饱和度降低，并出现潜在氧阈值信号。作者将这些变化解释为长期低氧下能量保存与细胞保护之间的生理权衡。",
       "editorial": {
@@ -8108,7 +8191,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "南海海洋热浪的垂向结构与初级生产力响应",
       "summaryZh": "研究利用物理—生物地球化学模型，将南海海洋热浪分为四类垂向结构，深层型约占一半。不同结构通过层化和营养输送产生不同生产力响应；过去二十年，四类事件均增强，相关生产力异常呈下降趋势，主要关联混合层层化加强与生产力降低。",
       "editorial": {
@@ -8330,7 +8413,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "浒苔绿潮从持续漂移到衰退：可塑性与能量失衡",
       "summaryZh": "研究结合黄海约300公里梯度上的生理与转录组资料，发现浒苔漂移中期存在补偿性光保护，后期迹象则指向光合修复不足和能量代谢下降。结果有助于解释绿潮由维持转向衰退的过程，并提示升温、酸化等压力可能加剧后期损伤。",
       "editorial": {
@@ -9567,7 +9650,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "77a0e1d894bb0a53250eb745",
@@ -9670,7 +9753,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "台风“摩羯”路径两侧浮游植物粒级为何不同",
       "summaryZh": "研究结合卫星资料与现场营养盐、叶绿素观测，分析2024年台风“摩羯”后南海西北部的生态差异。路径右侧降温更强，表层叶绿素及较大粒级贡献较高；左侧部分站点以小粒级为主，营养条件、锋面与平流均可能参与塑造这种分布。",
       "editorial": {
@@ -10113,7 +10196,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "僧帽水母从海面漂流到搁浅：湾流与风的作用",
       "summaryZh": "研究将iNaturalist观测与考虑生物特性的粒子追踪模型结合，分析西北大西洋僧帽水母的来源和搁浅。模型显示湾流能沿美国东海岸快速输运个体，季节性繁殖和向岸风共同塑造区域搁浅高峰，与观测分布相符。",
       "editorial": {
@@ -10570,7 +10653,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "温带河口B族维生素的时空变化与微型浮游群落",
       "summaryZh": "研究在美国Neuse河口同步测量多种B族维生素及微生物群落，发现河口内部可产生维生素，中段藻类生长区浓度较高，且数周内变化明显。部分维生素可解释浮游群落组成差异，提示其与河口微生物生态过程密切相关。",
       "editorial": {
@@ -10713,7 +10796,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "潮间带盆地的无机碳收支：全年净汇与秋季间歇输出",
       "summaryZh": "研究结合离散采样和原位观测估算德国Spiekeroog背障壁盆地的溶解无机碳收支。2022年估计净吸收4.22±1.85 Gmol，秋季则可因再矿化、沉积物交换及风暴混合出现阶段性输出；地下水排放仍是收支评估中的重要空缺。",
       "editorial": {
