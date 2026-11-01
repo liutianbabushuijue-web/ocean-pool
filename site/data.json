@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-11-01T06:29:02Z",
-    "lastAttemptAt": "2026-11-01T06:28:58Z",
-    "lastSuccessAt": "2026-11-01T06:29:01Z",
+    "generatedAt": "2026-11-01T17:59:44Z",
+    "lastAttemptAt": "2026-11-01T17:59:40Z",
+    "lastSuccessAt": "2026-11-01T17:59:44Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
@@ -22,7 +22,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4323, column 6"
@@ -36,8 +36,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:40Z",
         "itemCount": 7,
         "error": null
       },
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:41Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:40Z",
         "itemCount": 2,
         "error": null
       },
@@ -78,8 +78,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:40Z",
         "itemCount": 2,
         "error": null
       },
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:40Z",
         "itemCount": 3,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:41Z",
         "itemCount": 1,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:41Z",
         "itemCount": 4,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:59Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:41Z",
         "itemCount": 25,
         "error": null
       },
@@ -148,7 +148,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
         "lastSuccessAt": "2026-10-31T21:45:31Z",
         "itemCount": 22,
         "error": "OSError: HTTP 429"
@@ -162,7 +162,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
         "lastSuccessAt": "2026-10-31T21:45:31Z",
         "itemCount": 19,
         "error": "OSError: HTTP 429"
@@ -176,7 +176,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
         "lastSuccessAt": "2026-10-31T21:45:31Z",
         "itemCount": 24,
         "error": "OSError: HTTP 429"
@@ -189,11 +189,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
         "lastSuccessAt": "2026-11-01T06:28:59Z",
         "itemCount": 25,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "json-crossref-marine-policy",
@@ -204,8 +204,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:59Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:41Z",
         "itemCount": 31,
         "error": null
       },
@@ -217,11 +217,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "stale",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-10-31T21:45:32Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:41Z",
         "itemCount": 33,
-        "error": "OSError: HTTP 429"
+        "error": null
       },
       {
         "id": "json-crossref-limnology",
@@ -232,8 +232,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:59Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:42Z",
         "itemCount": 19,
         "error": null
       },
@@ -246,7 +246,7 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "stale",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
         "lastSuccessAt": "2026-10-31T21:45:32Z",
         "itemCount": 14,
         "error": "OSError: HTTP 429"
@@ -260,8 +260,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:29:00Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:43Z",
         "itemCount": 16,
         "error": null
       },
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:29:00Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:42Z",
         "itemCount": 7,
         "error": null
       },
@@ -288,8 +288,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:59Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:42Z",
         "itemCount": 55,
         "error": null
       },
@@ -302,8 +302,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:59Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:42Z",
         "itemCount": 25,
         "error": null
       },
@@ -316,8 +316,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:28:59Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:42Z",
         "itemCount": 8,
         "error": null
       },
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:29:00Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:42Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,8 +344,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:29:00Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:44Z",
         "itemCount": 1,
         "error": null
       },
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:29:01Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:44Z",
         "itemCount": 5,
         "error": null
       },
@@ -372,8 +372,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T06:28:58Z",
-        "lastSuccessAt": "2026-11-01T06:29:01Z",
+        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastSuccessAt": "2026-11-01T17:59:42Z",
         "itemCount": 3,
         "error": null
       },
@@ -488,7 +488,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "788a4a472b1f0b5151c096cb",
@@ -4904,7 +4904,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "e7302fb3d4648111c5928dc9",
@@ -4934,7 +4934,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "d0534202459675b69f7cbe39",
@@ -4969,7 +4969,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "cee6324ab81ab99780969d68",
@@ -4999,7 +4999,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "cdf67a45e5430a440797a73d",
@@ -5028,7 +5028,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "b27e4ae21cb9045e8a31c467",
@@ -5056,7 +5056,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "a215c06385e5bf729279a7a8",
@@ -5085,7 +5085,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "a20a86656030c1deae06e160",
@@ -5112,7 +5112,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "9eba5fb51805da2e686af560",
@@ -5143,7 +5143,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "9ac0a4de047bdeb616e43e23",
@@ -5170,7 +5170,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "8def35dd9ef4c5d271675f84",
@@ -5234,7 +5234,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "81c9c34a27c254318e7f208d",
@@ -5263,7 +5263,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "7aa820e01793b15bd72d1567",
@@ -5292,7 +5292,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "7003fc8cc90fc940c64f3469",
@@ -5322,7 +5322,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "5b263774ed8c015911d9b257",
@@ -5353,7 +5353,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "52550c6e1f69b41aa960ecdd",
@@ -5382,7 +5382,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "464a5d3e25332733a2b8cefd",
@@ -5411,7 +5411,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "44825471bb104103778a4511",
@@ -5440,7 +5440,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "4141f5cc27101ed9405513f3",
@@ -5467,7 +5467,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "3c6e8ce436dd19f1e98a126e",
@@ -5497,7 +5497,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "31b2edcb9ee4cec7d20dedf6",
@@ -5526,7 +5526,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "1876ad692e0928d4462a8e16",
@@ -5555,7 +5555,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "107e599d68bb0a8bbffce764",
@@ -5584,7 +5584,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "38010cf5ac521a3610564a86",
@@ -6656,7 +6656,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "ff200ce251e7cacdc7f2e9d9",
@@ -6720,7 +6720,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "基于海洋环境敏感性评估的污染事故管理",
       "summaryZh": "这篇条目讨论如何把海洋环境敏感性评估用于污染事故管理，并将其与海洋可持续发展联系起来。来源未提供摘要，具体评估指标、管理方法、适用场景与结果需查看原文。",
       "editorial": {
@@ -6755,7 +6755,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "fa39faa9e7929563dc57cb97",
@@ -6781,7 +6781,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "f4dd4858e588077485d4acdd",
@@ -6945,7 +6945,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "f0f225a48fc23af6db47cd72",
@@ -7008,7 +7008,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "ee049902a985d4f3c4734ba8",
@@ -7143,7 +7143,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "以底栖动物为指标估算香港海洋微塑料污染",
       "summaryZh": "文章提出以底栖动物作为生物指示物，结合地统计方法估算香港海洋微塑料污染。来源未提供摘要，具体方法与结果需查看原文，尚不能判断污染程度或估算精度。",
       "editorial": {
@@ -7216,7 +7216,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "太平洋二战沉船油中的烃类及相关细菌群落",
       "summaryZh": "研究主题是太平洋二战沉船油的烃类组成，以及与这些油类相关的细菌群落特征。来源未提供摘要，具体沉船位置、采样与分析方法、污染物组成及微生物研究结果需查看原文。",
       "editorial": {
@@ -7254,7 +7254,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "韩国近海三种鱼类不同组织中的钋210与铯137分布",
       "summaryZh": "研究比较韩国沿海三种海洋鱼类不同组织中钋210与铯137的分布。来源未提供摘要，具体方法与结果需查看原文，不能据此判断鱼种间的含量高低或食用风险。",
       "editorial": {
@@ -7395,7 +7395,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海洋变暖下产卵策略与狭鳕、太平洋鳕种群变化",
       "summaryZh": "文章讨论西北太平洋海洋变暖背景下，产卵策略与狭鳕、太平洋鳕种群变化差异的关系。来源未提供摘要，具体方法与结果需查看原文，尚不能推断其变化幅度。",
       "editorial": {
@@ -7433,7 +7433,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "从海洋污染到蓝色金融：南亚沿海韧性的联系",
       "summaryZh": "题名尝试把南亚海洋污染的传输路径与蓝色金融联系起来，讨论沿海韧性问题。来源未提供摘要，具体方法与结果需查看原文，不能据题名推断资金工具已产生何种治理成效。",
       "editorial": {
@@ -7513,7 +7513,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "极地代表性海域沉积物中的亲脂性海藻毒素",
       "summaryZh": "研究关注极地代表性海域表层沉积物中亲脂性海藻毒素的出现及其对产毒微藻研究的意义。来源未提供摘要，具体方法与结果需查看原文，尚无可据以概括的浓度或分布结论。",
       "editorial": {
@@ -7616,7 +7616,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "d892702ae90c4017a9e07abd",
@@ -7721,7 +7721,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "d69e08371404a12284d583b8",
@@ -8205,7 +8205,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "c5ff1fa8a2890591a829ec36",
@@ -8335,7 +8335,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "c187ad27280ee4fab9593981",
@@ -8428,7 +8428,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "OilSegSARFormer：用于SAR影像多类溢油分割的新模型",
       "summaryZh": "文章介绍OilSegSARFormer，题名包含Adapter-Mix Transformer骨干与门控细节优化语义解码器，用于SAR影像多类别溢油分割。来源未提供摘要，具体方法与结果需查看原文，尚不能比较检测精度或泛化能力。",
       "editorial": {
@@ -8529,7 +8529,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "b18a91dfb1987cbf4fb451a8",
@@ -8595,7 +8595,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "土耳其伊兹密尔食鱼营养收益与持久性有机污染物风险",
       "summaryZh": "研究评估土耳其伊兹密尔食鱼带来的营养收益与持久性有机污染物风险，题名采用多变量膳食暴露分析。来源未提供摘要，具体方法与结果需查看原文，不能据此形成具体食用建议。",
       "editorial": {
@@ -8817,7 +8817,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "地震勘探震源作业如何影响大西洋鳕求偶行为",
       "summaryZh": "该条目考察地震勘探中的震源作业与大西洋鳕求偶行为之间的关系，研究对象为Gadus morhua。来源未提供摘要，作业强度、行为观测方式、影响方向与程度需查看原文。",
       "editorial": {
@@ -10393,7 +10393,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "日本飞乌贼体型的长期变化与季节、空间及温度关系",
       "summaryZh": "题名关注日本飞乌贼体型的长期变化，并考察季节、空间和温度关系。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断体型增减趋势、变化幅度或温度的因果作用。",
       "editorial": {
@@ -10563,7 +10563,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "604d3815d348f67d047cc64f",
@@ -10630,7 +10630,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "5a035958c85009d4f3aa665e",
@@ -10729,7 +10729,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "阿拉伯湾原水变化与海水反渗透运行范围",
       "summaryZh": "题名把阿拉伯湾原水监测与海水反渗透（SWRO）运行范围联系起来，涉及季节变化、长期漂移和碳酸盐控制基线。来源未提供摘要，具体方法与结果需查看原文，具体运行限值尚不明确。",
       "editorial": {
@@ -11088,7 +11088,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "废弃渔具再生利用的随机演化博弈研究",
       "summaryZh": "这条记录以随机演化博弈模型研究被弃置、丢失或丢弃渔具的回收与再生利用。来源未提供摘要，具体方法与结果需查看原文，目前不能判断模型参与方、激励条件或政策效果。",
       "editorial": {
@@ -11405,7 +11405,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "巴基斯坦沿海青蟹与沉积物中的痕量金属",
       "summaryZh": "这条记录评估巴基斯坦沿海Scylla olivacea青蟹及沉积物中的痕量金属浓度。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断污染水平、暴露来源或食用风险。",
       "editorial": {
@@ -11660,7 +11660,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "把无AIS小船纳入中华白海豚分布压力评估",
       "summaryZh": "这项研究强调评估人类活动对印度太平洋驼海豚分布的影响时，应考虑不装AIS的小型船舶。来源未提供摘要，船舶统计方法、研究海域、压力指标及分布分析结果需查看原文。",
       "editorial": {
@@ -11760,7 +11760,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "马尔马拉海养殖与野生地中海贻贝的有毒元素风险",
       "summaryZh": "题名比较马尔马拉海养殖和野生地中海贻贝的有毒元素膳食暴露及累积风险。来源未提供摘要，具体方法与结果需查看原文，不能据此判断风险大小、限值超标或具体食用建议。",
       "editorial": {
@@ -11834,7 +11834,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "27cf063a50315e52d746d855",
@@ -11953,7 +11953,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "镉对幼年中国鲎的生理与多组学影响",
       "summaryZh": "这条记录研究镉对幼年中国鲎的毒理干扰，涵盖生理损伤与多组学变化。来源未提供摘要，具体方法与结果需查看原文，目前不能确定实验剂量、持续时间或观察到的具体损伤。",
       "editorial": {
@@ -12032,7 +12032,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "印尼安汶湾陆地清理活动与珊瑚礁健康风险",
       "summaryZh": "文章关注印度尼西亚马鲁古省安汶湾上游陆地清理活动对珊瑚礁健康的威胁。来源未提供摘要，具体方法与结果需查看原文，尚不能确认影响路径、污染物来源或风险大小。",
       "editorial": {
@@ -12137,7 +12137,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海洋酸化下腹足类的恢复限制与代谢权衡",
       "summaryZh": "该条目以多种生物标志物为证据，研究一种腹足类在海洋酸化胁迫后的恢复与生理韧性限制。来源未提供摘要，具体物种、胁迫水平、恢复时长、指标变化及代谢权衡需查看原文。",
       "editorial": {
@@ -12285,7 +12285,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "耐盐红球菌Rhodococcus ruber TN-1的苯并芘生物修复研究",
       "summaryZh": "文章关注耐盐菌Rhodococcus ruber TN-1在盐环境中对苯并芘的生物修复，题名涉及全基因组、降解效率及微生物特性。来源未提供摘要，具体方法与结果需查看原文，尚不能评价实际修复效果。",
       "editorial": {
@@ -12434,7 +12434,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     }
   ],
   "sources": [
