@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-11-01T17:59:44Z",
-    "lastAttemptAt": "2026-11-01T17:59:40Z",
-    "lastSuccessAt": "2026-11-01T17:59:44Z",
+    "generatedAt": "2026-11-01T22:13:58Z",
+    "lastAttemptAt": "2026-11-01T22:13:53Z",
+    "lastSuccessAt": "2026-11-01T22:13:57Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
     "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "feedUrlConfigured": true,
     "totalItems": 361,
-    "successfulSources": 20,
+    "successfulSources": 19,
     "automaticSources": 26,
     "sourceStatus": [
       {
@@ -22,7 +22,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4323, column 6"
@@ -36,8 +36,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:53Z",
         "itemCount": 7,
         "error": null
       },
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:41Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:54Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:53Z",
         "itemCount": 2,
         "error": null
       },
@@ -78,8 +78,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:53Z",
         "itemCount": 2,
         "error": null
       },
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:53Z",
         "itemCount": 3,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:41Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:53Z",
         "itemCount": 1,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:41Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:53Z",
         "itemCount": 4,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:41Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:54Z",
         "itemCount": 25,
         "error": null
       },
@@ -147,11 +147,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "stale",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-10-31T21:45:31Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:54Z",
         "itemCount": 22,
-        "error": "OSError: HTTP 429"
+        "error": null
       },
       {
         "id": "json-crossref-jpo",
@@ -162,7 +162,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
         "lastSuccessAt": "2026-10-31T21:45:31Z",
         "itemCount": 19,
         "error": "OSError: HTTP 429"
@@ -176,7 +176,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
         "lastSuccessAt": "2026-10-31T21:45:31Z",
         "itemCount": 24,
         "error": "OSError: HTTP 429"
@@ -190,7 +190,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
         "lastSuccessAt": "2026-11-01T06:28:59Z",
         "itemCount": 25,
         "error": "OSError: HTTP 429"
@@ -204,8 +204,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:41Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:55Z",
         "itemCount": 31,
         "error": null
       },
@@ -217,11 +217,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
         "lastSuccessAt": "2026-11-01T17:59:41Z",
         "itemCount": 33,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "json-crossref-limnology",
@@ -231,11 +231,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
         "lastSuccessAt": "2026-11-01T17:59:42Z",
         "itemCount": 19,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "json-crossref-global-biogeochem",
@@ -246,7 +246,7 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "stale",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
         "lastSuccessAt": "2026-10-31T21:45:32Z",
         "itemCount": 14,
         "error": "OSError: HTTP 429"
@@ -260,8 +260,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:43Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:56Z",
         "itemCount": 16,
         "error": null
       },
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:42Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:56Z",
         "itemCount": 7,
         "error": null
       },
@@ -288,8 +288,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:42Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:55Z",
         "itemCount": 55,
         "error": null
       },
@@ -302,8 +302,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:42Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:55Z",
         "itemCount": 25,
         "error": null
       },
@@ -316,8 +316,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:42Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:55Z",
         "itemCount": 8,
         "error": null
       },
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:42Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:56Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,8 +344,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:44Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:57Z",
         "itemCount": 1,
         "error": null
       },
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:44Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:57Z",
         "itemCount": 5,
         "error": null
       },
@@ -372,8 +372,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-01T17:59:40Z",
-        "lastSuccessAt": "2026-11-01T17:59:42Z",
+        "lastAttemptAt": "2026-11-01T22:13:53Z",
+        "lastSuccessAt": "2026-11-01T22:13:57Z",
         "itemCount": 3,
         "error": null
       },
@@ -1610,7 +1610,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "b89356dad7707a76adc759e3",
@@ -5728,7 +5728,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "浮游动物昼夜迁移是南大洋不可忽视的主动输碳途径",
       "summaryZh": "研究结合昼夜网采和代谢估算，发现浮游动物主动输碳具有显著区域差异。环南极外推的夏季输碳约3890万吨碳，95%不确定区间为2700万—6000万吨，约占200米深总输出13%，提示碳泵评估还需计入迁移动物的贡献。",
       "editorial": {
@@ -5805,7 +5805,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "养殖围垦与升温可能放大温带潮滩温室气体产生潜力",
       "summaryZh": "研究用沉积物培养与宏基因组分析比较裸滩和不同强度养殖塘。围垦降低甲烷产生潜力，却增加氧化亚氮和二氧化碳，并改变温度敏感性；中等强度围垦的刺激更明显。模型预测升温可能进一步放大效应，但这些是产生潜力而非现场实测总排放。",
       "editorial": {
@@ -5843,7 +5843,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "营养盐阈值决定海草生态系统二氧化碳汇源转换",
       "summaryZh": "研究沿南海海草床营养盐梯度进行原位测量，发现二氧化碳通量存在非线性和季节性阈值。无机氮在春夏促进吸收、秋冬可促进排放，无机磷则持续削弱吸收，说明海草碳汇作用可能随营养盐污染而改变。",
       "editorial": {
@@ -5950,7 +5950,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "北太平洋寡营养环流中一次藻华衰退的向下输送效应",
       "summaryZh": "研究在2021年夏季跟踪反气旋涡内的藻华衰退，观测到硅藻壳以每日约50—100米下沉。碳、氮和硅通量达到邻近站常规夏季值的2—3倍，说明短期藻华及其衰亡也能显著影响中层海洋物质输出。",
       "editorial": {
@@ -5990,7 +5990,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "水团变化如何影响沿海固氮速率与固氮群落",
       "summaryZh": "研究结合北卡罗来纳沿岸的月度观测与航次资料，发现不同水团和锋面混合区具有不同固氮速率及群落组成，夏末秋初通常较高。多种检测方法的比较表明，单一方法可能遗漏部分固氮生物，需要联合使用以更完整描述群落。",
       "editorial": {
@@ -6720,7 +6720,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "基于海洋环境敏感性评估的污染事故管理",
       "summaryZh": "这篇条目讨论如何把海洋环境敏感性评估用于污染事故管理，并将其与海洋可持续发展联系起来。来源未提供摘要，具体评估指标、管理方法、适用场景与结果需查看原文。",
       "editorial": {
@@ -6755,7 +6755,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "fa39faa9e7929563dc57cb97",
@@ -6781,7 +6781,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "f4dd4858e588077485d4acdd",
@@ -6847,7 +6847,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "f2de1827484a512bca08c8b1",
@@ -6945,7 +6945,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "f0f225a48fc23af6db47cd72",
@@ -6973,7 +6973,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "西南极半岛北端秋季浮游植物的铁与维生素B12吸收",
       "summaryZh": "研究主题是西南极半岛北端秋季浮游植物对铁和维生素B12的吸收特征。来源未提供摘要，具体方法与结果需查看原文，目前无法确定不同群落的吸收差异或限制因素。",
       "editorial": {
@@ -7008,7 +7008,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "ee049902a985d4f3c4734ba8",
@@ -7069,7 +7069,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "浮游生物营养质量如何影响海洋食物链长度",
       "summaryZh": "研究用稳定同位素、生物量和结构方程模型比较东印度洋不同营养梯度下的食物网。赤道贫营养区食物链较短，上升流和海山区较长；分析强调浮游生物碳氮比等营养质量指标与食物链长度的联系。",
       "editorial": {
@@ -7143,7 +7143,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "以底栖动物为指标估算香港海洋微塑料污染",
       "summaryZh": "文章提出以底栖动物作为生物指示物，结合地统计方法估算香港海洋微塑料污染。来源未提供摘要，具体方法与结果需查看原文，尚不能判断污染程度或估算精度。",
       "editorial": {
@@ -7216,7 +7216,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "太平洋二战沉船油中的烃类及相关细菌群落",
       "summaryZh": "研究主题是太平洋二战沉船油的烃类组成，以及与这些油类相关的细菌群落特征。来源未提供摘要，具体沉船位置、采样与分析方法、污染物组成及微生物研究结果需查看原文。",
       "editorial": {
@@ -7254,7 +7254,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "韩国近海三种鱼类不同组织中的钋210与铯137分布",
       "summaryZh": "研究比较韩国沿海三种海洋鱼类不同组织中钋210与铯137的分布。来源未提供摘要，具体方法与结果需查看原文，不能据此判断鱼种间的含量高低或食用风险。",
       "editorial": {
@@ -7395,7 +7395,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海洋变暖下产卵策略与狭鳕、太平洋鳕种群变化",
       "summaryZh": "文章讨论西北太平洋海洋变暖背景下，产卵策略与狭鳕、太平洋鳕种群变化差异的关系。来源未提供摘要，具体方法与结果需查看原文，尚不能推断其变化幅度。",
       "editorial": {
@@ -7433,7 +7433,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "从海洋污染到蓝色金融：南亚沿海韧性的联系",
       "summaryZh": "题名尝试把南亚海洋污染的传输路径与蓝色金融联系起来，讨论沿海韧性问题。来源未提供摘要，具体方法与结果需查看原文，不能据题名推断资金工具已产生何种治理成效。",
       "editorial": {
@@ -7474,7 +7474,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "底栖群落代谢留下的化学影响如何改变珊瑚生理",
       "summaryZh": "在法属波利尼西亚开展的25天围隔实验中，研究者比较珊瑚、大型藻类和珊瑚藻群落形成的水化学环境。群落代谢改变了碳化学，较高pH通过共生藻等间接途径影响珊瑚代谢；实验期内，溶解有机碳对下游珊瑚未显示可检测影响。",
       "editorial": {
@@ -7513,7 +7513,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "极地代表性海域沉积物中的亲脂性海藻毒素",
       "summaryZh": "研究关注极地代表性海域表层沉积物中亲脂性海藻毒素的出现及其对产毒微藻研究的意义。来源未提供摘要，具体方法与结果需查看原文，尚无可据以概括的浓度或分布结论。",
       "editorial": {
@@ -7553,7 +7553,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海带残体在近岸海域能保存多久：原位降解研究",
       "summaryZh": "研究在新西兰豪拉基湾六个浑浊度不同的站点追踪海带组织降解，发现残体平均约58天损失一半，保存不超过四个月。光照未显著影响组织存续时间，但降解伴随碳氮比和附生细菌变化，提示仅凭生物量损失难以评估其碳循环作用。",
       "editorial": {
@@ -7616,7 +7616,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "d892702ae90c4017a9e07abd",
@@ -7721,7 +7721,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "d69e08371404a12284d583b8",
@@ -7843,7 +7843,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "深海鳐Bathyraja irrasa的活动模式研究",
       "summaryZh": "标题聚焦深海鳐Bathyraja irrasa的活动模式，并将其描述为移动缓慢、却很少完全静止。来源未提供摘要，具体方法与结果需查看原文，尚不能确认观测时长或行为机制。",
       "editorial": {
@@ -8131,7 +8131,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "南乔治亚陆架内外大型浮游动物群落有何差异",
       "summaryZh": "研究分析南乔治亚海域连续十年的夏季网采资料，发现陆架外群落物种更丰富、组成更稳定，陆架内则波动较大且更常出现大量南极磷虾。群落组成差异总体不依赖磷虾是否出现，为理解该区食物网变化提供了观测依据。",
       "editorial": {
@@ -8205,7 +8205,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "c5ff1fa8a2890591a829ec36",
@@ -8298,7 +8298,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "长期低氧如何重塑海洋底栖无脊椎动物的脂质组成",
       "summaryZh": "研究沿天然低氧梯度分析海洋环节动物Neoleanira tetragona的1700余种脂质。低氧区域个体储能脂质增加、膜脂不饱和度降低，并出现潜在氧阈值信号。作者将这些变化解释为长期低氧下能量保存与细胞保护之间的生理权衡。",
       "editorial": {
@@ -8335,7 +8335,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "c187ad27280ee4fab9593981",
@@ -8428,7 +8428,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "OilSegSARFormer：用于SAR影像多类溢油分割的新模型",
       "summaryZh": "文章介绍OilSegSARFormer，题名包含Adapter-Mix Transformer骨干与门控细节优化语义解码器，用于SAR影像多类别溢油分割。来源未提供摘要，具体方法与结果需查看原文，尚不能比较检测精度或泛化能力。",
       "editorial": {
@@ -8529,7 +8529,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "b18a91dfb1987cbf4fb451a8",
@@ -8560,7 +8560,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "南海海洋热浪的垂向结构与初级生产力响应",
       "summaryZh": "研究利用物理—生物地球化学模型，将南海海洋热浪分为四类垂向结构，深层型约占一半。不同结构通过层化和营养输送产生不同生产力响应；过去二十年，四类事件均增强，相关生产力异常呈下降趋势，主要关联混合层层化加强与生产力降低。",
       "editorial": {
@@ -8595,7 +8595,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "土耳其伊兹密尔食鱼营养收益与持久性有机污染物风险",
       "summaryZh": "研究评估土耳其伊兹密尔食鱼带来的营养收益与持久性有机污染物风险，题名采用多变量膳食暴露分析。来源未提供摘要，具体方法与结果需查看原文，不能据此形成具体食用建议。",
       "editorial": {
@@ -8782,7 +8782,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "浒苔绿潮从持续漂移到衰退：可塑性与能量失衡",
       "summaryZh": "研究结合黄海约300公里梯度上的生理与转录组资料，发现浒苔漂移中期存在补偿性光保护，后期迹象则指向光合修复不足和能量代谢下降。结果有助于解释绿潮由维持转向衰退的过程，并提示升温、酸化等压力可能加剧后期损伤。",
       "editorial": {
@@ -8817,7 +8817,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "地震勘探震源作业如何影响大西洋鳕求偶行为",
       "summaryZh": "该条目考察地震勘探中的震源作业与大西洋鳕求偶行为之间的关系，研究对象为Gadus morhua。来源未提供摘要，作业强度、行为观测方式、影响方向与程度需查看原文。",
       "editorial": {
@@ -9209,7 +9209,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "964eb6826c408196f0f59869",
@@ -9301,7 +9301,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "末次冰消期以来西太平洋边缘海底水氧化还原演变",
       "summaryZh": "研究关注末次冰消期以来西太平洋边缘海底层海水氧化还原变化的空间差异。来源未提供摘要，具体方法与结果需查看原文，尚不能确认重建指标、区域对比结果或驱动因素。",
       "editorial": {
@@ -9373,7 +9373,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "CPIES观测下黑潮延伸体底部近惯性波能量过程",
       "summaryZh": "研究基于CPIES观测，考察黑潮延伸体海域底部近惯性波能量受到哪些过程控制。来源未提供摘要，具体观测位置、资料时段、能量收支分析与主导过程需查看原文。",
       "editorial": {
@@ -9733,7 +9733,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "南森海盆西部大西洋来源水温变化及其海冰表现",
       "summaryZh": "这条记录关注南森海盆西部大西洋来源海水的温度时空变化，以及海冰覆盖状态中的对应表现。来源未提供摘要，具体方法与结果需查看原文，目前不能推断水温趋势或海冰响应幅度。",
       "editorial": {
@@ -9833,7 +9833,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "马里亚纳海沟从深海平原到超深渊的大型动物群落",
       "summaryZh": "题名研究马里亚纳海沟从深海平原至超深渊带的大型动物群落多样性及分布。来源未提供摘要，具体方法与结果需查看原文，采样深度、物种差异和环境解释尚不能据题名确定。",
       "editorial": {
@@ -9870,7 +9870,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "深海视频记录带来戈林奇海台鲨类新发现",
       "summaryZh": "该条目介绍在戈林奇海台开展深海视频观测获得的鲨类新记录。来源未提供摘要，具体记录到的种类、深度、观测装备、调查范围及记录意义需查看原文。",
       "editorial": {
@@ -10019,7 +10019,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "77a0e1d894bb0a53250eb745",
@@ -10045,7 +10045,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "失落之城热液区多阶段岩石—熔体及流体相互作用中的元素迁移",
       "summaryZh": "研究主题是失落之城热液区多阶段岩石、熔体和流体相互作用中的元素迁移。来源未提供摘要，具体方法与结果需查看原文，尚不能概括具体元素变化、反应路径或作用强度。",
       "editorial": {
@@ -10083,7 +10083,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "用评估约束CMIP6模型的北极海洋热浪预估",
       "summaryZh": "题名关注利用模型评估信息约束CMIP6给出的北极海洋热浪预估。来源未提供摘要，具体方法与结果需查看原文，目前不能确定使用哪些评估指标、排放情景或预估变化幅度。",
       "editorial": {
@@ -10122,7 +10122,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "台风“摩羯”路径两侧浮游植物粒级为何不同",
       "summaryZh": "研究结合卫星资料与现场营养盐、叶绿素观测，分析2024年台风“摩羯”后南海西北部的生态差异。路径右侧降温更强，表层叶绿素及较大粒级贡献较高；左侧部分站点以小粒级为主，营养条件、锋面与平流均可能参与塑造这种分布。",
       "editorial": {
@@ -10157,7 +10157,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "雅浦—马里亚纳交汇处下层绕极深层水的溢流与改造",
       "summaryZh": "文章研究雅浦—马里亚纳交汇处下层绕极深层水的溢流及水体改造过程。来源未提供摘要，具体方法与结果需查看原文，尚不能确认输运规模、混合特征或对周边水团的影响。",
       "editorial": {
@@ -10251,7 +10251,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "大西洋中脊热液口荧光观测的概念验证",
       "summaryZh": "这条记录探讨大西洋中脊热液口的荧光现象及其用于生态评估的潜力。来源未提供摘要，具体方法与结果需查看原文，不能据题名认定荧光信号已能可靠评估某项生态指标。",
       "editorial": {
@@ -10319,7 +10319,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "东南大西洋鲸湾海岭冷水珊瑚的高分辨率分布建模",
       "summaryZh": "这篇研究对鲸湾海岭的Enallopsammia rostrata开展高分辨率物种分布建模，该物种被作为脆弱海洋生态系统的指示种。来源未提供摘要，模型资料、环境变量、验证方法及分布结果需查看原文。",
       "editorial": {
@@ -10393,7 +10393,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "日本飞乌贼体型的长期变化与季节、空间及温度关系",
       "summaryZh": "题名关注日本飞乌贼体型的长期变化，并考察季节、空间和温度关系。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断体型增减趋势、变化幅度或温度的因果作用。",
       "editorial": {
@@ -10495,7 +10495,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "将热输运纳入浊流分层平均框架：高屏峡谷应用",
       "summaryZh": "文章把热输运纳入浊流的分层平均分析框架，并以高屏峡谷开展现场尺度应用。来源未提供摘要，具体方法与结果需查看原文，尚不能判断其参数设置或对预测能力的影响。",
       "editorial": {
@@ -10563,7 +10563,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "604d3815d348f67d047cc64f",
@@ -10593,7 +10593,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "僧帽水母从海面漂流到搁浅：湾流与风的作用",
       "summaryZh": "研究将iNaturalist观测与考虑生物特性的粒子追踪模型结合，分析西北大西洋僧帽水母的来源和搁浅。模型显示湾流能沿美国东海岸快速输运个体，季节性繁殖和向岸风共同塑造区域搁浅高峰，与观测分布相符。",
       "editorial": {
@@ -10630,7 +10630,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "5a035958c85009d4f3aa665e",
@@ -10694,7 +10694,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "西南印度洋脊64°E热液活动的岩浆与构造控制",
       "summaryZh": "研究聚焦西南印度洋脊64°E轴向火山脊离散、多阶段热液活动的岩浆与构造控制。来源未提供摘要，具体方法与结果需查看原文，不能据此确定各活动阶段的年代与成因。",
       "editorial": {
@@ -10729,7 +10729,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "阿拉伯湾原水变化与海水反渗透运行范围",
       "summaryZh": "题名把阿拉伯湾原水监测与海水反渗透（SWRO）运行范围联系起来，涉及季节变化、长期漂移和碳酸盐控制基线。来源未提供摘要，具体方法与结果需查看原文，具体运行限值尚不明确。",
       "editorial": {
@@ -10973,7 +10973,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "液相MRI示踪比较贻贝与化能共生深海贻贝的消化系统",
       "summaryZh": "题名用液相MRI示踪比较含化能共生细菌的Bathymodiolus双壳类与Mytilus贻贝的胃肠系统。来源未提供摘要，具体方法与结果需查看原文，不能推断两者功能差异或共生细菌的具体贡献。",
       "editorial": {
@@ -11050,7 +11050,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "温带河口B族维生素的时空变化与微型浮游群落",
       "summaryZh": "研究在美国Neuse河口同步测量多种B族维生素及微生物群落，发现河口内部可产生维生素，中段藻类生长区浓度较高，且数周内变化明显。部分维生素可解释浮游群落组成差异，提示其与河口微生物生态过程密切相关。",
       "editorial": {
@@ -11088,7 +11088,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "废弃渔具再生利用的随机演化博弈研究",
       "summaryZh": "这条记录以随机演化博弈模型研究被弃置、丢失或丢弃渔具的回收与再生利用。来源未提供摘要，具体方法与结果需查看原文，目前不能判断模型参与方、激励条件或政策效果。",
       "editorial": {
@@ -11128,7 +11128,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "49ec4d3d31b9a8f1d96acb11",
@@ -11224,7 +11224,7 @@
           "name": "Limnology and Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "潮间带盆地的无机碳收支：全年净汇与秋季间歇输出",
       "summaryZh": "研究结合离散采样和原位观测估算德国Spiekeroog背障壁盆地的溶解无机碳收支。2022年估计净吸收4.22±1.85 Gmol，秋季则可因再矿化、沉积物交换及风暴混合出现阶段性输出；地下水排放仍是收支评估中的重要空缺。",
       "editorial": {
@@ -11405,7 +11405,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "巴基斯坦沿海青蟹与沉积物中的痕量金属",
       "summaryZh": "这条记录评估巴基斯坦沿海Scylla olivacea青蟹及沉积物中的痕量金属浓度。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断污染水平、暴露来源或食用风险。",
       "editorial": {
@@ -11515,7 +11515,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "新西兰海域皱鳃鲨：西南太平洋的分布热点",
       "summaryZh": "题名关注新西兰海域具有独特演化地位的皱鳃鲨，并将其描述为西南太平洋的一个热点。来源未提供摘要，具体方法与结果需查看原文，调查范围、丰度和热点判定依据尚不能确认。",
       "editorial": {
@@ -11550,7 +11550,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "“海马”冷泉沉积物含量梯度与甲烷水合物形成",
       "summaryZh": "研究主题为“海马”冷泉沉积物的含量梯度及其对甲烷水合物形成模式的调节，标题提及多机制分析。来源未提供摘要，具体梯度指何种成分、试验设置、作用机制与结果需查看原文。",
       "editorial": {
@@ -11585,7 +11585,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "直布罗陀海峡真实地形实验模型中的内水力与孤立波",
       "summaryZh": "研究利用直布罗陀海峡的现实地形实验模型，关注内水力过程与孤立波。来源未提供摘要，具体方法与结果需查看原文，尚不能确认实验条件、波形特征或与实际海峡的对应关系。",
       "editorial": {
@@ -11660,7 +11660,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "把无AIS小船纳入中华白海豚分布压力评估",
       "summaryZh": "这项研究强调评估人类活动对印度太平洋驼海豚分布的影响时，应考虑不装AIS的小型船舶。来源未提供摘要，船舶统计方法、研究海域、压力指标及分布分析结果需查看原文。",
       "editorial": {
@@ -11760,7 +11760,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "马尔马拉海养殖与野生地中海贻贝的有毒元素风险",
       "summaryZh": "题名比较马尔马拉海养殖和野生地中海贻贝的有毒元素膳食暴露及累积风险。来源未提供摘要，具体方法与结果需查看原文，不能据此判断风险大小、限值超标或具体食用建议。",
       "editorial": {
@@ -11834,7 +11834,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "27cf063a50315e52d746d855",
@@ -11953,7 +11953,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "镉对幼年中国鲎的生理与多组学影响",
       "summaryZh": "这条记录研究镉对幼年中国鲎的毒理干扰，涵盖生理损伤与多组学变化。来源未提供摘要，具体方法与结果需查看原文，目前不能确定实验剂量、持续时间或观察到的具体损伤。",
       "editorial": {
@@ -12032,7 +12032,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "印尼安汶湾陆地清理活动与珊瑚礁健康风险",
       "summaryZh": "文章关注印度尼西亚马鲁古省安汶湾上游陆地清理活动对珊瑚礁健康的威胁。来源未提供摘要，具体方法与结果需查看原文，尚不能确认影响路径、污染物来源或风险大小。",
       "editorial": {
@@ -12109,7 +12109,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "13b22ca395b5cf858ca3c0ea",
@@ -12137,7 +12137,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海洋酸化下腹足类的恢复限制与代谢权衡",
       "summaryZh": "该条目以多种生物标志物为证据，研究一种腹足类在海洋酸化胁迫后的恢复与生理韧性限制。来源未提供摘要，具体物种、胁迫水平、恢复时长、指标变化及代谢权衡需查看原文。",
       "editorial": {
@@ -12172,7 +12172,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "日本与千岛—堪察加海沟中涟虫群落的深度差异",
       "summaryZh": "研究比较日本海沟与千岛—堪察加海沟深海至超深海涟虫类群物种组成的深度相关模式。来源未提供摘要，具体方法与结果需查看原文，不能据此推断物种更替幅度或具体驱动因素。",
       "editorial": {
@@ -12285,7 +12285,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "耐盐红球菌Rhodococcus ruber TN-1的苯并芘生物修复研究",
       "summaryZh": "文章关注耐盐菌Rhodococcus ruber TN-1在盐环境中对苯并芘的生物修复，题名涉及全基因组、降解效率及微生物特性。来源未提供摘要，具体方法与结果需查看原文，尚不能评价实际修复效果。",
       "editorial": {
@@ -12434,7 +12434,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     }
   ],
   "sources": [
