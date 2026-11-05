@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-11-04T19:55:53Z",
-    "lastAttemptAt": "2026-11-04T19:55:48Z",
-    "lastSuccessAt": "2026-11-04T19:55:53Z",
+    "generatedAt": "2026-11-05T07:04:18Z",
+    "lastAttemptAt": "2026-11-05T07:04:13Z",
+    "lastSuccessAt": "2026-11-05T07:04:17Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
     "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "feedUrlConfigured": true,
-    "totalItems": 413,
-    "successfulSources": 20,
+    "totalItems": 418,
+    "successfulSources": 19,
     "automaticSources": 26,
     "sourceStatus": [
       {
@@ -22,7 +22,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4334, column 6"
@@ -36,9 +36,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:48Z",
-        "itemCount": 9,
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:13Z",
+        "itemCount": 10,
         "error": null
       },
       {
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:49Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:13Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:13Z",
         "itemCount": 2,
         "error": null
       },
@@ -78,8 +78,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:13Z",
         "itemCount": 2,
         "error": null
       },
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:13Z",
         "itemCount": 3,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:49Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:13Z",
         "itemCount": 1,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:49Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:13Z",
         "itemCount": 5,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:51Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:15Z",
         "itemCount": 26,
         "error": null
       },
@@ -148,8 +148,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:51Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:16Z",
         "itemCount": 22,
         "error": null
       },
@@ -162,8 +162,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:49Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:16Z",
         "itemCount": 20,
         "error": null
       },
@@ -176,7 +176,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
         "lastSuccessAt": "2026-11-03T07:01:51Z",
         "itemCount": 25,
         "error": "OSError: HTTP 429"
@@ -190,7 +190,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
         "lastSuccessAt": "2026-11-01T06:28:59Z",
         "itemCount": 25,
         "error": "OSError: HTTP 429"
@@ -204,7 +204,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
         "lastSuccessAt": "2026-11-04T06:44:45Z",
         "itemCount": 35,
         "error": "OSError: HTTP 429"
@@ -218,7 +218,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
         "lastSuccessAt": "2026-11-04T06:44:45Z",
         "itemCount": 40,
         "error": "OSError: HTTP 429"
@@ -232,7 +232,7 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "stale",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
         "lastSuccessAt": "2026-11-04T06:44:45Z",
         "itemCount": 20,
         "error": "OSError: HTTP 429"
@@ -245,11 +245,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
         "lastSuccessAt": "2026-11-04T19:55:50Z",
         "itemCount": 15,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "rss-mbari",
@@ -260,9 +260,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:52Z",
-        "itemCount": 19,
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:16Z",
+        "itemCount": 20,
         "error": null
       },
       {
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:52Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:16Z",
         "itemCount": 7,
         "error": null
       },
@@ -288,9 +288,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:51Z",
-        "itemCount": 75,
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:16Z",
+        "itemCount": 78,
         "error": null
       },
       {
@@ -302,8 +302,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:51Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:16Z",
         "itemCount": 26,
         "error": null
       },
@@ -316,8 +316,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:51Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:16Z",
         "itemCount": 16,
         "error": null
       },
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:51Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:16Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,8 +344,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:53Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:17Z",
         "itemCount": 1,
         "error": null
       },
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:53Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:17Z",
         "itemCount": 6,
         "error": null
       },
@@ -372,8 +372,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-04T19:55:48Z",
-        "lastSuccessAt": "2026-11-04T19:55:52Z",
+        "lastAttemptAt": "2026-11-05T07:04:13Z",
+        "lastSuccessAt": "2026-11-05T07:04:17Z",
         "itemCount": 3,
         "error": null
       },
@@ -454,12 +454,140 @@
       "promptVersion": "chinese-reader-v1",
       "generatedAt": "2026-10-24T15:35:07Z",
       "localizedCount": 215,
-      "pendingCount": 198,
+      "pendingCount": 203,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
   },
   "items": [
+    {
+      "id": "ea7f05aff31ab053207d00ce",
+      "title": "Extended continental shelf submissions in the East and South China Seas: implications for joint development from a global blue economy perspective",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1968723",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "publishedDate": "2026-11-05",
+      "publishedDatePrecision": "second",
+      "summary": "Cooperation on the continental shelf beyond 200 nautical miles can contribute to the blue economy by making scientific investment useful across successive stages of offshore development. This article compares developments in the East and So",
+      "topics": [],
+      "collectedAt": "2026-11-05T07:04:16Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "seas"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "9d7f8c73139bf1845716836c",
+      "title": "Characterizing growth patterns of bottlenose dolphins (Tursiops truncatus) in Sarasota Bay",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1902811",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "publishedDate": "2026-11-05",
+      "publishedDatePrecision": "second",
+      "summary": "Growth patterns of specific body structures provide insight into the physiological and developmental processes underlying their function; however, collecting morphological data on these body structures is challenging for large animals in th",
+      "topics": [
+        "biology"
+      ],
+      "collectedAt": "2026-11-05T07:04:16Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "1794bb6f2726e32b1997ed5c",
+      "title": "Grey infrastructure or nature-based solutions? Stakeholder trade-offs and mapped hotspots in Costa da Caparica, Portugal",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1973805",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-05T00:00:00Z",
+      "publishedDate": "2026-11-05",
+      "publishedDatePrecision": "second",
+      "summary": "Climate change and anthropogenic pressures are increasing risks to coastal systems, feeding the need for adaptation strategies that are both effective and socially accepted. Nature-based solutions (NBS) are gaining prominence for reducing r",
+      "topics": [
+        "climate"
+      ],
+      "collectedAt": "2026-11-05T07:04:16Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coastal"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "9a921dcddfe0bae16b9da406",
+      "title": "MBARI participates in 2026 SACNAS Annual Conference",
+      "url": "https://www.mbari.org/news/mbari-participates-in-2026-sacnas-annual-conference/",
+      "sourceId": "rss-mbari",
+      "sourceName": "MBARI",
+      "publishedAt": "2026-11-04T21:55:37Z",
+      "publishedDate": "2026-11-04",
+      "publishedDatePrecision": "second",
+      "summary": "Last week, MBARI staff and former summer interns participated in the 2026 SACNAS Annual Conference, the country’s leading multidisciplinary and multicultural STEM conference. The post MBARI participates in 2026 SACNAS Annual Conference appe",
+      "topics": [],
+      "collectedAt": "2026-11-05T07:04:16Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-mbari",
+          "name": "MBARI"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "7166793193516afcf77187d9",
+      "title": "Maine partners update shoreline maps to improve coastal planning",
+      "url": "https://www.noaa.gov/stories/maine-partners-update-shoreline-maps-to-improve-coastal-planning",
+      "sourceId": "rss-noaa",
+      "sourceName": "NOAA News",
+      "publishedAt": "2026-11-04T20:01:47Z",
+      "publishedDate": "2026-11-04",
+      "publishedDatePrecision": "second",
+      "summary": "(Image credit: Peter Slovinsky, Maine Geological Survey) Download Image November 4, 2026 . Ocean & Coasts Climate-Ready Coasts 0 Off",
+      "topics": [
+        "climate"
+      ],
+      "collectedAt": "2026-11-05T07:04:13Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coastal",
+        "ocean"
+      ],
+      "filterMode": "marine-keyword",
+      "sources": [
+        {
+          "id": "rss-noaa",
+          "name": "NOAA News"
+        }
+      ],
+      "stale": false
+    },
     {
       "id": "7ed7a108ac757bef53d979c8",
       "title": "California coastal water levels break records",
@@ -469,7 +597,7 @@
       "publishedAt": "2026-11-04T19:43:03Z",
       "publishedDate": "2026-11-04",
       "publishedDatePrecision": "second",
-      "summary": "(Image credit: Peter Slovinsky, Maine Geological Survey) Download Image November 4, 2026 . Ocean & Coasts Climate-Ready Coasts 0 Off",
+      "summary": "(Image credit: NOAA) Download Image November 4, 2026 . . Ocean & Coasts Climate-Ready Coasts flooding 0 Off",
       "topics": [
         "climate"
       ],
@@ -6610,7 +6738,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "变暖的地中海东部，冬季浮游植物如何变化",
       "summaryZh": "研究结合冬季现场调查与20年卫星记录，分析地中海东部浮游植物变化。更暖、层化更强的东部海水中叶绿素较低，蓝细菌贡献更高；长期资料显示，叶绿素损失在原本浓度较高的冬春时期尤为明显，体现了变暖与群落、营养环境的关联。",
       "editorial": {
@@ -8270,7 +8398,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "北太平洋副热带环流区气溶胶微量元素的季节输入",
       "summaryZh": "研究利用夏威夷两年逐周气溶胶采样与铍-7示踪，估算北太平洋副热带环流区微量元素的沉降。春季亚洲沙尘主导全年输入，夏末秋初还有一次增强期，可能包含夏威夷本地来源；这些季节差异或影响表层海洋微生物的营养限制。",
       "editorial": {
@@ -8691,7 +8819,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "热带海洋主导全球海洋羰基硫排放的估算",
       "summaryZh": "研究用船测资料与环境数据建立模型，估算海洋羰基硫排放为每年270±28吉克硫，其中约一半源自二硫化碳。热带海域贡献突出，总量仍低于多数大气反推估计，提示预算差异可能与陆地吸收被高估有关，而非必然存在遗漏的海洋来源。",
       "editorial": {
@@ -8943,7 +9071,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "cd11f6db24a8b50352917166",
@@ -9087,7 +9215,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "南大洋海气二氧化碳通量对增排与移除的非对称响应",
       "summaryZh": "模型实验先让大气二氧化碳逐年增加，再对称减少，检验南大洋碳汇能否恢复。移除可在约百年内逆转吸收区域的空间变化，但海洋内部碳储存与热量响应存在滞后，使其在减排后至少50年仍为净碳源；结果属于所设理想化情景。",
       "editorial": {
@@ -9167,7 +9295,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "卡斯卡迪亚沿岸甲烷排放受局地源与短时事件影响",
       "summaryZh": "研究以高分辨率浓度和碳同位素测量区分美国卡斯卡迪亚沿岸的甲烷来源。哥伦比亚河羽状流覆盖不到研究区一成，却贡献约24%的观测期排放；上升流时期的日排放超过平稳时期三倍，显示局地与短时过程的重要性。",
       "editorial": {
@@ -9448,7 +9576,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海底地下水排放对近岸总汞与甲基汞通量的贡献",
       "summaryZh": "研究汇总中国沿岸44组新观测及全球20组既有观测，估算非热液海底地下水排放携带的汞。结果表明，其溶解总汞输入可与河流相当，甲基汞则可能是近岸海洋已知最大的外部来源；估算范围较宽，热液地下水贡献仍是知识缺口。",
       "editorial": {
@@ -9785,7 +9913,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "自主传感器揭示红海离岸珊瑚礁的代谢变化",
       "summaryZh": "研究在红海中部珊瑚礁部署总碱度、pH和溶解氧等自主传感器，连续观测数月。礁后与礁前水化学日变化不同，礁后碳酸盐系统变化约87%与净群落生产有关；2023年的代谢特征与历史红海观测接近，不能简单视为近期才发生的变化。",
       "editorial": {
@@ -10277,7 +10405,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "镭同位素示踪南太平洋微量元素的边界输入",
       "summaryZh": "研究沿GEOTRACES GP17-OCE断面测量镭同位素，追踪南太平洋和南大洋的边界交换。结果将广泛的次表层镭信号与坎贝尔高原形成的模态水相联系，并识别出太平洋—南极海岭热液输入，提示现有微量元素模型可能遗漏这些输运过程。",
       "editorial": {
@@ -10689,7 +10817,7 @@
       "sourceId": "json-crossref-progress-oceanography",
       "sourceName": "Progress in Oceanography (Crossref)",
       "publishedAt": null,
-      "publishedDate": "2026-10",
+      "publishedDate": "2027-01",
       "publishedDatePrecision": "month",
       "summary": "",
       "topics": [
@@ -10812,7 +10940,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "8660f3f5964e86fd6d17f3c1",
@@ -11280,14 +11408,11 @@
       "publishedDatePrecision": "month",
       "summary": "Abstract The interaction between internal tides (ITs) and mesoscale eddies, particularly the dissipation of low-mode IT energy through eddy-induced scattering, remains poorly understood. Using the 5-km resolution Icosahedral Nonhydrostatic",
       "topics": [
-        "engineering",
         "physical"
       ],
       "collectedAt": "2026-10-24T08:54:10Z",
-      "ruleMatched": true,
-      "ruleHits": [
-        "ocean"
-      ],
+      "ruleMatched": false,
+      "ruleHits": [],
       "filterMode": "configured-marine-source",
       "doi": "10.1175/jpo-d-25-0179.1",
       "sources": [
@@ -11815,7 +11940,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "604d3815d348f67d047cc64f",
@@ -12020,7 +12145,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "54589557ca877c927eb67035",
@@ -12152,7 +12277,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "亚马孙河羽状流如何调节热带西大西洋碳酸盐化学",
       "summaryZh": "研究结合盐度、碳酸盐系统和生物地球化学指标的气候态空间差异，估算亚马孙河羽状流影响。湿季受影响海区多项碳化学指标降低约8%—10%；淡水稀释、生物吸碳及海流外输共同调节更大范围的海表二氧化碳状态。",
       "editorial": {
@@ -12411,7 +12536,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "4992dc044a31f2b1011faea3",
@@ -12631,7 +12756,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "40fabf3656af12b5cda655fa",
@@ -13023,7 +13148,7 @@
       "sourceId": "json-crossref-progress-oceanography",
       "sourceName": "Progress in Oceanography (Crossref)",
       "publishedAt": null,
-      "publishedDate": "2026-10",
+      "publishedDate": "2027-01",
       "publishedDatePrecision": "month",
       "summary": "",
       "topics": [
