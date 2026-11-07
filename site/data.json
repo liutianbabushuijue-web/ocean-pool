@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-11-07T06:16:45Z",
-    "lastAttemptAt": "2026-11-07T06:16:41Z",
-    "lastSuccessAt": "2026-11-07T06:16:44Z",
+    "generatedAt": "2026-11-07T13:21:28Z",
+    "lastAttemptAt": "2026-11-07T13:21:23Z",
+    "lastSuccessAt": "2026-11-07T13:21:27Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
     "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "feedUrlConfigured": true,
-    "totalItems": 455,
-    "successfulSources": 22,
+    "totalItems": 459,
+    "successfulSources": 23,
     "automaticSources": 26,
     "sourceStatus": [
       {
@@ -22,7 +22,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4343, column 6"
@@ -36,8 +36,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:41Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:23Z",
         "itemCount": 11,
         "error": null
       },
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:24Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:41Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:23Z",
         "itemCount": 2,
         "error": null
       },
@@ -78,8 +78,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:41Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:23Z",
         "itemCount": 2,
         "error": null
       },
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:41Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:23Z",
         "itemCount": 5,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:41Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:23Z",
         "itemCount": 1,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:23Z",
         "itemCount": 5,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:24Z",
         "itemCount": 26,
         "error": null
       },
@@ -148,8 +148,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:23Z",
         "itemCount": 24,
         "error": null
       },
@@ -162,8 +162,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:24Z",
         "itemCount": 20,
         "error": null
       },
@@ -176,8 +176,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:24Z",
         "itemCount": 26,
         "error": null
       },
@@ -190,7 +190,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
         "lastSuccessAt": "2026-11-05T20:08:54Z",
         "itemCount": 25,
         "error": "OSError: HTTP 429"
@@ -203,11 +203,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "stale",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-05T20:08:54Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:24Z",
         "itemCount": 36,
-        "error": "OSError: HTTP 429"
+        "error": null
       },
       {
         "id": "json-crossref-marine-pollution",
@@ -218,9 +218,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
-        "itemCount": 55,
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:24Z",
+        "itemCount": 57,
         "error": null
       },
       {
@@ -232,9 +232,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
-        "itemCount": 21,
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:24Z",
+        "itemCount": 22,
         "error": null
       },
       {
@@ -246,7 +246,7 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "stale",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
         "lastSuccessAt": "2026-11-04T19:55:50Z",
         "itemCount": 15,
         "error": "OSError: HTTP 429"
@@ -260,8 +260,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:44Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:26Z",
         "itemCount": 22,
         "error": null
       },
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:43Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:25Z",
         "itemCount": 8,
         "error": null
       },
@@ -288,8 +288,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:43Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:25Z",
         "itemCount": 85,
         "error": null
       },
@@ -302,8 +302,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:42Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:25Z",
         "itemCount": 26,
         "error": null
       },
@@ -316,9 +316,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:43Z",
-        "itemCount": 19,
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:25Z",
+        "itemCount": 20,
         "error": null
       },
       {
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:43Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:25Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,8 +344,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:43Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:27Z",
         "itemCount": 1,
         "error": null
       },
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:44Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:27Z",
         "itemCount": 7,
         "error": null
       },
@@ -372,8 +372,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-07T06:16:41Z",
-        "lastSuccessAt": "2026-11-07T06:16:43Z",
+        "lastAttemptAt": "2026-11-07T13:21:23Z",
+        "lastSuccessAt": "2026-11-07T13:21:25Z",
         "itemCount": 3,
         "error": null
       },
@@ -454,12 +454,42 @@
       "promptVersion": "chinese-reader-v1",
       "generatedAt": "2026-10-24T15:35:07Z",
       "localizedCount": 213,
-      "pendingCount": 242,
+      "pendingCount": 246,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
   },
   "items": [
+    {
+      "id": "89e602621b33a8e70ea4ef87",
+      "title": "These divers are killing a beautiful coral to save Brazil’s marine life",
+      "url": "https://news.mongabay.com/video/2026/11/these-divers-are-killing-a-beautiful-coral-to-save-brazils-marine-life/",
+      "sourceId": "rss-mongabay",
+      "sourceName": "Mongabay",
+      "publishedAt": "2026-11-07T11:19:00Z",
+      "publishedDate": "2026-11-07",
+      "publishedDatePrecision": "second",
+      "summary": "RIO DE JANEIRO — Beneath the surface of Brazil’s coastal waters, a silent invasion is transforming marine ecosystems. Sun coral (Tubastraea coccinea and Tubastraea tagusensis), an invasive coral native to the Indo-Pacific, is spreading alon",
+      "topics": [
+        "biology"
+      ],
+      "collectedAt": "2026-11-07T13:21:25Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coastal",
+        "coral",
+        "marine"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.66709/news-335242",
+      "sources": [
+        {
+          "id": "rss-mongabay",
+          "name": "Mongabay"
+        }
+      ],
+      "stale": false
+    },
     {
       "id": "e9e207a1b4c38199f6ab7307",
       "title": "MBARI and Monterey Bay Aquarium share new deep-sea research at Kona Aquatics Conference",
@@ -8116,7 +8146,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "欧盟蓝色经济的性别平等现状、缺口与改进建议",
       "summaryZh": "这条记录关注欧盟蓝色经济中的性别平等状况，以及建设更包容、公平行业的建议。来源未提供摘要，具体方法与结果需查看原文，目前不能判断哪些差距最突出或建议如何验证。",
       "editorial": {
@@ -8555,7 +8585,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "eda91d0da3dc44c730213a9b",
@@ -8652,7 +8682,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "以可持续发展为导向的海事产业集群新范式",
       "summaryZh": "该条目围绕海事产业集群提出一种面向可持续发展的新范式，涉及产业集聚与可持续目标之间的联系。来源未提供摘要，具体框架、案例、评价方法与结果需查看原文。",
       "editorial": {
@@ -9194,7 +9224,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "d8c40093ed626549f52214d2",
@@ -9450,7 +9480,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "d0a0aa57c52c032a529d8802",
@@ -9551,6 +9581,36 @@
       "stale": false
     },
     {
+      "id": "cfbcbe161cceffe7eb055bd5",
+      "title": "Reproductive-state and life-stage variation in oxyregulation of reef-building corals",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120533",
+      "sourceId": "json-crossref-marine-pollution",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2027-01",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "biology",
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-07T13:21:24Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coral",
+        "reef"
+      ],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.marpolbul.2026.120533",
+      "sources": [
+        {
+          "id": "json-crossref-marine-pollution",
+          "name": "Marine Pollution Bulletin (Crossref)"
+        }
+      ],
+      "stale": false
+    },
+    {
       "id": "cf99aa45932cff2288856add",
       "title": "Why fishers fish: Understanding fisher motivations and their implications for fisheries policy",
       "url": "https://doi.org/10.1016/j.marpol.2026.107349",
@@ -9577,7 +9637,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "ce92c45a8842b5beca06aeda",
@@ -9698,7 +9758,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海运液袋的安全与环境风险：多层级治理缺口分析",
       "summaryZh": "文章围绕海运液袋的安全和环境风险，开展多层级治理缺口分析并讨论政策选项。来源未提供摘要，具体方法与结果需查看原文，不能将标题视为对某一治理方案有效性的证明。",
       "editorial": {
@@ -10211,6 +10271,32 @@
       }
     },
     {
+      "id": "b611b5e647a3bc9741fefe03",
+      "title": "Beyond catch location, individual fish traits add little predictive power for DDX and PCBs in Southern California sport fishes",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120550",
+      "sourceId": "json-crossref-marine-pollution",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2027-01",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-07T13:21:24Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.marpolbul.2026.120550",
+      "sources": [
+        {
+          "id": "json-crossref-marine-pollution",
+          "name": "Marine Pollution Bulletin (Crossref)"
+        }
+      ],
+      "stale": false
+    },
+    {
       "id": "b5fc0b32f24ee630621aa277",
       "title": "Toward quantitative soundscape monitoring with low-cost recorders: application to the Venice Lagoon",
       "url": "https://doi.org/10.1016/j.marpolbul.2026.120534",
@@ -10260,7 +10346,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "蓝色经济研究如何处理冲突并改善社会结果",
       "summaryZh": "题名讨论蓝色经济研究中的冲突，以及如何面向更好的社会结果开展研究。来源未提供摘要，具体方法与结果需查看原文，目前无法确认涉及哪些冲突、利益相关方或评估方式。",
       "editorial": {
@@ -10496,7 +10582,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "adef36474db6e9bb394ec3ed",
@@ -10595,7 +10681,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "勘误：瑞典波罗的海海洋空间规划中的政策协调",
       "summaryZh": "这是一篇勘误，对应讨论蓝色增长、生态系统方法与瑞典波罗的海海洋空间规划政策协调的原论文。来源未提供摘要，具体方法与结果需查看原文；标题没有说明更正涉及哪些内容。",
       "editorial": {
@@ -10777,7 +10863,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "与小规模渔业社区共创更公平的研究方式",
       "summaryZh": "文章倡议与小规模渔业社区开展符合伦理、共同生产知识且以公正为导向的研究，并强调跨尺度行动。来源未提供摘要，具体倡议依据、参与方式、案例及行动建议需查看原文。",
       "editorial": {
@@ -10891,7 +10977,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "9b02846a2ac0e22a41241e5d",
@@ -10991,7 +11077,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "96d4a05d16a3ac189bfb54fb",
@@ -11378,7 +11464,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "勘误：关于章鱼养殖潜力的平衡评估",
       "summaryZh": "这是一篇针对《以平衡视角看待章鱼养殖潜力》的勘误记录。来源未提供摘要，具体方法与结果需查看原文；目前无法判断更正涉及数据、文字还是结论，也不应把勘误当作新的养殖效果证据。",
       "editorial": {
@@ -11623,7 +11709,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "沿海居民为何支持海洋空间规划：价值与地方依恋",
       "summaryZh": "这项研究关注沿海居民对海洋空间规划的支持，并考察价值观、地方依恋和社区影响的作用。来源未提供摘要，具体调查地区、样本、变量定义、分析方法与结果需查看原文。",
       "editorial": {
@@ -11661,7 +11747,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "8199f9db6e8a76ed396c60cb",
@@ -11787,7 +11873,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "瑞典海产品多样化：结合生物筛选与利益相关方约束",
       "summaryZh": "文章讨论瑞典海产品多样化的优先次序，尝试结合生物学筛选与利益相关方约束。来源未提供摘要，具体方法与结果需查看原文，不能据此确定应优先推广的物种或产品。",
       "editorial": {
@@ -11887,7 +11973,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "印度尼西亚小规模渔业衰退的政治生态学视角",
       "summaryZh": "文章以“去渔业化”为主题，从政治生态学角度讨论印度尼西亚小规模渔业的衰退。来源未提供摘要，具体社区、历史过程、研究方法、影响机制及政策讨论需查看原文。",
       "editorial": {
@@ -12182,7 +12268,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "699d3d526560a2cf86d3d379",
@@ -12377,7 +12463,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "评估印尼海草气候风险与生物多样性脆弱性",
       "summaryZh": "研究评估印度尼西亚海草的气候风险与生物多样性脆弱性，旨在支持海洋空间规划。来源未提供摘要，具体方法与结果需查看原文，尚不能指出高风险区域或具体规划优先项。",
       "editorial": {
@@ -12449,7 +12535,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "62dfe08a964a98c054c76a3b",
@@ -13043,7 +13129,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海上自主水面船舶的救助义务与IMO MASS规则实施",
       "summaryZh": "文章讨论海上自主水面船舶的海上救助义务及其在IMO MASS规则下的实施。来源未提供摘要，具体方法与结果需查看原文；仅凭题名无法概括作者提出的法律解释或实施安排。",
       "editorial": {
@@ -13397,7 +13483,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "深海占主导国家的海洋生态系统面积核算",
       "summaryZh": "题名讨论在深海生态系统占主导的国家开展海洋生态系统范围核算。来源未提供摘要，具体方法与结果需查看原文，不能确定涉及哪个国家、如何划分生态系统或具体核算结果。",
       "editorial": {
@@ -13463,7 +13549,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "社会网络分析如何用于社区主导的龙虾渔业管理",
       "summaryZh": "文章以热带龙虾渔业为案例，讨论利用社会网络分析支持社区主导的区域型渔业管理。来源未提供摘要，具体参与主体、网络构建方式、管理制度、案例地点及评价结果需查看原文。",
       "editorial": {
@@ -13813,7 +13899,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "361accaf72e851faa8abbc8a",
@@ -13843,7 +13929,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "名人参与渔业与海洋保护的风险和机会",
       "summaryZh": "这条记录讨论名人影响力进入渔业与海洋保护领域可能带来的风险和机会。来源未提供摘要，具体方法与结果需查看原文，目前无法判断研究涉及哪些案例、传播效果或治理建议。",
       "editorial": {
@@ -13916,7 +14002,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "323f7b4cccd58848cde50a65",
@@ -13942,7 +14028,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "那不勒斯绿色港口项目：可持续性与竞争力如何兼顾",
       "summaryZh": "文章以那不勒斯港绿色港口项目为案例，讨论欧盟港口可持续性与竞争力面临的挑战。来源未提供摘要，具体方法与结果需查看原文，不能仅据题名评价项目成效。",
       "editorial": {
@@ -14204,7 +14290,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "21d6db8d257763abbac87536",
@@ -14232,7 +14318,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "1f560c983251676f1b2411cb",
@@ -14353,7 +14439,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "深海采矿决策中的知识公正与认知多样性",
       "summaryZh": "文章讨论深海采矿中的知识公正，并涉及《联合国海洋法公约》与国际海底管理局决策中的认知多样性。来源未提供摘要，具体法律论证、知识参与机制、案例和结论需查看原文。",
       "editorial": {
@@ -14592,7 +14678,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "0facfbfa8924686848d3077c",
@@ -14682,7 +14768,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "0c032b3645794a0d8b6cd888",
@@ -14711,7 +14797,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "台湾冲浪资源可持续性的空间差异及政策含义",
       "summaryZh": "这条记录聚焦台湾冲浪资源可持续性的空间差异，以及对沿海政策和海洋教育的启示。来源未提供摘要，具体方法与结果需查看原文，目前不能确认评估标准、具体地区或差异成因。",
       "editorial": {
@@ -14888,7 +14974,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "北海中上层拖网渔业如何减少海豹兼捕",
       "summaryZh": "文章评估由行业推动的海豹兼捕缓解措施，重点涉及北海中上层拖网渔业的排除装置及政策含义。来源未提供摘要，装置设计、试验条件、减捕效果与管理建议需查看原文。",
       "editorial": {
@@ -14927,7 +15013,7 @@
           "name": "Marine Policy (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "智利渔业补贴如何转向更清洁的生产方式",
       "summaryZh": "文章讨论智利通过更清洁的生产方式重新引导渔业补贴，以服务海洋可持续利用。来源未提供摘要，具体方法与结果需查看原文，目前无法确认其政策方案、评估指标或实际影响。",
       "editorial": {
@@ -14937,6 +15023,36 @@
         "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
+    },
+    {
+      "id": "03c90a7476a0b06649a6ff39",
+      "title": "Improved light conditions sustain pelagic primary production in western Wadden Sea despite biomass declines under major nutrient reductions",
+      "url": "https://doi.org/10.1002/lno.70525",
+      "sourceId": "json-crossref-limnology",
+      "sourceName": "Limnology and Oceanography (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2026-11",
+      "publishedDatePrecision": "month",
+      "summary": "Abstract Pelagic microalgae supply the major part of labile and readily accessible organic carbon in coastal systems, making long‐term monitoring of phytoplankton blooms and primary production (PP) essential for assessing the Wadden Sea's c",
+      "topics": [
+        "biology",
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-07T13:21:24Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coastal",
+        "sea"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.1002/lno.70525",
+      "sources": [
+        {
+          "id": "json-crossref-limnology",
+          "name": "Limnology and Oceanography (Crossref)"
+        }
+      ],
+      "stale": false
     },
     {
       "id": "01f4f34f66f5255c076489bb",
