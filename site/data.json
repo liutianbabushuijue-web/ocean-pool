@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-11-10T19:53:05Z",
-    "lastAttemptAt": "2026-11-10T19:53:01Z",
-    "lastSuccessAt": "2026-11-10T19:53:05Z",
+    "generatedAt": "2026-11-11T06:50:23Z",
+    "lastAttemptAt": "2026-11-11T06:50:17Z",
+    "lastSuccessAt": "2026-11-11T06:50:22Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
     "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "feedUrlConfigured": true,
-    "totalItems": 493,
-    "successfulSources": 20,
+    "totalItems": 501,
+    "successfulSources": 18,
     "automaticSources": 26,
     "sourceStatus": [
       {
@@ -22,7 +22,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4343, column 6"
@@ -36,8 +36,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:17Z",
         "itemCount": 13,
         "error": null
       },
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:02Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:18Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:17Z",
         "itemCount": 2,
         "error": null
       },
@@ -78,8 +78,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:17Z",
         "itemCount": 2,
         "error": null
       },
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:17Z",
         "itemCount": 5,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:18Z",
         "itemCount": 1,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:02Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:18Z",
         "itemCount": 5,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:02Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:20Z",
         "itemCount": 26,
         "error": null
       },
@@ -148,7 +148,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
         "lastSuccessAt": "2026-11-10T07:32:45Z",
         "itemCount": 24,
         "error": "OSError: HTTP 429"
@@ -162,8 +162,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:02Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:21Z",
         "itemCount": 21,
         "error": null
       },
@@ -175,11 +175,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
         "lastSuccessAt": "2026-11-10T19:53:02Z",
         "itemCount": 27,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "json-crossref-ices-jms",
@@ -190,8 +190,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:02Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:22Z",
         "itemCount": 29,
         "error": null
       },
@@ -204,7 +204,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
         "lastSuccessAt": "2026-11-09T22:33:47Z",
         "itemCount": 37,
         "error": "OSError: HTTP 429"
@@ -217,11 +217,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
         "lastSuccessAt": "2026-11-10T19:53:03Z",
         "itemCount": 66,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "json-crossref-limnology",
@@ -232,7 +232,7 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "stale",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
         "lastSuccessAt": "2026-11-08T22:18:09Z",
         "itemCount": 22,
         "error": "OSError: HTTP 429"
@@ -246,7 +246,7 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "stale",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
         "lastSuccessAt": "2026-11-08T22:18:10Z",
         "itemCount": 16,
         "error": "OSError: HTTP 429"
@@ -260,8 +260,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:05Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:20Z",
         "itemCount": 22,
         "error": null
       },
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:04Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:21Z",
         "itemCount": 8,
         "error": null
       },
@@ -288,9 +288,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:03Z",
-        "itemCount": 95,
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:21Z",
+        "itemCount": 101,
         "error": null
       },
       {
@@ -302,8 +302,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:03Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:21Z",
         "itemCount": 27,
         "error": null
       },
@@ -316,9 +316,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:03Z",
-        "itemCount": 23,
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:21Z",
+        "itemCount": 25,
         "error": null
       },
       {
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:03Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:22Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,7 +344,7 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "stale",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
         "lastSuccessAt": "2026-11-09T06:56:13Z",
         "itemCount": 1,
         "error": "ParseError: not well-formed (invalid token): line 204, column 20"
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:04Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:22Z",
         "itemCount": 7,
         "error": null
       },
@@ -372,8 +372,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-10T19:53:01Z",
-        "lastSuccessAt": "2026-11-10T19:53:04Z",
+        "lastAttemptAt": "2026-11-11T06:50:17Z",
+        "lastSuccessAt": "2026-11-11T06:50:22Z",
         "itemCount": 4,
         "error": null
       },
@@ -454,12 +454,230 @@
       "promptVersion": "chinese-reader-v1",
       "generatedAt": "2026-10-24T15:35:07Z",
       "localizedCount": 213,
-      "pendingCount": 280,
+      "pendingCount": 288,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
   },
   "items": [
+    {
+      "id": "43d1db013ce83cf35f961baa",
+      "title": "Rising seas could reshape habitats for more than 40% of world’s land vertebrates",
+      "url": "https://news.mongabay.com/2026/11/rising-seas-could-reshape-habitats-for-more-than-40-of-worlds-land-vertebrates/",
+      "sourceId": "rss-mongabay",
+      "sourceName": "Mongabay",
+      "publishedAt": "2026-11-11T02:01:22Z",
+      "publishedDate": "2026-11-11",
+      "publishedDatePrecision": "second",
+      "summary": "Sea level rise driven by climate change could see more than 42% of terrestrial land vertebrates lose parts of their habitats to the ocean by the end of the century, according to new research. The global study, recently published in Science,",
+      "topics": [
+        "climate"
+      ],
+      "collectedAt": "2026-11-11T06:50:21Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "ocean",
+        "sea",
+        "seas"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.66709/news-335395",
+      "sources": [
+        {
+          "id": "rss-mongabay",
+          "name": "Mongabay"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "b78bfa3cbe0b053ee586c19a",
+      "title": "Updated occurrence, habitat associations, and genomic resources of syngnathids in the Sembilan Archipelago, Malaysia",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1892884",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "publishedDate": "2026-11-11",
+      "publishedDatePrecision": "second",
+      "summary": "Syngnathid fishes, including seahorses and pipefishes, are ecologically and economically important but remain vulnerable to overfishing, habitat degradation, and trade-driven exploitation. This study documents syngnathid occurrence, habitat",
+      "topics": [],
+      "collectedAt": "2026-11-11T06:50:21Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "b6066d2367a599215085d564",
+      "title": "Effects of dietary oils on the growth performance, fatty acid profile, gut and liver histology in murrel (Channa striata) juvenile",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1972270",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "publishedDate": "2026-11-11",
+      "publishedDatePrecision": "second",
+      "summary": "To evaluate the utilization of different dietary oils by juvenile murrel (Channa striata), five isonitrogenous (45%) and similar inclusion levels (8%) of selected oils, namely fish oil (FO), soybean oil (SO), mustard oil (MO), rice bran oil",
+      "topics": [],
+      "collectedAt": "2026-11-11T06:50:21Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "91c6db07ca0833c8e068973d",
+      "title": "From the sky to the deep sea: ecosystem structure and ecological integrity across the National Marine Sanctuaries of Bikar and Bokak, Marshall Islands",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1957660",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "publishedDate": "2026-11-11",
+      "publishedDatePrecision": "second",
+      "summary": "Remote oceanic atolls provide increasingly rare opportunities to examine relatively intact tropical marine ecosystems in the Anthropocene. However, most ecological studies remain focused on individual habitats, limiting understanding of cro",
+      "topics": [
+        "biology",
+        "deepsea"
+      ],
+      "collectedAt": "2026-11-11T06:50:21Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "marine",
+        "oceanic",
+        "sea"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "3c97ca4f953a705c99780af8",
+      "title": "Seasonal response of sea surface salinity to sea ice retreat and polynya opening in the Ross Sea",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1956564",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "publishedDate": "2026-11-11",
+      "publishedDatePrecision": "second",
+      "summary": "Antarctic sea ice extent increased gradually over recent decades but has declined rapidly since 2016, including in the Ross Sea. Because sea ice melt alters the freshwater budget and sea surface salinity (SSS), understanding SSS variability",
+      "topics": [
+        "climate",
+        "deepsea",
+        "physical"
+      ],
+      "collectedAt": "2026-11-11T06:50:21Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "antarctic",
+        "sea"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "1985e3a69b5471241eb740eb",
+      "title": "Stoichiometric characteristics and environmental drivers of soil in estuarine delta wetlands: a case study of the Yellow River Delta",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1990932",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "publishedDate": "2026-11-11",
+      "publishedDatePrecision": "second",
+      "summary": "Estuarine delta wetlands are relatively fragile ecosystems, and soil ecological stoichiometry plays an important role in understanding wetland ecological conditions and developing effective restoration and sustainable management strategies.",
+      "topics": [
+        "biology"
+      ],
+      "collectedAt": "2026-11-11T06:50:21Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "estuarine"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "149eacb0fd3405f785f7c879",
+      "title": "Empirical screening of sesamol, melatonin, and spermidine combinations on growth, biochemical composition, and antioxidant responses of Nitzschia closterium under low-salinity stress",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.2013473",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-11T00:00:00Z",
+      "publishedDate": "2026-11-11",
+      "publishedDatePrecision": "second",
+      "summary": "Low-salinity stress, frequently caused by spring rainfall and estuarine fluctuations, is a major constraint on the large-scale cultivation of marine diatoms and can disrupt their growth, photosynthesis, and carbon metabolism. Nitzschia clos",
+      "topics": [
+        "chemistry",
+        "physical"
+      ],
+      "collectedAt": "2026-11-11T06:50:21Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "estuarine",
+        "marine"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "f371ddec6dac82eee76fc7f7",
+      "title": "Investigation: Fungus may have killed Atlantic Forest amphibians in the 1970s and ’80s",
+      "url": "https://news.mongabay.com/2026/11/investigation-fungus-may-have-killed-atlantic-forest-amphibians-in-the-1979s-and-80s/",
+      "sourceId": "rss-mongabay",
+      "sourceName": "Mongabay",
+      "publishedAt": "2026-11-10T21:24:07Z",
+      "publishedDate": "2026-11-10",
+      "publishedDatePrecision": "second",
+      "summary": "In the 1970s and ’80s, frogs in Brazil’s Atlantic Forest began dying off. Researchers have proposed various causes, from severe cold snaps to acid rain. Now, scientists believe they have solved this decade-old amphibian “cold case.” The cul",
+      "topics": [],
+      "collectedAt": "2026-11-11T06:50:21Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "atlantic"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.66709/news-335418",
+      "sources": [
+        {
+          "id": "rss-mongabay",
+          "name": "Mongabay"
+        }
+      ],
+      "stale": false
+    },
     {
       "id": "bead1d74f122f3e908571fcd",
       "title": "US stakes competing claims to Pacific seabed mining areas, challenging UN authority",
@@ -8709,7 +8927,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "ff5575cf4fd18c296e6ab1da",
@@ -8802,7 +9020,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "基于海洋环境敏感性评估的污染事故管理",
       "summaryZh": "这篇条目讨论如何把海洋环境敏感性评估用于污染事故管理，并将其与海洋可持续发展联系起来。来源未提供摘要，具体评估指标、管理方法、适用场景与结果需查看原文。",
       "editorial": {
@@ -8837,7 +9055,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "fa39faa9e7929563dc57cb97",
@@ -8863,7 +9081,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "f7ddd2ca46ee86bbf3d6890f",
@@ -8918,7 +9136,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "惯性振荡如何影响示踪物扩散",
       "summaryZh": "文章关注惯性振荡与示踪物扩散之间的联系，涉及海洋中物质输运的动力过程。来源未提供摘要，具体方法与结果需查看原文，不能仅据标题判断扩散增强或减弱。",
       "editorial": {
@@ -9055,7 +9273,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "f0f225a48fc23af6db47cd72",
@@ -9118,7 +9336,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "eec9a7199830afcf18aedc9f",
@@ -9144,7 +9362,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "ee77a5bc7da873d71114048e",
@@ -9174,7 +9392,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "ee049902a985d4f3c4734ba8",
@@ -9231,7 +9449,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "ed500b9876548322ec4fc453",
@@ -9337,7 +9555,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "以底栖动物为指标估算香港海洋微塑料污染",
       "summaryZh": "文章提出以底栖动物作为生物指示物，结合地统计方法估算香港海洋微塑料污染。来源未提供摘要，具体方法与结果需查看原文，尚不能判断污染程度或估算精度。",
       "editorial": {
@@ -9375,7 +9593,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "用SWAN与WRF模型研究沿岸风急流对峡湾波浪的影响",
       "summaryZh": "题名介绍结合SWAN与WRF模型，考察沿岸风急流如何影响峡湾内波浪。来源未提供摘要，具体方法与结果需查看原文，目前无法确认模型设置、验证资料或波浪变化幅度。",
       "editorial": {
@@ -9410,7 +9628,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "太平洋二战沉船油中的烃类及相关细菌群落",
       "summaryZh": "研究主题是太平洋二战沉船油的烃类组成，以及与这些油类相关的细菌群落特征。来源未提供摘要，具体沉船位置、采样与分析方法、污染物组成及微生物研究结果需查看原文。",
       "editorial": {
@@ -9448,7 +9666,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "韩国近海三种鱼类不同组织中的钋210与铯137分布",
       "summaryZh": "研究比较韩国沿海三种海洋鱼类不同组织中钋210与铯137的分布。来源未提供摘要，具体方法与结果需查看原文，不能据此判断鱼种间的含量高低或食用风险。",
       "editorial": {
@@ -9487,7 +9705,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "e9ab47abe9c7d0f217d0b4d0",
@@ -9514,7 +9732,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "不同临界条件下内波在三维海山上的反射",
       "summaryZh": "这条记录聚焦内波遇到三维海山时的反射，以及不同临界条件之间的差异。来源未提供摘要，具体方法与结果需查看原文，尚不能判断采用何种模型或哪些条件决定反射特征。",
       "editorial": {
@@ -9619,7 +9837,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海洋变暖下产卵策略与狭鳕、太平洋鳕种群变化",
       "summaryZh": "文章讨论西北太平洋海洋变暖背景下，产卵策略与狭鳕、太平洋鳕种群变化差异的关系。来源未提供摘要，具体方法与结果需查看原文，尚不能推断其变化幅度。",
       "editorial": {
@@ -9686,7 +9904,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "从海洋污染到蓝色金融：南亚沿海韧性的联系",
       "summaryZh": "题名尝试把南亚海洋污染的传输路径与蓝色金融联系起来，讨论沿海韧性问题。来源未提供摘要，具体方法与结果需查看原文，不能据题名推断资金工具已产生何种治理成效。",
       "editorial": {
@@ -9795,7 +10013,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "极地代表性海域沉积物中的亲脂性海藻毒素",
       "summaryZh": "研究关注极地代表性海域表层沉积物中亲脂性海藻毒素的出现及其对产毒微藻研究的意义。来源未提供摘要，具体方法与结果需查看原文，尚无可据以概括的浓度或分布结论。",
       "editorial": {
@@ -9832,7 +10050,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "d9959cf6d95964db904c2728",
@@ -9926,7 +10144,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "d892702ae90c4017a9e07abd",
@@ -9955,7 +10173,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "3DSeaVizKit：海洋数据时空交互可视化工具包",
       "summaryZh": "文章介绍面向海洋数据的时空交互可视化工具包3DSeaVizKit。来源未提供摘要，具体方法与结果需查看原文，目前无法判断它支持的数据类型、性能表现或实际应用效果。",
       "editorial": {
@@ -10031,7 +10249,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "d69e08371404a12284d583b8",
@@ -10099,7 +10317,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "d34d2f43a841d858fe08bde1",
@@ -10253,7 +10471,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "cfbcbe161cceffe7eb055bd5",
@@ -10283,7 +10501,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "cf99aa45932cff2288856add",
@@ -10338,7 +10556,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "cdda9306a38a999722bb7aab",
@@ -10472,7 +10690,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "涡分辨地球系统模型改进墨西哥湾海平面季节模拟",
       "summaryZh": "题名报告涡分辨版本的社区地球系统模型用于改进墨西哥湾海平面季节周期模拟。来源未提供摘要，具体方法与结果需查看原文，改进幅度、比较基准和适用范围不能据题名确定。",
       "editorial": {
@@ -10627,7 +10845,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "c708df85e5aabd9d9728c29b",
@@ -10746,7 +10964,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "c4ab8206baee9cc684d2f7a2",
@@ -10812,7 +11030,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "c21836b5196a3fec12c1c406",
@@ -10841,7 +11059,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "c187ad27280ee4fab9593981",
@@ -10934,7 +11152,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "OilSegSARFormer：用于SAR影像多类溢油分割的新模型",
       "summaryZh": "文章介绍OilSegSARFormer，题名包含Adapter-Mix Transformer骨干与门控细节优化语义解码器，用于SAR影像多类别溢油分割。来源未提供摘要，具体方法与结果需查看原文，尚不能比较检测精度或泛化能力。",
       "editorial": {
@@ -10969,7 +11187,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "b5fc0b32f24ee630621aa277",
@@ -10995,7 +11213,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "b52384f91a946bfabbe77d55",
@@ -11087,7 +11305,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "b18a91dfb1987cbf4fb451a8",
@@ -11153,7 +11371,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "土耳其伊兹密尔食鱼营养收益与持久性有机污染物风险",
       "summaryZh": "研究评估土耳其伊兹密尔食鱼带来的营养收益与持久性有机污染物风险，题名采用多变量膳食暴露分析。来源未提供摘要，具体方法与结果需查看原文，不能据此形成具体食用建议。",
       "editorial": {
@@ -11191,7 +11409,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "af9a57b5487bbca5702008e7",
@@ -11220,7 +11438,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "ae69d6ef022b7a90ec5def56",
@@ -11355,7 +11573,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "acee40fbd174a5af2b46b998",
@@ -11459,7 +11677,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "地震勘探震源作业如何影响大西洋鳕求偶行为",
       "summaryZh": "该条目考察地震勘探中的震源作业与大西洋鳕求偶行为之间的关系，研究对象为Gadus morhua。来源未提供摘要，作业强度、行为观测方式、影响方向与程度需查看原文。",
       "editorial": {
@@ -11496,7 +11714,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "利用扩散式多智能模型开展ENSO概率预报",
       "summaryZh": "文章提出利用扩散式多智能模型开展ENSO概率预报，关注海气变化的概率预测。来源未提供摘要，具体方法与结果需查看原文，目前无法判断模型构成、预报提前期或准确率。",
       "editorial": {
@@ -11644,7 +11862,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "9ead96b1ae9b914abce511f7",
@@ -11673,7 +11891,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "长江流域降水与东海叶绿素a浓度升高的机制",
       "summaryZh": "这条记录关注长江流域降水与东海叶绿素a浓度升高之间的关联机制。来源未提供摘要，具体方法与结果需查看原文，目前不能判断降水通过哪些过程起作用，也不能量化其贡献。",
       "editorial": {
@@ -11776,7 +11994,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "全球海洋模型中基于EnOI的MLD多尺度同化研究",
       "summaryZh": "文章在全球海洋模型中研究基于EnOI的多尺度同化对MLD的作用。来源未提供摘要，具体方法与结果需查看原文，不能仅从标题判断同化方案的改进幅度或适用海区。",
       "editorial": {
@@ -11909,7 +12127,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "垂向分辨率不足可能制造AMOC虚假多稳态",
       "summaryZh": "这项条目的标题关注海洋模型垂向分辨率不足，及其可能导致的与对流相关的AMOC虚假多稳态。来源未提供摘要，具体模型配置、分辨率试验、诊断依据与结果需查看原文。",
       "editorial": {
@@ -11945,7 +12163,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "93652f7fdf05a5a7748bd865",
@@ -12118,7 +12336,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "8eb0b3300eb32d16d8771325",
@@ -12186,7 +12404,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "台风强迫结构对南海近惯性波生成与演变的影响",
       "summaryZh": "这篇条目研究台风强迫的结构如何影响南海近惯性波的生成和后续演变。来源未提供摘要，所涉及台风、观测或模拟方法、强迫变量及具体结果需查看原文。",
       "editorial": {
@@ -12324,7 +12542,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "87f878baa2d6faa5ed06c0b7",
@@ -12351,7 +12569,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "利用有限漂流浮标观测学习马尾藻输送动力",
       "summaryZh": "研究主题是从有限的漂流浮标观测中学习有效的马尾藻输送动力，涉及资料有限时的输运描述。来源未提供摘要，具体海域、学习模型、训练与验证方法及预测表现需查看原文。",
       "editorial": {
@@ -12560,7 +12778,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "816a10129406a16953e6a89e",
@@ -12721,7 +12939,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "图神经网络数据同化：稀疏观测下的空间重建",
       "summaryZh": "这条记录介绍基于图神经网络的数据同化，用于观测稀疏条件下的空间重建。来源未提供摘要，具体方法与结果需查看原文，不能确认重建对象、训练资料或相对传统方法的性能。",
       "editorial": {
@@ -12859,7 +13077,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "74718de928e72900bf7d1260",
@@ -13085,7 +13303,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "6735a84ea794acf9c814dfdd",
@@ -13151,7 +13369,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "66f1023aba1261e7bf7e5e29",
@@ -13284,7 +13502,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "日本飞乌贼体型的长期变化与季节、空间及温度关系",
       "summaryZh": "题名关注日本飞乌贼体型的长期变化，并考察季节、空间和温度关系。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断体型增减趋势、变化幅度或温度的因果作用。",
       "editorial": {
@@ -13452,7 +13670,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "619ca07ed7b1e74515619cef",
@@ -13482,7 +13700,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "6146dd0db1db64ad5e51930f",
@@ -13579,7 +13797,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "5a035958c85009d4f3aa665e",
@@ -13678,7 +13896,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "阿拉伯湾原水变化与海水反渗透运行范围",
       "summaryZh": "题名把阿拉伯湾原水监测与海水反渗透（SWRO）运行范围联系起来，涉及季节变化、长期漂移和碳酸盐控制基线。来源未提供摘要，具体方法与结果需查看原文，具体运行限值尚不明确。",
       "editorial": {
@@ -13745,7 +13963,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "54589557ca877c927eb67035",
@@ -13809,7 +14027,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "51f98070818ab3d11b45abb7",
@@ -13838,7 +14056,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "用能量加权机器学习验证与校准中层海流",
       "summaryZh": "这条记录介绍能量加权机器学习在中层海流验证和校准中的应用。来源未提供摘要，具体方法与结果需查看原文，目前不能确定输入观测、校准对象或与其他方法相比的精度变化。",
       "editorial": {
@@ -13988,7 +14206,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "结合人工神经网络与概率圆的长江口风暴潮预报",
       "summaryZh": "该条目提出面向长江口的风暴潮预报系统，标题说明其结合人工神经网络与概率圆方法。来源未提供摘要，具体输入资料、系统构建、预报时效、误差及验证结果需查看原文。",
       "editorial": {
@@ -14065,7 +14283,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "废弃渔具再生利用的随机演化博弈研究",
       "summaryZh": "这条记录以随机演化博弈模型研究被弃置、丢失或丢弃渔具的回收与再生利用。来源未提供摘要，具体方法与结果需查看原文，目前不能判断模型参与方、激励条件或政策效果。",
       "editorial": {
@@ -14438,7 +14656,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "巴基斯坦沿海青蟹与沉积物中的痕量金属",
       "summaryZh": "这条记录评估巴基斯坦沿海Scylla olivacea青蟹及沉积物中的痕量金属浓度。来源未提供摘要，具体方法与结果需查看原文，不能据题名判断污染水平、暴露来源或食用风险。",
       "editorial": {
@@ -14477,7 +14695,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海上风电场对北海及丹麦海峡湍流和水文的短期影响",
       "summaryZh": "该研究关注海上风电场对北海与丹麦海峡区域海洋湍流和水文条件的短期影响。来源未提供摘要，风场范围、资料或模型、时间尺度、变化幅度及影响机制需查看原文。",
       "editorial": {
@@ -14514,7 +14732,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "3c98f2c06cecc74049083546",
@@ -14541,7 +14759,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "采用五阶WENO混合格式的水平二维Boussinesq波浪模型",
       "summaryZh": "文章提出基于五阶WENO有限体积与有限差分混合格式的水平二维Boussinesq型模型。来源未提供摘要，具体方法与结果需查看原文，目前无法判断模型验证场景或相较已有方案的表现。",
       "editorial": {
@@ -14751,7 +14969,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "把无AIS小船纳入中华白海豚分布压力评估",
       "summaryZh": "这项研究强调评估人类活动对印度太平洋驼海豚分布的影响时，应考虑不装AIS的小型船舶。来源未提供摘要，船舶统计方法、研究海域、压力指标及分布分析结果需查看原文。",
       "editorial": {
@@ -14879,7 +15097,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "马尔马拉海养殖与野生地中海贻贝的有毒元素风险",
       "summaryZh": "题名比较马尔马拉海养殖和野生地中海贻贝的有毒元素膳食暴露及累积风险。来源未提供摘要，具体方法与结果需查看原文，不能据此判断风险大小、限值超标或具体食用建议。",
       "editorial": {
@@ -14953,7 +15171,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "2cffbc7c1fb4c055e0623200",
@@ -14982,7 +15200,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "2a8cf7ac61cd8f0d723f00b7",
@@ -15012,7 +15230,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "27cf063a50315e52d746d855",
@@ -15041,7 +15259,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "强分层河口盐度模拟：垂向网格、滤波与湍流方案的影响",
       "summaryZh": "研究模拟具有主要航道的强分层河口盐度变化，考察垂向网格、Shapiro滤波及湍流实现方式。来源未提供摘要，具体方法与结果需查看原文，尚不能确定哪种配置更接近观测。",
       "editorial": {
@@ -15079,7 +15297,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "22f3fde08a5ef8604e2ee295",
@@ -15160,7 +15378,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "镉对幼年中国鲎的生理与多组学影响",
       "summaryZh": "这条记录研究镉对幼年中国鲎的毒理干扰，涵盖生理损伤与多组学变化。来源未提供摘要，具体方法与结果需查看原文，目前不能确定实验剂量、持续时间或观察到的具体损伤。",
       "editorial": {
@@ -15195,7 +15413,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "1dc1cf8e06c2f8726736f721",
@@ -15221,7 +15439,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "1d06d6f4e28e31e95fdd5069",
@@ -15251,7 +15469,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "1cee38744f86a6f6ccb911c8",
@@ -15319,7 +15537,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "182b8740e3e4be8f1afbb61b",
@@ -15350,7 +15568,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "印尼安汶湾陆地清理活动与珊瑚礁健康风险",
       "summaryZh": "文章关注印度尼西亚马鲁古省安汶湾上游陆地清理活动对珊瑚礁健康的威胁。来源未提供摘要，具体方法与结果需查看原文，尚不能确认影响路径、污染物来源或风险大小。",
       "editorial": {
@@ -15388,7 +15606,7 @@
           "name": "Ocean Modelling (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "用土壤—空气—水热交换改进浅海热力过程表征",
       "summaryZh": "题名讨论通过土壤、空气与水之间的热交换改进浅沿岸水域的热力过程表征。来源未提供摘要，具体方法与结果需查看原文，模型方案、适用条件和改进幅度尚无法确认。",
       "editorial": {
@@ -15481,7 +15699,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "13e159fe39ce9762f104bef8",
@@ -15510,7 +15728,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "13b22ca395b5cf858ca3c0ea",
@@ -15538,7 +15756,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海洋酸化下腹足类的恢复限制与代谢权衡",
       "summaryZh": "该条目以多种生物标志物为证据，研究一种腹足类在海洋酸化胁迫后的恢复与生理韧性限制。来源未提供摘要，具体物种、胁迫水平、恢复时长、指标变化及代谢权衡需查看原文。",
       "editorial": {
@@ -15603,7 +15821,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "0dd639c5678b17b89c393a67",
@@ -15629,7 +15847,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "0c9143a73a3d873855a89ae8",
@@ -15798,7 +16016,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "0895c5153418384fa1c59bd7",
@@ -15825,7 +16043,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "耐盐红球菌Rhodococcus ruber TN-1的苯并芘生物修复研究",
       "summaryZh": "文章关注耐盐菌Rhodococcus ruber TN-1在盐环境中对苯并芘的生物修复，题名涉及全基因组、降解效率及微生物特性。来源未提供摘要，具体方法与结果需查看原文，尚不能评价实际修复效果。",
       "editorial": {
@@ -16007,7 +16225,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "01f4f34f66f5255c076489bb",
@@ -16034,7 +16252,7 @@
           "name": "Marine Pollution Bulletin (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     }
   ],
   "sources": [
