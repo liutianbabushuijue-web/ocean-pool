@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-11-18T07:44:49Z",
-    "lastAttemptAt": "2026-11-18T07:44:45Z",
-    "lastSuccessAt": "2026-11-18T07:44:49Z",
+    "generatedAt": "2026-11-18T20:44:56Z",
+    "lastAttemptAt": "2026-11-18T20:44:51Z",
+    "lastSuccessAt": "2026-11-18T20:44:56Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
     "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "feedUrlConfigured": true,
-    "totalItems": 609,
-    "successfulSources": 20,
+    "totalItems": 618,
+    "successfulSources": 22,
     "automaticSources": 26,
     "sourceStatus": [
       {
@@ -22,10 +22,10 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
         "lastSuccessAt": null,
         "itemCount": 0,
-        "error": "ParseError: mismatched tag: line 4343, column 6"
+        "error": "ParseError: mismatched tag: line 4353, column 6"
       },
       {
         "id": "rss-noaa",
@@ -36,8 +36,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:51Z",
         "itemCount": 15,
         "error": null
       },
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:46Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:52Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:51Z",
         "itemCount": 6,
         "error": null
       },
@@ -78,8 +78,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:51Z",
         "itemCount": 2,
         "error": null
       },
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:51Z",
         "itemCount": 5,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:46Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:51Z",
         "itemCount": 1,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:51Z",
         "itemCount": 7,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:47Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:52Z",
         "itemCount": 32,
         "error": null
       },
@@ -148,7 +148,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
         "lastSuccessAt": "2026-11-17T21:08:03Z",
         "itemCount": 26,
         "error": "OSError: HTTP 429"
@@ -161,11 +161,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "stale",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-17T21:08:03Z",
-        "itemCount": 23,
-        "error": "OSError: HTTP 429"
+        "status": "ok",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:53Z",
+        "itemCount": 24,
+        "error": null
       },
       {
         "id": "json-crossref-ocean-modelling",
@@ -176,9 +176,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:46Z",
-        "itemCount": 30,
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:53Z",
+        "itemCount": 31,
         "error": null
       },
       {
@@ -190,9 +190,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:46Z",
-        "itemCount": 32,
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:53Z",
+        "itemCount": 33,
         "error": null
       },
       {
@@ -204,7 +204,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
         "lastSuccessAt": "2026-11-16T22:23:09Z",
         "itemCount": 40,
         "error": "OSError: HTTP 429"
@@ -218,7 +218,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "stale",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
         "lastSuccessAt": "2026-11-17T21:08:03Z",
         "itemCount": 99,
         "error": "OSError: HTTP 429"
@@ -232,9 +232,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:47Z",
-        "itemCount": 24,
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:53Z",
+        "itemCount": 25,
         "error": null
       },
       {
@@ -245,11 +245,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "stale",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-15T18:59:15Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:54Z",
         "itemCount": 16,
-        "error": "OSError: HTTP 429"
+        "error": null
       },
       {
         "id": "rss-mbari",
@@ -260,9 +260,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:48Z",
-        "itemCount": 23,
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:55Z",
+        "itemCount": 24,
         "error": null
       },
       {
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:48Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:54Z",
         "itemCount": 9,
         "error": null
       },
@@ -288,9 +288,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:48Z",
-        "itemCount": 131,
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:54Z",
+        "itemCount": 133,
         "error": null
       },
       {
@@ -302,9 +302,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:48Z",
-        "itemCount": 29,
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:54Z",
+        "itemCount": 30,
         "error": null
       },
       {
@@ -316,9 +316,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:48Z",
-        "itemCount": 36,
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:54Z",
+        "itemCount": 37,
         "error": null
       },
       {
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:48Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:54Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,8 +344,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:49Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:56Z",
         "itemCount": 1,
         "error": null
       },
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:49Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:55Z",
         "itemCount": 8,
         "error": null
       },
@@ -372,8 +372,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-18T07:44:45Z",
-        "lastSuccessAt": "2026-11-18T07:44:48Z",
+        "lastAttemptAt": "2026-11-18T20:44:51Z",
+        "lastSuccessAt": "2026-11-18T20:44:54Z",
         "itemCount": 4,
         "error": null
       },
@@ -454,12 +454,87 @@
       "promptVersion": "chinese-reader-v1",
       "generatedAt": "2026-10-24T15:35:07Z",
       "localizedCount": 208,
-      "pendingCount": 401,
+      "pendingCount": 410,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
   },
   "items": [
+    {
+      "id": "28d6b823f8af3e1269333434",
+      "title": "Greenpeace drops ‘Attenboulder’ to deter UK bottom trawlers in a marine protected area",
+      "url": "https://news.mongabay.com/short-article/2026/11/greenpeace-drops-attenboulder-to-deter-uk-bottom-trawlers-in-a-marine-protected-area/",
+      "sourceId": "rss-mongabay",
+      "sourceName": "Mongabay",
+      "publishedAt": "2026-11-18T20:31:20Z",
+      "publishedDate": "2026-11-18",
+      "publishedDatePrecision": "second",
+      "summary": "Greenpeace activists recently dropped several enormous boulders in the U.K.’s Southern North Sea Marine Protected Area to discourage destructive bottom trawling currently permitted in the area. The nearly 37,000 square kilometer (about 14,0",
+      "topics": [
+        "policy"
+      ],
+      "collectedAt": "2026-11-18T20:44:54Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "marine",
+        "sea"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.66709/news-336297",
+      "sources": [
+        {
+          "id": "rss-mongabay",
+          "name": "Mongabay"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "956e08544e364b14e999413d",
+      "title": "A blue desert: MBARI researchers record collapse in productivity in Monterey Bay due to El Niño",
+      "url": "https://www.mbari.org/news/a-blue-desert-mbari-researchers-record-collapse-in-productivity-in-monterey-bay-due-to-el-nino/",
+      "sourceId": "rss-mbari",
+      "sourceName": "MBARI",
+      "publishedAt": "2026-11-18T19:01:04Z",
+      "publishedDate": "2026-11-18",
+      "publishedDatePrecision": "second",
+      "summary": "Imaging systems deployed at MBARI monitoring stations in Monterey Bay have logged a sharp decline in phytoplankton as El Niño brings exceptionally warm water to Central California. The post A blue desert: MBARI researchers record collapse i",
+      "topics": [],
+      "collectedAt": "2026-11-18T20:44:55Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-mbari",
+          "name": "MBARI"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "1bb15420f5858ad7f2e48336",
+      "title": "More than a billion years of Earth's history vanished. Scientists may finally know why",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261116023403.htm",
+      "sourceId": "rss-sciencedaily-ocean",
+      "sourceName": "ScienceDaily Oceanography",
+      "publishedAt": "2026-11-18T08:27:56Z",
+      "publishedDate": "2026-11-18",
+      "publishedDatePrecision": "second",
+      "summary": "Scientists may have finally explained why up to more than a billion years of Earth's geological history are missing from rocks around the world. New research suggests that powerful currents deep inside the planet slowly raised and lowered e",
+      "topics": [],
+      "collectedAt": "2026-11-18T20:44:54Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-sciencedaily-ocean",
+          "name": "ScienceDaily Oceanography"
+        }
+      ],
+      "stale": false
+    },
     {
       "id": "f3874c661501f1ed4e7d442c",
       "title": "Evolution characteristics and ecological risk assessment of heavy metal pollution in sediments of Laizhou Bay over the past century",
@@ -477,6 +552,35 @@
       "ruleMatched": true,
       "ruleHits": [
         "sea"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "d6591ccbb38ced5332bc98d3",
+      "title": "Enhancing equity and resilience in coastal small-scale fisheries: a Confucian ethical perspective on community co-management",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.2018983",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "publishedDate": "2026-11-18",
+      "publishedDatePrecision": "second",
+      "summary": "When trying to balance ecological protection with basic community livelihoods, coastal small-scale capture fisheries are facing serious governance challenges related to fairness, food security, and community resilience. Existing studies hav",
+      "topics": [
+        "fisheries",
+        "policy"
+      ],
+      "collectedAt": "2026-11-18T20:44:54Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coastal",
+        "fisheries"
       ],
       "filterMode": "configured-marine-source",
       "sources": [
@@ -542,6 +646,36 @@
       "stale": false
     },
     {
+      "id": "7cf51fa4d48f214706235e08",
+      "title": "Adaptation of the spray generation function for spume droplets from a laboratory to a field environment",
+      "url": "https://doi.org/10.1175/jpo-d-25-0247.1",
+      "sourceId": "json-crossref-jpo",
+      "sourceName": "Journal of Physical Oceanography (Crossref)",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "publishedDate": "2026-11-18",
+      "publishedDatePrecision": "day",
+      "summary": "Abstract Sea spray is an important component of the marine atmospheric boundary layer. It can significantly impact the ocean-atmosphere exchange processes, especially in high winds. Recent studies have shown that “bag-breakup” fragmentation",
+      "topics": [
+        "physical"
+      ],
+      "collectedAt": "2026-11-18T20:44:53Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "marine",
+        "ocean",
+        "sea"
+      ],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1175/jpo-d-25-0247.1",
+      "sources": [
+        {
+          "id": "json-crossref-jpo",
+          "name": "Journal of Physical Oceanography (Crossref)"
+        }
+      ],
+      "stale": false
+    },
+    {
       "id": "24dacb53f3b17fed979c9a47",
       "title": "Projected habitat shifts of Sardina pilchardus under climate change on the Portuguese coast",
       "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1962143",
@@ -585,6 +719,31 @@
       "ruleMatched": true,
       "ruleHits": [
         "marine"
+      ],
+      "filterMode": "configured-marine-source",
+      "sources": [
+        {
+          "id": "rss-frontiers-marine",
+          "name": "Frontiers in Marine Science"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "045d7ca120f933f7ca1c7208",
+      "title": "Shipping efficiency and export technological sophistication: the threshold effect of port scale",
+      "url": "https://www.frontiersin.org/articles/10.3389/fmars.2026.1994316",
+      "sourceId": "rss-frontiers-marine",
+      "sourceName": "Frontiers in Marine Science",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "publishedDate": "2026-11-18",
+      "publishedDatePrecision": "second",
+      "summary": "Based on panel data from 11 coastal provincial-level regions in China from 2012 to 2023, this study employs port scale as the threshold variable and constructs a fixed-effects panel threshold model to examine the nonlinear relationship betw",
+      "topics": [],
+      "collectedAt": "2026-11-18T20:44:54Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coastal"
       ],
       "filterMode": "configured-marine-source",
       "sources": [
@@ -710,7 +869,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "983e5aba514e9fcfd89e293c",
@@ -1504,7 +1663,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "aa7d5c336dbe068b702701c6",
@@ -2583,7 +2742,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "0f323f48c484ebbccf4034fe",
@@ -4129,7 +4288,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "85da87a3f13fd1039a35970e",
@@ -4388,6 +4547,35 @@
       ],
       "filterMode": "configured-marine-source",
       "doi": "10.1093/icesjms/fsag221",
+      "sources": [
+        {
+          "id": "json-crossref-ices-jms",
+          "name": "ICES Journal of Marine Science (Crossref)"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "3e2b7122360eb256252cbfe6",
+      "title": "Deep unsupervised learning for fishing activity recognition from automatic identification system data",
+      "url": "https://doi.org/10.1093/icesjms/fsag229",
+      "sourceId": "json-crossref-ices-jms",
+      "sourceName": "ICES Journal of Marine Science (Crossref)",
+      "publishedAt": "2026-10-31T00:00:00Z",
+      "publishedDate": "2026-10-31",
+      "publishedDatePrecision": "day",
+      "summary": "Abstract Monitoring fishing behavior is crucial for marine conservation and ecosystem protection. The Automatic Identification System (AIS) is a cost-effective tool for tracking vessel activity, yet traditional supervised learning models re",
+      "topics": [
+        "biology",
+        "fisheries"
+      ],
+      "collectedAt": "2026-11-18T20:44:53Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "marine"
+      ],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1093/icesjms/fsag229",
       "sources": [
         {
           "id": "json-crossref-ices-jms",
@@ -6978,7 +7166,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "用降维模型理解跨半球地转经向翻转环流",
       "summaryZh": "研究建立包含南大洋通道和风驱上升流的简化模型，分析边界浮力如何维持与调节跨半球翻转环流。结果显示，南大洋风强迫可引起较快的跨赤道调整，而北大西洋浮力强迫的响应更慢；这一差异在理想化海洋模式中得到再现。",
       "editorial": {
@@ -7359,7 +7547,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "中尺度涡与内波耦合如何维持环流尺度位涡梯度",
       "summaryZh": "研究更新涡—内波能量交换的理论表达，并与马尾藻海观测比较，结果支持该耦合在当地内波能量收支中的重要作用。作者进一步推测，耦合产生的局地涡度平方阻尼可能限制位涡级联，帮助维持湾流南部再循环环流的位涡梯度。",
       "editorial": {
@@ -8380,7 +8568,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "表面重力波与内孤立波的粒子输运不能简单相加",
       "summaryZh": "数值模拟发现，表面重力波与内孤立波共同作用时，粒子位移不能由两者单独效应直接相加。仅用内孤立波估计，在同向传播时低估30%—46%，反向时高估200%—350%；波浪还会改变接触时间和沿轨迹的漂移。",
       "editorial": {
@@ -9450,7 +9638,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "变暖的地中海东部，冬季浮游植物如何变化",
       "summaryZh": "研究结合冬季现场调查与20年卫星记录，分析地中海东部浮游植物变化。更暖、层化更强的东部海水中叶绿素较低，蓝细菌贡献更高；长期资料显示，叶绿素损失在原本浓度较高的冬春时期尤为明显，体现了变暖与群落、营养环境的关联。",
       "editorial": {
@@ -9527,7 +9715,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海流与地形相互作用如何驱动深层边界流混合",
       "summaryZh": "研究以奥克尼海峡输送南极底层水的边界流为案例，用高分辨率模拟分析2017年观测所涉过程。海槛水力控制、剪切不稳定、坡面下沉及小尺度地形尾流均可产生湍流；这些过程随正压流和半日潮变化，影响混合及水团性质。",
       "editorial": {
@@ -10511,7 +10699,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "fb98fbb3aff947940a8209e5",
@@ -10617,7 +10805,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "f4dd4858e588077485d4acdd",
@@ -10800,7 +10988,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海底峡谷中潮汐驱动驻波的简化理论模型",
       "summaryZh": "研究将海底峡谷简化为狭长矩形箱体，分析正压潮如何激发驻立内开尔文波。理论与理想化数值模拟均表明，波幅受潮汐强度、共振条件和峡谷宽长比影响；能量主要在潮汐输入与向外辐射的内潮之间平衡，结论仍基于简化地形。",
       "editorial": {
@@ -11333,7 +11521,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "北太平洋副热带环流区气溶胶微量元素的季节输入",
       "summaryZh": "研究利用夏威夷两年逐周气溶胶采样与铍-7示踪，估算北太平洋副热带环流区微量元素的沉降。春季亚洲沙尘主导全年输入，夏末秋初还有一次增强期，可能包含夏威夷本地来源；这些季节差异或影响表层海洋微生物的营养限制。",
       "editorial": {
@@ -11370,7 +11558,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "e6d2fec8ec6e9f31b3a6922b",
@@ -11437,7 +11625,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "e3dd44e72deef0485fcb9911",
@@ -11951,7 +12139,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "热带海洋主导全球海洋羰基硫排放的估算",
       "summaryZh": "研究用船测资料与环境数据建立模型，估算海洋羰基硫排放为每年270±28吉克硫，其中约一半源自二硫化碳。热带海域贡献突出，总量仍低于多数大气反推估计，提示预算差异可能与陆地吸收被高估有关，而非必然存在遗漏的海洋来源。",
       "editorial": {
@@ -12315,7 +12503,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "cd4e4b26c827a7c7a01273d0",
@@ -12344,7 +12532,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "cd11f6db24a8b50352917166",
@@ -12488,7 +12676,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "南大洋海气二氧化碳通量对增排与移除的非对称响应",
       "summaryZh": "模型实验先让大气二氧化碳逐年增加，再对称减少，检验南大洋碳汇能否恢复。移除可在约百年内逆转吸收区域的空间变化，但海洋内部碳储存与热量响应存在滞后，使其在减排后至少50年仍为净碳源；结果属于所设理想化情景。",
       "editorial": {
@@ -12595,7 +12783,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "卡斯卡迪亚沿岸甲烷排放受局地源与短时事件影响",
       "summaryZh": "研究以高分辨率浓度和碳同位素测量区分美国卡斯卡迪亚沿岸的甲烷来源。哥伦比亚河羽状流覆盖不到研究区一成，却贡献约24%的观测期排放；上升流时期的日排放超过平稳时期三倍，显示局地与短时过程的重要性。",
       "editorial": {
@@ -12980,7 +13168,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "b86dcce3f42d4093162eeb93",
@@ -13039,7 +13227,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海底地下水排放对近岸总汞与甲基汞通量的贡献",
       "summaryZh": "研究汇总中国沿岸44组新观测及全球20组既有观测，估算非热液海底地下水排放携带的汞。结果表明，其溶解总汞输入可与河流相当，甲基汞则可能是近岸海洋已知最大的外部来源；估算范围较宽，热液地下水贡献仍是知识缺口。",
       "editorial": {
@@ -13202,6 +13390,33 @@
         "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
+    },
+    {
+      "id": "b47759353fbb8df832fd4c7a",
+      "title": "Machine learning based mesh movement for non-hydrostatic tsunami simulation",
+      "url": "https://doi.org/10.1016/j.ocemod.2026.102866",
+      "sourceId": "json-crossref-ocean-modelling",
+      "sourceName": "Ocean Modelling (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2026-11",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "engineering",
+        "physical"
+      ],
+      "collectedAt": "2026-11-18T20:44:53Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.ocemod.2026.102866",
+      "sources": [
+        {
+          "id": "json-crossref-ocean-modelling",
+          "name": "Ocean Modelling (Crossref)"
+        }
+      ],
+      "stale": false
     },
     {
       "id": "b41ed573dce25855d895f9c5",
@@ -13600,7 +13815,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "自主传感器揭示红海离岸珊瑚礁的代谢变化",
       "summaryZh": "研究在红海中部珊瑚礁部署总碱度、pH和溶解氧等自主传感器，连续观测数月。礁后与礁前水化学日变化不同，礁后碳酸盐系统变化约87%与净群落生产有关；2023年的代谢特征与历史红海观测接近，不能简单视为近期才发生的变化。",
       "editorial": {
@@ -13912,6 +14127,37 @@
         }
       ],
       "stale": true
+    },
+    {
+      "id": "a3c2c33e8c3f3c80810e07bf",
+      "title": "Legacy effects and recovery potential of carbonate budgets on Seychelles coral reefs",
+      "url": "https://doi.org/10.1002/lno.70540",
+      "sourceId": "json-crossref-limnology",
+      "sourceName": "Limnology and Oceanography (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2026-11",
+      "publishedDatePrecision": "month",
+      "summary": "Abstract Coral reef carbonate budgets are fundamental indicators of ecosystem function, underpinning framework accretion and reef growth. Although spatial assessments and short‐term studies exist, multi‐decadal evaluations of net budget sta",
+      "topics": [
+        "biology",
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-18T20:44:53Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coral",
+        "reef",
+        "reefs"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.1002/lno.70540",
+      "sources": [
+        {
+          "id": "json-crossref-limnology",
+          "name": "Limnology and Oceanography (Crossref)"
+        }
+      ],
+      "stale": false
     },
     {
       "id": "a1e49b144a682046b68c002b",
@@ -14263,7 +14509,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "镭同位素示踪南太平洋微量元素的边界输入",
       "summaryZh": "研究沿GEOTRACES GP17-OCE断面测量镭同位素，追踪南太平洋和南大洋的边界交换。结果将广泛的次表层镭信号与坎贝尔高原形成的模态水相联系，并识别出太平洋—南极海岭热液输入，提示现有微量元素模型可能遗漏这些输运过程。",
       "editorial": {
@@ -14504,7 +14750,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "东太平洋赤道中层海流为何整体向西流动",
       "summaryZh": "研究用理想化数值模拟分析赤道中层流、深层急流与季节内柳井波的联系。动量收支表明，柳井波对向西背景流的增强大于对向东背景流的影响，其作用在时间平均后未完全抵消，从而为向西的赤道中层流提供动量。",
       "editorial": {
@@ -14569,7 +14815,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海冰边缘区波浪衰减估计为何会出现高频回落",
       "summaryZh": "研究分析斯瓦尔巴周边四组波浪浮标资料，发现海冰中的波浪衰减总体随频率增强，但高频段可能变平或回落。仪器噪声与局地风能输入均会干扰估计；控制噪声并扣除风输入后，回落信号明显减弱。",
       "editorial": {
@@ -14644,7 +14890,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "8dc376b3a972d5d3def9fcd1",
@@ -14930,7 +15176,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "8660f3f5964e86fd6d17f3c1",
@@ -15304,7 +15550,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "7d3625b58b349b4ff2237134",
@@ -15436,7 +15682,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "77a0e1d894bb0a53250eb745",
@@ -15657,7 +15903,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "6f35273aa493fd68b1e70221",
@@ -16013,7 +16259,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "62a19f4f16561c1199a4903c",
@@ -16043,7 +16289,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "用海表数据推断深层海洋统计特征的生成式AI框架",
       "summaryZh": "研究采用基于分数的扩散模型，在理想化双环流模拟中从海表观测重建深层流速与浮力场。模型能够恢复主要环流和涡旋统计结构并给出不确定性，但海表分辨率越低、推断深度越大，预测能力越弱；尚不能等同于真实海域的普遍验证。",
       "editorial": {
@@ -16176,7 +16422,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "604d3815d348f67d047cc64f",
@@ -16493,7 +16739,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "54958cd299fdbd966c6e1076",
@@ -16653,7 +16899,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "亚马孙河羽状流如何调节热带西大西洋碳酸盐化学",
       "summaryZh": "研究结合盐度、碳酸盐系统和生物地球化学指标的气候态空间差异，估算亚马孙河羽状流影响。湿季受影响海区多项碳化学指标降低约8%—10%；淡水稀释、生物吸碳及海流外输共同调节更大范围的海表二氧化碳状态。",
       "editorial": {
@@ -16938,7 +17184,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "49c1fabdd38c47b3233be084",
@@ -17188,7 +17434,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "4413d8dfa58b4f4c87e3519c",
@@ -17294,7 +17540,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "40fabf3656af12b5cda655fa",
