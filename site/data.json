@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-11-20T20:35:16Z",
-    "lastAttemptAt": "2026-11-20T20:35:10Z",
-    "lastSuccessAt": "2026-11-20T20:35:15Z",
+    "generatedAt": "2026-11-21T07:27:53Z",
+    "lastAttemptAt": "2026-11-21T07:27:48Z",
+    "lastSuccessAt": "2026-11-21T07:27:52Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
     "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "feedUrlConfigured": true,
-    "totalItems": 667,
-    "successfulSources": 23,
+    "totalItems": 672,
+    "successfulSources": 24,
     "automaticSources": 26,
     "sourceStatus": [
       {
@@ -22,7 +22,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4365, column 6"
@@ -36,8 +36,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:10Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:48Z",
         "itemCount": 16,
         "error": null
       },
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:12Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:10Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:48Z",
         "itemCount": 6,
         "error": null
       },
@@ -78,8 +78,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:10Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
         "itemCount": 2,
         "error": null
       },
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:10Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:48Z",
         "itemCount": 6,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:11Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:48Z",
         "itemCount": 2,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:10Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:48Z",
         "itemCount": 8,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:11Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
         "itemCount": 34,
         "error": null
       },
@@ -147,11 +147,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "stale",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T07:32:17Z",
-        "itemCount": 28,
-        "error": "OSError: HTTP 429"
+        "status": "ok",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
+        "itemCount": 29,
+        "error": null
       },
       {
         "id": "json-crossref-jpo",
@@ -162,8 +162,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:11Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
         "itemCount": 24,
         "error": null
       },
@@ -176,8 +176,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:11Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
         "itemCount": 31,
         "error": null
       },
@@ -190,8 +190,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:12Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
         "itemCount": 36,
         "error": null
       },
@@ -204,8 +204,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:12Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
         "itemCount": 41,
         "error": null
       },
@@ -218,9 +218,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:12Z",
-        "itemCount": 117,
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
+        "itemCount": 118,
         "error": null
       },
       {
@@ -232,7 +232,7 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "stale",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
         "lastSuccessAt": "2026-11-19T20:50:29Z",
         "itemCount": 25,
         "error": "OSError: HTTP 429"
@@ -246,8 +246,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:12Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:49Z",
         "itemCount": 16,
         "error": null
       },
@@ -260,8 +260,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:14Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:52Z",
         "itemCount": 25,
         "error": null
       },
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:13Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:50Z",
         "itemCount": 9,
         "error": null
       },
@@ -288,8 +288,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:13Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:50Z",
         "itemCount": 142,
         "error": null
       },
@@ -302,8 +302,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:13Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:50Z",
         "itemCount": 31,
         "error": null
       },
@@ -316,9 +316,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:13Z",
-        "itemCount": 41,
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:50Z",
+        "itemCount": 43,
         "error": null
       },
       {
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:13Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:50Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,8 +344,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:15Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:52Z",
         "itemCount": 1,
         "error": null
       },
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:14Z",
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:51Z",
         "itemCount": 11,
         "error": null
       },
@@ -372,9 +372,9 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-20T20:35:10Z",
-        "lastSuccessAt": "2026-11-20T20:35:13Z",
-        "itemCount": 5,
+        "lastAttemptAt": "2026-11-21T07:27:48Z",
+        "lastSuccessAt": "2026-11-21T07:27:50Z",
+        "itemCount": 6,
         "error": null
       },
       {
@@ -454,12 +454,94 @@
       "promptVersion": "chinese-reader-v1",
       "generatedAt": "2026-10-24T15:35:07Z",
       "localizedCount": 208,
-      "pendingCount": 459,
+      "pendingCount": 464,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
   },
   "items": [
+    {
+      "id": "4bff6ecf0ecbd291d6d38bd2",
+      "title": "Extreme rainfalls flood Sri Lanka’s coastal city as wetlands, drains vanish",
+      "url": "https://news.mongabay.com/2026/11/extreme-rainfalls-flood-sri-lankas-coastal-city-as-wetlands-drains-vanish/",
+      "sourceId": "rss-mongabay",
+      "sourceName": "Mongabay",
+      "publishedAt": "2026-11-21T03:14:33Z",
+      "publishedDate": "2026-11-21",
+      "publishedDatePrecision": "second",
+      "summary": "COLOMBO — On Nov. 6, a 129-millimeter (5-inch) downpour flooded parts of Sri Lanka’s commercial capital within minutes, stranding commuters and submerging a large number of vehicles. Siva Sivasagunthan, a three-wheeler driver working at a l",
+      "topics": [],
+      "collectedAt": "2026-11-21T07:27:50Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "coastal"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.66709/news-336621",
+      "sources": [
+        {
+          "id": "rss-mongabay",
+          "name": "Mongabay"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "2135eae27bdcd0c2b92c541b",
+      "title": "Plankton ecological complexity amplifies climate-driven weakening of the ocean biological pump",
+      "url": "https://www.nature.com/articles/s41467-026-79817-7",
+      "sourceId": "rss-nature-comms",
+      "sourceName": "Nature Communications",
+      "publishedAt": "2026-11-21T00:00:00Z",
+      "publishedDate": "2026-11-21",
+      "publishedDatePrecision": "day",
+      "summary": "",
+      "topics": [
+        "biology",
+        "climate"
+      ],
+      "collectedAt": "2026-11-21T07:27:50Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "ocean",
+        "plankton"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.1038/s41467-026-79817-7",
+      "sources": [
+        {
+          "id": "rss-nature-comms",
+          "name": "Nature Communications"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "989762a65f4773622c404f6c",
+      "title": "US leases American Samoan seabed for mining in auction deemed illegal by court",
+      "url": "https://news.mongabay.com/2026/11/us-leases-american-samoan-seabed-for-mining-in-auction-deemed-illegal-by-court/",
+      "sourceId": "rss-mongabay",
+      "sourceName": "Mongabay",
+      "publishedAt": "2026-11-20T22:18:33Z",
+      "publishedDate": "2026-11-20",
+      "publishedDatePrecision": "second",
+      "summary": "The U.S. government has auctioned off 12.7 million hectares (31.5 million acres) of the American Samoan seabed, despite public opposition and a federal court ruling that found the sale to be illegal. The sale marks the first time a country",
+      "topics": [],
+      "collectedAt": "2026-11-21T07:27:50Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "seabed"
+      ],
+      "filterMode": "marine-keyword",
+      "doi": "10.66709/news-336607",
+      "sources": [
+        {
+          "id": "rss-mongabay",
+          "name": "Mongabay"
+        }
+      ],
+      "stale": false
+    },
     {
       "id": "06242fdfaf185ff1f8d6f3f9",
       "title": "Where family foundations can help marine conservation",
@@ -11777,7 +11859,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "西南极半岛北端秋季浮游植物的铁与维生素B12吸收",
       "summaryZh": "研究主题是西南极半岛北端秋季浮游植物对铁和维生素B12的吸收特征。来源未提供摘要，具体方法与结果需查看原文，目前无法确定不同群落的吸收差异或限制因素。",
       "editorial": {
@@ -12210,6 +12292,34 @@
       "stale": false
     },
     {
+      "id": "e9ccdace7393dbe05852c7c6",
+      "title": "Metagenomic insights into nitrogen-sulfur cycle and their coupling mechanisms in the East China Sea sediments",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120574",
+      "sourceId": "json-crossref-marine-pollution",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2027-01",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-21T07:27:49Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "sea"
+      ],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.marpolbul.2026.120574",
+      "sources": [
+        {
+          "id": "json-crossref-marine-pollution",
+          "name": "Marine Pollution Bulletin (Crossref)"
+        }
+      ],
+      "stale": false
+    },
+    {
       "id": "e9ab47abe9c7d0f217d0b4d0",
       "title": "Reflection of internal waves on three dimensional seamounts with different critical conditions",
       "url": "https://doi.org/10.1016/j.ocemod.2026.102852",
@@ -12485,7 +12595,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "e00512a81968e14bab7e1f58",
@@ -13076,7 +13186,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "d28fafa5c90e316fb7912e6c",
@@ -13158,7 +13268,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "深海鳐Bathyraja irrasa的活动模式研究",
       "summaryZh": "标题聚焦深海鳐Bathyraja irrasa的活动模式，并将其描述为移动缓慢、却很少完全静止。来源未提供摘要，具体方法与结果需查看原文，尚不能确认观测时长或行为机制。",
       "editorial": {
@@ -14490,7 +14600,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "b10632d27bf73b5881744d6f",
@@ -14853,6 +14963,35 @@
         "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
+    },
+    {
+      "id": "a9e9c5a00f47223f9632a4b8",
+      "title": "Flow-topography interactions modulate zooplankton abundance and vertical carbon flux along the Vitória-Trindade Seamount Chain (Southwestern Atlantic)",
+      "url": "https://doi.org/10.1016/j.dsr.2026.104777",
+      "sourceId": "json-crossref-deep-sea-research",
+      "sourceName": "Deep-Sea Research Part I (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2026-11",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "chemistry",
+        "deepsea"
+      ],
+      "collectedAt": "2026-11-21T07:27:49Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "atlantic"
+      ],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.dsr.2026.104777",
+      "sources": [
+        {
+          "id": "json-crossref-deep-sea-research",
+          "name": "Deep-Sea Research Part I (Crossref)"
+        }
+      ],
+      "stale": false
     },
     {
       "id": "a9c84fc1ff6fb6932d15babb",
@@ -15547,7 +15686,7 @@
       "sourceId": "json-crossref-deep-sea-research",
       "sourceName": "Deep-Sea Research Part I (Crossref)",
       "publishedAt": null,
-      "publishedDate": "2026-11",
+      "publishedDate": "2026-12",
       "publishedDatePrecision": "month",
       "summary": "",
       "topics": [
@@ -15564,7 +15703,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "96d4a05d16a3ac189bfb54fb",
@@ -15634,7 +15773,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "964eb6826c408196f0f59869",
@@ -15752,7 +15891,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "末次冰消期以来西太平洋边缘海底水氧化还原演变",
       "summaryZh": "研究关注末次冰消期以来西太平洋边缘海底层海水氧化还原变化的空间差异。来源未提供摘要，具体方法与结果需查看原文，尚不能确认重建指标、区域对比结果或驱动因素。",
       "editorial": {
@@ -15824,7 +15963,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "CPIES观测下黑潮延伸体底部近惯性波能量过程",
       "summaryZh": "研究基于CPIES观测，考察黑潮延伸体海域底部近惯性波能量受到哪些过程控制。来源未提供摘要，具体观测位置、资料时段、能量收支分析与主导过程需查看原文。",
       "editorial": {
@@ -16235,12 +16374,12 @@
     },
     {
       "id": "87a087d0a9486ba80240b11c",
-      "title": "INTERANNUAL STABILITY IN REPRODUCTION DESPITE SHIFTS IN POPULATION STRUCTURE OF THE HYDROTHERMAL VENT LIMPET LEPETODRILUS ATLANTICUS AT THE MENEZ GWEN VENT FIELD",
+      "title": "Interannual stability in reproduction despite shifts in population structure of the hydrothermal vent limpet Lepetodrilus atlanticus at the Menez Gwen vent field",
       "url": "https://doi.org/10.1016/j.dsr.2026.104778",
       "sourceId": "json-crossref-deep-sea-research",
       "sourceName": "Deep-Sea Research Part I (Crossref)",
       "publishedAt": null,
-      "publishedDate": "2026-11",
+      "publishedDate": "2026-12",
       "publishedDatePrecision": "month",
       "summary": "",
       "topics": [
@@ -16257,7 +16396,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "87721a84d70d24a0660ac4c6",
@@ -16372,7 +16511,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "南森海盆西部大西洋来源水温变化及其海冰表现",
       "summaryZh": "这条记录关注南森海盆西部大西洋来源海水的温度时空变化，以及海冰覆盖状态中的对应表现。来源未提供摘要，具体方法与结果需查看原文，目前不能推断水温趋势或海冰响应幅度。",
       "editorial": {
@@ -16584,7 +16723,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "马里亚纳海沟从深海平原到超深渊的大型动物群落",
       "summaryZh": "题名研究马里亚纳海沟从深海平原至超深渊带的大型动物群落多样性及分布。来源未提供摘要，具体方法与结果需查看原文，采样深度、物种差异和环境解释尚不能据题名确定。",
       "editorial": {
@@ -16647,7 +16786,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "深海视频记录带来戈林奇海台鲨类新发现",
       "summaryZh": "该条目介绍在戈林奇海台开展深海视频观测获得的鲨类新记录。来源未提供摘要，具体记录到的种类、深度、观测装备、调查范围及记录意义需查看原文。",
       "editorial": {
@@ -16876,7 +17015,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "失落之城热液区多阶段岩石—熔体及流体相互作用中的元素迁移",
       "summaryZh": "研究主题是失落之城热液区多阶段岩石、熔体和流体相互作用中的元素迁移。来源未提供摘要，具体方法与结果需查看原文，尚不能概括具体元素变化、反应路径或作用强度。",
       "editorial": {
@@ -16940,7 +17079,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "用评估约束CMIP6模型的北极海洋热浪预估",
       "summaryZh": "题名关注利用模型评估信息约束CMIP6给出的北极海洋热浪预估。来源未提供摘要，具体方法与结果需查看原文，目前不能确定使用哪些评估指标、排放情景或预估变化幅度。",
       "editorial": {
@@ -17124,7 +17263,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "雅浦—马里亚纳交汇处下层绕极深层水的溢流与改造",
       "summaryZh": "文章研究雅浦—马里亚纳交汇处下层绕极深层水的溢流及水体改造过程。来源未提供摘要，具体方法与结果需查看原文，尚不能确认输运规模、混合特征或对周边水团的影响。",
       "editorial": {
@@ -17218,7 +17357,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "大西洋中脊热液口荧光观测的概念验证",
       "summaryZh": "这条记录探讨大西洋中脊热液口的荧光现象及其用于生态评估的潜力。来源未提供摘要，具体方法与结果需查看原文，不能据题名认定荧光信号已能可靠评估某项生态指标。",
       "editorial": {
@@ -17315,7 +17454,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "东南大西洋鲸湾海岭冷水珊瑚的高分辨率分布建模",
       "summaryZh": "这篇研究对鲸湾海岭的Enallopsammia rostrata开展高分辨率物种分布建模，该物种被作为脆弱海洋生态系统的指示种。来源未提供摘要，模型资料、环境变量、验证方法及分布结果需查看原文。",
       "editorial": {
@@ -17548,7 +17687,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "将热输运纳入浊流分层平均框架：高屏峡谷应用",
       "summaryZh": "文章把热输运纳入浊流的分层平均分析框架，并以高屏峡谷开展现场尺度应用。来源未提供摘要，具体方法与结果需查看原文，尚不能判断其参数设置或对预测能力的影响。",
       "editorial": {
@@ -17916,7 +18055,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "西南印度洋脊64°E热液活动的岩浆与构造控制",
       "summaryZh": "研究聚焦西南印度洋脊64°E轴向火山脊离散、多阶段热液活动的岩浆与构造控制。来源未提供摘要，具体方法与结果需查看原文，不能据此确定各活动阶段的年代与成因。",
       "editorial": {
@@ -18249,7 +18388,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "液相MRI示踪比较贻贝与化能共生深海贻贝的消化系统",
       "summaryZh": "题名用液相MRI示踪比较含化能共生细菌的Bathymodiolus双壳类与Mytilus贻贝的胃肠系统。来源未提供摘要，具体方法与结果需查看原文，不能推断两者功能差异或共生细菌的具体贡献。",
       "editorial": {
@@ -18404,7 +18543,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "49ec4d3d31b9a8f1d96acb11",
@@ -18591,7 +18730,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "4797400c432b845d776c3a8b",
@@ -18955,7 +19094,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "新西兰海域皱鳃鲨：西南太平洋的分布热点",
       "summaryZh": "题名关注新西兰海域具有独特演化地位的皱鳃鲨，并将其描述为西南太平洋的一个热点。来源未提供摘要，具体方法与结果需查看原文，调查范围、丰度和热点判定依据尚不能确认。",
       "editorial": {
@@ -18990,7 +19129,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "“海马”冷泉沉积物含量梯度与甲烷水合物形成",
       "summaryZh": "研究主题为“海马”冷泉沉积物的含量梯度及其对甲烷水合物形成模式的调节，标题提及多机制分析。来源未提供摘要，具体梯度指何种成分、试验设置、作用机制与结果需查看原文。",
       "editorial": {
@@ -19051,7 +19190,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "直布罗陀海峡真实地形实验模型中的内水力与孤立波",
       "summaryZh": "研究利用直布罗陀海峡的现实地形实验模型，关注内水力过程与孤立波。来源未提供摘要，具体方法与结果需查看原文，尚不能确认实验条件、波形特征或与实际海峡的对应关系。",
       "editorial": {
@@ -20052,7 +20191,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "159b4dbf09ba40538fba10f9",
@@ -20363,7 +20502,7 @@
           "name": "Deep-Sea Research Part I (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "日本与千岛—堪察加海沟中涟虫群落的深度差异",
       "summaryZh": "研究比较日本海沟与千岛—堪察加海沟深海至超深海涟虫类群物种组成的深度相关模式。来源未提供摘要，具体方法与结果需查看原文，不能据此推断物种更替幅度或具体驱动因素。",
       "editorial": {
