@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
   "metadata": {
-    "generatedAt": "2026-11-21T19:33:44Z",
-    "lastAttemptAt": "2026-11-21T19:33:39Z",
-    "lastSuccessAt": "2026-11-21T19:33:43Z",
+    "generatedAt": "2026-11-22T07:09:40Z",
+    "lastAttemptAt": "2026-11-22T07:09:35Z",
+    "lastSuccessAt": "2026-11-22T07:09:39Z",
     "ruleVersion": "ocean-keywords-v2",
     "siteUrl": null,
     "projectUrl": "https://github.com/liutianbabushuijue-web/ocean-pool",
     "publicFeedUrl": "https://raw.githubusercontent.com/liutianbabushuijue-web/ocean-pool/main/site/feed.xml",
     "feedUrlConfigured": true,
-    "totalItems": 675,
-    "successfulSources": 23,
+    "totalItems": 679,
+    "successfulSources": 24,
     "automaticSources": 26,
     "sourceStatus": [
       {
@@ -22,7 +22,7 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "error",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
         "lastSuccessAt": null,
         "itemCount": 0,
         "error": "ParseError: mismatched tag: line 4365, column 6"
@@ -36,8 +36,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:39Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:35Z",
         "itemCount": 16,
         "error": null
       },
@@ -50,8 +50,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:40Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:37Z",
         "itemCount": 10,
         "error": null
       },
@@ -64,8 +64,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:39Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:35Z",
         "itemCount": 6,
         "error": null
       },
@@ -78,8 +78,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:39Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:35Z",
         "itemCount": 2,
         "error": null
       },
@@ -92,8 +92,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:39Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:35Z",
         "itemCount": 6,
         "error": null
       },
@@ -106,8 +106,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:39Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:35Z",
         "itemCount": 2,
         "error": null
       },
@@ -120,8 +120,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:39Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:35Z",
         "itemCount": 8,
         "error": null
       },
@@ -134,8 +134,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:40Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:36Z",
         "itemCount": 34,
         "error": null
       },
@@ -148,8 +148,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:40Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:36Z",
         "itemCount": 29,
         "error": null
       },
@@ -161,11 +161,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
+        "status": "stale",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
         "lastSuccessAt": "2026-11-21T19:33:40Z",
         "itemCount": 24,
-        "error": null
+        "error": "OSError: HTTP 429"
       },
       {
         "id": "json-crossref-ocean-modelling",
@@ -176,8 +176,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:40Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:36Z",
         "itemCount": 32,
         "error": null
       },
@@ -189,11 +189,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": false,
-        "status": "stale",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T07:27:49Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:37Z",
         "itemCount": 36,
-        "error": "OSError: HTTP 429"
+        "error": null
       },
       {
         "id": "json-crossref-marine-policy",
@@ -204,8 +204,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:40Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:37Z",
         "itemCount": 41,
         "error": null
       },
@@ -218,9 +218,9 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:41Z",
-        "itemCount": 118,
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:37Z",
+        "itemCount": 122,
         "error": null
       },
       {
@@ -232,8 +232,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:41Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:37Z",
         "itemCount": 25,
         "error": null
       },
@@ -245,11 +245,11 @@
         "mode": "auto",
         "enabled": true,
         "requiresMarineKeyword": true,
-        "status": "stale",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T07:27:49Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:37Z",
         "itemCount": 16,
-        "error": "OSError: HTTP 429"
+        "error": null
       },
       {
         "id": "rss-mbari",
@@ -260,8 +260,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:43Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:39Z",
         "itemCount": 25,
         "error": null
       },
@@ -274,8 +274,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:41Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:38Z",
         "itemCount": 9,
         "error": null
       },
@@ -288,8 +288,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:42Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:38Z",
         "itemCount": 142,
         "error": null
       },
@@ -302,8 +302,8 @@
         "enabled": true,
         "requiresMarineKeyword": false,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:41Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:38Z",
         "itemCount": 31,
         "error": null
       },
@@ -316,8 +316,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:41Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:38Z",
         "itemCount": 44,
         "error": null
       },
@@ -330,8 +330,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:41Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:38Z",
         "itemCount": 0,
         "error": null
       },
@@ -344,8 +344,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:43Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:39Z",
         "itemCount": 1,
         "error": null
       },
@@ -358,8 +358,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:42Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:39Z",
         "itemCount": 11,
         "error": null
       },
@@ -372,8 +372,8 @@
         "enabled": true,
         "requiresMarineKeyword": true,
         "status": "ok",
-        "lastAttemptAt": "2026-11-21T19:33:39Z",
-        "lastSuccessAt": "2026-11-21T19:33:42Z",
+        "lastAttemptAt": "2026-11-22T07:09:35Z",
+        "lastSuccessAt": "2026-11-22T07:09:39Z",
         "itemCount": 7,
         "error": null
       },
@@ -454,7 +454,7 @@
       "promptVersion": "chinese-reader-v1",
       "generatedAt": "2026-10-24T15:35:07Z",
       "localizedCount": 208,
-      "pendingCount": 467,
+      "pendingCount": 471,
       "invalidEntries": 0,
       "notice": "Chinese translation and summary; not selection scoring or fact verification."
     }
@@ -1424,7 +1424,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "24dacb53f3b17fed979c9a47",
@@ -1620,7 +1620,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "983e5aba514e9fcfd89e293c",
@@ -2414,7 +2414,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "aa7d5c336dbe068b702701c6",
@@ -3493,7 +3493,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "0f323f48c484ebbccf4034fe",
@@ -5039,7 +5039,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "85da87a3f13fd1039a35970e",
@@ -5155,7 +5155,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "f6864da4d7268cf54601b5f2",
@@ -5185,7 +5185,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "dd6848454662765e584d672b",
@@ -5215,7 +5215,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "d457bf0b64e7e5d9b8e0d664",
@@ -5244,7 +5244,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "aab22fd8d0b403f98cfb23e4",
@@ -5273,7 +5273,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "a20b9d191822d5817d233a43",
@@ -5302,7 +5302,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "6df99a03e034052ac5d25412",
@@ -5331,7 +5331,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "60778ff7525e98f5ed2840b3",
@@ -5358,7 +5358,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "548cc75504901e3e1a1a0368",
@@ -5389,7 +5389,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "3e2b7122360eb256252cbfe6",
@@ -5418,7 +5418,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "331f3af746c7592296bda741",
@@ -5447,7 +5447,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "08b81f6e1c84d07f9a4c61b6",
@@ -5477,7 +5477,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "788a4a472b1f0b5151c096cb",
@@ -8002,7 +8002,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "用降维模型理解跨半球地转经向翻转环流",
       "summaryZh": "研究建立包含南大洋通道和风驱上升流的简化模型，分析边界浮力如何维持与调节跨半球翻转环流。结果显示，南大洋风强迫可引起较快的跨赤道调整，而北大西洋浮力强迫的响应更慢；这一差异在理想化海洋模式中得到再现。",
       "editorial": {
@@ -8383,7 +8383,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "中尺度涡与内波耦合如何维持环流尺度位涡梯度",
       "summaryZh": "研究更新涡—内波能量交换的理论表达，并与马尾藻海观测比较，结果支持该耦合在当地内波能量收支中的重要作用。作者进一步推测，耦合产生的局地涡度平方阻尼可能限制位涡级联，帮助维持湾流南部再循环环流的位涡梯度。",
       "editorial": {
@@ -9404,7 +9404,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "表面重力波与内孤立波的粒子输运不能简单相加",
       "summaryZh": "数值模拟发现，表面重力波与内孤立波共同作用时，粒子位移不能由两者单独效应直接相加。仅用内孤立波估计，在同向传播时低估30%—46%，反向时高估200%—350%；波浪还会改变接触时间和沿轨迹的漂移。",
       "editorial": {
@@ -9727,7 +9727,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "e7302fb3d4648111c5928dc9",
@@ -9757,7 +9757,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "d0534202459675b69f7cbe39",
@@ -9792,7 +9792,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "cee6324ab81ab99780969d68",
@@ -9822,7 +9822,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "cdf67a45e5430a440797a73d",
@@ -9851,7 +9851,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "b27e4ae21cb9045e8a31c467",
@@ -9879,7 +9879,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "a215c06385e5bf729279a7a8",
@@ -9908,7 +9908,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "a20a86656030c1deae06e160",
@@ -9935,7 +9935,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "9eba5fb51805da2e686af560",
@@ -9966,7 +9966,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "9ac0a4de047bdeb616e43e23",
@@ -9993,7 +9993,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "85173dff7ffa94aeb32ba686",
@@ -10020,7 +10020,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "81c9c34a27c254318e7f208d",
@@ -10049,7 +10049,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "7aa820e01793b15bd72d1567",
@@ -10078,7 +10078,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "7003fc8cc90fc940c64f3469",
@@ -10108,7 +10108,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "5b263774ed8c015911d9b257",
@@ -10139,7 +10139,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "52550c6e1f69b41aa960ecdd",
@@ -10168,7 +10168,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "464a5d3e25332733a2b8cefd",
@@ -10197,7 +10197,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "44825471bb104103778a4511",
@@ -10226,7 +10226,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "4141f5cc27101ed9405513f3",
@@ -10253,7 +10253,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "3c6e8ce436dd19f1e98a126e",
@@ -10283,7 +10283,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "31b2edcb9ee4cec7d20dedf6",
@@ -10312,7 +10312,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "1876ad692e0928d4462a8e16",
@@ -10341,7 +10341,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "107e599d68bb0a8bbffce764",
@@ -10370,7 +10370,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "38010cf5ac521a3610564a86",
@@ -10474,7 +10474,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "变暖的地中海东部，冬季浮游植物如何变化",
       "summaryZh": "研究结合冬季现场调查与20年卫星记录，分析地中海东部浮游植物变化。更暖、层化更强的东部海水中叶绿素较低，蓝细菌贡献更高；长期资料显示，叶绿素损失在原本浓度较高的冬春时期尤为明显，体现了变暖与群落、营养环境的关联。",
       "editorial": {
@@ -10551,7 +10551,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海流与地形相互作用如何驱动深层边界流混合",
       "summaryZh": "研究以奥克尼海峡输送南极底层水的边界流为案例，用高分辨率模拟分析2017年观测所涉过程。海槛水力控制、剪切不稳定、坡面下沉及小尺度地形尾流均可产生湍流；这些过程随正压流和半日潮变化，影响混合及水团性质。",
       "editorial": {
@@ -11434,7 +11434,7 @@
           "name": "ICES Journal of Marine Science (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "ff200ce251e7cacdc7f2e9d9",
@@ -11535,7 +11535,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "fd59f0ebe3c3fc89429d7110",
@@ -11667,7 +11667,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "f4dd4858e588077485d4acdd",
@@ -11850,7 +11850,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海底峡谷中潮汐驱动驻波的简化理论模型",
       "summaryZh": "研究将海底峡谷简化为狭长矩形箱体，分析正压潮如何激发驻立内开尔文波。理论与理想化数值模拟均表明，波幅受潮汐强度、共振条件和峡谷宽长比影响；能量主要在潮汐输入与向外辐射的内潮之间平衡，结论仍基于简化地形。",
       "editorial": {
@@ -12437,7 +12437,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "北太平洋副热带环流区气溶胶微量元素的季节输入",
       "summaryZh": "研究利用夏威夷两年逐周气溶胶采样与铍-7示踪，估算北太平洋副热带环流区微量元素的沉降。春季亚洲沙尘主导全年输入，夏末秋初还有一次增强期，可能包含夏威夷本地来源；这些季节差异或影响表层海洋微生物的营养限制。",
       "editorial": {
@@ -12474,7 +12474,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "e6d2fec8ec6e9f31b3a6922b",
@@ -12541,7 +12541,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "e3dd44e72deef0485fcb9911",
@@ -13112,7 +13112,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "热带海洋主导全球海洋羰基硫排放的估算",
       "summaryZh": "研究用船测资料与环境数据建立模型，估算海洋羰基硫排放为每年270±28吉克硫，其中约一半源自二硫化碳。热带海域贡献突出，总量仍低于多数大气反推估计，提示预算差异可能与陆地吸收被高估有关，而非必然存在遗漏的海洋来源。",
       "editorial": {
@@ -13507,7 +13507,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "cd4e4b26c827a7c7a01273d0",
@@ -13536,7 +13536,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "cd11f6db24a8b50352917166",
@@ -13709,7 +13709,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "南大洋海气二氧化碳通量对增排与移除的非对称响应",
       "summaryZh": "模型实验先让大气二氧化碳逐年增加，再对称减少，检验南大洋碳汇能否恢复。移除可在约百年内逆转吸收区域的空间变化，但海洋内部碳储存与热量响应存在滞后，使其在减排后至少50年仍为净碳源；结果属于所设理想化情景。",
       "editorial": {
@@ -13816,7 +13816,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "卡斯卡迪亚沿岸甲烷排放受局地源与短时事件影响",
       "summaryZh": "研究以高分辨率浓度和碳同位素测量区分美国卡斯卡迪亚沿岸的甲烷来源。哥伦比亚河羽状流覆盖不到研究区一成，却贡献约24%的观测期排放；上升流时期的日排放超过平稳时期三倍，显示局地与短时过程的重要性。",
       "editorial": {
@@ -14256,7 +14256,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "b86dcce3f42d4093162eeb93",
@@ -14315,7 +14315,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "海底地下水排放对近岸总汞与甲基汞通量的贡献",
       "summaryZh": "研究汇总中国沿岸44组新观测及全球20组既有观测，估算非热液海底地下水排放携带的汞。结果表明，其溶解总汞输入可与河流相当，甲基汞则可能是近岸海洋已知最大的外部来源；估算范围较宽，热液地下水贡献仍是知识缺口。",
       "editorial": {
@@ -14903,7 +14903,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "自主传感器揭示红海离岸珊瑚礁的代谢变化",
       "summaryZh": "研究在红海中部珊瑚礁部署总碱度、pH和溶解氧等自主传感器，连续观测数月。礁后与礁前水化学日变化不同，礁后碳酸盐系统变化约87%与净群落生产有关；2023年的代谢特征与历史红海观测接近，不能简单视为近期才发生的变化。",
       "editorial": {
@@ -15132,6 +15132,34 @@
       ],
       "filterMode": "configured-marine-source",
       "doi": "10.1016/j.marpolbul.2026.120580",
+      "sources": [
+        {
+          "id": "json-crossref-marine-pollution",
+          "name": "Marine Pollution Bulletin (Crossref)"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "a929a655f482c33b09610dbc",
+      "title": "Fishers reward program promoting their role as cleaners of the ocean",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120614",
+      "sourceId": "json-crossref-marine-pollution",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2027-01",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-22T07:09:37Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "ocean"
+      ],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.marpolbul.2026.120614",
       "sources": [
         {
           "id": "json-crossref-marine-pollution",
@@ -15817,7 +15845,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "镭同位素示踪南太平洋微量元素的边界输入",
       "summaryZh": "研究沿GEOTRACES GP17-OCE断面测量镭同位素，追踪南太平洋和南大洋的边界交换。结果将广泛的次表层镭信号与坎贝尔高原形成的模态水相联系，并识别出太平洋—南极海岭热液输入，提示现有微量元素模型可能遗漏这些输运过程。",
       "editorial": {
@@ -15894,6 +15922,32 @@
         "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
+    },
+    {
+      "id": "957c4bafc1ec237c121680f0",
+      "title": "Beyond contamination: Post-exposure biochemical alterations in mussels exposed to GenX and enrofloxacin",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120563",
+      "sourceId": "json-crossref-marine-pollution",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2027-01",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-22T07:09:37Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.marpolbul.2026.120563",
+      "sources": [
+        {
+          "id": "json-crossref-marine-pollution",
+          "name": "Marine Pollution Bulletin (Crossref)"
+        }
+      ],
+      "stale": false
     },
     {
       "id": "94488c6880ea6833ae8c384c",
@@ -16084,7 +16138,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "东太平洋赤道中层海流为何整体向西流动",
       "summaryZh": "研究用理想化数值模拟分析赤道中层流、深层急流与季节内柳井波的联系。动量收支表明，柳井波对向西背景流的增强大于对向东背景流的影响，其作用在时间平均后未完全抵消，从而为向西的赤道中层流提供动量。",
       "editorial": {
@@ -16149,7 +16203,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "海冰边缘区波浪衰减估计为何会出现高频回落",
       "summaryZh": "研究分析斯瓦尔巴周边四组波浪浮标资料，发现海冰中的波浪衰减总体随频率增强，但高频段可能变平或回落。仪器噪声与局地风能输入均会干扰估计；控制噪声并扣除风输入后，回落信号明显减弱。",
       "editorial": {
@@ -16224,7 +16278,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "8dc376b3a972d5d3def9fcd1",
@@ -16566,7 +16620,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "8660f3f5964e86fd6d17f3c1",
@@ -16940,7 +16994,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "7d3625b58b349b4ff2237134",
@@ -17072,7 +17126,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "77a0e1d894bb0a53250eb745",
@@ -17320,7 +17374,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "6f35273aa493fd68b1e70221",
@@ -17676,7 +17730,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "62a19f4f16561c1199a4903c",
@@ -17706,7 +17760,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false,
+      "stale": true,
       "titleZh": "用海表数据推断深层海洋统计特征的生成式AI框架",
       "summaryZh": "研究采用基于分数的扩散模型，在理想化双环流模拟中从海表观测重建深层流速与浮力场。模型能够恢复主要环流和涡旋统计结构并给出不确定性，但海表分辨率越低、推断深度越大，预测能力越弱；尚不能等同于真实海域的普遍验证。",
       "editorial": {
@@ -17868,7 +17922,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "604d3815d348f67d047cc64f",
@@ -18212,7 +18266,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "54958cd299fdbd966c6e1076",
@@ -18372,7 +18426,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true,
+      "stale": false,
       "titleZh": "亚马孙河羽状流如何调节热带西大西洋碳酸盐化学",
       "summaryZh": "研究结合盐度、碳酸盐系统和生物地球化学指标的气候态空间差异，估算亚马孙河羽状流影响。湿季受影响海区多项碳化学指标降低约8%—10%；淡水稀释、生物吸碳及海流外输共同调节更大范围的海表二氧化碳状态。",
       "editorial": {
@@ -18657,7 +18711,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "49c1fabdd38c47b3233be084",
@@ -18907,7 +18961,7 @@
           "name": "Journal of Physical Oceanography (Crossref)"
         }
       ],
-      "stale": false
+      "stale": true
     },
     {
       "id": "4413d8dfa58b4f4c87e3519c",
@@ -19013,7 +19067,7 @@
           "name": "Global Biogeochemical Cycles (Crossref)"
         }
       ],
-      "stale": true
+      "stale": false
     },
     {
       "id": "40fabf3656af12b5cda655fa",
@@ -19088,6 +19142,32 @@
         "generatedAt": "2026-10-24T15:35:07Z",
         "method": "ai-translation-summary"
       }
+    },
+    {
+      "id": "3e4014eff85741e197893a16",
+      "title": "Fast responses of oxidative stress and antioxidant defense systems to acute temperature changes in the Yesso scallop Mizuhopecten yessoensis",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120601",
+      "sourceId": "json-crossref-marine-pollution",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2027-01",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-22T07:09:37Z",
+      "ruleMatched": false,
+      "ruleHits": [],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.marpolbul.2026.120601",
+      "sources": [
+        {
+          "id": "json-crossref-marine-pollution",
+          "name": "Marine Pollution Bulletin (Crossref)"
+        }
+      ],
+      "stale": false
     },
     {
       "id": "3dcd4ad1019f4eea34358929",
@@ -19811,6 +19891,34 @@
       ],
       "filterMode": "configured-marine-source",
       "doi": "10.1016/j.marpolbul.2026.120517",
+      "sources": [
+        {
+          "id": "json-crossref-marine-pollution",
+          "name": "Marine Pollution Bulletin (Crossref)"
+        }
+      ],
+      "stale": false
+    },
+    {
+      "id": "27559222e100d56faafaf155",
+      "title": "A spectral index to quantify marine litter in mixed litter-vegetation windrows detected by Sentinel-2",
+      "url": "https://doi.org/10.1016/j.marpolbul.2026.120579",
+      "sourceId": "json-crossref-marine-pollution",
+      "sourceName": "Marine Pollution Bulletin (Crossref)",
+      "publishedAt": null,
+      "publishedDate": "2027-01",
+      "publishedDatePrecision": "month",
+      "summary": "",
+      "topics": [
+        "chemistry"
+      ],
+      "collectedAt": "2026-11-22T07:09:37Z",
+      "ruleMatched": true,
+      "ruleHits": [
+        "marine"
+      ],
+      "filterMode": "configured-marine-source",
+      "doi": "10.1016/j.marpolbul.2026.120579",
       "sources": [
         {
           "id": "json-crossref-marine-pollution",
